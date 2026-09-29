@@ -1,0 +1,32 @@
+{
+  "id": "bnb-binance-coin",
+  "name": "BNB",
+  "symbol": "BNB",
+  "rank": 4,
+  "total_supply": 133159595,
+  "max_supply": 200000000,
+  "beta_value": 1.01586,
+  "first_data_at": "2017-07-25T00:00:00Z",
+  "last_updated": "2026-09-29T06:58:14Z",
+  "quotes": {
+    "USD": {
+      "price": 764.832820692886,
+      "volume_24h": 721539409.7630976,
+      "volume_24h_change_24h": 10.680000305175781,
+      "market_cap": 101844828646,
+      "market_cap_change_24h": 0.5400000214576721,
+      "percent_change_15m": 0.23000000417232513,
+      "percent_change_30m": 0.25,
+      "percent_change_1h": 0.6100000143051147,
+      "percent_change_6h": 0.7400000095367432,
+      "percent_change_12h": -0.25,
+      "percent_change_24h": 0.5400000214576721,
+      "percent_change_7d": -2.490000009536743,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 1370.9838437844724,
+      "ath_date": "2025-10-13T09:00:44Z",
+      "percent_from_price_ath": -44.28
+    }
+  }
+}

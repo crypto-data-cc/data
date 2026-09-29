@@ -1,0 +1,32 @@
+{
+  "id": "sol-solana",
+  "name": "Solana",
+  "symbol": "SOL",
+  "rank": 7,
+  "total_supply": 630740924,
+  "max_supply": 0,
+  "beta_value": 1.47207,
+  "first_data_at": "2020-08-26T00:00:00Z",
+  "last_updated": "2026-09-29T06:56:15Z",
+  "quotes": {
+    "USD": {
+      "price": 119.15227815838416,
+      "volume_24h": 2556459265.455542,
+      "volume_24h_change_24h": -13.800000190734863,
+      "market_cap": 70043981396,
+      "market_cap_change_24h": 0.8500000238418579,
+      "percent_change_15m": 0.1899999976158142,
+      "percent_change_30m": 0.14000000059604645,
+      "percent_change_1h": 0.6499999761581421,
+      "percent_change_6h": 1.2999999523162842,
+      "percent_change_12h": 0.05999999865889549,
+      "percent_change_24h": 0.8399999737739563,
+      "percent_change_7d": 2.5399999618530273,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 294.1631972172844,
+      "ath_date": "2025-01-19T11:17:03Z",
+      "percent_from_price_ath": -59.52
+    }
+  }
+}

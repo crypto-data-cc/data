@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>公链数据挖掘 Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Public Chain Data Mining</p>
+        <h1 data-i18n="title">公链数据挖掘 Dashboard</h1>
+      </div>
+      <div class="meta">
+        <span id="updatedAt">加载中</span>
+        <span data-i18n="staticData">静态数据</span>
+        <button id="langButton" class="refresh-button" type="button">English</button>
+        <button id="refreshButton" class="refresh-button" type="button" data-i18n="reload">重新载入</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="summary-grid" id="summaryGrid"></section>
+
+      <section class="toolbar">
+        <label>
+          <span data-i18n="sort">排序</span>
+          <select id="sortBy">
+            <option value="tokenized_stock_value_usd" data-i18n="sortTokenizedStocks">代币化美股价值</option>
+            <option value="tvl_usd" data-i18n="sortTvl">TVL</option>
+            <option value="network_fees_30d_change" data-i18n="sortFeeGrowth">30天手续费环比</option>
+            <option value="dex_volume_24h_usd" data-i18n="sortDexVolume">24h DEX量</option>
+          </select>
+        </label>
+        <label>
+          <span data-i18n="filter">过滤</span>
+          <select id="filterMode">
+            <option value="all" data-i18n="filterAll">全部公链</option>
+            <option value="stock" data-i18n="filterStock">有代币化美股</option>
+            <option value="missing" data-i18n="filterMissing">缺少代币化美股</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="chart-layout">
+        <div class="panel">
+          <div class="panel-head">
+            <h2 data-i18n="stockByChain">代币化美股按公链分布</h2>
+            <span data-i18n="stockByChainMeta">RWA.xyz 总价值 / 30天增幅</span>
+          </div>
+          <div id="stockBars" class="bars"></div>
+        </div>
+        <div class="panel">
+          <div class="panel-head">
+            <h2 data-i18n="feePe">手续费 PE</h2>
+            <span data-i18n="feePeMeta">最大市值 / 近30天手续费年化</span>
+          </div>
+          <div class="mini-table-wrap">
+            <table class="mini-table">
+              <thead>
+                <tr>
+                  <th data-i18n="chain">公链</th>
+                  <th data-i18n="maxMarketCap">最大市值</th>
+                  <th data-i18n="fees30d">30天手续费</th>
+                  <th>PE</th>
+                </tr>
+              </thead>
+              <tbody id="peRows"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel table-panel">
+        <div class="panel-head">
+          <h2 data-i18n="fullMetrics">完整公链指标</h2>
+          <span id="rowCount"></span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th><button class="sort-head" type="button" data-sort="llama_name" data-i18n="chain">公链</button></th>
+                <th><button class="sort-head" type="button" data-sort="market_cap_usd" data-i18n="maxMarketCap">最大市值</button></th>
+                <th><button class="sort-head" type="button" data-sort="tvl_usd">TVL</button></th>
+                <th><button class="sort-head" type="button" data-sort="tokenized_stock_value_usd" data-i18n="tokenizedStocks">代币化美股</button></th>
+                <th><button class="sort-head" type="button" data-sort="tokenized_stock_to_tvl" data-i18n="stocksToTvl">美股/TVL</button></th>
+                <th><button class="sort-head" type="button" data-sort="network_fees_30d_change" data-i18n="feeGrowth30d">30天手续费环比</button></th>
+                <th><button class="sort-head" type="button" data-sort="dex_volume_24h_usd" data-i18n="dexVolume24h">24h DEX量</button></th>
+                <th><button class="sort-head" type="button" data-sort="dex_volume_24h_to_tvl" data-i18n="dexToTvl">DEX量/TVL</button></th>
+              </tr>
+            </thead>
+            <tbody id="chainRows"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="institution-footer">
+        <div>
+          <p class="eyebrow dark" data-i18n="institutionLabel">Research Access</p>
+          <h2 data-i18n="footerTitle">更多链上投研数据与交易入口</h2>
+          <p data-i18n="footerText">BN 开户享 30% 返佣；也欢迎添加币安广场好友交流数据看法。</p>
+        </div>
+        <div class="footer-actions">
+          <a class="primary-link" href="https://www.bsmkweb.cc/register?ref=BN67840444" target="_blank" rel="noreferrer" data-i18n="rebateLink">BN 开户享 30% 返佣</a>
+          <span><strong data-i18n="binanceSquare">币安广场 ID</strong> 67840444</span>
+          <a href="mailto:xiaomicgm@gmail.com">xiaomicgm@gmail.com</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="dashboard-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
