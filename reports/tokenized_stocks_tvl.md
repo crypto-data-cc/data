@@ -1,6 +1,6 @@
 # 代币化美股/ETF 锁仓价值快照
 
-- 生成时间 UTC: 2026-10-02T18:53:26+00:00
+- 生成时间 UTC: 2026-10-02T18:56:32+00:00
 - 数据源: RWA.xyz Tokenized Stocks (https://app.rwa-xyz.com/stocks)
 - 口径: RWA.xyz 的 Total Value。Distributed 指面向链上分发/持有的代币化股票；Represented 指链上记录/表示层。
 - 注意: RWA.xyz 企业 API 需要 key；本脚本使用公开页面内嵌快照。
