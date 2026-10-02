@@ -1,0 +1,32 @@
+{
+  "id": "ray-raydium",
+  "name": "Raydium",
+  "symbol": "RAY",
+  "rank": 122,
+  "total_supply": 554999194,
+  "max_supply": 0,
+  "beta_value": 1.7486,
+  "first_data_at": "2021-08-24T00:00:00Z",
+  "last_updated": "2026-10-02T18:53:13Z",
+  "quotes": {
+    "USD": {
+      "price": 1.8675973546137419,
+      "volume_24h": 32558285.00456147,
+      "volume_24h_change_24h": 15.65999984741211,
+      "market_cap": 503996549,
+      "market_cap_change_24h": -0.5299999713897705,
+      "percent_change_15m": 0.3799999952316284,
+      "percent_change_30m": -1.5700000524520874,
+      "percent_change_1h": -3.5299999713897705,
+      "percent_change_6h": -4.659999847412109,
+      "percent_change_12h": -4.539999961853027,
+      "percent_change_24h": -0.5299999713897705,
+      "percent_change_7d": -9.270000457763672,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 16.914162944378056,
+      "ath_date": "2021-09-12T20:20:00Z",
+      "percent_from_price_ath": -89.03
+    }
+  }
+}

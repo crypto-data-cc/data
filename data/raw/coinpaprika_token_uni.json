@@ -1,0 +1,32 @@
+{
+  "id": "uni-uniswap",
+  "name": "Uniswap",
+  "symbol": "UNI",
+  "rank": 28,
+  "total_supply": 887492419,
+  "max_supply": 1000000000,
+  "beta_value": 1.57049,
+  "first_data_at": "2020-09-17T00:00:00Z",
+  "last_updated": "2026-10-02T18:51:17Z",
+  "quotes": {
+    "USD": {
+      "price": 8.607701261848488,
+      "volume_24h": 366599172.0567232,
+      "volume_24h_change_24h": -15.479999542236328,
+      "market_cap": 5381882778,
+      "market_cap_change_24h": -5.53000020980835,
+      "percent_change_15m": -0.9100000262260437,
+      "percent_change_30m": -2.990000009536743,
+      "percent_change_1h": -3.9700000286102295,
+      "percent_change_6h": -5.460000038146973,
+      "percent_change_12h": -5.809999942779541,
+      "percent_change_24h": -5.519999980926514,
+      "percent_change_7d": -10.359999656677246,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 45.01251094,
+      "ath_date": "2021-05-03T04:15:00Z",
+      "percent_from_price_ath": -80.81
+    }
+  }
+}

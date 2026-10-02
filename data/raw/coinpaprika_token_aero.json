@@ -1,0 +1,32 @@
+{
+  "id": "aero-aerodrome-finance",
+  "name": "Aerodrome Finance",
+  "symbol": "AERO",
+  "rank": 97,
+  "total_supply": 1992844978,
+  "max_supply": 0,
+  "beta_value": 1.85194,
+  "first_data_at": "2023-10-22T00:00:00Z",
+  "last_updated": "2026-10-02T18:48:13Z",
+  "quotes": {
+    "USD": {
+      "price": 0.7689165899749492,
+      "volume_24h": 47769572.56790094,
+      "volume_24h_change_24h": -14.359999656677246,
+      "market_cap": 768896918,
+      "market_cap_change_24h": -0.6299999952316284,
+      "percent_change_15m": -0.7300000190734863,
+      "percent_change_30m": -1.940000057220459,
+      "percent_change_1h": -1.690000057220459,
+      "percent_change_6h": -3.680000066757202,
+      "percent_change_12h": -2.5999999046325684,
+      "percent_change_24h": -0.6200000047683716,
+      "percent_change_7d": -7.809999942779541,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 2.3297037095050914,
+      "ath_date": "2024-12-07T14:24:23Z",
+      "percent_from_price_ath": -67.12
+    }
+  }
+}

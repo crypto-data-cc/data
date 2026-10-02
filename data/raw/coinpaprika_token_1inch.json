@@ -1,0 +1,32 @@
+{
+  "id": "1inch-1inch",
+  "name": "1INCH",
+  "symbol": "1INCH",
+  "rank": 235,
+  "total_supply": 1500000000,
+  "max_supply": 1499999999,
+  "beta_value": 1.25763,
+  "first_data_at": "2021-01-14T00:00:00Z",
+  "last_updated": "2026-10-02T18:52:15Z",
+  "quotes": {
+    "USD": {
+      "price": 0.09965195517128701,
+      "volume_24h": 7429120.039498515,
+      "volume_24h_change_24h": 31.440000534057617,
+      "market_cap": 140911298,
+      "market_cap_change_24h": -3.0299999713897705,
+      "percent_change_15m": -0.12999999523162842,
+      "percent_change_30m": -1.5199999809265137,
+      "percent_change_1h": -2.7200000286102295,
+      "percent_change_6h": -5.670000076293945,
+      "percent_change_12h": -4.650000095367432,
+      "percent_change_24h": -3.0299999713897705,
+      "percent_change_7d": -2.5299999713897705,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 8.384675912769126,
+      "ath_date": "2021-10-27T08:10:00Z",
+      "percent_from_price_ath": -98.8
+    }
+  }
+}

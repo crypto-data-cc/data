@@ -1,0 +1,32 @@
+{
+  "id": "crv-curve-dao-token",
+  "name": "Curve DAO Token",
+  "symbol": "CRV",
+  "rank": 113,
+  "total_supply": 2194424128,
+  "max_supply": 0,
+  "beta_value": 1.5581,
+  "first_data_at": "2020-08-25T00:00:00Z",
+  "last_updated": "2026-10-02T18:53:13Z",
+  "quotes": {
+    "USD": {
+      "price": 0.3640552408194532,
+      "volume_24h": 49583459.37846201,
+      "volume_24h_change_24h": 6.840000152587891,
+      "market_cap": 571854442,
+      "market_cap_change_24h": -4.699999809265137,
+      "percent_change_15m": 1.0299999713897705,
+      "percent_change_30m": -2.3399999141693115,
+      "percent_change_1h": -3.4700000286102295,
+      "percent_change_6h": -4.409999847412109,
+      "percent_change_12h": -3.890000104904175,
+      "percent_change_24h": -4.710000038146973,
+      "percent_change_7d": 5.679999828338623,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 6.73729839154726,
+      "ath_date": "2022-01-04T05:35:00Z",
+      "percent_from_price_ath": -94.63
+    }
+  }
+}

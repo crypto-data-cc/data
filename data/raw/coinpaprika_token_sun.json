@@ -1,0 +1,32 @@
+{
+  "id": "sun-sun",
+  "name": "SUN",
+  "symbol": "SUN",
+  "rank": 146,
+  "total_supply": 19900730000,
+  "max_supply": 0,
+  "beta_value": 0.299501,
+  "first_data_at": "2021-01-13T00:00:00Z",
+  "last_updated": "2026-10-02T18:53:13Z",
+  "quotes": {
+    "USD": {
+      "price": 0.0170355639505916,
+      "volume_24h": 13048549.882425223,
+      "volume_24h_change_24h": 10.369999885559082,
+      "market_cap": 327460710,
+      "market_cap_change_24h": -0.23999999463558197,
+      "percent_change_15m": -0.05999999865889549,
+      "percent_change_30m": -0.25,
+      "percent_change_1h": -0.44999998807907104,
+      "percent_change_6h": -0.30000001192092896,
+      "percent_change_12h": 0.05000000074505806,
+      "percent_change_24h": -0.23999999463558197,
+      "percent_change_7d": -0.7799999713897705,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 54.08891114,
+      "ath_date": "2021-04-05T00:25:00Z",
+      "percent_from_price_ath": -99.97
+    }
+  }
+}

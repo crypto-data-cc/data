@@ -1,0 +1,104 @@
+﻿token,metric,protocol,slug,total_30d_usd,previous_30d_usd,change_30d
+ZRX,volume,0x,0x,970353443.0,302635352.0,2.2063453148725336
+AERO,volume,Aerodrome V1,aerodrome-v1,431573905.0,196529838.0,1.1959714076597365
+AERO,volume,Aerodrome Slipstream,aerodrome-slipstream,13605873876.0,12578425041.0,0.0816834247253515
+AERO,volume,Aero Lite,aero-lite,26323837.0,,
+AERO,fees,Aerodrome V1,aerodrome-v1,1973086.0,968780.0,1.036670864386135
+AERO,fees,Aerodrome Slipstream,aerodrome-slipstream,16872925.0,5725648.0,1.9469022545570387
+AERO,fees,Aero Lite,aero-lite,10729.0,,
+AERO,holders_revenue,Aerodrome V1,aerodrome-v1,1315221.0,616446.0,1.1335542772602953
+AERO,holders_revenue,Aerodrome Slipstream,aerodrome-slipstream,13731347.0,4057969.0,2.3837979048139597
+GMGN,volume,GMGN,gmgn,6861251762.0,2654410747.0,1.5848493002654347
+UNI,volume,Uniswap V1,uniswap-v1,2579437.0,1224524.0,1.106481375620241
+UNI,volume,Uniswap V2,uniswap-v2,1701740659.0,973787589.0,0.7475481082558755
+UNI,volume,Uniswap V3,uniswap-v3,48033206205.0,29637419269.0,0.6206946282681749
+UNI,volume,Uniswap V4,uniswap-v4,43645970534.0,26746138223.0,0.6318606510627842
+UNI,volume,Uniswap Auctions,uniswap-auctions,75468.57,540716.06,-0.8604284659124051
+UNI,fees,Uniswap V1,uniswap-v1,7660.549999999999,4093.9299999999994,0.8711971137757608
+UNI,fees,Uniswap V2,uniswap-v2,4573678.0,3523065.0,0.29820993935678164
+UNI,fees,Uniswap V3,uniswap-v3,62174260.0,50089976.0,0.2412515430232987
+UNI,fees,Uniswap V4,uniswap-v4,130430193.0,63167151.0,1.0648421044032839
+UNI,holders_revenue,Uniswap V1,uniswap-v1,0.0,0.0,
+UNI,holders_revenue,Uniswap V2,uniswap-v2,0.0,0.0,
+UNI,holders_revenue,Uniswap V3,uniswap-v3,15204293.0,9625296.0,0.5796182268057003
+UNI,holders_revenue,Uniswap V4,uniswap-v4,0.0,0.0,
+CRV,volume,Curve DEX,curve-dex,3273496147.0,3339446269.0,-0.019748819620849543
+CRV,volume,Curve LlamaLend,curve-llamalend,115954.81,257317.82,-0.5493712405926647
+CRV,volume,Interest Curve,interest-curve,,,
+CRV,volume,Meteora Dynamic Bonding Curve,meteora-dynamic-bonding-curve,461754749.0,200663018.0,1.3011452414216156
+CRV,volume,Bubble Curve,bubble-curve,66028.81,592.0,110.53515202702702
+CRV,fees,Curve DEX,curve-dex,3658603.0,4029975.0,-0.09215243270739892
+CRV,fees,Interest Curve,interest-curve,,,
+CRV,holders_revenue,Curve DEX,curve-dex,1488907.0,1072974.0,0.38764499419370835
+1INCH,volume,1inch Aqua,1inch-aqua,4305880566.0,507475231.0,7.484907839768046
+1INCH,fees,1inch Aqua,1inch-aqua,55099.0,46746.0,0.17868908569717196
+1INCH,holders_revenue,1inch Aqua,1inch-aqua,0.0,0.0,
+ORCA,volume,Orca DEX,orca-dex,7892601523.0,6246880389.0,0.2634468777244264
+ORCA,volume,Orca Wavebreak,orca-wavebreak,101.02,14638.74,-0.9930991328488654
+ORCA,fees,Orca DEX,orca-dex,10849710.0,4343955.0,1.4976570889891816
+ORCA,holders_revenue,Orca DEX,orca-dex,520787.0,194087.0,1.6832657519565968
+RAY,volume,Raydium AMM,raydium-amm,9308801925.0,3868041237.0,1.4065932482715153
+RAY,fees,Raydium AMM,raydium-amm,34703901.0,9712670.0,2.573054680124003
+RAY,holders_revenue,Raydium AMM,raydium-amm,4164470.0,1165521.0,2.573054453759306
+CAKE,volume,PancakeSwap AMM,pancakeswap-amm,2357005584.0,2110268528.0,0.11692211333590054
+CAKE,volume,PancakeSwap StableSwap,pancakeswap-stableswap,8505838.0,6709872.0,0.26766024746820805
+CAKE,volume,PancakeSwap AMM V1,pancakeswap-amm-v1,,,
+CAKE,volume,PancakeSwap AMM V3,pancakeswap-amm-v3,20211192518.0,18396353135.0,0.09865212793437714
+CAKE,volume,PancakeSwap Infinity,pancakeswap-infinity,7187113184.0,4895989128.0,0.46795938391634434
+CAKE,volume,PancakeSwap Prediction,pancakeswap-prediction,7323672.0,7621929.0,-0.03913143247595195
+CAKE,volume,PancakeSwap Lottery,pancakeswap-lottery,127537.0,72699.0,0.7543157402440198
+CAKE,volume,PancakeSwap X,pancakeswap-x,27738139.0,35728623.0,-0.22364377154977397
+CAKE,fees,PancakeSwap AMM,pancakeswap-amm,5029905.0,5213449.0,-0.03520586851429831
+CAKE,fees,PancakeSwap StableSwap,pancakeswap-stableswap,1936.52,1417.3500000000001,0.3662962570995166
+CAKE,fees,PancakeSwap AMM V3,pancakeswap-amm-v3,16667794.0,10101364.0,0.6500537947152484
+CAKE,fees,PancakeSwap Infinity,pancakeswap-infinity,1234812.0,632937.0,0.9509240256139236
+CAKE,holders_revenue,PancakeSwap AMM,pancakeswap-amm,1156878.0,1199093.0,-0.03520577636596994
+CAKE,holders_revenue,PancakeSwap StableSwap,pancakeswap-stableswap,774.7199999999999,563.5699999999999,0.3746650815337935
+CAKE,holders_revenue,PancakeSwap AMM V3,pancakeswap-amm-v3,3530577.0,2077879.0,0.6991254062435782
+CAKE,holders_revenue,PancakeSwap Infinity,pancakeswap-infinity,162132.0,85431.0,0.8978122695508656
+GRAIL,volume,Camelot V2,camelot-v2,8318725.0,3706522.0,1.2443479358816703
+GRAIL,volume,Camelot V3,camelot-v3,172226674.0,134274296.0,0.2826481249992925
+GRAIL,fees,Camelot V2,camelot-v2,24900.0,11497.02,1.1657786104573185
+GRAIL,fees,Camelot V3,camelot-v3,79644.0,42044.0,0.8943012082580154
+GRAIL,holders_revenue,Camelot V2,camelot-v2,5598.45,2585.67,1.1651834920929585
+GRAIL,holders_revenue,Camelot V3,camelot-v3,8777.970000000001,4650.02,0.8877273646134856
+QUICK,volume,Quickswap Dex,quickswap-dex,296330902.0,363904583.0,-0.18569065671811008
+QUICK,volume,Quickswap V3,quickswap-v3,116625471.0,131667154.0,-0.11424020754637106
+QUICK,volume,QuickSwap Liquidity Hub,quickswap-liquidity-hub,66847.0,34148.0,0.9575670610284643
+QUICK,volume,Quickswap Hydra,quickswap-hydra,,,
+QUICK,volume,Quickswap V4,quickswap-v4,70953845.0,45574002.0,0.5568930066751654
+QUICK,fees,Quickswap Dex,quickswap-dex,892892.0,1079249.0,-0.17267284936099084
+QUICK,fees,Quickswap V3,quickswap-v3,84270.0,58584.0,0.43844735764031134
+QUICK,fees,Quickswap Hydra,quickswap-hydra,,,
+QUICK,fees,Quickswap V4,quickswap-v4,16441.0,14640.0,0.12301912568306012
+QUICK,holders_revenue,Quickswap Dex,quickswap-dex,104168.0,125914.0,-0.17270517972584462
+QUICK,holders_revenue,Quickswap V3,quickswap-v3,7802.25,5428.13,0.43737346010504535
+QUICK,holders_revenue,Quickswap V4,quickswap-v4,1521.2599999999998,1353.1000000000001,0.1242775848052617
+VELO,volume,Velodrome V1,velodrome-v1,504385.0,315679.0,0.5977781227132625
+VELO,volume,Velodrome V2,velodrome-v2,14709546.0,10784582.0,0.36394215371536887
+VELO,volume,Velodrome V3,velodrome-v3,587428553.0,484657954.0,0.21204768879125835
+VELO,fees,Velodrome V1,velodrome-v1,242.85999999999999,144.89999999999998,0.6760524499654936
+VELO,fees,Velodrome V2,velodrome-v2,118742.0,84007.0,0.4134774483078791
+VELO,fees,Velodrome V3,velodrome-v3,291819.0,234261.0,0.2457003086301177
+VELO,holders_revenue,Velodrome V1,velodrome-v1,242.85999999999999,144.89999999999998,0.6760524499654936
+VELO,holders_revenue,Velodrome V2,velodrome-v2,115642.0,82395.0,0.40350749438679534
+VELO,holders_revenue,Velodrome V3,velodrome-v3,277129.0,223300.0,0.2410613524406628
+JOE,volume,Joe DEX,joe-dex,15960434.0,5811064.0,1.746559666181615
+JOE,volume,Joe V2,joe-v2,93454.79000000001,39564.75,1.362072046455494
+JOE,volume,Joe V2.1,joe-v2.1,37555807.0,8082472.0,3.6465743401276245
+JOE,volume,Joe V2.2,joe-v2.2,86970906.0,61451730.0,0.4152718890094713
+JOE,fees,Joe DEX,joe-dex,47712.0,17304.0,1.7572815533980584
+JOE,fees,Joe V2,joe-v2,53.59999999999999,18.02,1.9744728079911202
+JOE,fees,Joe V2.1,joe-v2.1,28127.17,5591.48,4.0303622654467155
+JOE,fees,Joe V2.2,joe-v2.2,57358.0,29928.0,0.9165330125634857
+JOE,holders_revenue,Joe DEX,joe-dex,7951.84,2887.5100000000007,1.7538744454564654
+JOE,holders_revenue,Joe V2,joe-v2,0.0,0.0,
+JOE,holders_revenue,Joe V2.1,joe-v2.1,3023.6000000000004,605.4899999999999,3.9936415134849477
+JOE,holders_revenue,Joe V2.2,joe-v2.2,6926.360000000001,3763.21,0.8405457043322059
+SUN,volume,SUNSwap V1,sunswap-v1,14731963.0,5005277.0,1.9432862556857493
+SUN,volume,SUNSwap V2,sunswap-v2,71266139.0,86117892.0,-0.1724583899475849
+SUN,volume,SUNSwap V3,sunswap-v3,1214050025.0,1159700218.0,0.046865393449464714
+SUN,fees,SUNSwap V1,sunswap-v1,44063.0,14924.0,1.9524926293218976
+SUN,fees,SUNSwap V2,sunswap-v2,213800.0,258183.0,-0.17190519902549742
+SUN,fees,SUNSwap V3,sunswap-v3,544325.0,534306.0,0.018751427084853996
+SUN,holders_revenue,SUNSwap V2,sunswap-v2,35632.0,43030.0,-0.17192656286311875

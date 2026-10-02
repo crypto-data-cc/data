@@ -1,0 +1,32 @@
+{
+  "id": "quick-quickswap",
+  "name": "Quickswap [OLD]",
+  "symbol": "QUICK",
+  "rank": 866,
+  "total_supply": 994939,
+  "max_supply": 0,
+  "beta_value": 1.07329,
+  "first_data_at": "2021-07-02T00:00:00Z",
+  "last_updated": "2026-10-02T18:53:13Z",
+  "quotes": {
+    "USD": {
+      "price": 13.038574177582522,
+      "volume_24h": 6885.138559066246,
+      "volume_24h_change_24h": 40.869998931884766,
+      "market_cap": 9706749,
+      "market_cap_change_24h": -2.0999999046325684,
+      "percent_change_15m": -0.05000000074505806,
+      "percent_change_30m": -0.6299999952316284,
+      "percent_change_1h": -1.2000000476837158,
+      "percent_change_6h": -3.4200000762939453,
+      "percent_change_12h": -2.4000000953674316,
+      "percent_change_24h": -2.0999999046325684,
+      "percent_change_7d": -1.9800000190734863,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 835.360948267576,
+      "ath_date": "2021-08-13T21:50:00Z",
+      "percent_from_price_ath": -98.44
+    }
+  }
+}
