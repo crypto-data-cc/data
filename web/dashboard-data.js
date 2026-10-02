@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generated_at": "2026-10-02T19:04:13+00:00",
+  "generated_at": "2026-10-02T19:04:44+00:00",
   "sources": [
     "DefiLlama",
     "CoinPaprika",
@@ -7,7 +7,7 @@ window.DASHBOARD_DATA = {
   ],
   "chains": [
     {
-      "snapshot_utc": "2026-10-02T19:03:51+00:00",
+      "snapshot_utc": "2026-10-02T19:04:34+00:00",
       "chain": "optimism",
       "llama_name": "OP Mainnet",
       "native_token": "OP",
@@ -34,12 +34,12 @@ window.DASHBOARD_DATA = {
       "token_turnover_24h": 0.08311234173209044,
       "market_data_source": "CoinPaprika",
       "onchain_data_source": "DefiLlama; RWA.xyz",
-      "activity_score": 4.677189264463108,
+      "activity_score": 4.698031046114215,
       "fee_pe": 8.895751925033473,
       "missing_notes": {}
     },
     {
-      "snapshot_utc": "2026-10-02T19:03:51+00:00",
+      "snapshot_utc": "2026-10-02T19:04:34+00:00",
       "chain": "arbitrum",
       "llama_name": "Arbitrum",
       "native_token": "ARB",
@@ -66,12 +66,12 @@ window.DASHBOARD_DATA = {
       "token_turnover_24h": 0.06339515035735639,
       "market_data_source": "CoinPaprika",
       "onchain_data_source": "DefiLlama; RWA.xyz",
-      "activity_score": 3.270177967179786,
+      "activity_score": 3.2869101266212777,
       "fee_pe": 7.710402065314718,
       "missing_notes": {}
     },
     {
-      "snapshot_utc": "2026-10-02T19:03:51+00:00",
+      "snapshot_utc": "2026-10-02T19:04:34+00:00",
       "chain": "robinhood",
       "llama_name": "Robinhood Chain",
       "native_token": null,
@@ -103,7 +103,7 @@ window.DASHBOARD_DATA = {
       "missing_notes": {}
     },
     {
-      "snapshot_utc": "2026-10-02T19:03:51+00:00",
+      "snapshot_utc": "2026-10-02T19:04:34+00:00",
       "chain": "polygon",
       "llama_name": "Polygon",
       "native_token": "POL",
@@ -130,12 +130,12 @@ window.DASHBOARD_DATA = {
       "token_turnover_24h": 0.03927757240912545,
       "market_data_source": "CoinPaprika",
       "onchain_data_source": "DefiLlama; RWA.xyz",
-      "activity_score": 2.36382998637891,
+      "activity_score": 2.375516495692429,
       "fee_pe": 2.4730073480367083,
       "missing_notes": {}
     },
     {
-      "snapshot_utc": "2026-10-02T19:03:51+00:00",
+      "snapshot_utc": "2026-10-02T19:04:34+00:00",
       "chain": "base",
       "llama_name": "Base",
       "native_token": null,
@@ -169,7 +169,7 @@ window.DASHBOARD_DATA = {
       }
     },
     {
-      "snapshot_utc": "2026-10-02T19:03:51+00:00",
+      "snapshot_utc": "2026-10-02T19:04:34+00:00",
       "chain": "solana",
       "llama_name": "Solana",
       "native_token": "SOL",
@@ -196,12 +196,12 @@ window.DASHBOARD_DATA = {
       "token_turnover_24h": 0.0440692433388537,
       "market_data_source": "CoinPaprika",
       "onchain_data_source": "DefiLlama; RWA.xyz",
-      "activity_score": -0.5070312634438536,
+      "activity_score": -0.49395038073631964,
       "fee_pe": 14.74031688017169,
       "missing_notes": {}
     },
     {
-      "snapshot_utc": "2026-10-02T19:03:51+00:00",
+      "snapshot_utc": "2026-10-02T19:04:34+00:00",
       "chain": "arc",
       "llama_name": "Arc",
       "native_token": null,
@@ -233,13 +233,13 @@ window.DASHBOARD_DATA = {
       "missing_notes": {}
     },
     {
-      "snapshot_utc": "2026-10-02T19:03:51+00:00",
+      "snapshot_utc": "2026-10-02T19:04:34+00:00",
       "chain": "avalanche",
       "llama_name": "Avalanche",
       "native_token": "AVAX",
-      "market_cap_usd": 7593368804.515831,
-      "token_circulating_market_cap_usd": 4453461077.0,
-      "token_volume_24h_usd": 389128357.40278846,
+      "market_cap_usd": 7656074933.241403,
+      "token_circulating_market_cap_usd": 4490237811.0,
+      "token_volume_24h_usd": 372015268.6437281,
       "tvl_usd": 647927057.9844956,
       "network_fees_24h_usd": 387713.46,
       "network_fees_30d_usd": 10532854.509999989,
@@ -252,20 +252,20 @@ window.DASHBOARD_DATA = {
       "tokenized_stock_7d_change": 1.0916053697123895,
       "tokenized_stock_30d_change": 1.0916053697123913,
       "tokenized_stock_network": "Avalanche C-Chain",
-      "tvl_to_mcap": 0.08532801114561547,
-      "fees_24h_to_mcap": 5.105947965670047e-05,
-      "fees_30d_to_mcap": 0.0013871122002840194,
+      "tvl_to_mcap": 0.08462914269181251,
+      "fees_24h_to_mcap": 5.064128334436915e-05,
+      "fees_30d_to_mcap": 0.0013757512304729527,
       "dex_volume_24h_to_tvl": 0.3066764077396422,
       "tokenized_stock_to_tvl": 0.5507919704285721,
-      "token_turnover_24h": 0.05124581294818329,
+      "token_turnover_24h": 0.048590860445800986,
       "market_data_source": "CoinPaprika",
       "onchain_data_source": "DefiLlama; RWA.xyz",
-      "activity_score": -0.898132876366164,
-      "fee_pe": 60.07685125707231,
+      "activity_score": -0.9924139609413223,
+      "fee_pe": 60.572966599990025,
       "missing_notes": {}
     },
     {
-      "snapshot_utc": "2026-10-02T19:03:51+00:00",
+      "snapshot_utc": "2026-10-02T19:04:34+00:00",
       "chain": "ethereum",
       "llama_name": "Ethereum",
       "native_token": "ETH",
@@ -292,12 +292,12 @@ window.DASHBOARD_DATA = {
       "token_turnover_24h": 0.04393214729092883,
       "market_data_source": "CoinPaprika",
       "onchain_data_source": "DefiLlama; RWA.xyz",
-      "activity_score": -1.6429322965167457,
+      "activity_score": -1.6298961633586238,
       "fee_pe": 76.28230925122968,
       "missing_notes": {}
     },
     {
-      "snapshot_utc": "2026-10-02T19:03:51+00:00",
+      "snapshot_utc": "2026-10-02T19:04:34+00:00",
       "chain": "tron",
       "llama_name": "Tron",
       "native_token": "TRX",
@@ -324,14 +324,14 @@ window.DASHBOARD_DATA = {
       "token_turnover_24h": 0.01166223656560018,
       "market_data_source": "CoinPaprika",
       "onchain_data_source": "DefiLlama; RWA.xyz",
-      "activity_score": -2.9498888278103723,
+      "activity_score": -2.943667649277767,
       "fee_pe": 330.6958191609283,
       "missing_notes": {
         "tokenized_stock_value_usd": "RWA.xyz 当前未匹配到 Tron 的代币化美股/ETF数据。"
       }
     },
     {
-      "snapshot_utc": "2026-10-02T19:03:51+00:00",
+      "snapshot_utc": "2026-10-02T19:04:34+00:00",
       "chain": "bsc",
       "llama_name": "BSC",
       "native_token": "BNB",
@@ -358,12 +358,12 @@ window.DASHBOARD_DATA = {
       "token_turnover_24h": 0.004705753025431115,
       "market_data_source": "CoinPaprika",
       "onchain_data_source": "DefiLlama; RWA.xyz",
-      "activity_score": -3.1921471895423643,
+      "activity_score": -3.187325556830877,
       "fee_pe": 114.16254653618239,
       "missing_notes": {}
     },
     {
-      "snapshot_utc": "2026-10-02T19:03:51+00:00",
+      "snapshot_utc": "2026-10-02T19:04:34+00:00",
       "chain": "bitcoin",
       "llama_name": "Bitcoin",
       "native_token": "BTC",
@@ -390,7 +390,7 @@ window.DASHBOARD_DATA = {
       "token_turnover_24h": 0.019008675617749562,
       "market_data_source": "CoinPaprika",
       "onchain_data_source": "DefiLlama; RWA.xyz",
-      "activity_score": -3.2563104573202466,
+      "activity_score": -3.2484496502609557,
       "fee_pe": 149691.1709691991,
       "missing_notes": {
         "tokenized_stock_value_usd": "RWA.xyz 当前未匹配到 Bitcoin 的代币化美股/ETF数据。"
