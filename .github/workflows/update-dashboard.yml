@@ -34,13 +34,14 @@ jobs:
         run: |
           python main.py
           python tokenized_stocks.py
+          python build_dex_token_metrics.py
           python build_dashboard.py
 
       - name: Commit generated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/processed reports web/dashboard-data.js
+          git add data/processed data/raw reports web/dashboard-data.js
           if git diff --cached --quiet; then
             echo "No generated data changes."
           else
