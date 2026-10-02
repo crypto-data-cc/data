@@ -34,6 +34,28 @@ NUMBER_FIELDS = {
     "dex_volume_24h_to_tvl",
     "token_turnover_24h",
     "activity_score",
+    "matched_protocol_count_volume",
+    "matched_protocol_count_fees",
+    "matched_protocol_count_holders_revenue",
+    "token_market_cap_usd",
+    "token_circulating_market_cap_usd",
+    "token_price_usd",
+    "volume_30d_usd",
+    "volume_previous_30d_usd",
+    "volume_30d_change",
+    "fees_30d_usd",
+    "fees_previous_30d_usd",
+    "fees_30d_change",
+    "fee_pe",
+    "protocol_revenue_30d_usd",
+    "protocol_revenue_previous_30d_usd",
+    "protocol_revenue_30d_change",
+    "holders_revenue_30d_usd",
+    "holders_revenue_previous_30d_usd",
+    "holders_revenue_30d_change",
+    "holders_revenue_to_fees",
+    "holders_revenue_pe",
+    "burn_30d",
 }
 
 MISSING_VALUE_NOTES = {
@@ -81,6 +103,10 @@ def main() -> None:
     stock_networks = read_csv(PROCESSED_DIR / "tokenized_stock_networks.csv")
     stock_platforms = read_csv(PROCESSED_DIR / "tokenized_stock_platforms.csv")
     stock_aggregates = read_csv(PROCESSED_DIR / "tokenized_stock_aggregates.csv")
+    dex_tokens_path = PROCESSED_DIR / "dex_token_metrics.csv"
+    dex_token_components_path = PROCESSED_DIR / "dex_token_component_metrics.csv"
+    dex_tokens = read_csv(dex_tokens_path) if dex_tokens_path.exists() else []
+    dex_token_components = read_csv(dex_token_components_path) if dex_token_components_path.exists() else []
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -89,6 +115,8 @@ def main() -> None:
         "tokenized_stock_networks": stock_networks,
         "tokenized_stock_platforms": stock_platforms,
         "tokenized_stock_aggregates": stock_aggregates,
+        "dex_tokens": dex_tokens,
+        "dex_token_components": dex_token_components,
         "notes": {
             "nulls": "缺失或不适用的数据用 null 表示，页面显示为“暂无数据”。",
             "update": "运行 python main.py 后再运行 python build_dashboard.py，即可刷新静态网页数据。",
