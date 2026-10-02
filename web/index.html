@@ -23,6 +23,12 @@
     <main>
       <section class="summary-grid" id="summaryGrid"></section>
 
+      <nav class="page-tabs" aria-label="Dashboard sections">
+        <button class="page-tab active" type="button" data-view="chains" data-i18n="chainData">公链数据</button>
+        <button class="page-tab" type="button" data-view="dex" data-i18n="dexData">DEX 数据</button>
+      </nav>
+
+      <div id="chainsView">
       <section class="toolbar">
         <label>
           <span data-i18n="sort">排序</span>
@@ -53,7 +59,7 @@
         </div>
         <div class="panel">
           <div class="panel-head">
-            <h2 data-i18n="feePe">手续费 PE</h2>
+            <h2 data-i18n="feePe">手续费 P/S</h2>
             <span data-i18n="feePeMeta">最大市值 / 近30天手续费年化</span>
           </div>
           <div class="mini-table-wrap">
@@ -63,7 +69,7 @@
                   <th data-i18n="chain">公链</th>
                   <th data-i18n="maxMarketCap">最大市值</th>
                   <th data-i18n="fees30d">30天手续费</th>
-                  <th>PE</th>
+                  <th>P/S</th>
                 </tr>
               </thead>
               <tbody id="peRows"></tbody>
@@ -95,6 +101,38 @@
           </table>
         </div>
       </section>
+      </div>
+
+      <div id="dexView" class="hidden">
+        <section class="panel table-panel">
+          <div class="panel-head">
+            <div>
+              <h2 data-i18n="dexTokenMetrics">DEX 代币指标</h2>
+              <span data-i18n="dexTokenMeta">按代币聚合协议族，同时展示手续费 P/S 与持有人收入 PE</span>
+            </div>
+            <span id="dexRowCount"></span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th><button class="sort-head dex-sort-head" type="button" data-sort="token" data-i18n="token">代币</button></th>
+                  <th><button class="sort-head dex-sort-head" type="button" data-sort="token_market_cap_usd" data-i18n="maxMarketCap">最大市值</button></th>
+                  <th><button class="sort-head dex-sort-head" type="button" data-sort="volume_30d_usd" data-i18n="volume30d">30天交易量</button></th>
+                  <th><button class="sort-head dex-sort-head" type="button" data-sort="volume_30d_change" data-i18n="volume30dChange">交易量环比</button></th>
+                  <th><button class="sort-head dex-sort-head" type="button" data-sort="fees_30d_usd" data-i18n="fees30d">30天手续费</button></th>
+                  <th><button class="sort-head dex-sort-head" type="button" data-sort="fees_30d_change" data-i18n="feeGrowth30d">手续费环比</button></th>
+                  <th><button class="sort-head dex-sort-head" type="button" data-sort="holders_revenue_30d_usd" data-i18n="holdersRevenue30d">30天回购/持有人收入</button></th>
+                  <th><button class="sort-head dex-sort-head" type="button" data-sort="holders_revenue_to_fees" data-i18n="buybackRatio">回购比例</button></th>
+                  <th><button class="sort-head dex-sort-head" type="button" data-sort="fee_pe" data-i18n="feePeShort">手续费 P/S</button></th>
+                  <th><button class="sort-head dex-sort-head" type="button" data-sort="holders_revenue_pe" data-i18n="holdersPe">持有人收入 PE</button></th>
+                </tr>
+              </thead>
+              <tbody id="dexRows"></tbody>
+            </table>
+          </div>
+        </section>
+      </div>
 
       <section class="institution-footer">
         <div>

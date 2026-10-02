@@ -1,13 +1,19 @@
 (function () {
   const data = window.DASHBOARD_DATA || {};
   const chains = Array.isArray(data.chains) ? data.chains : [];
+  const dexTokens = Array.isArray(data.dex_tokens) ? data.dex_tokens : [];
 
   const sortBy = document.getElementById("sortBy");
   const filterMode = document.getElementById("filterMode");
   let currentLang = localStorage.getItem("dashboard_lang") || "zh";
+  let currentView = "chains";
   const tableSort = {
     key: "market_cap_usd",
     direction: "desc",
+  };
+  const dexSort = {
+    key: "holders_revenue_pe",
+    direction: "asc",
   };
 
   const i18n = {
@@ -30,7 +36,7 @@
       filterMissing: "缺少代币化美股",
       stockByChain: "代币化美股按公链分布",
       stockByChainMeta: "RWA.xyz 总价值 / 30天增幅",
-      feePe: "手续费 PE",
+      feePe: "手续费 P/S",
       feePeMeta: "最大市值 / 近30天手续费年化",
       chain: "公链",
       maxMarketCap: "最大市值",
@@ -54,6 +60,17 @@
       missing: "暂无数据",
       notApplicable: "不适用",
       rows: "条",
+      chainData: "公链数据",
+      dexData: "DEX 数据",
+      dexTokenMetrics: "DEX 代币指标",
+      dexTokenMeta: "按代币聚合协议族，同时展示手续费 P/S 与持有人收入 PE",
+      token: "代币",
+      volume30d: "30天交易量",
+      volume30dChange: "交易量环比",
+      holdersRevenue30d: "30天回购/持有人收入",
+      buybackRatio: "回购比例",
+      feePeShort: "手续费 P/S",
+      holdersPe: "持有人收入 PE",
     },
     en: {
       title: "Public Chain Data Mining Dashboard",
@@ -74,7 +91,7 @@
       filterMissing: "Missing tokenized stocks",
       stockByChain: "Tokenized Stocks by Chain",
       stockByChainMeta: "RWA.xyz Total Value / 30D Growth",
-      feePe: "Fee P/E",
+      feePe: "Fee P/S",
       feePeMeta: "FDV / annualized 30D fees",
       chain: "Chain",
       maxMarketCap: "FDV",
@@ -98,6 +115,17 @@
       missing: "No data",
       notApplicable: "N/A",
       rows: "rows",
+      chainData: "Chain Data",
+      dexData: "DEX Data",
+      dexTokenMetrics: "DEX Token Metrics",
+      dexTokenMeta: "Aggregated by protocol token; fee P/S and holder-revenue P/E are shown side by side",
+      token: "Token",
+      volume30d: "30D Volume",
+      volume30dChange: "Volume MoM",
+      holdersRevenue30d: "30D Buyback / Holder Revenue",
+      buybackRatio: "Buyback Ratio",
+      feePeShort: "Fee P/S",
+      holdersPe: "Holder Revenue P/E",
     },
   };
 
@@ -206,11 +234,20 @@
   }
 
   function syncTableSortControls() {
-    document.querySelectorAll(".sort-head").forEach((button) => {
+    document.querySelectorAll(".sort-head:not(.dex-sort-head)").forEach((button) => {
       const active = button.dataset.sort === tableSort.key;
       button.classList.toggle("active", active);
       button.classList.toggle("asc", active && tableSort.direction === "asc");
       button.classList.toggle("desc", active && tableSort.direction === "desc");
+    });
+  }
+
+  function syncDexSortControls() {
+    document.querySelectorAll(".dex-sort-head").forEach((button) => {
+      const active = button.dataset.sort === dexSort.key;
+      button.classList.toggle("active", active);
+      button.classList.toggle("asc", active && dexSort.direction === "asc");
+      button.classList.toggle("desc", active && dexSort.direction === "desc");
     });
   }
 
@@ -294,6 +331,42 @@
       .join("");
   }
 
+  function sortedDexTokens() {
+    return dexTokens
+      .slice()
+      .sort((a, b) => compareRows(a, b, dexSort.key, dexSort.direction));
+  }
+
+  function renderDexTable() {
+    syncDexSortControls();
+    const rows = sortedDexTokens();
+    document.getElementById("dexRowCount").textContent = `${rows.length} ${t("rows")}`;
+    document.getElementById("dexRows").innerHTML = rows
+      .map(
+        (row) => `<tr>
+          <td>${row.token}</td>
+          <td>${marketCapMoney(row.token_market_cap_usd)}</td>
+          <td>${money(row.volume_30d_usd)}</td>
+          <td>${pct(row.volume_30d_change)}</td>
+          <td>${money(row.fees_30d_usd)}</td>
+          <td>${pct(row.fees_30d_change)}</td>
+          <td>${money(row.holders_revenue_30d_usd)}</td>
+          <td>${pct(row.holders_revenue_to_fees)}</td>
+          <td>${multiple(row.fee_pe)}</td>
+          <td>${multiple(row.holders_revenue_pe)}</td>
+        </tr>`
+      )
+      .join("");
+  }
+
+  function renderView() {
+    document.getElementById("chainsView").classList.toggle("hidden", currentView !== "chains");
+    document.getElementById("dexView").classList.toggle("hidden", currentView !== "dex");
+    document.querySelectorAll(".page-tab").forEach((button) => {
+      button.classList.toggle("active", button.dataset.view === currentView);
+    });
+  }
+
   function render() {
     const rows = filteredChains();
     applyLanguage();
@@ -303,6 +376,8 @@
     });
     renderPeTable(rows);
     renderTable(tableRows());
+    renderDexTable();
+    renderView();
   }
 
   document.getElementById("refreshButton").addEventListener("click", () => {
@@ -318,7 +393,7 @@
   });
   sortBy.addEventListener("change", render);
   filterMode.addEventListener("change", render);
-  document.querySelectorAll(".sort-head").forEach((button) => {
+  document.querySelectorAll(".sort-head:not(.dex-sort-head)").forEach((button) => {
     button.addEventListener("click", () => {
       const key = button.dataset.sort;
       if (tableSort.key === key) {
@@ -327,6 +402,24 @@
         tableSort.key = key;
         tableSort.direction = key === "llama_name" ? "asc" : "desc";
       }
+      render();
+    });
+  });
+  document.querySelectorAll(".dex-sort-head").forEach((button) => {
+    button.addEventListener("click", () => {
+      const key = button.dataset.sort;
+      if (dexSort.key === key) {
+        dexSort.direction = dexSort.direction === "desc" ? "asc" : "desc";
+      } else {
+        dexSort.key = key;
+        dexSort.direction = key === "token" || key.endsWith("_pe") ? "asc" : "desc";
+      }
+      renderDexTable();
+    });
+  });
+  document.querySelectorAll(".page-tab").forEach((button) => {
+    button.addEventListener("click", () => {
+      currentView = button.dataset.view;
       render();
     });
   });

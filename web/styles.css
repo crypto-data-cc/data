@@ -129,6 +129,33 @@ main {
   margin: 22px 0 16px;
 }
 
+.page-tabs {
+  display: inline-flex;
+  gap: 4px;
+  margin-top: 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 4px;
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+
+.page-tab {
+  border: 0;
+  border-radius: 6px;
+  padding: 8px 14px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+}
+
+.page-tab.active {
+  background: #10213d;
+  color: #fff;
+}
+
 label {
   display: grid;
   gap: 6px;
@@ -229,6 +256,10 @@ select {
 
 .table-panel {
   margin-bottom: 16px;
+}
+
+.hidden {
+  display: none;
 }
 
 .table-wrap {
@@ -400,6 +431,15 @@ code {
   .toolbar {
     align-items: stretch;
     flex-direction: column;
+  }
+
+  .page-tabs {
+    display: flex;
+    width: 100%;
+  }
+
+  .page-tab {
+    flex: 1;
   }
 
   select {
