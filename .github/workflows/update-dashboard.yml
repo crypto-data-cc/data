@@ -1,5 +1,5 @@
 name: Update dashboard data
-  
+
 on:
   schedule:
     - cron: "15 22 * * *"
@@ -35,6 +35,10 @@ jobs:
           python main.py
           python tokenized_stocks.py
           python build_dex_token_metrics.py
+          python build_perps_platform_metrics.py
+          python build_stablecoin_metrics.py
+          python build_lending_protocol_metrics.py
+          python build_protocol_valuation_metrics.py
           python build_dashboard.py
 
       - name: Commit generated data
