@@ -1,0 +1,32 @@
+{
+  "id": "spk-spark",
+  "name": "Spark",
+  "symbol": "SPK",
+  "rank": 458,
+  "total_supply": 10000000000,
+  "max_supply": 10000000000,
+  "beta_value": 1.21102,
+  "first_data_at": "2025-06-17T00:00:00Z",
+  "last_updated": "2026-10-04T22:44:16Z",
+  "quotes": {
+    "USD": {
+      "price": 0.02482607782288798,
+      "volume_24h": 4268199.725201287,
+      "volume_24h_change_24h": -10.210000038146973,
+      "market_cap": 42204332,
+      "market_cap_change_24h": -0.8299999833106995,
+      "percent_change_15m": -0.019999999552965164,
+      "percent_change_30m": -0.4399999976158142,
+      "percent_change_1h": -0.05999999865889549,
+      "percent_change_6h": 1.590000033378601,
+      "percent_change_12h": 0.7300000190734863,
+      "percent_change_24h": -0.8299999833106995,
+      "percent_change_7d": 2.1700000762939453,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 0.18649799533837655,
+      "ath_date": "2025-07-23T21:59:53Z",
+      "percent_from_price_ath": -86.7
+    }
+  }
+}

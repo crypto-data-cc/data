@@ -1,0 +1,32 @@
+{
+  "id": "aster-aster",
+  "name": "Aster",
+  "symbol": "ASTER",
+  "rank": 80,
+  "total_supply": 8000000000,
+  "max_supply": 8000000000,
+  "beta_value": 1.09661,
+  "first_data_at": "2025-09-19T00:00:00Z",
+  "last_updated": "2026-10-04T22:43:14Z",
+  "quotes": {
+    "USD": {
+      "price": 0.7118476920509772,
+      "volume_24h": 37147092.53370288,
+      "volume_24h_change_24h": -5.860000133514404,
+      "market_cap": 1180029919,
+      "market_cap_change_24h": -0.7200000286102295,
+      "percent_change_15m": 0.10000000149011612,
+      "percent_change_30m": 0.14000000059604645,
+      "percent_change_1h": 0.1599999964237213,
+      "percent_change_6h": 0.20999999344348907,
+      "percent_change_12h": -0.27000001072883606,
+      "percent_change_24h": -0.7200000286102295,
+      "percent_change_7d": -1.340000033378601,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 2.4170064046391855,
+      "ath_date": "2025-09-24T11:18:38Z",
+      "percent_from_price_ath": -70.56
+    }
+  }
+}

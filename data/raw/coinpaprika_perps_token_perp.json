@@ -1,0 +1,32 @@
+{
+  "id": "perp-perpetual-protocol",
+  "name": "Perpetual Protocol",
+  "symbol": "PERP",
+  "rank": 1459,
+  "total_supply": 150000000,
+  "max_supply": 0,
+  "beta_value": 0.955387,
+  "first_data_at": "2021-11-12T00:00:00Z",
+  "last_updated": "2026-10-04T22:43:14Z",
+  "quotes": {
+    "USD": {
+      "price": 0.021641566228628378,
+      "volume_24h": 133148.81016615205,
+      "volume_24h_change_24h": 195.82000732421875,
+      "market_cap": 1428390,
+      "market_cap_change_24h": 4.650000095367432,
+      "percent_change_15m": -0.009999999776482582,
+      "percent_change_30m": 0.3700000047683716,
+      "percent_change_1h": 1.2000000476837158,
+      "percent_change_6h": 0.25,
+      "percent_change_12h": -1.4600000381469727,
+      "percent_change_24h": 4.650000095367432,
+      "percent_change_7d": -3.0999999046325684,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 18.898149691813842,
+      "ath_date": "2021-11-12T20:35:00Z",
+      "percent_from_price_ath": -99.89
+    }
+  }
+}

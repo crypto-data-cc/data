@@ -1,0 +1,32 @@
+{
+  "id": "well-moonwell",
+  "name": "Moonwell",
+  "symbol": "WELL",
+  "rank": 879,
+  "total_supply": 5000000000,
+  "max_supply": 0,
+  "beta_value": 1.53663,
+  "first_data_at": "2023-11-07T00:00:00Z",
+  "last_updated": "2026-10-04T22:44:16Z",
+  "quotes": {
+    "USD": {
+      "price": 0.0023138157260933203,
+      "volume_24h": 56885.25598143,
+      "volume_24h_change_24h": -36.08000183105469,
+      "market_cap": 9473861,
+      "market_cap_change_24h": 2.049999952316284,
+      "percent_change_15m": -0.029999999329447746,
+      "percent_change_30m": 0.019999999552965164,
+      "percent_change_1h": 0.11999999731779099,
+      "percent_change_6h": 0.27000001072883606,
+      "percent_change_12h": 0.20999999344348907,
+      "percent_change_24h": 2.049999952316284,
+      "percent_change_7d": 0.9200000166893005,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 0.11288331268854353,
+      "ath_date": "2024-10-29T23:51:21Z",
+      "percent_from_price_ath": -97.95
+    }
+  }
+}

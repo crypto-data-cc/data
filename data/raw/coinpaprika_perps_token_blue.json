@@ -1,0 +1,32 @@
+{
+  "id": "blue-bluefin",
+  "name": "Bluefin",
+  "symbol": "BLUE",
+  "rank": 1007,
+  "total_supply": 1000000000,
+  "max_supply": 1000000000,
+  "beta_value": 1.43206,
+  "first_data_at": "2025-02-25T00:00:00Z",
+  "last_updated": "2026-10-04T22:43:14Z",
+  "quotes": {
+    "USD": {
+      "price": 0.010337113015578275,
+      "volume_24h": 174861.5915660618,
+      "volume_24h_change_24h": 50.959999084472656,
+      "market_cap": 6240757,
+      "market_cap_change_24h": 2.5,
+      "percent_change_15m": -0.11999999731779099,
+      "percent_change_30m": 0.20999999344348907,
+      "percent_change_1h": 0.05000000074505806,
+      "percent_change_6h": -0.20999999344348907,
+      "percent_change_12h": 3.4600000381469727,
+      "percent_change_24h": 2.5,
+      "percent_change_7d": -6.25,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 0.1821562990751026,
+      "ath_date": "2025-09-30T03:12:39Z",
+      "percent_from_price_ath": -94.32
+    }
+  }
+}

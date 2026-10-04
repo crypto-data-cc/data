@@ -1,0 +1,32 @@
+{
+  "id": "lit-lighter",
+  "name": "Lighter",
+  "symbol": "LIT",
+  "rank": 91,
+  "total_supply": 1000000000,
+  "max_supply": 1000000000,
+  "beta_value": 1.27872,
+  "first_data_at": "2026-01-05T00:00:00Z",
+  "last_updated": "2026-10-04T22:43:14Z",
+  "quotes": {
+    "USD": {
+      "price": 3.673339072734221,
+      "volume_24h": 74139105.74724656,
+      "volume_24h_change_24h": -4.699999809265137,
+      "market_cap": 918334768,
+      "market_cap_change_24h": 2.869999885559082,
+      "percent_change_15m": 0.5,
+      "percent_change_30m": 0.20999999344348907,
+      "percent_change_1h": 0.8199999928474426,
+      "percent_change_6h": 2.119999885559082,
+      "percent_change_12h": 0.4699999988079071,
+      "percent_change_24h": 2.869999885559082,
+      "percent_change_7d": -20.770000457763672,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 5.508908523567708,
+      "ath_date": "2026-09-24T03:07:18Z",
+      "percent_from_price_ath": -33.47
+    }
+  }
+}

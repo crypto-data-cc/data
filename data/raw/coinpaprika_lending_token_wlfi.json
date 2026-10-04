@@ -1,0 +1,32 @@
+{
+  "id": "wlfi-official-world-liberty-financial",
+  "name": "Official World Liberty Financial",
+  "symbol": "WLFI",
+  "rank": 59,
+  "total_supply": 100000000000,
+  "max_supply": 100000000000,
+  "beta_value": 0.936215,
+  "first_data_at": "2025-09-01T00:00:00Z",
+  "last_updated": "2026-10-04T22:43:14Z",
+  "quotes": {
+    "USD": {
+      "price": 0.05518726257613819,
+      "volume_24h": 8616560.828465723,
+      "volume_24h_change_24h": 17.350000381469727,
+      "market_cap": 1753759482,
+      "market_cap_change_24h": 0.4399999976158142,
+      "percent_change_15m": 0.12999999523162842,
+      "percent_change_30m": -0.029999999329447746,
+      "percent_change_1h": -0.09000000357627869,
+      "percent_change_6h": -0.7599999904632568,
+      "percent_change_12h": 0.28999999165534973,
+      "percent_change_24h": 0.4399999976158142,
+      "percent_change_7d": -5.880000114440918,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 0.5992357857050564,
+      "ath_date": "2025-09-01T12:06:39Z",
+      "percent_from_price_ath": -90.78
+    }
+  }
+}

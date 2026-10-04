@@ -1,0 +1,32 @@
+{
+  "id": "adx-adrena",
+  "name": "Adrena",
+  "symbol": "ADX",
+  "rank": 2816,
+  "total_supply": 302879740,
+  "max_supply": 1000000000,
+  "beta_value": 1.81309,
+  "first_data_at": "2024-10-07T00:00:00Z",
+  "last_updated": "2026-10-04T22:43:14Z",
+  "quotes": {
+    "USD": {
+      "price": 1.263647448995349e-05,
+      "volume_24h": 1.3915434015709223,
+      "volume_24h_change_24h": 217.42999267578125,
+      "market_cap": 3737,
+      "market_cap_change_24h": 1.0499999523162842,
+      "percent_change_15m": 0.029999999329447746,
+      "percent_change_30m": -0.1599999964237213,
+      "percent_change_1h": 0.28999999165534973,
+      "percent_change_6h": -0.15000000596046448,
+      "percent_change_12h": 0.18000000715255737,
+      "percent_change_24h": 1.0299999713897705,
+      "percent_change_7d": -0.8299999833106995,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 0.0664565810818939,
+      "ath_date": "2024-10-24T06:27:20Z",
+      "percent_from_price_ath": -99.98
+    }
+  }
+}

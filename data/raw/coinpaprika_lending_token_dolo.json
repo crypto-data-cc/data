@@ -1,0 +1,32 @@
+{
+  "id": "dolo-dolomite",
+  "name": "Dolomite",
+  "symbol": "DOLO",
+  "rank": 827,
+  "total_supply": 1000000000,
+  "max_supply": 1000000000,
+  "beta_value": 1.2662,
+  "first_data_at": "2025-04-24T00:00:00Z",
+  "last_updated": "2026-10-04T22:44:16Z",
+  "quotes": {
+    "USD": {
+      "price": 0.030882269730636628,
+      "volume_24h": 2056243.904880455,
+      "volume_24h_change_24h": -2.5999999046325684,
+      "market_cap": 11169931,
+      "market_cap_change_24h": 0.4699999988079071,
+      "percent_change_15m": 0.05999999865889549,
+      "percent_change_30m": -0.30000001192092896,
+      "percent_change_1h": -0.15000000596046448,
+      "percent_change_6h": 0.5699999928474426,
+      "percent_change_12h": 0.18000000715255737,
+      "percent_change_24h": 0.4699999988079071,
+      "percent_change_7d": -5,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 0.36942565012227646,
+      "ath_date": "2025-08-31T08:42:38Z",
+      "percent_from_price_ath": -91.64
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "prcl-parcl",
+  "name": "Parcl",
+  "symbol": "PRCL",
+  "rank": 5953,
+  "total_supply": 0,
+  "max_supply": 0,
+  "beta_value": 1.04036,
+  "first_data_at": "2024-04-18T00:00:00Z",
+  "last_updated": "2026-10-04T22:43:14Z",
+  "quotes": {
+    "USD": {
+      "price": 0.006268664534947928,
+      "volume_24h": 73715.09814928651,
+      "volume_24h_change_24h": -70.8499984741211,
+      "market_cap": 0,
+      "market_cap_change_24h": 0,
+      "percent_change_15m": -0.05999999865889549,
+      "percent_change_30m": 0.05999999865889549,
+      "percent_change_1h": 0.20999999344348907,
+      "percent_change_6h": 0.49000000953674316,
+      "percent_change_12h": 0.9599999785423279,
+      "percent_change_24h": 1.7599999904632568,
+      "percent_change_7d": -1.5800000429153442,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 0.7328952994026805,
+      "ath_date": "2024-04-22T10:13:06Z",
+      "percent_from_price_ath": -99.14
+    }
+  }
+}

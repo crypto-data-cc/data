@@ -1,0 +1,32 @@
+{
+  "id": "syrup-syrup-token",
+  "name": "Syrup Token",
+  "symbol": "SYRUP",
+  "rank": 155,
+  "total_supply": 1200275709,
+  "max_supply": 0,
+  "beta_value": 1.27544,
+  "first_data_at": "2024-11-23T00:00:00Z",
+  "last_updated": "2026-10-04T22:43:14Z",
+  "quotes": {
+    "USD": {
+      "price": 0.25806033925525657,
+      "volume_24h": 7360681.153403097,
+      "volume_24h_change_24h": -16.59000015258789,
+      "market_cap": 307715606,
+      "market_cap_change_24h": -0.1899999976158142,
+      "percent_change_15m": -0.09000000357627869,
+      "percent_change_30m": -0.2199999988079071,
+      "percent_change_1h": 0.009999999776482582,
+      "percent_change_6h": -0.5,
+      "percent_change_12h": 0.550000011920929,
+      "percent_change_24h": -0.1899999976158142,
+      "percent_change_7d": 18.700000762939453,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 0.6546203899156554,
+      "ath_date": "2025-06-25T14:15:19Z",
+      "percent_from_price_ath": -60.58
+    }
+  }
+}

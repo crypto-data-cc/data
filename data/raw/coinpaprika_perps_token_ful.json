@@ -1,0 +1,32 @@
+{
+  "id": "ful-ful",
+  "name": "Fulcrom",
+  "symbol": "FUL",
+  "rank": 1301,
+  "total_supply": 20000000000,
+  "max_supply": 20000000000,
+  "beta_value": 1.07318,
+  "first_data_at": "2024-02-18T00:00:00Z",
+  "last_updated": "2026-10-04T22:43:14Z",
+  "quotes": {
+    "USD": {
+      "price": 0.0011218222527202982,
+      "volume_24h": 1370.220412507902,
+      "volume_24h_change_24h": -43,
+      "market_cap": 2366148,
+      "market_cap_change_24h": 2.7799999713897705,
+      "percent_change_15m": 0.07000000029802322,
+      "percent_change_30m": 0.10999999940395355,
+      "percent_change_1h": 0.23999999463558197,
+      "percent_change_6h": -0.10999999940395355,
+      "percent_change_12h": -0.8899999856948853,
+      "percent_change_24h": 2.7799999713897705,
+      "percent_change_7d": -0.6399999856948853,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 0.03287048508301077,
+      "ath_date": "2024-12-05T03:00:21Z",
+      "percent_from_price_ath": -96.59
+    }
+  }
+}

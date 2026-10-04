@@ -1,0 +1,32 @@
+{
+  "id": "aave-new",
+  "name": "Aave",
+  "symbol": "AAVE",
+  "rank": 46,
+  "total_supply": 16000000,
+  "max_supply": 16000000,
+  "beta_value": 1.54215,
+  "first_data_at": "2020-10-13T00:00:00Z",
+  "last_updated": "2026-10-04T22:43:14Z",
+  "quotes": {
+    "USD": {
+      "price": 179.4663325776211,
+      "volume_24h": 171144551.60280272,
+      "volume_24h_change_24h": -31.700000762939453,
+      "market_cap": 2766728897,
+      "market_cap_change_24h": -0.8100000023841858,
+      "percent_change_15m": 0.3100000023841858,
+      "percent_change_30m": 0.019999999552965164,
+      "percent_change_1h": 0.8600000143051147,
+      "percent_change_6h": -0.03999999910593033,
+      "percent_change_12h": -0.6299999952316284,
+      "percent_change_24h": -0.8100000023841858,
+      "percent_change_7d": 16.139999389648438,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 666.02930808,
+      "ath_date": "2021-05-18T21:20:00Z",
+      "percent_from_price_ath": -73.08
+    }
+  }
+}

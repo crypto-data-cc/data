@@ -1,0 +1,148 @@
+{
+  "id": "7571",
+  "name": "World Liberty Financial",
+  "address": "0xda5e1988097297dcdc1f90d4dfe7909e847cbef6",
+  "symbol": "WLFI",
+  "url": "https://worldlibertyfinancial.com/",
+  "description": "Earn through supply, borrow with your collateral, and grow by using borrowed liquidity to expand your strategy",
+  "chain": "Ethereum",
+  "logo": "https://icons.llamao.fi/icons/protocols/world-liberty-financial",
+  "audits": "0",
+  "gecko_id": "world-liberty-financial",
+  "cmcId": null,
+  "category": "Lending",
+  "chains": [
+    "Ethereum"
+  ],
+  "module": "dummy.js",
+  "twitter": "worldlibertyfi",
+  "dimensions": {
+    "fees": "world-liberty-financial"
+  },
+  "tvlCodePath": null,
+  "chainTvls": {
+    "Ethereum": {
+      "tvl": [],
+      "tokensInUsd": [],
+      "tokens": []
+    }
+  },
+  "tvl": [],
+  "tokensInUsd": [],
+  "tokens": [],
+  "currentChainTvls": {},
+  "raises": [
+    {
+      "date": 1741824000,
+      "name": "World Liberty Financial",
+      "round": "Public token sale",
+      "amount": 250,
+      "chains": [
+        "Ethereum"
+      ],
+      "sector": "World Liberty Financial (WLFI) is a DeFi platform. The initiative aims to provide a range of financial services, including lending and borrowing, through its governance token",
+      "category": "CeFi",
+      "categoryGroup": "DeFi & CeFi",
+      "source": "",
+      "leadInvestors": [],
+      "otherInvestors": [],
+      "valuation": "5000",
+      "defillamaId": "7571"
+    },
+    {
+      "date": 1732492800,
+      "name": "World Liberty Financial",
+      "round": "Public token sale",
+      "amount": 30,
+      "chains": [
+        "Ethereum"
+      ],
+      "sector": "World Liberty Financial (WLFI) is a DeFi platform. The initiative aims to provide a range of financial services, including lending and borrowing, through its governance token",
+      "category": "CeFi",
+      "categoryGroup": "DeFi & CeFi",
+      "source": "",
+      "leadInvestors": [
+        "Justin Sun"
+      ],
+      "otherInvestors": [],
+      "valuation": null,
+      "defillamaId": "7571"
+    },
+    {
+      "date": 1737936000,
+      "name": "World Liberty Financial",
+      "round": null,
+      "amount": 10,
+      "chains": [
+        "Ethereum"
+      ],
+      "sector": "World Liberty Financial (WLFI) is a DeFi platform. The initiative aims to provide a range of financial services, including lending and borrowing, through its governance token",
+      "category": "CeFi",
+      "categoryGroup": "DeFi & CeFi",
+      "source": "",
+      "leadInvestors": [
+        "Web3Port"
+      ],
+      "otherInvestors": [],
+      "valuation": null,
+      "defillamaId": "7571"
+    },
+    {
+      "date": 1737331200,
+      "name": "World Liberty Financial",
+      "round": "Public token sale",
+      "amount": 300,
+      "chains": [
+        "Ethereum"
+      ],
+      "sector": "World Liberty Financial (WLFI) is a DeFi platform. The initiative aims to provide a range of financial services, including lending and borrowing, through its governance token",
+      "category": "CeFi",
+      "categoryGroup": "DeFi & CeFi",
+      "source": "",
+      "leadInvestors": [],
+      "otherInvestors": [],
+      "valuation": "1.5",
+      "defillamaId": "7571"
+    },
+    {
+      "date": 1750896000,
+      "name": "World Liberty Financial",
+      "round": "Private",
+      "amount": 100,
+      "chains": [
+        "Ethereum"
+      ],
+      "sector": "World Liberty Financial (WLFI) is a DeFi platform. The initiative aims to provide a range of financial services, including lending and borrowing, through its governance token",
+      "category": "CeFi",
+      "categoryGroup": "DeFi & CeFi",
+      "source": "",
+      "leadInvestors": [
+        "Aqua 1"
+      ],
+      "otherInvestors": [],
+      "valuation": null,
+      "defillamaId": "7571"
+    },
+    {
+      "date": 1744761600,
+      "name": "World Liberty Financial",
+      "round": "Strategic",
+      "amount": 25,
+      "chains": [
+        "Ethereum"
+      ],
+      "sector": "World Liberty Financial (WLFI) is a DeFi platform. The initiative aims to provide a range of financial services, including lending and borrowing, through its governance token",
+      "category": "CeFi",
+      "categoryGroup": "DeFi & CeFi",
+      "source": "",
+      "leadInvestors": [
+        "DWF Labs"
+      ],
+      "otherInvestors": [],
+      "valuation": null,
+      "defillamaId": "7571"
+    }
+  ],
+  "hacks": [],
+  "mcap": 1750446892.6151102
+}

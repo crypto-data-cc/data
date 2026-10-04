@@ -1,0 +1,32 @@
+{
+  "id": "f-synfutures",
+  "name": "SynFutures",
+  "symbol": "F",
+  "rank": 982,
+  "total_supply": 10000000000,
+  "max_supply": 10000000000,
+  "beta_value": 1.32093,
+  "first_data_at": "2024-12-23T00:00:00Z",
+  "last_updated": "2026-10-04T22:43:14Z",
+  "quotes": {
+    "USD": {
+      "price": 0.0034555391985842555,
+      "volume_24h": 686520.4447963308,
+      "volume_24h_change_24h": -9.319999694824219,
+      "market_cap": 6647011,
+      "market_cap_change_24h": -0.6399999856948853,
+      "percent_change_15m": 0.17000000178813934,
+      "percent_change_30m": -0.3199999928474426,
+      "percent_change_1h": -0.029999999329447746,
+      "percent_change_6h": 0.6100000143051147,
+      "percent_change_12h": 0.009999999776482582,
+      "percent_change_24h": -0.6399999856948853,
+      "percent_change_7d": -8.84000015258789,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 0.07406408848734068,
+      "ath_date": "2025-01-17T21:56:04Z",
+      "percent_from_price_ath": -95.33
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "gear-gearbox",
+  "name": "Gearbox",
+  "symbol": "GEAR",
+  "rank": 989,
+  "total_supply": 10000000000,
+  "max_supply": 10000000000,
+  "beta_value": 2.36098,
+  "first_data_at": "2023-10-30T00:00:00Z",
+  "last_updated": "2026-10-04T22:44:16Z",
+  "quotes": {
+    "USD": {
+      "price": 0.00064871294580852,
+      "volume_24h": 5784.207292146326,
+      "volume_24h_change_24h": -98.66999816894531,
+      "market_cap": 6487129,
+      "market_cap_change_24h": -59.189998626708984,
+      "percent_change_15m": 0.019999999552965164,
+      "percent_change_30m": 0.27000001072883606,
+      "percent_change_1h": 0.8199999928474426,
+      "percent_change_6h": 0.949999988079071,
+      "percent_change_12h": 1.0099999904632568,
+      "percent_change_24h": -59.189998626708984,
+      "percent_change_7d": -10.9399995803833,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 0.03802797122965952,
+      "ath_date": "2024-04-12T07:19:07Z",
+      "percent_from_price_ath": -98.3
+    }
+  }
+}

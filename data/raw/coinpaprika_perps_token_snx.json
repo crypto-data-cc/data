@@ -1,0 +1,32 @@
+{
+  "id": "snx-synthetix-network-token",
+  "name": "Synthetix Network",
+  "symbol": "SNX",
+  "rank": 299,
+  "total_supply": 339889850,
+  "max_supply": 339889850,
+  "beta_value": 1.65561,
+  "first_data_at": "2018-03-29T00:00:00Z",
+  "last_updated": "2026-10-04T22:43:14Z",
+  "quotes": {
+    "USD": {
+      "price": 0.2547357526656899,
+      "volume_24h": 3547494.8155150665,
+      "volume_24h_change_24h": -37.290000915527344,
+      "market_cap": 86474182,
+      "market_cap_change_24h": -0.09000000357627869,
+      "percent_change_15m": 0.09000000357627869,
+      "percent_change_30m": -0.2199999988079071,
+      "percent_change_1h": 0.23000000417232513,
+      "percent_change_6h": 0.6700000166893005,
+      "percent_change_12h": -0.38999998569488525,
+      "percent_change_24h": -0.09000000357627869,
+      "percent_change_7d": -5.210000038146973,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 28.86224816,
+      "ath_date": "2021-02-14T01:10:00Z",
+      "percent_from_price_ath": -99.12
+    }
+  }
+}

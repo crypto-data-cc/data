@@ -1,0 +1,32 @@
+{
+  "id": "kilo-kiloex",
+  "name": "KiloEx",
+  "symbol": "KILO",
+  "rank": 1390,
+  "total_supply": 1000000000,
+  "max_supply": 1000000000,
+  "beta_value": 0.482597,
+  "first_data_at": "2025-03-27T00:00:00Z",
+  "last_updated": "2026-10-04T22:43:14Z",
+  "quotes": {
+    "USD": {
+      "price": 0.00821445311077006,
+      "volume_24h": 74052.2972553857,
+      "volume_24h_change_24h": 0.9900000095367432,
+      "market_cap": 1738999,
+      "market_cap_change_24h": -0.5899999737739563,
+      "percent_change_15m": -0.05000000074505806,
+      "percent_change_30m": 0.029999999329447746,
+      "percent_change_1h": 0.009999999776482582,
+      "percent_change_6h": 0.05000000074505806,
+      "percent_change_12h": 0.3700000047683716,
+      "percent_change_24h": -0.5899999737739563,
+      "percent_change_7d": 0.28999999165534973,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 0.14563946774192385,
+      "ath_date": "2025-03-27T13:57:05Z",
+      "percent_from_price_ath": -94.36
+    }
+  }
+}

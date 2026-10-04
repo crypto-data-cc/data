@@ -1,0 +1,32 @@
+{
+  "id": "rdnt-radiant-capital",
+  "name": "Radiant Capital",
+  "symbol": "RDNT",
+  "rank": 1674,
+  "total_supply": 1500000000,
+  "max_supply": 0,
+  "beta_value": 0.984024,
+  "first_data_at": "2022-08-18T00:00:00Z",
+  "last_updated": "2026-10-04T22:44:16Z",
+  "quotes": {
+    "USD": {
+      "price": 0.00045027925572353267,
+      "volume_24h": 21203.6224386206,
+      "volume_24h_change_24h": 85.0199966430664,
+      "market_cap": 518958,
+      "market_cap_change_24h": 0.07999999821186066,
+      "percent_change_15m": -0.009999999776482582,
+      "percent_change_30m": 0.27000001072883606,
+      "percent_change_1h": -0.019999999552965164,
+      "percent_change_6h": -0.3700000047683716,
+      "percent_change_12h": 0.38999998569488525,
+      "percent_change_24h": 0.07999999821186066,
+      "percent_change_7d": -2.2799999713897705,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 0.497380332130487,
+      "ath_date": "2023-03-19T06:01:58Z",
+      "percent_from_price_ath": -99.91
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "gmx-gmx",
+  "name": "GMX",
+  "symbol": "GMX",
+  "rank": 301,
+  "total_supply": 10044469,
+  "max_supply": 13250000,
+  "beta_value": 1.26221,
+  "first_data_at": "2022-03-03T00:00:00Z",
+  "last_updated": "2026-10-04T22:42:13Z",
+  "quotes": {
+    "USD": {
+      "price": 8.565239787696376,
+      "volume_24h": 3874355.195713489,
+      "volume_24h_change_24h": 67.66000366210938,
+      "market_cap": 86033285,
+      "market_cap_change_24h": 4.349999904632568,
+      "percent_change_15m": 0.4699999988079071,
+      "percent_change_30m": 0.46000000834465027,
+      "percent_change_1h": 0.12999999523162842,
+      "percent_change_6h": 2.109999895095825,
+      "percent_change_12h": 2.569999933242798,
+      "percent_change_24h": 4.349999904632568,
+      "percent_change_7d": 2.7200000286102295,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 91.08720624600386,
+      "ath_date": "2023-04-18T09:55:56Z",
+      "percent_from_price_ath": -90.61
+    }
+  }
+}

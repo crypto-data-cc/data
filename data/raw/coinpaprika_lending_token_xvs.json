@@ -1,0 +1,32 @@
+{
+  "id": "xvs-venus",
+  "name": "Venus",
+  "symbol": "XVS",
+  "rank": 380,
+  "total_supply": 29745109,
+  "max_supply": 0,
+  "beta_value": 1.1443,
+  "first_data_at": "2021-10-28T00:00:00Z",
+  "last_updated": "2026-10-04T22:44:16Z",
+  "quotes": {
+    "USD": {
+      "price": 3.4297728898860456,
+      "volume_24h": 788392.9347115017,
+      "volume_24h_change_24h": 3.6700000762939453,
+      "market_cap": 57103695,
+      "market_cap_change_24h": -1.1299999952316284,
+      "percent_change_15m": -0.029999999329447746,
+      "percent_change_30m": -0.05000000074505806,
+      "percent_change_1h": 0.05000000074505806,
+      "percent_change_6h": 0.5299999713897705,
+      "percent_change_12h": -0.8399999737739563,
+      "percent_change_24h": -1.1299999952316284,
+      "percent_change_7d": -1.3700000047683716,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 373.52402910128893,
+      "ath_date": "2021-11-04T23:15:00Z",
+      "percent_from_price_ath": -99.08
+    }
+  }
+}
