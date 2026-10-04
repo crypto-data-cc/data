@@ -14,9 +14,14 @@ WEB_DIR = BASE_DIR / "web"
 
 NUMBER_FIELDS = {
     "market_cap_usd",
+    "market_cap_previous_30d_usd",
+    "market_cap_30d_abs_change_usd",
+    "market_cap_30d_change",
     "token_circulating_market_cap_usd",
     "token_volume_24h_usd",
     "tvl_usd",
+    "tvl_previous_30d_usd",
+    "tvl_30d_change",
     "network_fees_24h_usd",
     "network_fees_30d_usd",
     "network_fees_previous_30d_usd",
@@ -40,6 +45,8 @@ NUMBER_FIELDS = {
     "token_market_cap_usd",
     "token_circulating_market_cap_usd",
     "token_price_usd",
+    "price_usd",
+    "chains_count",
     "volume_30d_usd",
     "volume_previous_30d_usd",
     "volume_30d_change",
@@ -55,7 +62,12 @@ NUMBER_FIELDS = {
     "holders_revenue_30d_change",
     "holders_revenue_to_fees",
     "holders_revenue_pe",
+    "valuation_pe",
     "burn_30d",
+    "market_cap_to_tvl",
+    "fee_ps",
+    "protocol_revenue_ps",
+    "protocol_revenue_pe",
 }
 
 MISSING_VALUE_NOTES = {
@@ -105,8 +117,16 @@ def main() -> None:
     stock_aggregates = read_csv(PROCESSED_DIR / "tokenized_stock_aggregates.csv")
     dex_tokens_path = PROCESSED_DIR / "dex_token_metrics.csv"
     dex_token_components_path = PROCESSED_DIR / "dex_token_component_metrics.csv"
+    perps_platforms_path = PROCESSED_DIR / "perps_platform_metrics.csv"
+    stablecoins_path = PROCESSED_DIR / "stablecoin_metrics.csv"
+    lending_protocols_path = PROCESSED_DIR / "lending_protocol_metrics.csv"
+    protocol_valuations_path = PROCESSED_DIR / "protocol_valuation_top100.csv"
     dex_tokens = read_csv(dex_tokens_path) if dex_tokens_path.exists() else []
     dex_token_components = read_csv(dex_token_components_path) if dex_token_components_path.exists() else []
+    perps_platforms = read_csv(perps_platforms_path) if perps_platforms_path.exists() else []
+    stablecoins = read_csv(stablecoins_path) if stablecoins_path.exists() else []
+    lending_protocols = read_csv(lending_protocols_path) if lending_protocols_path.exists() else []
+    protocol_valuations = read_csv(protocol_valuations_path) if protocol_valuations_path.exists() else []
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -117,6 +137,10 @@ def main() -> None:
         "tokenized_stock_aggregates": stock_aggregates,
         "dex_tokens": dex_tokens,
         "dex_token_components": dex_token_components,
+        "perps_platforms": perps_platforms,
+        "stablecoins": stablecoins,
+        "lending_protocols": lending_protocols,
+        "protocol_valuations": protocol_valuations,
         "notes": {
             "nulls": "缺失或不适用的数据用 null 表示，页面显示为“暂无数据”。",
             "update": "运行 python main.py 后再运行 python build_dashboard.py，即可刷新静态网页数据。",

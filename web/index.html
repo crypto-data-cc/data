@@ -26,6 +26,10 @@
       <nav class="page-tabs" aria-label="Dashboard sections">
         <button class="page-tab active" type="button" data-view="chains" data-i18n="chainData">公链数据</button>
         <button class="page-tab" type="button" data-view="dex" data-i18n="dexData">DEX 数据</button>
+        <button class="page-tab" type="button" data-view="perps" data-i18n="perpsData">永续合约</button>
+        <button class="page-tab" type="button" data-view="stablecoins" data-i18n="stablecoinData">稳定币</button>
+        <button class="page-tab" type="button" data-view="lending" data-i18n="lendingData">借贷</button>
+        <button class="page-tab" type="button" data-view="valuations" data-i18n="valuationData">协议估值</button>
       </nav>
 
       <div id="chainsView">
@@ -129,6 +133,190 @@
                 </tr>
               </thead>
               <tbody id="dexRows"></tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+
+      <div id="perpsView" class="hidden">
+        <section class="research-note">
+          <div>
+            <p class="eyebrow">On-chain Perpetuals</p>
+            <h2 data-i18n="perpsIntroTitle">链上永续合约平台简介</h2>
+            <p data-i18n="perpsIntroText">链上永续合约平台提供去中心化杠杆交易。本页先展示可稳定自动更新的公开字段，包括协议 TVL、代币市值、手续费、持有人收入以及费用向代币价值捕获的传导效率。</p>
+          </div>
+          <div class="note-grid">
+            <div><span data-i18n="perpsFocus1">流动性基础</span><strong>TVL</strong></div>
+            <div><span data-i18n="perpsFocus2">估值约束</span><strong>市值/TVL</strong></div>
+            <div><span data-i18n="perpsFocus3">价值捕获</span><strong>收入 PE</strong></div>
+          </div>
+        </section>
+
+        <section class="panel table-panel">
+          <div class="panel-head">
+            <div>
+              <h2 data-i18n="perpsPlatformMetrics">链上永续合约平台指标</h2>
+              <span data-i18n="perpsPlatformMeta">已发币平台，按协议版本聚合；缺失数据不参与估值排序</span>
+            </div>
+            <span id="perpsRowCount"></span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th><button class="sort-head perps-sort-head" type="button" data-sort="platform" data-i18n="platform">平台</button></th>
+                  <th><button class="sort-head perps-sort-head" type="button" data-sort="token" data-i18n="token">代币</button></th>
+                  <th data-i18n="intro">简介</th>
+                  <th data-i18n="mainChains">主要链</th>
+                  <th><button class="sort-head perps-sort-head" type="button" data-sort="tvl_usd">TVL</button></th>
+                  <th><button class="sort-head perps-sort-head" type="button" data-sort="tvl_30d_change" data-i18n="tvl30dChange">TVL 30天环比</button></th>
+                  <th><button class="sort-head perps-sort-head" type="button" data-sort="token_market_cap_usd" data-i18n="maxMarketCap">最大市值</button></th>
+                  <th><button class="sort-head perps-sort-head" type="button" data-sort="market_cap_to_tvl" data-i18n="marketCapToTvl">市值/TVL</button></th>
+                  <th><button class="sort-head perps-sort-head" type="button" data-sort="fees_30d_usd" data-i18n="fees30d">30天手续费</button></th>
+                  <th><button class="sort-head perps-sort-head" type="button" data-sort="holders_revenue_30d_usd" data-i18n="holdersRevenue30d">30天回购/持有人收入</button></th>
+                  <th><button class="sort-head perps-sort-head" type="button" data-sort="fee_ps" data-i18n="feePsShort">手续费 P/S</button></th>
+                  <th><button class="sort-head perps-sort-head" type="button" data-sort="holders_revenue_pe" data-i18n="holdersPe">持有人收入 PE</button></th>
+                </tr>
+              </thead>
+              <tbody id="perpsRows"></tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+
+      <div id="stablecoinsView" class="hidden">
+        <section class="research-note">
+          <div>
+            <p class="eyebrow">Stablecoin Supply</p>
+            <h2 data-i18n="stablecoinIntroTitle">稳定币市值月度变化</h2>
+            <p data-i18n="stablecoinIntroText">稳定币市值反映链上美元流动性规模。本页展示当前稳定币流通市值、30天前市值、绝对增减额和月环比。</p>
+          </div>
+          <div class="note-grid">
+            <div><span data-i18n="stablecoinFocus1">当前规模</span><strong>市值</strong></div>
+            <div><span data-i18n="stablecoinFocus2">绝对变化</span><strong>增减额</strong></div>
+            <div><span data-i18n="stablecoinFocus3">增长速度</span><strong>月环比</strong></div>
+          </div>
+        </section>
+
+        <section class="panel table-panel">
+          <div class="panel-head">
+            <div>
+              <h2 data-i18n="stablecoinMetrics">稳定币市值指标</h2>
+              <span data-i18n="stablecoinMeta">按当前流通市值排序，展示 30 天绝对增量和环比增速</span>
+            </div>
+            <span id="stablecoinRowCount"></span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th><button class="sort-head stablecoin-sort-head" type="button" data-sort="stablecoin" data-i18n="stablecoin">稳定币</button></th>
+                  <th><button class="sort-head stablecoin-sort-head" type="button" data-sort="symbol" data-i18n="token">代币</button></th>
+                  <th><button class="sort-head stablecoin-sort-head" type="button" data-sort="market_cap_usd" data-i18n="currentMarketCap">当前市值</button></th>
+                  <th><button class="sort-head stablecoin-sort-head" type="button" data-sort="market_cap_previous_30d_usd" data-i18n="previous30dMarketCap">30天前市值</button></th>
+                  <th><button class="sort-head stablecoin-sort-head" type="button" data-sort="market_cap_30d_abs_change_usd" data-i18n="marketCapAbsChange">30天绝对增减</button></th>
+                  <th><button class="sort-head stablecoin-sort-head" type="button" data-sort="market_cap_30d_change" data-i18n="marketCap30dChange">30天环比</button></th>
+                  <th data-i18n="pegMechanism">抵押机制</th>
+                  <th><button class="sort-head stablecoin-sort-head" type="button" data-sort="chains_count" data-i18n="chainsCount">覆盖链数</button></th>
+                </tr>
+              </thead>
+              <tbody id="stablecoinRows"></tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+
+      <div id="lendingView" class="hidden">
+        <section class="research-note">
+          <div>
+            <p class="eyebrow">On-chain Lending</p>
+            <h2 data-i18n="lendingIntroTitle">链上借贷协议估值</h2>
+            <p data-i18n="lendingIntroText">借贷协议的核心观察点是可借贷资产规模、利差和费用向代币持有人的传导。本页按已发币借贷协议聚合 TVL、手续费、协议收入、持有人收入，并计算 P/S 与 PE。</p>
+          </div>
+          <div class="note-grid">
+            <div><span data-i18n="lendingFocus1">资金规模</span><strong>TVL</strong></div>
+            <div><span data-i18n="lendingFocus2">收入效率</span><strong>P/S</strong></div>
+            <div><span data-i18n="lendingFocus3">价值捕获</span><strong>PE</strong></div>
+          </div>
+        </section>
+
+        <section class="panel table-panel">
+          <div class="panel-head">
+            <div>
+              <h2 data-i18n="lendingProtocolMetrics">借贷协议指标</h2>
+              <span data-i18n="lendingProtocolMeta">已发币借贷协议，按协议版本聚合；P/S 使用 30 天收入年化口径</span>
+            </div>
+            <span id="lendingRowCount"></span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th><button class="sort-head lending-sort-head" type="button" data-sort="platform" data-i18n="platform">平台</button></th>
+                  <th><button class="sort-head lending-sort-head" type="button" data-sort="token" data-i18n="token">代币</button></th>
+                  <th data-i18n="intro">简介</th>
+                  <th data-i18n="mainChains">主要链</th>
+                  <th><button class="sort-head lending-sort-head" type="button" data-sort="tvl_usd">TVL</button></th>
+                  <th><button class="sort-head lending-sort-head" type="button" data-sort="tvl_30d_change" data-i18n="tvl30dChange">TVL 30天环比</button></th>
+                  <th><button class="sort-head lending-sort-head" type="button" data-sort="token_market_cap_usd" data-i18n="maxMarketCap">最大市值</button></th>
+                  <th><button class="sort-head lending-sort-head" type="button" data-sort="market_cap_to_tvl" data-i18n="marketCapToTvl">市值/TVL</button></th>
+                  <th><button class="sort-head lending-sort-head" type="button" data-sort="fees_30d_usd" data-i18n="fees30d">30天手续费</button></th>
+                  <th><button class="sort-head lending-sort-head" type="button" data-sort="protocol_revenue_30d_usd" data-i18n="protocolRevenue30d">30天协议收入</button></th>
+                  <th><button class="sort-head lending-sort-head" type="button" data-sort="holders_revenue_30d_usd" data-i18n="holdersRevenue30d">30天回购/持有人收入</button></th>
+                  <th><button class="sort-head lending-sort-head" type="button" data-sort="fee_ps" data-i18n="feePsShort">手续费 P/S</button></th>
+                  <th><button class="sort-head lending-sort-head" type="button" data-sort="protocol_revenue_ps" data-i18n="protocolRevenuePs">协议收入 P/S</button></th>
+                  <th><button class="sort-head lending-sort-head" type="button" data-sort="holders_revenue_pe" data-i18n="holdersPe">持有人收入 PE</button></th>
+                </tr>
+              </thead>
+              <tbody id="lendingRows"></tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+
+      <div id="valuationsView" class="hidden">
+        <section class="research-note">
+          <div>
+            <p class="eyebrow">Protocol Valuation</p>
+            <h2 data-i18n="valuationIntroTitle">发币协议 PE Top 100</h2>
+            <p data-i18n="valuationIntroText">本页筛选已发币且可匹配市值与收入数据的协议，按 PE 从低到高排序。优先使用持有人收入 PE；若持有人收入缺失，则使用协议收入 PE 补位并标出口径。</p>
+          </div>
+          <div class="note-grid">
+            <div><span data-i18n="valuationFocus1">筛选范围</span><strong>发币协议</strong></div>
+            <div><span data-i18n="valuationFocus2">排序指标</span><strong>PE</strong></div>
+            <div><span data-i18n="valuationFocus3">展示数量</span><strong>Top 100</strong></div>
+          </div>
+        </section>
+
+        <section class="panel table-panel">
+          <div class="panel-head">
+            <div>
+              <h2 data-i18n="valuationMetrics">协议估值 Top 100</h2>
+              <span data-i18n="valuationMeta">市值来自 DefiLlama 协议页；收入来自 DefiLlama Fees/Revenue/Holders Revenue</span>
+            </div>
+            <span id="valuationRowCount"></span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th><button class="sort-head valuation-sort-head" type="button" data-sort="protocol" data-i18n="protocol">协议</button></th>
+                  <th><button class="sort-head valuation-sort-head" type="button" data-sort="token" data-i18n="token">代币</button></th>
+                  <th><button class="sort-head valuation-sort-head" type="button" data-sort="category" data-i18n="category">分类</button></th>
+                  <th data-i18n="intro">简介</th>
+                  <th><button class="sort-head valuation-sort-head" type="button" data-sort="market_cap_usd" data-i18n="maxMarketCap">最大市值</button></th>
+                  <th><button class="sort-head valuation-sort-head" type="button" data-sort="tvl_usd">TVL</button></th>
+                  <th><button class="sort-head valuation-sort-head" type="button" data-sort="fees_30d_usd" data-i18n="fees30d">30天手续费</button></th>
+                  <th><button class="sort-head valuation-sort-head" type="button" data-sort="protocol_revenue_30d_usd" data-i18n="protocolRevenue30d">30天协议收入</button></th>
+                  <th><button class="sort-head valuation-sort-head" type="button" data-sort="holders_revenue_30d_usd" data-i18n="holdersRevenue30d">30天回购/持有人收入</button></th>
+                  <th><button class="sort-head valuation-sort-head" type="button" data-sort="fee_ps" data-i18n="feePsShort">手续费 P/S</button></th>
+                  <th><button class="sort-head valuation-sort-head" type="button" data-sort="protocol_revenue_pe" data-i18n="protocolRevenuePe">协议收入 PE</button></th>
+                  <th><button class="sort-head valuation-sort-head" type="button" data-sort="holders_revenue_pe" data-i18n="holdersPe">持有人收入 PE</button></th>
+                  <th><button class="sort-head valuation-sort-head" type="button" data-sort="valuation_pe" data-i18n="valuationPe">排序 PE</button></th>
+                  <th data-i18n="peBasis">PE 口径</th>
+                </tr>
+              </thead>
+              <tbody id="valuationRows"></tbody>
             </table>
           </div>
         </section>

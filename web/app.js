@@ -2,6 +2,10 @@
   const data = window.DASHBOARD_DATA || {};
   const chains = Array.isArray(data.chains) ? data.chains : [];
   const dexTokens = Array.isArray(data.dex_tokens) ? data.dex_tokens : [];
+  const perpsPlatforms = Array.isArray(data.perps_platforms) ? data.perps_platforms : [];
+  const stablecoins = Array.isArray(data.stablecoins) ? data.stablecoins : [];
+  const lendingProtocols = Array.isArray(data.lending_protocols) ? data.lending_protocols : [];
+  const protocolValuations = Array.isArray(data.protocol_valuations) ? data.protocol_valuations : [];
 
   const sortBy = document.getElementById("sortBy");
   const filterMode = document.getElementById("filterMode");
@@ -13,6 +17,22 @@
   };
   const dexSort = {
     key: "holders_revenue_pe",
+    direction: "asc",
+  };
+  const perpsSort = {
+    key: "tvl_usd",
+    direction: "desc",
+  };
+  const stablecoinSort = {
+    key: "market_cap_usd",
+    direction: "desc",
+  };
+  const lendingSort = {
+    key: "tvl_usd",
+    direction: "desc",
+  };
+  const valuationSort = {
+    key: "valuation_pe",
     direction: "asc",
   };
 
@@ -62,8 +82,60 @@
       rows: "条",
       chainData: "公链数据",
       dexData: "DEX 数据",
+      perpsData: "永续合约",
+      stablecoinData: "稳定币",
+      lendingData: "借贷",
+      valuationData: "协议估值",
       dexTokenMetrics: "DEX 代币指标",
       dexTokenMeta: "按代币聚合协议族，同时展示手续费 P/S 与持有人收入 PE",
+      perpsIntroTitle: "链上永续合约平台简介",
+      perpsIntroText: "链上永续合约平台提供去中心化杠杆交易。本页先展示可稳定自动更新的公开字段，包括协议 TVL、代币市值、手续费、持有人收入以及费用向代币价值捕获的传导效率。",
+      perpsFocus1: "流动性基础",
+      perpsFocus2: "估值约束",
+      perpsFocus3: "价值捕获",
+      perpsPlatformMetrics: "链上永续合约平台指标",
+      perpsPlatformMeta: "已发币平台，按协议版本聚合；缺失数据不参与估值排序",
+      platform: "平台",
+      intro: "简介",
+      mainChains: "主要链",
+      marketCapToTvl: "市值/TVL",
+      tvl30dChange: "TVL 30天环比",
+      feePsShort: "手续费 P/S",
+      stablecoinIntroTitle: "稳定币市值月度变化",
+      stablecoinIntroText: "稳定币市值反映链上美元流动性规模。本页展示当前稳定币流通市值、30天前市值、绝对增减额和月环比。",
+      stablecoinFocus1: "当前规模",
+      stablecoinFocus2: "绝对变化",
+      stablecoinFocus3: "增长速度",
+      stablecoinMetrics: "稳定币市值指标",
+      stablecoinMeta: "按当前流通市值排序，展示 30 天绝对增量和环比增速",
+      stablecoin: "稳定币",
+      currentMarketCap: "当前市值",
+      previous30dMarketCap: "30天前市值",
+      marketCapAbsChange: "30天绝对增减",
+      marketCap30dChange: "30天环比",
+      pegMechanism: "抵押机制",
+      chainsCount: "覆盖链数",
+      lendingIntroTitle: "链上借贷协议估值",
+      lendingIntroText: "借贷协议的核心观察点是可借贷资产规模、利差和费用向代币持有人的传导。本页按已发币借贷协议聚合 TVL、手续费、协议收入、持有人收入，并计算 P/S 与 PE。",
+      lendingFocus1: "资金规模",
+      lendingFocus2: "收入效率",
+      lendingFocus3: "价值捕获",
+      lendingProtocolMetrics: "借贷协议指标",
+      lendingProtocolMeta: "已发币借贷协议，按协议版本聚合；P/S 使用 30 天收入年化口径",
+      protocolRevenue30d: "30天协议收入",
+      protocolRevenuePs: "协议收入 P/S",
+      valuationIntroTitle: "发币协议 PE Top 100",
+      valuationIntroText: "本页筛选已发币且可匹配市值与收入数据的协议，按 PE 从低到高排序。优先使用持有人收入 PE；若持有人收入缺失，则使用协议收入 PE 补位并标出口径。",
+      valuationFocus1: "筛选范围",
+      valuationFocus2: "排序指标",
+      valuationFocus3: "展示数量",
+      valuationMetrics: "协议估值 Top 100",
+      valuationMeta: "市值来自 DefiLlama 协议页；收入来自 DefiLlama Fees/Revenue/Holders Revenue",
+      protocol: "协议",
+      category: "分类",
+      protocolRevenuePe: "协议收入 PE",
+      valuationPe: "排序 PE",
+      peBasis: "PE 口径",
       token: "代币",
       volume30d: "30天交易量",
       volume30dChange: "交易量环比",
@@ -117,8 +189,60 @@
       rows: "rows",
       chainData: "Chain Data",
       dexData: "DEX Data",
+      perpsData: "Perps",
+      stablecoinData: "Stablecoins",
+      lendingData: "Lending",
+      valuationData: "Valuation",
       dexTokenMetrics: "DEX Token Metrics",
       dexTokenMeta: "Aggregated by protocol token; fee P/S and holder-revenue P/E are shown side by side",
+      perpsIntroTitle: "On-chain Perpetuals Overview",
+      perpsIntroText: "On-chain perpetual platforms provide decentralized leveraged trading. This page first shows public fields that can update reliably: protocol TVL, token valuation, fees, holder revenue, and fee-to-token value capture.",
+      perpsFocus1: "Liquidity Base",
+      perpsFocus2: "Valuation Anchor",
+      perpsFocus3: "Value Capture",
+      perpsPlatformMetrics: "On-chain Perpetual Platform Metrics",
+      perpsPlatformMeta: "Tokenized platforms aggregated across protocol versions; missing values are excluded from valuation sorting",
+      platform: "Platform",
+      intro: "Intro",
+      mainChains: "Main Chains",
+      marketCapToTvl: "MCap/TVL",
+      tvl30dChange: "TVL 30D Change",
+      feePsShort: "Fee P/S",
+      stablecoinIntroTitle: "Stablecoin Market Cap Monthly Change",
+      stablecoinIntroText: "Stablecoin market cap reflects on-chain dollar liquidity. This page shows current circulating value, value 30 days ago, absolute change, and month-over-month growth.",
+      stablecoinFocus1: "Current Scale",
+      stablecoinFocus2: "Absolute Change",
+      stablecoinFocus3: "MoM Growth",
+      stablecoinMetrics: "Stablecoin Market Cap Metrics",
+      stablecoinMeta: "Sorted by current circulating value, with 30D absolute and percentage change",
+      stablecoin: "Stablecoin",
+      currentMarketCap: "Current MCap",
+      previous30dMarketCap: "30D Ago MCap",
+      marketCapAbsChange: "30D Abs Change",
+      marketCap30dChange: "30D Change",
+      pegMechanism: "Peg Mechanism",
+      chainsCount: "Chains",
+      lendingIntroTitle: "On-chain Lending Valuation",
+      lendingIntroText: "For lending protocols, the key questions are asset scale, spreads, and how fees flow to token holders. This page aggregates TVL, fees, protocol revenue, holder revenue, and valuation multiples for tokenized lending protocols.",
+      lendingFocus1: "Capital Base",
+      lendingFocus2: "Revenue Efficiency",
+      lendingFocus3: "Value Capture",
+      lendingProtocolMetrics: "Lending Protocol Metrics",
+      lendingProtocolMeta: "Tokenized lending protocols aggregated across versions; P/S uses annualized 30D revenue",
+      protocolRevenue30d: "30D Protocol Revenue",
+      protocolRevenuePs: "Protocol Revenue P/S",
+      valuationIntroTitle: "Tokenized Protocol PE Top 100",
+      valuationIntroText: "This page filters protocols with token market cap and revenue data, ranked by PE from low to high. Holder revenue PE is preferred; protocol revenue PE is used as fallback and labeled.",
+      valuationFocus1: "Universe",
+      valuationFocus2: "Sort Metric",
+      valuationFocus3: "Rows",
+      valuationMetrics: "Protocol Valuation Top 100",
+      valuationMeta: "Market cap comes from DefiLlama protocol pages; revenue comes from DefiLlama Fees/Revenue/Holders Revenue",
+      protocol: "Protocol",
+      category: "Category",
+      protocolRevenuePe: "Protocol Revenue P/E",
+      valuationPe: "Ranking P/E",
+      peBasis: "P/E Basis",
       token: "Token",
       volume30d: "30D Volume",
       volume30dChange: "Volume MoM",
@@ -156,11 +280,12 @@
   function money(value, fallback = t("missing")) {
     if (!isNumber(value)) return `<span class="missing">${fallback}</span>`;
     const abs = Math.abs(value);
-    if (abs >= 1e12) return `$${(value / 1e12).toFixed(2)}T`;
-    if (abs >= 1e9) return `$${(value / 1e9).toFixed(2)}B`;
-    if (abs >= 1e6) return `$${(value / 1e6).toFixed(2)}M`;
-    if (abs >= 1e3) return `$${(value / 1e3).toFixed(2)}K`;
-    return `$${value.toFixed(2)}`;
+    const sign = value < 0 ? "-" : "";
+    if (abs >= 1e12) return `${sign}$${(abs / 1e12).toFixed(2)}T`;
+    if (abs >= 1e9) return `${sign}$${(abs / 1e9).toFixed(2)}B`;
+    if (abs >= 1e6) return `${sign}$${(abs / 1e6).toFixed(2)}M`;
+    if (abs >= 1e3) return `${sign}$${(abs / 1e3).toFixed(2)}K`;
+    return `${sign}$${abs.toFixed(2)}`;
   }
 
   function marketCapMoney(value, fallback = t("missing")) {
@@ -234,7 +359,7 @@
   }
 
   function syncTableSortControls() {
-    document.querySelectorAll(".sort-head:not(.dex-sort-head)").forEach((button) => {
+    document.querySelectorAll(".sort-head:not(.dex-sort-head):not(.perps-sort-head):not(.stablecoin-sort-head):not(.lending-sort-head):not(.valuation-sort-head)").forEach((button) => {
       const active = button.dataset.sort === tableSort.key;
       button.classList.toggle("active", active);
       button.classList.toggle("asc", active && tableSort.direction === "asc");
@@ -248,6 +373,42 @@
       button.classList.toggle("active", active);
       button.classList.toggle("asc", active && dexSort.direction === "asc");
       button.classList.toggle("desc", active && dexSort.direction === "desc");
+    });
+  }
+
+  function syncPerpsSortControls() {
+    document.querySelectorAll(".perps-sort-head").forEach((button) => {
+      const active = button.dataset.sort === perpsSort.key;
+      button.classList.toggle("active", active);
+      button.classList.toggle("asc", active && perpsSort.direction === "asc");
+      button.classList.toggle("desc", active && perpsSort.direction === "desc");
+    });
+  }
+
+  function syncStablecoinSortControls() {
+    document.querySelectorAll(".stablecoin-sort-head").forEach((button) => {
+      const active = button.dataset.sort === stablecoinSort.key;
+      button.classList.toggle("active", active);
+      button.classList.toggle("asc", active && stablecoinSort.direction === "asc");
+      button.classList.toggle("desc", active && stablecoinSort.direction === "desc");
+    });
+  }
+
+  function syncLendingSortControls() {
+    document.querySelectorAll(".lending-sort-head").forEach((button) => {
+      const active = button.dataset.sort === lendingSort.key;
+      button.classList.toggle("active", active);
+      button.classList.toggle("asc", active && lendingSort.direction === "asc");
+      button.classList.toggle("desc", active && lendingSort.direction === "desc");
+    });
+  }
+
+  function syncValuationSortControls() {
+    document.querySelectorAll(".valuation-sort-head").forEach((button) => {
+      const active = button.dataset.sort === valuationSort.key;
+      button.classList.toggle("active", active);
+      button.classList.toggle("asc", active && valuationSort.direction === "asc");
+      button.classList.toggle("desc", active && valuationSort.direction === "desc");
     });
   }
 
@@ -359,9 +520,138 @@
       .join("");
   }
 
+  function sortedPerpsPlatforms() {
+    return perpsPlatforms
+      .slice()
+      .sort((a, b) => compareRows(a, b, perpsSort.key, perpsSort.direction));
+  }
+
+  function truncate(value, length = 34) {
+    if (!value) return t("missing");
+    return value.length > length ? `${value.slice(0, length)}...` : value;
+  }
+
+  function renderPerpsTable() {
+    syncPerpsSortControls();
+    const rows = sortedPerpsPlatforms();
+    document.getElementById("perpsRowCount").textContent = `${rows.length} ${t("rows")}`;
+    document.getElementById("perpsRows").innerHTML = rows
+      .map(
+        (row) => `<tr>
+          <td>${row.platform}</td>
+          <td>${row.token}</td>
+          <td class="text-cell" title="${row.intro || ""}">${truncate(row.intro)}</td>
+          <td class="text-cell" title="${row.chains || ""}">${truncate(row.chains, 28)}</td>
+          <td>${money(row.tvl_usd)}</td>
+          <td>${pct(row.tvl_30d_change)}</td>
+          <td>${marketCapMoney(row.token_market_cap_usd)}</td>
+          <td>${multiple(row.market_cap_to_tvl)}</td>
+          <td>${money(row.fees_30d_usd)}</td>
+          <td>${money(row.holders_revenue_30d_usd)}</td>
+          <td>${multiple(row.fee_ps)}</td>
+          <td>${multiple(row.holders_revenue_pe)}</td>
+        </tr>`
+      )
+      .join("");
+  }
+
+  function sortedStablecoins() {
+    return stablecoins
+      .slice()
+      .sort((a, b) => compareRows(a, b, stablecoinSort.key, stablecoinSort.direction));
+  }
+
+  function renderStablecoinTable() {
+    syncStablecoinSortControls();
+    const rows = sortedStablecoins();
+    document.getElementById("stablecoinRowCount").textContent = `${rows.length} ${t("rows")}`;
+    document.getElementById("stablecoinRows").innerHTML = rows
+      .map(
+        (row) => `<tr>
+          <td>${row.stablecoin}</td>
+          <td>${row.symbol}</td>
+          <td>${money(row.market_cap_usd)}</td>
+          <td>${money(row.market_cap_previous_30d_usd)}</td>
+          <td>${money(row.market_cap_30d_abs_change_usd)}</td>
+          <td>${pct(row.market_cap_30d_change)}</td>
+          <td>${row.peg_mechanism || t("missing")}</td>
+          <td>${number(row.chains_count)}</td>
+        </tr>`
+      )
+      .join("");
+  }
+
+  function sortedLendingProtocols() {
+    return lendingProtocols
+      .slice()
+      .sort((a, b) => compareRows(a, b, lendingSort.key, lendingSort.direction));
+  }
+
+  function renderLendingTable() {
+    syncLendingSortControls();
+    const rows = sortedLendingProtocols();
+    document.getElementById("lendingRowCount").textContent = `${rows.length} ${t("rows")}`;
+    document.getElementById("lendingRows").innerHTML = rows
+      .map(
+        (row) => `<tr>
+          <td>${row.platform}</td>
+          <td>${row.token}</td>
+          <td class="text-cell" title="${row.intro || ""}">${truncate(row.intro)}</td>
+          <td class="text-cell" title="${row.chains || ""}">${truncate(row.chains, 28)}</td>
+          <td>${money(row.tvl_usd)}</td>
+          <td>${pct(row.tvl_30d_change)}</td>
+          <td>${marketCapMoney(row.token_market_cap_usd)}</td>
+          <td>${multiple(row.market_cap_to_tvl)}</td>
+          <td>${money(row.fees_30d_usd)}</td>
+          <td>${money(row.protocol_revenue_30d_usd)}</td>
+          <td>${money(row.holders_revenue_30d_usd)}</td>
+          <td>${multiple(row.fee_ps)}</td>
+          <td>${multiple(row.protocol_revenue_ps)}</td>
+          <td>${multiple(row.holders_revenue_pe)}</td>
+        </tr>`
+      )
+      .join("");
+  }
+
+  function sortedProtocolValuations() {
+    return protocolValuations
+      .slice()
+      .sort((a, b) => compareRows(a, b, valuationSort.key, valuationSort.direction));
+  }
+
+  function renderProtocolValuationTable() {
+    syncValuationSortControls();
+    const rows = sortedProtocolValuations();
+    document.getElementById("valuationRowCount").textContent = `${rows.length} ${t("rows")}`;
+    document.getElementById("valuationRows").innerHTML = rows
+      .map(
+        (row) => `<tr>
+          <td>${row.protocol}</td>
+          <td>${row.token}</td>
+          <td>${row.category || t("missing")}</td>
+          <td class="text-cell" title="${row.intro_zh || row.intro || ""}">${truncate(row.intro_zh || row.intro, 42)}</td>
+          <td>${money(row.market_cap_usd)}</td>
+          <td>${money(row.tvl_usd)}</td>
+          <td>${money(row.fees_30d_usd)}</td>
+          <td>${money(row.protocol_revenue_30d_usd)}</td>
+          <td>${money(row.holders_revenue_30d_usd)}</td>
+          <td>${multiple(row.fee_ps)}</td>
+          <td>${multiple(row.protocol_revenue_pe)}</td>
+          <td>${multiple(row.holders_revenue_pe)}</td>
+          <td>${multiple(row.valuation_pe)}</td>
+          <td>${row.valuation_pe_basis || t("missing")}</td>
+        </tr>`
+      )
+      .join("");
+  }
+
   function renderView() {
     document.getElementById("chainsView").classList.toggle("hidden", currentView !== "chains");
     document.getElementById("dexView").classList.toggle("hidden", currentView !== "dex");
+    document.getElementById("perpsView").classList.toggle("hidden", currentView !== "perps");
+    document.getElementById("stablecoinsView").classList.toggle("hidden", currentView !== "stablecoins");
+    document.getElementById("lendingView").classList.toggle("hidden", currentView !== "lending");
+    document.getElementById("valuationsView").classList.toggle("hidden", currentView !== "valuations");
     document.querySelectorAll(".page-tab").forEach((button) => {
       button.classList.toggle("active", button.dataset.view === currentView);
     });
@@ -377,6 +667,10 @@
     renderPeTable(rows);
     renderTable(tableRows());
     renderDexTable();
+    renderPerpsTable();
+    renderStablecoinTable();
+    renderLendingTable();
+    renderProtocolValuationTable();
     renderView();
   }
 
@@ -393,7 +687,7 @@
   });
   sortBy.addEventListener("change", render);
   filterMode.addEventListener("change", render);
-  document.querySelectorAll(".sort-head:not(.dex-sort-head)").forEach((button) => {
+  document.querySelectorAll(".sort-head:not(.dex-sort-head):not(.perps-sort-head):not(.stablecoin-sort-head):not(.lending-sort-head):not(.valuation-sort-head)").forEach((button) => {
     button.addEventListener("click", () => {
       const key = button.dataset.sort;
       if (tableSort.key === key) {
@@ -415,6 +709,54 @@
         dexSort.direction = key === "token" || key.endsWith("_pe") ? "asc" : "desc";
       }
       renderDexTable();
+    });
+  });
+  document.querySelectorAll(".perps-sort-head").forEach((button) => {
+    button.addEventListener("click", () => {
+      const key = button.dataset.sort;
+      if (perpsSort.key === key) {
+        perpsSort.direction = perpsSort.direction === "desc" ? "asc" : "desc";
+      } else {
+        perpsSort.key = key;
+        perpsSort.direction = key === "platform" || key === "token" || key.endsWith("_pe") || key.endsWith("_ps") ? "asc" : "desc";
+      }
+      renderPerpsTable();
+    });
+  });
+  document.querySelectorAll(".stablecoin-sort-head").forEach((button) => {
+    button.addEventListener("click", () => {
+      const key = button.dataset.sort;
+      if (stablecoinSort.key === key) {
+        stablecoinSort.direction = stablecoinSort.direction === "desc" ? "asc" : "desc";
+      } else {
+        stablecoinSort.key = key;
+        stablecoinSort.direction = key === "stablecoin" || key === "symbol" ? "asc" : "desc";
+      }
+      renderStablecoinTable();
+    });
+  });
+  document.querySelectorAll(".lending-sort-head").forEach((button) => {
+    button.addEventListener("click", () => {
+      const key = button.dataset.sort;
+      if (lendingSort.key === key) {
+        lendingSort.direction = lendingSort.direction === "desc" ? "asc" : "desc";
+      } else {
+        lendingSort.key = key;
+        lendingSort.direction = key === "platform" || key === "token" || key.endsWith("_pe") || key.endsWith("_ps") ? "asc" : "desc";
+      }
+      renderLendingTable();
+    });
+  });
+  document.querySelectorAll(".valuation-sort-head").forEach((button) => {
+    button.addEventListener("click", () => {
+      const key = button.dataset.sort;
+      if (valuationSort.key === key) {
+        valuationSort.direction = valuationSort.direction === "desc" ? "asc" : "desc";
+      } else {
+        valuationSort.key = key;
+        valuationSort.direction = key === "protocol" || key === "token" || key === "category" || key.endsWith("_pe") || key.endsWith("_ps") ? "asc" : "desc";
+      }
+      renderProtocolValuationTable();
     });
   });
   document.querySelectorAll(".page-tab").forEach((button) => {

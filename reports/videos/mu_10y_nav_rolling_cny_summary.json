@@ -1,0 +1,20 @@
+{
+  "ticker": "MU",
+  "company": "美光科技",
+  "initial_cash_cny": 1000000.0,
+  "initial_cash_usd": 149146.8798472736,
+  "usd_cny_rate": 6.7048,
+  "start_date": "2016-10-04",
+  "end_date": "2026-10-02",
+  "start_adj_close": 17.357440948486328,
+  "end_adj_close": 1074.8900146484375,
+  "final_value_usd": 9236182.472957527,
+  "final_value_cny": 61926756.24468563,
+  "total_return": 60.92675624468562,
+  "multiple": 61.92675624468562,
+  "cagr": 0.511160400808387,
+  "max_drawdown": -0.5762897407028243,
+  "video": "C:\\Users\\admin\\Desktop\\数据挖掘\\reports\\videos\\mu_10y_nav_rolling_cny_backtest.mp4",
+  "cover": "C:\\Users\\admin\\Desktop\\数据挖掘\\reports\\videos\\mu_10y_nav_rolling_cny_cover.png",
+  "csv": "C:\\Users\\admin\\Desktop\\数据挖掘\\reports\\videos\\mu_10y_nav_backtest.csv"
+}
