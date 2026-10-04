@@ -24,6 +24,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -50,7 +52,8 @@ jobs:
             echo "No generated data changes."
           else
             git commit -m "Update dashboard data"
-            git push
+            git pull --rebase origin main
+            git push origin main
           fi
 
       - name: Configure Pages
