@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generated_at": "2026-10-04T22:45:41+00:00",
+  "generated_at": "2026-10-04T22:58:34+00:00",
   "sources": [
     "DefiLlama",
     "CoinPaprika",
@@ -7,45 +7,45 @@ window.DASHBOARD_DATA = {
   ],
   "chains": [
     {
-      "snapshot_utc": "2026-10-04T22:43:40+00:00",
+      "snapshot_utc": "2026-10-04T22:57:47+00:00",
       "chain": "optimism",
       "llama_name": "OP Mainnet",
       "native_token": "OP",
-      "market_cap_usd": 575099165.6860924,
-      "token_circulating_market_cap_usd": 307921414.0,
-      "token_volume_24h_usd": 28876723.717969503,
+      "market_cap_usd": 575886663.8740535,
+      "token_circulating_market_cap_usd": 308343059.0,
+      "token_volume_24h_usd": 28617628.348515935,
       "tvl_usd": 497911417.3552274,
       "network_fees_24h_usd": 1324959.85,
       "network_fees_30d_usd": 5680593.379999994,
       "network_fees_previous_30d_usd": 5562896.449999998,
       "network_fees_30d_change": 0.021157490716908096,
       "dex_volume_24h_usd": 496163708.6,
-      "tokenized_stock_value_usd": 21.31973251794461,
+      "tokenized_stock_value_usd": 21.319732517944615,
       "tokenized_stock_asset_count": 1268.0,
-      "tokenized_stock_market_share": 6.649276360581938e-09,
-      "tokenized_stock_7d_change": 0.1500353691564863,
-      "tokenized_stock_30d_change": 0.1500353691564822,
+      "tokenized_stock_market_share": 6.649276360581937e-09,
+      "tokenized_stock_7d_change": 0.1500353691564865,
+      "tokenized_stock_30d_change": 0.15003536915648685,
       "tokenized_stock_network": "Optimism",
-      "tvl_to_mcap": 0.8657835849252535,
-      "fees_24h_to_mcap": 0.0023038806679876248,
-      "fees_30d_to_mcap": 0.00987758932535236,
+      "tvl_to_mcap": 0.8645996662011968,
+      "fees_24h_to_mcap": 0.0023007302184892566,
+      "fees_30d_to_mcap": 0.009864082182049524,
       "dex_volume_24h_to_tvl": 0.996489920306486,
-      "tokenized_stock_to_tvl": 4.281832425371835e-08,
-      "token_turnover_24h": 0.05021172945629232,
+      "tokenized_stock_to_tvl": 4.2818324253718354e-08,
+      "token_turnover_24h": 0.049693160379860116,
       "market_data_source": "CoinPaprika",
       "onchain_data_source": "DefiLlama; RWA.xyz",
-      "activity_score": 8.557678070267078,
-      "fee_pe": 8.436606401467355,
+      "activity_score": 8.557523933242566,
+      "fee_pe": 8.448158865199016,
       "missing_notes": {}
     },
     {
-      "snapshot_utc": "2026-10-04T22:43:40+00:00",
+      "snapshot_utc": "2026-10-04T22:57:47+00:00",
       "chain": "polygon",
       "llama_name": "Polygon",
       "native_token": "POL",
-      "market_cap_usd": 1173252798.040509,
-      "token_circulating_market_cap_usd": 1173252796.0,
-      "token_volume_24h_usd": 16234032.407144744,
+      "market_cap_usd": 1172571367.3142786,
+      "token_circulating_market_cap_usd": 1172571366.0,
+      "token_volume_24h_usd": 16377848.1883792,
       "tvl_usd": 774814429.0392612,
       "network_fees_24h_usd": 1332565.44,
       "network_fees_30d_usd": 38128626.37000017,
@@ -54,24 +54,24 @@ window.DASHBOARD_DATA = {
       "dex_volume_24h_usd": 203899399.88,
       "tokenized_stock_value_usd": 3878764.0010337075,
       "tokenized_stock_asset_count": 52.0,
-      "tokenized_stock_market_share": 0.0012097231406933287,
+      "tokenized_stock_market_share": 0.0012097231406933285,
       "tokenized_stock_7d_change": 0.07583005658663595,
-      "tokenized_stock_30d_change": 0.07583005658663211,
+      "tokenized_stock_30d_change": 0.07583005658663633,
       "tokenized_stock_network": "Polygon",
-      "tvl_to_mcap": 0.6603985350244262,
-      "fees_24h_to_mcap": 0.0011357871400141254,
-      "fees_30d_to_mcap": 0.03249821899737221,
+      "tvl_to_mcap": 0.6607823204944347,
+      "fees_24h_to_mcap": 0.0011364471938728818,
+      "fees_30d_to_mcap": 0.032517105084470935,
       "dex_volume_24h_to_tvl": 0.26315901232354055,
       "tokenized_stock_to_tvl": 0.005006055457489633,
-      "token_turnover_24h": 0.013836772803148456,
+      "token_turnover_24h": 0.013967463853302095,
       "market_data_source": "CoinPaprika",
       "onchain_data_source": "DefiLlama; RWA.xyz",
-      "activity_score": 1.7621772861729263,
-      "fee_pe": 2.564243084830945,
+      "activity_score": 1.7742386451530863,
+      "fee_pe": 2.562753760424094,
       "missing_notes": {}
     },
     {
-      "snapshot_utc": "2026-10-04T22:43:40+00:00",
+      "snapshot_utc": "2026-10-04T22:57:47+00:00",
       "chain": "robinhood",
       "llama_name": "Robinhood Chain",
       "native_token": null,
@@ -86,9 +86,9 @@ window.DASHBOARD_DATA = {
       "dex_volume_24h_usd": 725338701.2800001,
       "tokenized_stock_value_usd": 144192062.68672317,
       "tokenized_stock_asset_count": 354.0,
-      "tokenized_stock_market_share": 0.04497114928620176,
+      "tokenized_stock_market_share": 0.044971149286201745,
       "tokenized_stock_7d_change": 0.06480308695183638,
-      "tokenized_stock_30d_change": 0.06480308695183257,
+      "tokenized_stock_30d_change": 0.06480308695183656,
       "tokenized_stock_network": "Robinhood",
       "tvl_to_mcap": null,
       "fees_24h_to_mcap": null,
@@ -103,39 +103,39 @@ window.DASHBOARD_DATA = {
       "missing_notes": {}
     },
     {
-      "snapshot_utc": "2026-10-04T22:43:40+00:00",
+      "snapshot_utc": "2026-10-04T22:57:47+00:00",
       "chain": "arbitrum",
       "llama_name": "Arbitrum",
       "native_token": "ARB",
-      "market_cap_usd": 2040740502.4057019,
-      "token_circulating_market_cap_usd": 1384759692.0,
-      "token_volume_24h_usd": 76492533.61321312,
+      "market_cap_usd": 2038094272.615834,
+      "token_circulating_market_cap_usd": 1382964073.0,
+      "token_volume_24h_usd": 75067304.33550079,
       "tvl_usd": 1423553294.3581088,
       "network_fees_24h_usd": 204509.91,
       "network_fees_30d_usd": 19708963.32999999,
       "network_fees_previous_30d_usd": 17198644.96000003,
       "network_fees_30d_change": 0.1459602413933403,
       "dex_volume_24h_usd": 60232584.08,
-      "tokenized_stock_value_usd": 160941362.99978754,
+      "tokenized_stock_value_usd": 160941362.9997878,
       "tokenized_stock_asset_count": 5242.0,
-      "tokenized_stock_market_share": 0.05019498249021625,
-      "tokenized_stock_7d_change": -0.10210124806662954,
-      "tokenized_stock_30d_change": -0.10210124806663268,
+      "tokenized_stock_market_share": 0.05019498249021632,
+      "tokenized_stock_7d_change": -0.10210124806662804,
+      "tokenized_stock_30d_change": -0.10210124806662779,
       "tokenized_stock_network": "Arbitrum",
-      "tvl_to_mcap": 0.6975670315162416,
-      "fees_24h_to_mcap": 0.00010021357921740467,
-      "fees_30d_to_mcap": 0.00965775085404848,
+      "tvl_to_mcap": 0.6984727416612677,
+      "fees_24h_to_mcap": 0.00010034369496437354,
+      "fees_30d_to_mcap": 0.009670290327004411,
       "dex_volume_24h_to_tvl": 0.04231143598115822,
-      "tokenized_stock_to_tvl": 0.11305608552741768,
-      "token_turnover_24h": 0.03748273409727539,
+      "tokenized_stock_to_tvl": 0.11305608552741787,
+      "token_turnover_24h": 0.036832106023807286,
       "market_data_source": "CoinPaprika",
       "onchain_data_source": "DefiLlama; RWA.xyz",
-      "activity_score": 1.3632652530416134,
-      "fee_pe": 8.62864807683462,
+      "activity_score": 1.3485496199612261,
+      "fee_pe": 8.617459302191158,
       "missing_notes": {}
     },
     {
-      "snapshot_utc": "2026-10-04T22:43:40+00:00",
+      "snapshot_utc": "2026-10-04T22:57:47+00:00",
       "chain": "base",
       "llama_name": "Base",
       "native_token": null,
@@ -148,11 +148,11 @@ window.DASHBOARD_DATA = {
       "network_fees_previous_30d_usd": 52006754.64000008,
       "network_fees_30d_change": 0.29120845080288066,
       "dex_volume_24h_usd": 673022247.49,
-      "tokenized_stock_value_usd": 7988108.721654193,
+      "tokenized_stock_value_usd": 7988108.7216541935,
       "tokenized_stock_asset_count": 905.0,
-      "tokenized_stock_market_share": 0.0024913606417879364,
-      "tokenized_stock_7d_change": 0.13858001606973788,
-      "tokenized_stock_30d_change": 0.1385800160697339,
+      "tokenized_stock_market_share": 0.002491360641787936,
+      "tokenized_stock_7d_change": 0.13858001606973802,
+      "tokenized_stock_30d_change": 0.13858001606973835,
       "tokenized_stock_network": "Base",
       "tvl_to_mcap": null,
       "fees_24h_to_mcap": null,
@@ -169,7 +169,7 @@ window.DASHBOARD_DATA = {
       }
     },
     {
-      "snapshot_utc": "2026-10-04T22:43:40+00:00",
+      "snapshot_utc": "2026-10-04T22:57:47+00:00",
       "chain": "arc",
       "llama_name": "Arc",
       "native_token": null,
@@ -201,13 +201,13 @@ window.DASHBOARD_DATA = {
       "missing_notes": {}
     },
     {
-      "snapshot_utc": "2026-10-04T22:43:40+00:00",
+      "snapshot_utc": "2026-10-04T22:57:47+00:00",
       "chain": "solana",
       "llama_name": "Solana",
       "native_token": "SOL",
-      "market_cap_usd": 76797133286.25284,
-      "token_circulating_market_cap_usd": 71631398132.0,
-      "token_volume_24h_usd": 1340780416.6569107,
+      "market_cap_usd": 76749552808.98845,
+      "token_circulating_market_cap_usd": 71587015586.0,
+      "token_volume_24h_usd": 1347492447.338941,
       "tvl_usd": 6726491674.067134,
       "network_fees_24h_usd": 14701568.62,
       "network_fees_30d_usd": 432735452.2899996,
@@ -216,30 +216,30 @@ window.DASHBOARD_DATA = {
       "dex_volume_24h_usd": 1924104623.1100001,
       "tokenized_stock_value_usd": 456202759.4842698,
       "tokenized_stock_asset_count": 1678.0,
-      "tokenized_stock_market_share": 0.14228218959678804,
+      "tokenized_stock_market_share": 0.142282189596788,
       "tokenized_stock_7d_change": -0.13113252514420884,
-      "tokenized_stock_30d_change": -0.13113252514421203,
+      "tokenized_stock_30d_change": -0.1311325251442086,
       "tokenized_stock_network": "Solana",
-      "tvl_to_mcap": 0.08758779639592637,
-      "fees_24h_to_mcap": 0.00019143382039016384,
-      "fees_30d_to_mcap": 0.005634786531380357,
+      "tvl_to_mcap": 0.08764209598468654,
+      "fees_24h_to_mcap": 0.00019155249876945523,
+      "fees_30d_to_mcap": 0.0056382797873360405,
       "dex_volume_24h_to_tvl": 0.2860487630614432,
       "tokenized_stock_to_tvl": 0.06782179798766175,
-      "token_turnover_24h": 0.017458730023935914,
+      "token_turnover_24h": 0.01755700714885639,
       "market_data_source": "CoinPaprika",
       "onchain_data_source": "DefiLlama; RWA.xyz",
-      "activity_score": -0.8420662129686874,
-      "fee_pe": 14.789084354703869,
+      "activity_score": -0.8316018512771506,
+      "fee_pe": 14.77992162086487,
       "missing_notes": {}
     },
     {
-      "snapshot_utc": "2026-10-04T22:43:40+00:00",
+      "snapshot_utc": "2026-10-04T22:57:47+00:00",
       "chain": "avalanche",
       "llama_name": "Avalanche",
       "native_token": "AVAX",
-      "market_cap_usd": 7992705282.108276,
-      "token_circulating_market_cap_usd": 4687669306.0,
-      "token_volume_24h_usd": 144863249.80036518,
+      "market_cap_usd": 7993595120.255679,
+      "token_circulating_market_cap_usd": 4688191191.0,
+      "token_volume_24h_usd": 144983588.1861561,
       "tvl_usd": 647009484.4968051,
       "network_fees_24h_usd": 282217.32999999996,
       "network_fees_30d_usd": 10616386.439999992,
@@ -248,62 +248,62 @@ window.DASHBOARD_DATA = {
       "dex_volume_24h_usd": 101397705.33,
       "tokenized_stock_value_usd": 337646054.59218806,
       "tokenized_stock_asset_count": 705.0,
-      "tokenized_stock_market_share": 0.10530628970855586,
+      "tokenized_stock_market_share": 0.10530628970855584,
       "tokenized_stock_7d_change": 0.7396414914052324,
-      "tokenized_stock_30d_change": 0.7396414914052263,
+      "tokenized_stock_30d_change": 0.7396414914052332,
       "tokenized_stock_network": "Avalanche C-Chain",
-      "tvl_to_mcap": 0.08094999898784459,
-      "fees_24h_to_mcap": 3.530936273000649e-05,
-      "fees_30d_to_mcap": 0.0013282594647603038,
+      "tvl_to_mcap": 0.08094098772369523,
+      "fees_24h_to_mcap": 3.530543213088995e-05,
+      "fees_30d_to_mcap": 0.0013281116043891428,
       "dex_volume_24h_to_tvl": 0.15671749450297387,
       "tokenized_stock_to_tvl": 0.5218564220195065,
-      "token_turnover_24h": 0.01812443280307639,
+      "token_turnover_24h": 0.01813746956219603,
       "market_data_source": "CoinPaprika",
       "onchain_data_source": "DefiLlama; RWA.xyz",
-      "activity_score": -1.4353941304302598,
-      "fee_pe": 62.738746114164954,
+      "activity_score": -1.4303493787205024,
+      "fee_pe": 62.74573089937123,
       "missing_notes": {}
     },
     {
-      "snapshot_utc": "2026-10-04T22:43:40+00:00",
+      "snapshot_utc": "2026-10-04T22:57:47+00:00",
       "chain": "ethereum",
       "llama_name": "Ethereum",
       "native_token": "ETH",
-      "market_cap_usd": 327807935047.3828,
-      "token_circulating_market_cap_usd": 332912865475.0,
-      "token_volume_24h_usd": 4311266699.288139,
+      "market_cap_usd": 328329513617.86,
+      "token_circulating_market_cap_usd": 333442566553.0,
+      "token_volume_24h_usd": 4379950966.403382,
       "tvl_usd": 54091446634.32639,
       "network_fees_24h_usd": 9923569.850000005,
       "network_fees_30d_usd": 345755021.08999956,
       "network_fees_previous_30d_usd": 300845791.13999933,
       "network_fees_30d_change": 0.14927657714547055,
       "dex_volume_24h_usd": 508079777.23999995,
-      "tokenized_stock_value_usd": 756482679.8255489,
+      "tokenized_stock_value_usd": 756482679.8255501,
       "tokenized_stock_asset_count": 2579.0,
-      "tokenized_stock_market_share": 0.23593459232755112,
-      "tokenized_stock_7d_change": 0.11147460180987141,
-      "tokenized_stock_30d_change": 0.11147460180986757,
+      "tokenized_stock_market_share": 0.23593459232755143,
+      "tokenized_stock_7d_change": 0.11147460180987316,
+      "tokenized_stock_30d_change": 0.11147460180987356,
       "tokenized_stock_network": "Ethereum",
-      "tvl_to_mcap": 0.16500957070031808,
-      "fees_24h_to_mcap": 3.027251261799263e-05,
-      "fees_30d_to_mcap": 0.0010547487846504465,
+      "tvl_to_mcap": 0.1647474393583849,
+      "fees_24h_to_mcap": 3.0224422229522644e-05,
+      "fees_30d_to_mcap": 0.0010530732290257067,
       "dex_volume_24h_to_tvl": 0.009392978166673267,
-      "tokenized_stock_to_tvl": 0.013985255098455539,
-      "token_turnover_24h": 0.013151807013655632,
+      "tokenized_stock_to_tvl": 0.013985255098455562,
+      "token_turnover_24h": 0.013340107376095258,
       "market_data_source": "CoinPaprika",
       "onchain_data_source": "DefiLlama; RWA.xyz",
-      "activity_score": -1.9852400377401724,
-      "fee_pe": 79.00775478110721,
+      "activity_score": -1.9747440073809654,
+      "fee_pe": 79.13346483077206,
       "missing_notes": {}
     },
     {
-      "snapshot_utc": "2026-10-04T22:43:40+00:00",
+      "snapshot_utc": "2026-10-04T22:57:47+00:00",
       "chain": "tron",
       "llama_name": "Tron",
       "native_token": "TRX",
-      "market_cap_usd": 31909771110.14483,
-      "token_circulating_market_cap_usd": 31909757742.0,
-      "token_volume_24h_usd": 185892850.47449958,
+      "market_cap_usd": 31912804697.40663,
+      "token_circulating_market_cap_usd": 31912809595.0,
+      "token_volume_24h_usd": 186229166.4267342,
       "tvl_usd": 5698338522.734237,
       "network_fees_24h_usd": 826125.34,
       "network_fees_30d_usd": 7910361.7,
@@ -316,60 +316,60 @@ window.DASHBOARD_DATA = {
       "tokenized_stock_7d_change": null,
       "tokenized_stock_30d_change": null,
       "tokenized_stock_network": "Tron",
-      "tvl_to_mcap": 0.17857660285512383,
-      "fees_24h_to_mcap": 2.588941603963296e-05,
-      "fees_30d_to_mcap": 0.0002478977888213407,
+      "tvl_to_mcap": 0.17855962760920566,
+      "fees_24h_to_mcap": 2.5886955027401097e-05,
+      "fees_30d_to_mcap": 0.00024787422399895895,
       "dex_volume_24h_to_tvl": 0.005214967640381787,
       "tokenized_stock_to_tvl": null,
-      "token_turnover_24h": 0.005825577683802316,
+      "token_turnover_24h": 0.0058355625020281585,
       "market_data_source": "CoinPaprika",
       "onchain_data_source": "DefiLlama; RWA.xyz",
-      "activity_score": -2.432801800191308,
-      "fee_pe": 336.16005100146924,
+      "activity_score": -2.4407378526033785,
+      "fee_pe": 336.192008950811,
       "missing_notes": {
         "tokenized_stock_value_usd": "RWA.xyz 当前未匹配到 Tron 的代币化美股/ETF数据。"
       }
     },
     {
-      "snapshot_utc": "2026-10-04T22:43:40+00:00",
+      "snapshot_utc": "2026-10-04T22:57:47+00:00",
       "chain": "bsc",
       "llama_name": "BSC",
       "native_token": "BNB",
-      "market_cap_usd": 159151396307.9029,
-      "token_circulating_market_cap_usd": 105962276318.0,
-      "token_volume_24h_usd": 394896873.7724591,
+      "market_cap_usd": 159155208684.27872,
+      "token_circulating_market_cap_usd": 105964814581.0,
+      "token_volume_24h_usd": 396331349.56417215,
       "tvl_usd": 5828763583.726936,
       "network_fees_24h_usd": 4040704.6599999988,
       "network_fees_30d_usd": 112933618.98000014,
       "network_fees_previous_30d_usd": 67497962.49000001,
       "network_fees_30d_change": 0.6731411558790613,
       "dex_volume_24h_usd": 791256835.54,
-      "tokenized_stock_value_usd": 1152970859.7345567,
+      "tokenized_stock_value_usd": 1152970859.734556,
       "tokenized_stock_asset_count": 2595.0,
-      "tokenized_stock_market_share": 0.3595927798634466,
-      "tokenized_stock_7d_change": 0.13932579174187235,
-      "tokenized_stock_30d_change": 0.1393257917418682,
+      "tokenized_stock_market_share": 0.3595927798634463,
+      "tokenized_stock_7d_change": 0.13932579174187162,
+      "tokenized_stock_30d_change": 0.13932579174187198,
       "tokenized_stock_network": "BNB Chain",
-      "tvl_to_mcap": 0.03662401787823649,
-      "fees_24h_to_mcap": 2.538906194817564e-05,
-      "fees_30d_to_mcap": 0.0007095986689398103,
+      "tvl_to_mcap": 0.03662314059283879,
+      "fees_24h_to_mcap": 2.5388453782971528e-05,
+      "fees_30d_to_mcap": 0.000709581671335873,
       "dex_volume_24h_to_tvl": 0.135750373844133,
-      "tokenized_stock_to_tvl": 0.19780710663123896,
-      "token_turnover_24h": 0.002481265530391391,
+      "tokenized_stock_to_tvl": 0.19780710663123885,
+      "token_turnover_24h": 0.0024902191567628008,
       "market_data_source": "CoinPaprika",
       "onchain_data_source": "DefiLlama; RWA.xyz",
-      "activity_score": -2.650322040458841,
-      "fee_pe": 117.43727402679478,
+      "activity_score": -2.661821057850174,
+      "fee_pe": 117.44008716635577,
       "missing_notes": {}
     },
     {
-      "snapshot_utc": "2026-10-04T22:43:40+00:00",
+      "snapshot_utc": "2026-10-04T22:57:47+00:00",
       "chain": "bitcoin",
       "llama_name": "Bitcoin",
       "native_token": "BTC",
-      "market_cap_usd": 1812966161734.5154,
-      "token_circulating_market_cap_usd": 1734704297459.0,
-      "token_volume_24h_usd": 13999803226.008307,
+      "market_cap_usd": 1814397534432.771,
+      "token_circulating_market_cap_usd": 1736073880866.0,
+      "token_volume_24h_usd": 14092338830.08926,
       "tvl_usd": 4577305423.907628,
       "network_fees_24h_usd": 276733.0,
       "network_fees_30d_usd": 973441.3599999999,
@@ -382,16 +382,16 @@ window.DASHBOARD_DATA = {
       "tokenized_stock_7d_change": null,
       "tokenized_stock_30d_change": null,
       "tokenized_stock_network": "Bitcoin",
-      "tvl_to_mcap": 0.0025247605391202623,
-      "fees_24h_to_mcap": 1.526410177094766e-07,
-      "fees_30d_to_mcap": 5.369329999345831e-07,
+      "tvl_to_mcap": 0.0025227687632074607,
+      "fees_24h_to_mcap": 1.5252059967470917e-07,
+      "fees_30d_to_mcap": 5.365094151234743e-07,
       "dex_volume_24h_to_tvl": 6.885819730397798e-05,
       "tokenized_stock_to_tvl": null,
-      "token_turnover_24h": 0.0077220433130502026,
+      "token_turnover_24h": 0.007766952149488508,
       "market_data_source": "CoinPaprika",
       "onchain_data_source": "DefiLlama; RWA.xyz",
-      "activity_score": -2.887987881183941,
-      "fee_pe": 155202.48027870554,
+      "activity_score": -2.8917495440162977,
+      "fee_pe": 155325.015711336,
       "missing_notes": {
         "tokenized_stock_value_usd": "RWA.xyz 当前未匹配到 Bitcoin 的代币化美股/ETF数据。"
       }
@@ -402,23 +402,23 @@ window.DASHBOARD_DATA = {
       "rank": "1",
       "name": "BNB Chain",
       "asset_count": "2595",
-      "total_value_usd": "1152970859.7345567",
-      "value_7d_change": "0.13932579174187235",
-      "value_30d_ago": "1011976440.8842417",
-      "value_30d_change": "0.1393257917418682",
-      "market_share": "0.3595927798634466",
-      "market_share_30d_change": "0.04533347677169289"
+      "total_value_usd": "1152970859.734556",
+      "value_7d_change": "0.13932579174187162",
+      "value_30d_ago": "1011976440.8842378",
+      "value_30d_change": "0.13932579174187198",
+      "market_share": "0.3595927798634463",
+      "market_share_30d_change": "0.04533347677169192"
     },
     {
       "rank": "2",
       "name": "Ethereum",
       "asset_count": "2579",
-      "total_value_usd": "756482679.8255489",
-      "value_7d_change": "0.11147460180987141",
-      "value_30d_ago": "680611755.4046955",
-      "value_30d_change": "0.11147460180986757",
-      "market_share": "0.23593459232755112",
-      "market_share_30d_change": "0.019779959582078056"
+      "total_value_usd": "756482679.8255501",
+      "value_7d_change": "0.11147460180987316",
+      "value_30d_ago": "680611755.4046929",
+      "value_30d_change": "0.11147460180987356",
+      "market_share": "0.23593459232755143",
+      "market_share_30d_change": "0.019779959582079374"
     },
     {
       "rank": "3",
@@ -426,10 +426,10 @@ window.DASHBOARD_DATA = {
       "asset_count": "1678",
       "total_value_usd": "456202759.4842698",
       "value_7d_change": "-0.13113252514420884",
-      "value_30d_ago": "525054479.17703325",
-      "value_30d_change": "-0.13113252514421203",
-      "market_share": "0.14228218959678804",
-      "market_share_30d_change": "-0.20281251865961306"
+      "value_30d_ago": "525054479.17703116",
+      "value_30d_change": "-0.1311325251442086",
+      "market_share": "0.142282189596788",
+      "market_share_30d_change": "-0.2028125186596132"
     },
     {
       "rank": "4",
@@ -437,21 +437,21 @@ window.DASHBOARD_DATA = {
       "asset_count": "705",
       "total_value_usd": "337646054.59218806",
       "value_7d_change": "0.7396414914052324",
-      "value_30d_ago": "194089446.73965466",
-      "value_30d_change": "0.7396414914052263",
-      "market_share": "0.10530628970855586",
-      "market_share_30d_change": "0.5961242181366577"
+      "value_30d_ago": "194089446.7396539",
+      "value_30d_change": "0.7396414914052332",
+      "market_share": "0.10530628970855584",
+      "market_share_30d_change": "0.5961242181366573"
     },
     {
       "rank": "5",
       "name": "Arbitrum",
       "asset_count": "5242",
-      "total_value_usd": "160941362.99978754",
-      "value_7d_change": "-0.10210124806662954",
-      "value_30d_ago": "179242217.06873575",
-      "value_30d_change": "-0.10210124806663268",
-      "market_share": "0.05019498249021625",
-      "market_share_30d_change": "-0.1761762693772797"
+      "total_value_usd": "160941362.9997878",
+      "value_7d_change": "-0.10210124806662804",
+      "value_30d_ago": "179242217.06873506",
+      "value_30d_change": "-0.10210124806662779",
+      "market_share": "0.05019498249021632",
+      "market_share_30d_change": "-0.17617626937727857"
     },
     {
       "rank": "6",
@@ -459,10 +459,10 @@ window.DASHBOARD_DATA = {
       "asset_count": "354",
       "total_value_usd": "144192062.68672317",
       "value_7d_change": "0.06480308695183638",
-      "value_30d_ago": "135416646.00118297",
-      "value_30d_change": "0.06480308695183257",
-      "market_share": "0.04497114928620176",
-      "market_share_30d_change": "-0.02304123980300957"
+      "value_30d_ago": "135416646.00118247",
+      "value_30d_change": "0.06480308695183656",
+      "market_share": "0.044971149286201745",
+      "market_share_30d_change": "-0.02304123980300987"
     },
     {
       "rank": "7",
@@ -470,10 +470,10 @@ window.DASHBOARD_DATA = {
       "asset_count": "1",
       "total_value_usd": "67927191.12",
       "value_7d_change": "-0.19819224031909324",
-      "value_30d_ago": "84717552.6800003",
-      "value_30d_change": "-0.1981922403190961",
-      "market_share": "0.02118538146643181",
-      "market_share_30d_change": "-0.2643399287500213"
+      "value_30d_ago": "84717552.67999998",
+      "value_30d_change": "-0.198192240319093",
+      "market_share": "0.021185381466431803",
+      "market_share_30d_change": "-0.26433992875002155"
     },
     {
       "rank": "8",
@@ -481,10 +481,10 @@ window.DASHBOARD_DATA = {
       "asset_count": "1",
       "total_value_usd": "65860050",
       "value_7d_change": "-0.010796221322537112",
-      "value_30d_ago": "66578850.00000024",
-      "value_30d_change": "-0.010796221322540656",
-      "market_share": "0.020540673913387517",
-      "market_share_30d_change": "-0.09240374202387582"
+      "value_30d_ago": "66578849.999999985",
+      "value_30d_change": "-0.01079622132253688",
+      "market_share": "0.02054067391338751",
+      "market_share_30d_change": "-0.09240374202387612"
     },
     {
       "rank": "9",
@@ -492,19 +492,19 @@ window.DASHBOARD_DATA = {
       "asset_count": "6",
       "total_value_usd": "28313476.98919335",
       "value_7d_change": "0.02076140310990122",
-      "value_30d_ago": "27737605.38254311",
-      "value_30d_change": "0.02076140310989749",
-      "market_share": "0.008830511033459913",
-      "market_share_30d_change": "-0.06344956446928761"
+      "value_30d_ago": "27737605.382543",
+      "value_30d_change": "0.02076140310990149",
+      "market_share": "0.008830511033459911",
+      "market_share_30d_change": "-0.06344956446928779"
     },
     {
       "rank": "10",
       "name": "Ink",
       "asset_count": "1263",
-      "total_value_usd": "10924258.921567801",
-      "value_7d_change": "-0.08633773958869156",
-      "value_30d_ago": "11956561.406673409",
-      "value_30d_change": "-0.08633773958869484",
+      "total_value_usd": "10924258.921567805",
+      "value_7d_change": "-0.08633773958869126",
+      "value_30d_ago": "11956561.406673362",
+      "value_30d_change": "-0.08633773958869095",
       "market_share": "0.0034070979334716355",
       "market_share_30d_change": "-0.1617132218075672"
     },
@@ -512,34 +512,34 @@ window.DASHBOARD_DATA = {
       "rank": "11",
       "name": "Base",
       "asset_count": "905",
-      "total_value_usd": "7988108.721654193",
-      "value_7d_change": "0.13858001606973788",
-      "value_30d_ago": "7015851.858377382",
-      "value_30d_change": "0.1385800160697339",
-      "market_share": "0.0024913606417879364",
-      "market_share_30d_change": "0.04464922624221766"
+      "total_value_usd": "7988108.7216541935",
+      "value_7d_change": "0.13858001606973802",
+      "value_30d_ago": "7015851.858377355",
+      "value_30d_change": "0.13858001606973835",
+      "market_share": "0.002491360641787936",
+      "market_share_30d_change": "0.04464922624221748"
     },
     {
       "rank": "12",
       "name": "HyperEVM",
       "asset_count": "1366",
-      "total_value_usd": "6697058.617148219",
-      "value_7d_change": "0.14687138962064478",
-      "value_30d_ago": "5839415.541932261",
-      "value_30d_change": "0.14687138962064084",
-      "market_share": "0.0020887032007063993",
-      "market_share_30d_change": "0.05225657648742828"
+      "total_value_usd": "6697058.617148216",
+      "value_7d_change": "0.14687138962064428",
+      "value_30d_ago": "5839415.541932238",
+      "value_30d_change": "0.1468713896206446",
+      "market_share": "0.002088703200706398",
+      "market_share_30d_change": "0.05225657648742762"
     },
     {
       "rank": "13",
       "name": "Mantle",
       "asset_count": "1260",
-      "total_value_usd": "4550589.496252515",
-      "value_7d_change": "-0.02821159467270795",
-      "value_30d_ago": "4682695.812490089",
-      "value_30d_change": "-0.028211594672711393",
-      "market_share": "0.0014192545398342285",
-      "market_share_30d_change": "-0.108382378604707"
+      "total_value_usd": "4550589.496252511",
+      "value_7d_change": "-0.028211594672708944",
+      "value_30d_ago": "4682695.81249007",
+      "value_30d_change": "-0.028211594672708507",
+      "market_share": "0.0014192545398342266",
+      "market_share_30d_change": "-0.10838237860470822"
     },
     {
       "rank": "14",
@@ -547,10 +547,10 @@ window.DASHBOARD_DATA = {
       "asset_count": "52",
       "total_value_usd": "3878764.0010337075",
       "value_7d_change": "0.07583005658663595",
-      "value_30d_ago": "3605368.6893078233",
-      "value_30d_change": "0.07583005658663211",
-      "market_share": "0.0012097231406933287",
-      "market_share_30d_change": "-0.012923975197792462"
+      "value_30d_ago": "3605368.6893078093",
+      "value_30d_change": "0.07583005658663633",
+      "market_share": "0.0012097231406933285",
+      "market_share_30d_change": "-0.012923975197792639"
     },
     {
       "rank": "15",
@@ -558,19 +558,19 @@ window.DASHBOARD_DATA = {
       "asset_count": "4",
       "total_value_usd": "1554688",
       "value_7d_change": "-0.5003278250160056",
-      "value_30d_ago": "3111416.000000011",
-      "value_30d_change": "-0.5003278250160074",
-      "market_share": "0.00048488179473074513",
-      "market_share_30d_change": "-0.5415498747522156"
+      "value_30d_ago": "3111415.999999999",
+      "value_30d_change": "-0.5003278250160055",
+      "market_share": "0.000484881794730745",
+      "market_share_30d_change": "-0.5415498747522157"
     },
     {
       "rank": "16",
       "name": "Monad",
       "asset_count": "112",
-      "total_value_usd": "182968.02722900765",
-      "value_7d_change": "0.13865690293187247",
-      "value_30d_ago": "160687.58443205568",
-      "value_30d_change": "0.1386569029318685",
+      "total_value_usd": "182968.0272290077",
+      "value_7d_change": "0.13865690293187283",
+      "value_30d_ago": "160687.58443205507",
+      "value_30d_change": "0.13865690293187316",
       "market_share": "5.7064739305342986e-05",
       "market_share_30d_change": "0.044719770077436466"
     },
@@ -580,10 +580,10 @@ window.DASHBOARD_DATA = {
       "asset_count": "697",
       "total_value_usd": "10579.407167857065",
       "value_7d_change": "-0.004728287526732607",
-      "value_30d_ago": "10629.667291123038",
-      "value_30d_change": "-0.004728287526736152",
-      "market_share": "3.2995443038975303e-06",
-      "market_share_30d_change": "-0.08683640177970275"
+      "value_30d_ago": "10629.667291122996",
+      "value_30d_change": "-0.004728287526732267",
+      "market_share": "3.2995443038975295e-06",
+      "market_share_30d_change": "-0.08683640177970299"
     },
     {
       "rank": "18",
@@ -591,10 +591,10 @@ window.DASHBOARD_DATA = {
       "asset_count": "36",
       "total_value_usd": "112.26512056317993",
       "value_7d_change": "0.025481867856315725",
-      "value_30d_ago": "109.47548082723412",
-      "value_30d_change": "0.025481867856312235",
-      "market_share": "3.501365749548345e-08",
-      "market_share_30d_change": "-0.0591185295176397"
+      "value_30d_ago": "109.4754808272337",
+      "value_30d_change": "0.02548186785631623",
+      "market_share": "3.5013657495483435e-08",
+      "market_share_30d_change": "-0.05911852951764005"
     },
     {
       "rank": "19",
@@ -602,21 +602,21 @@ window.DASHBOARD_DATA = {
       "asset_count": "36",
       "total_value_usd": "74.118",
       "value_7d_change": "0.04662788070492533",
-      "value_30d_ago": "70.81600000000026",
-      "value_30d_change": "0.04662788070492163",
-      "market_share": "2.3116193642617277e-08",
-      "market_share_30d_change": "-0.039717024442343415"
+      "value_30d_ago": "70.81599999999999",
+      "value_30d_change": "0.04662788070492563",
+      "market_share": "2.3116193642617267e-08",
+      "market_share_30d_change": "-0.039717024442343825"
     },
     {
       "rank": "20",
       "name": "Optimism",
       "asset_count": "1268",
-      "total_value_usd": "21.31973251794461",
-      "value_7d_change": "0.1500353691564863",
-      "value_30d_ago": "18.538327680810394",
-      "value_30d_change": "0.1500353691564822",
-      "market_share": "6.649276360581938e-09",
-      "market_share_30d_change": "0.05515953344022326"
+      "total_value_usd": "21.319732517944615",
+      "value_7d_change": "0.1500353691564865",
+      "value_30d_ago": "18.53832768081032",
+      "value_30d_change": "0.15003536915648685",
+      "market_share": "6.649276360581937e-09",
+      "market_share_30d_change": "0.055159533440223125"
     }
   ],
   "tokenized_stock_platforms": [
@@ -624,34 +624,34 @@ window.DASHBOARD_DATA = {
       "rank": "1",
       "name": "Ondo",
       "asset_count": "408",
-      "total_value_usd": "925876547.557292",
-      "value_7d_change": "0.0635924215360016",
-      "value_30d_ago": "870518187.9917665",
-      "value_30d_change": "0.06359242153599798",
-      "market_share": "0.288765772990263",
-      "market_share_30d_change": "-0.024152027514052567"
+      "total_value_usd": "925876547.55729",
+      "value_7d_change": "0.063592421536",
+      "value_30d_ago": "870518187.9917624",
+      "value_30d_change": "0.06359242153600064",
+      "market_share": "0.2887657729902629",
+      "market_share_30d_change": "-0.02415202751405221"
     },
     {
       "rank": "2",
       "name": "bStocks",
       "asset_count": "87",
-      "total_value_usd": "851429954.3687204",
-      "value_7d_change": "0.22613408808347807",
-      "value_30d_ago": "694401992.933383",
-      "value_30d_change": "0.2261340880834739",
-      "market_share": "0.26554709649899",
-      "market_share_30d_change": "0.12498024583909391"
+      "total_value_usd": "851429954.3687203",
+      "value_7d_change": "0.22613408808347832",
+      "value_30d_ago": "694401992.93338",
+      "value_30d_change": "0.226134088083479",
+      "market_share": "0.26554709649899044",
+      "market_share_30d_change": "0.12498024583909619"
     },
     {
       "rank": "3",
       "name": "xStocks",
       "asset_count": "1271",
-      "total_value_usd": "585460288.7880785",
-      "value_7d_change": "-0.031039917943905294",
-      "value_30d_ago": "604215075.1409254",
-      "value_30d_change": "-0.03103991794390859",
-      "market_share": "0.18259550184419254",
-      "market_share_30d_change": "-0.11097737032695547"
+      "total_value_usd": "585460288.7880751",
+      "value_7d_change": "-0.031039917943911973",
+      "value_30d_ago": "604215075.1409236",
+      "value_30d_change": "-0.031039917943911366",
+      "market_share": "0.1825955018441918",
+      "market_share_30d_change": "-0.11097737032695995"
     },
     {
       "rank": "4",
@@ -659,32 +659,32 @@ window.DASHBOARD_DATA = {
       "asset_count": "3",
       "total_value_usd": "416645161.5",
       "value_7d_change": "0.5199502425297783",
-      "value_30d_ago": "274117632.17100096",
-      "value_30d_change": "0.5199502425297731",
-      "market_share": "0.12994482087338505",
-      "market_share_30d_change": "0.3945570995232989"
+      "value_30d_ago": "274117632.1709999",
+      "value_30d_change": "0.5199502425297788",
+      "market_share": "0.12994482087338527",
+      "market_share_30d_change": "0.3945570995233013"
     },
     {
       "rank": "5",
       "name": "Reality",
       "asset_count": "3190",
-      "total_value_usd": "149941820.17344326",
-      "value_7d_change": "-0.12063666219549116",
-      "value_30d_ago": "170511793.84826404",
-      "value_30d_change": "-0.12063666219549418",
-      "market_share": "0.04676440473644477",
-      "market_share_30d_change": "-0.19318254540049057"
+      "total_value_usd": "149941820.17344332",
+      "value_7d_change": "-0.12063666219549174",
+      "value_30d_ago": "170511793.84826353",
+      "value_30d_change": "-0.1206366621954913",
+      "market_share": "0.04676440473644487",
+      "market_share_30d_change": "-0.19318254540048954"
     },
     {
       "rank": "6",
       "name": "Robinhood",
       "asset_count": "189",
-      "total_value_usd": "143937838.7361275",
-      "value_7d_change": "0.06292574056863337",
-      "value_30d_ago": "135416646.0011831",
-      "value_30d_change": "0.06292574056862965",
-      "market_share": "0.044891860988209915",
-      "market_share_30d_change": "-0.024763708508696858"
+      "total_value_usd": "143937838.73612747",
+      "value_7d_change": "0.06292574056863408",
+      "value_30d_ago": "135416646.00118244",
+      "value_30d_change": "0.06292574056863454",
+      "market_share": "0.04489186098820999",
+      "market_share_30d_change": "-0.024763708508694318"
     },
     {
       "rank": "7",
@@ -692,43 +692,43 @@ window.DASHBOARD_DATA = {
       "asset_count": "1",
       "total_value_usd": "67927191.12",
       "value_7d_change": "-0.19819224031909324",
-      "value_30d_ago": "84717552.6800003",
-      "value_30d_change": "-0.1981922403190961",
-      "market_share": "0.02118538146643182",
-      "market_share_30d_change": "-0.2643399287500209"
+      "value_30d_ago": "84717552.67999996",
+      "value_30d_change": "-0.19819224031909277",
+      "market_share": "0.021185381466431858",
+      "market_share_30d_change": "-0.26433992875001955"
     },
     {
       "rank": "8",
       "name": "WisdomTree",
       "asset_count": "6",
       "total_value_usd": "28335556.37203694",
-      "value_7d_change": "0.021547591805620825",
-      "value_30d_ago": "27737872.028020702",
-      "value_30d_change": "0.02154759180561716",
-      "market_share": "0.008837397232349822",
-      "market_share_30d_change": "-0.06272823491750117"
+      "value_7d_change": "0.021547591805620964",
+      "value_30d_ago": "27737872.02802059",
+      "value_30d_change": "0.02154759180562138",
+      "market_share": "0.008837397232349838",
+      "market_share_30d_change": "-0.06272823491749933"
     },
     {
       "rank": "9",
       "name": "Dinari",
       "asset_count": "692",
-      "total_value_usd": "13661825.190838795",
-      "value_7d_change": "0.21801054069750841",
-      "value_30d_ago": "11216508.178176546",
-      "value_30d_change": "0.21801054069750436",
-      "market_share": "0.00426090014062733",
-      "market_share_30d_change": "0.11752687640407702"
+      "total_value_usd": "13661825.190838791",
+      "value_7d_change": "0.21801054069750808",
+      "value_30d_ago": "11216508.178176504",
+      "value_30d_change": "0.2180105406975088",
+      "market_share": "0.004260900140627337",
+      "market_share_30d_change": "0.11752687640407884"
     },
     {
       "rank": "10",
       "name": "Backed Finance",
       "asset_count": "1271",
-      "total_value_usd": "9858853.309678108",
+      "total_value_usd": "9858853.30967811",
       "value_7d_change": "-0.9836832053430996",
-      "value_30d_ago": "604215075.1409254",
+      "value_30d_ago": "604215075.1409236",
       "value_30d_change": "-0.9836832053430996",
-      "market_share": "0.0030748153242218823",
-      "market_share_30d_change": "-0.9850293113593167"
+      "market_share": "0.0030748153242218883",
+      "market_share_30d_change": "-0.9850293113593168"
     },
     {
       "rank": "11",
@@ -736,43 +736,43 @@ window.DASHBOARD_DATA = {
       "asset_count": "2",
       "total_value_usd": "3968769.333792097",
       "value_7d_change": "-0.005068768567417365",
-      "value_30d_ago": "3988988.59379211",
-      "value_30d_change": "-0.005068768567420778",
-      "market_share": "0.0012377943339380356",
-      "market_share_30d_change": "-0.08714879375100097"
+      "value_30d_ago": "3988988.5937920944",
+      "value_30d_change": "-0.0050687685674167815",
+      "market_share": "0.0012377943339380378",
+      "market_share_30d_change": "-0.08714879375099936"
     },
     {
       "rank": "12",
       "name": "Backed Finance",
       "asset_count": "8",
-      "total_value_usd": "2714970.596965926",
-      "value_7d_change": "-0.01815384259774365",
-      "value_30d_ago": "2765169.0404830175",
-      "value_30d_change": "-0.018153842597746994",
-      "market_share": "0.000846754986015227",
-      "market_share_30d_change": "-0.09915437286549107"
+      "total_value_usd": "2714970.5969659253",
+      "value_7d_change": "-0.01815384259774382",
+      "value_30d_ago": "2765169.0404830067",
+      "value_30d_change": "-0.01815384259774333",
+      "market_share": "0.0008467549860152284",
+      "market_share_30d_change": "-0.09915437286548957"
     },
     {
       "rank": "13",
       "name": "Remora Markets",
       "asset_count": "5",
       "total_value_usd": "1982794.8526333594",
-      "value_7d_change": "-0.005950931877804464",
-      "value_30d_ago": "1994664.9679768393",
-      "value_30d_change": "-0.005950931877807819",
-      "market_share": "0.0006184013298666659",
-      "market_share_30d_change": "-0.08795818018551473"
+      "value_7d_change": "-0.005950931877804348",
+      "value_30d_ago": "1994664.9679768311",
+      "value_30d_change": "-0.005950931877803822",
+      "market_share": "0.000618401329866667",
+      "market_share_30d_change": "-0.08795818018551282"
     },
     {
       "rank": "14",
       "name": "ST0x",
       "asset_count": "54",
-      "total_value_usd": "1657263.0629304962",
-      "value_7d_change": "1.4908012965573505",
-      "value_30d_ago": "665353.38054508",
-      "value_30d_change": "1.4908012965573425",
-      "market_share": "0.0005168732815167489",
-      "market_share_30d_change": "1.285314699403944"
+      "total_value_usd": "1657263.062930496",
+      "value_7d_change": "1.4908012965573494",
+      "value_30d_ago": "665353.3805450777",
+      "value_30d_change": "1.4908012965573505",
+      "market_share": "0.0005168732815167496",
+      "market_share_30d_change": "1.2853146994039466"
     },
     {
       "rank": "15",
@@ -780,21 +780,21 @@ window.DASHBOARD_DATA = {
       "asset_count": "4",
       "total_value_usd": "1554688",
       "value_7d_change": "-0.5003278250160056",
-      "value_30d_ago": "3111416.0000000102",
-      "value_30d_change": "-0.5003278250160073",
-      "market_share": "0.00048488179473074535",
-      "market_share_30d_change": "-0.5415498747522153"
+      "value_30d_ago": "3111415.999999998",
+      "value_30d_change": "-0.5003278250160053",
+      "market_share": "0.0004848817947307462",
+      "market_share_30d_change": "-0.5415498747522145"
     },
     {
       "rank": "16",
       "name": "Swarm",
       "asset_count": "44",
       "total_value_usd": "785726.5049051595",
-      "value_7d_change": "0.08763053197970977",
-      "value_30d_ago": "722420.4192530154",
-      "value_30d_change": "0.08763053197970616",
-      "market_share": "0.00024505526373518646",
-      "market_share_30d_change": "-0.002097017658858647"
+      "value_7d_change": "0.08763053197970994",
+      "value_30d_ago": "722420.4192530125",
+      "value_30d_change": "0.08763053197971038",
+      "market_share": "0.0002450552637351869",
+      "market_share_30d_change": "-0.0020970176588566607"
     },
     {
       "rank": "17",
@@ -802,21 +802,21 @@ window.DASHBOARD_DATA = {
       "asset_count": "3",
       "total_value_usd": "308985.15712056006",
       "value_7d_change": "-0.9933338777865113",
-      "value_30d_ago": "46351559.006125234",
+      "value_30d_ago": "46351559.006125055",
       "value_30d_change": "-0.9933338777865114",
-      "market_share": "9.636742390098753e-05",
+      "market_share": "9.636742390098771e-05",
       "market_share_30d_change": "-0.9938838207995296"
     },
     {
       "rank": "18",
       "name": "Anchored",
       "asset_count": "112",
-      "total_value_usd": "274970.6841799788",
-      "value_7d_change": "0.651255938764205",
-      "value_30d_ago": "166522.14700633686",
-      "value_30d_change": "0.6512559387641994",
-      "market_share": "8.57588653437404e-05",
-      "market_share_30d_change": "0.5150303135587787"
+      "total_value_usd": "274970.68417997874",
+      "value_7d_change": "0.6512559387642052",
+      "value_30d_ago": "166522.14700633616",
+      "value_30d_change": "0.6512559387642061",
+      "market_share": "8.575886534374054e-05",
+      "market_share_30d_change": "0.5150303135587817"
     },
     {
       "rank": "19",
@@ -824,23 +824,23 @@ window.DASHBOARD_DATA = {
       "asset_count": "1",
       "total_value_usd": "515.0184298534024",
       "value_7d_change": "-0.03999848019934168",
-      "value_30d_ago": "536.4766817872812",
-      "value_30d_change": "-0.03999848019934493",
-      "market_share": "1.6062583655802852e-07",
-      "market_share_30d_change": "-0.11919686741657519"
+      "value_30d_ago": "536.4766817872792",
+      "value_30d_change": "-0.03999848019934127",
+      "market_share": "1.606258365580288e-07",
+      "market_share_30d_change": "-0.1191968674165736"
     }
   ],
   "tokenized_stock_aggregates": [
     {
       "metric": "Distributed Value",
       "value": "3206323720.3271675",
-      "percent_change": "0.08991610529919136",
+      "percent_change": "0.08991610529919543",
       "interval": "30d"
     },
     {
       "metric": "Represented Value",
       "value": "25313021.357668508",
-      "percent_change": "0.06637962185205011",
+      "percent_change": "0.06637962185205262",
       "interval": "30d"
     },
     {
@@ -2442,14 +2442,14 @@ window.DASHBOARD_DATA = {
       "intro": "多链到期合约和利率衍生品协议。",
       "chains": "Arbitrum; Avalanche; Base; Binance; Ethereum; Linea; Optimism; Polygon; Scroll; xDai",
       "matched_protocols": "Contango V2; Contango V1",
-      "tvl_usd": 13446769.0,
+      "tvl_usd": 13428068.0,
       "tvl_previous_30d_usd": 8770458.0,
-      "tvl_30d_change": 0.5331889167019556,
+      "tvl_30d_change": 0.53105664493234,
       "token_market_cap_usd": 2332393.8360706638,
       "token_circulating_market_cap_usd": 0.0,
       "token_price_usd": 0.0023323938360706635,
       "token_market_data_source": "tango-contango",
-      "market_cap_to_tvl": 0.1734538487327821,
+      "market_cap_to_tvl": 0.17369541441633032,
       "fees_30d_usd": 1122.27,
       "fees_previous_30d_usd": 1436.2600000000002,
       "fees_30d_change": -0.21861640650021597,
@@ -2777,7 +2777,7 @@ window.DASHBOARD_DATA = {
   ],
   "stablecoins": [
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Tether",
       "symbol": "USDT",
       "peg_type": "peggedUSD",
@@ -2791,7 +2791,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USD Coin",
       "symbol": "USDC",
       "peg_type": "peggedUSD",
@@ -2805,7 +2805,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Sky Dollar",
       "symbol": "USDS",
       "peg_type": "peggedUSD",
@@ -2819,7 +2819,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Ethena USDe",
       "symbol": "USDe",
       "peg_type": "peggedUSD",
@@ -2833,7 +2833,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Dai",
       "symbol": "DAI",
       "peg_type": "peggedUSD",
@@ -2847,7 +2847,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "World Liberty Financial USD",
       "symbol": "USD1",
       "peg_type": "peggedUSD",
@@ -2861,7 +2861,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Global Dollar",
       "symbol": "USDG",
       "peg_type": "peggedUSD",
@@ -2875,7 +2875,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "PayPal USD",
       "symbol": "PYUSD",
       "peg_type": "peggedUSD",
@@ -2889,7 +2889,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Ripple USD",
       "symbol": "RLUSD",
       "peg_type": "peggedUSD",
@@ -2903,7 +2903,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Circle USYC",
       "symbol": "USYC",
       "peg_type": "peggedUSD",
@@ -2917,7 +2917,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "BlackRock USD",
       "symbol": "BUIDL",
       "peg_type": "peggedUSD",
@@ -2931,7 +2931,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Ondo US Dollar Yield",
       "symbol": "USDY",
       "peg_type": "peggedUSD",
@@ -2945,7 +2945,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Falcon USD",
       "symbol": "USDf",
       "peg_type": "peggedUSD",
@@ -2959,7 +2959,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "United Stables",
       "symbol": "U",
       "peg_type": "peggedUSD",
@@ -2973,7 +2973,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USDD",
       "symbol": "USDD",
       "peg_type": "peggedUSD",
@@ -2987,7 +2987,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USDGO",
       "symbol": "USDGO",
       "peg_type": "peggedUSD",
@@ -3001,7 +3001,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "GHO",
       "symbol": "GHO",
       "peg_type": "peggedUSD",
@@ -3015,7 +3015,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USDX Money USDX",
       "symbol": "USDX",
       "peg_type": "peggedUSD",
@@ -3029,7 +3029,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Open USD",
       "symbol": "OUSD",
       "peg_type": "peggedUSD",
@@ -3043,7 +3043,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Usual USD",
       "symbol": "USD0",
       "peg_type": "peggedUSD",
@@ -3057,7 +3057,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Ethena USDtb",
       "symbol": "USDTB",
       "peg_type": "peggedUSD",
@@ -3071,7 +3071,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "YLDS",
       "symbol": "YLDS",
       "peg_type": "peggedUSD",
@@ -3085,7 +3085,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Multipli rwaUSDi",
       "symbol": "rwaUSDi",
       "peg_type": "peggedUSD",
@@ -3099,7 +3099,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Polymarket USD",
       "symbol": "pUSD",
       "peg_type": "peggedUSD",
@@ -3113,7 +3113,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "TrueUSD",
       "symbol": "TUSD",
       "peg_type": "peggedUSD",
@@ -3127,7 +3127,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Neutrino USD",
       "symbol": "USDN",
       "peg_type": "peggedUSD",
@@ -3141,7 +3141,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USD.AI",
       "symbol": "USDai",
       "peg_type": "peggedUSD",
@@ -3155,7 +3155,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "SoFiUSD",
       "symbol": "SOFID",
       "peg_type": "peggedUSD",
@@ -3169,7 +3169,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "First Digital USD",
       "symbol": "FDUSD",
       "peg_type": "peggedUSD",
@@ -3183,7 +3183,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Gate USD",
       "symbol": "GUSD",
       "peg_type": "peggedUSD",
@@ -3197,7 +3197,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "apxUSD",
       "symbol": "apxUSD",
       "peg_type": "peggedUSD",
@@ -3211,7 +3211,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Re Protocol reUSD",
       "symbol": "reUSD",
       "peg_type": "peggedUSD",
@@ -3225,7 +3225,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "crvUSD",
       "symbol": "crvUSD",
       "peg_type": "peggedUSD",
@@ -3239,7 +3239,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Agora Dollar",
       "symbol": "AUSD",
       "peg_type": "peggedUSD",
@@ -3253,7 +3253,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Binance Peg BUSD",
       "symbol": "BUSD",
       "peg_type": "peggedUSD",
@@ -3267,7 +3267,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Solstice USX",
       "symbol": "USX",
       "peg_type": "peggedUSD",
@@ -3281,7 +3281,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "M by M0",
       "symbol": "M",
       "peg_type": "peggedUSD",
@@ -3295,7 +3295,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "HUSD",
       "symbol": "HUSD",
       "peg_type": "peggedUSD",
@@ -3309,7 +3309,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USAT",
       "symbol": "USAT",
       "peg_type": "peggedUSD",
@@ -3323,7 +3323,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "flexUSD",
       "symbol": "FLEXUSD",
       "peg_type": "peggedUSD",
@@ -3337,7 +3337,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Mustang Finance",
       "symbol": "MUST",
       "peg_type": "peggedUSD",
@@ -3351,7 +3351,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Frax",
       "symbol": "FRAX",
       "peg_type": "peggedUSD",
@@ -3365,7 +3365,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Avalon USDa",
       "symbol": "USDA",
       "peg_type": "peggedUSD",
@@ -3379,7 +3379,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "River Stablecoin",
       "symbol": "satUSD",
       "peg_type": "peggedUSD",
@@ -3393,7 +3393,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "CASH",
       "symbol": "CASH",
       "peg_type": "peggedUSD",
@@ -3407,7 +3407,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Avant USD",
       "symbol": "avUSD",
       "peg_type": "peggedUSD",
@@ -3421,7 +3421,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "CFX MoveUSD",
       "symbol": "MOVEUSD",
       "peg_type": "peggedUSD",
@@ -3435,7 +3435,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Astherus",
       "symbol": "USDF",
       "peg_type": "peggedUSD",
@@ -3449,7 +3449,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Dola",
       "symbol": "DOLA",
       "peg_type": "peggedUSD",
@@ -3463,7 +3463,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Frax USD",
       "symbol": "FRXUSD",
       "peg_type": "peggedUSD",
@@ -3477,7 +3477,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Valtorum USD",
       "symbol": "USDV",
       "peg_type": "peggedUSD",
@@ -3491,7 +3491,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "US Permissionless Dollar",
       "symbol": "USPD",
       "peg_type": "peggedUSD",
@@ -3505,7 +3505,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Saturn Dollar",
       "symbol": "USDAT",
       "peg_type": "peggedUSD",
@@ -3519,7 +3519,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "fxUSD",
       "symbol": "fxUSD",
       "peg_type": "peggedUSD",
@@ -3533,7 +3533,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USDBridge",
       "symbol": "USDB",
       "peg_type": "peggedUSD",
@@ -3547,7 +3547,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "AP USDA",
       "symbol": "USDA",
       "peg_type": "peggedUSD",
@@ -3561,7 +3561,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Sui Dollar",
       "symbol": "USDSUI",
       "peg_type": "peggedUSD",
@@ -3575,7 +3575,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Lista USD",
       "symbol": "LISUSD",
       "peg_type": "peggedUSD",
@@ -3589,7 +3589,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Cygnus Finance Global USD",
       "symbol": "cgUSD",
       "peg_type": "peggedUSD",
@@ -3603,7 +3603,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Tori trUSD",
       "symbol": "trUSD",
       "peg_type": "peggedUSD",
@@ -3617,7 +3617,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "sUSD",
       "symbol": "SUSD",
       "peg_type": "peggedUSD",
@@ -3631,7 +3631,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Ondo U.S. Dollar Token",
       "symbol": "USDon",
       "peg_type": "peggedUSD",
@@ -3645,7 +3645,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USP Stablecoin",
       "symbol": "USP",
       "peg_type": "peggedUSD",
@@ -3659,7 +3659,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "PathUSD",
       "symbol": "pathUSD",
       "peg_type": "peggedUSD",
@@ -3673,7 +3673,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Cap cUSD",
       "symbol": "CUSD",
       "peg_type": "peggedUSD",
@@ -3687,7 +3687,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Axis USD",
       "symbol": "USDx",
       "peg_type": "peggedUSD",
@@ -3701,7 +3701,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Yuzu USD",
       "symbol": "YZUSD",
       "peg_type": "peggedUSD",
@@ -3715,7 +3715,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "StandX DUSD",
       "symbol": "DUSD",
       "peg_type": "peggedUSD",
@@ -3729,7 +3729,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Unitas",
       "symbol": "USDU",
       "peg_type": "peggedUSD",
@@ -3743,7 +3743,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USDKG",
       "symbol": "USDKG",
       "peg_type": "peggedUSD",
@@ -3757,7 +3757,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Fidelity Digital Dollar",
       "symbol": "FIDD",
       "peg_type": "peggedUSD",
@@ -3771,7 +3771,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Resupply USD",
       "symbol": "REUSD",
       "peg_type": "peggedUSD",
@@ -3785,7 +3785,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "JupUSD",
       "symbol": "JUPUSD",
       "peg_type": "peggedUSD",
@@ -3799,7 +3799,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "MNEE USD",
       "symbol": "MNEE",
       "peg_type": "peggedUSD",
@@ -3813,7 +3813,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Metronome Synth USD",
       "symbol": "MSUSD",
       "peg_type": "peggedUSD",
@@ -3827,7 +3827,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "infiniFi USD",
       "symbol": "IUSD",
       "peg_type": "peggedUSD",
@@ -3841,7 +3841,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "pmUSD",
       "symbol": "pmUSD",
       "peg_type": "peggedUSD",
@@ -3855,7 +3855,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Main Street USD",
       "symbol": "MSUSD",
       "peg_type": "peggedUSD",
@@ -3869,7 +3869,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "StraitsX XUSD",
       "symbol": "XUSD",
       "peg_type": "peggedUSD",
@@ -3883,7 +3883,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Neutrl USD",
       "symbol": "NUSD",
       "peg_type": "peggedUSD",
@@ -3897,7 +3897,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "SoulPeg USD",
       "symbol": "SPUSD",
       "peg_type": "peggedUSD",
@@ -3911,7 +3911,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Noon USN",
       "symbol": "USN",
       "peg_type": "peggedUSD",
@@ -3925,7 +3925,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Unity USD",
       "symbol": "UUSD",
       "peg_type": "peggedUSD",
@@ -3939,7 +3939,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Gemini Dollar",
       "symbol": "GUSD",
       "peg_type": "peggedUSD",
@@ -3953,7 +3953,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Liquity BOLD",
       "symbol": "BOLD",
       "peg_type": "peggedUSD",
@@ -3967,7 +3967,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Binance USD",
       "symbol": "BUSD",
       "peg_type": "peggedUSD",
@@ -3981,7 +3981,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Aegis YUSD",
       "symbol": "YUSD",
       "peg_type": "peggedUSD",
@@ -3995,7 +3995,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Metamask USD",
       "symbol": "MUSD",
       "peg_type": "peggedUSD",
@@ -4009,7 +4009,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Bean",
       "symbol": "BEAN",
       "peg_type": "peggedUSD",
@@ -4023,7 +4023,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Universal USD",
       "symbol": "USDU",
       "peg_type": "peggedUSD",
@@ -4037,7 +4037,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Mezo USD",
       "symbol": "MUSD",
       "peg_type": "peggedUSD",
@@ -4051,7 +4051,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Zoth ZeUSD",
       "symbol": "ZeUSD",
       "peg_type": "peggedUSD",
@@ -4065,7 +4065,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Gyroscope GYD",
       "symbol": "GYD",
       "peg_type": "peggedUSD",
@@ -4079,7 +4079,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Liquity USD",
       "symbol": "LUSD",
       "peg_type": "peggedUSD",
@@ -4093,7 +4093,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Hylo HYUSD",
       "symbol": "HYUSD",
       "peg_type": "peggedUSD",
@@ -4107,7 +4107,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Pax Dollar",
       "symbol": "USDP",
       "peg_type": "peggedUSD",
@@ -4121,7 +4121,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Bucket Protocol BUCK Stablecoin",
       "symbol": "BUCK",
       "peg_type": "peggedUSD",
@@ -4135,7 +4135,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Electronic USD",
       "symbol": "EUSD",
       "peg_type": "peggedUSD",
@@ -4149,7 +4149,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "YU",
       "symbol": "YU",
       "peg_type": "peggedUSD",
@@ -4163,7 +4163,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Hex Trust USDX",
       "symbol": "USDX",
       "peg_type": "peggedUSD",
@@ -4177,7 +4177,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "XSY UTY",
       "symbol": "UTY",
       "peg_type": "peggedUSD",
@@ -4191,7 +4191,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "dForce USD",
       "symbol": "USX",
       "peg_type": "peggedUSD",
@@ -4205,7 +4205,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Western Union USDPT",
       "symbol": "USDPT",
       "peg_type": "peggedUSD",
@@ -4219,7 +4219,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Stable Coin",
       "symbol": "SBC",
       "peg_type": "peggedUSD",
@@ -4233,7 +4233,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Fantom USD",
       "symbol": "FUSD",
       "peg_type": "peggedUSD",
@@ -4247,7 +4247,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "SpiceUSD",
       "symbol": "USDS",
       "peg_type": "peggedUSD",
@@ -4261,7 +4261,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Real USD",
       "symbol": "USDR",
       "peg_type": "peggedUSD",
@@ -4275,7 +4275,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "TOR",
       "symbol": "TOR",
       "peg_type": "peggedUSD",
@@ -4289,7 +4289,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "GAIB AID",
       "symbol": "AID",
       "peg_type": "peggedUSD",
@@ -4303,7 +4303,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "MegaUSD",
       "symbol": "USDM",
       "peg_type": "peggedUSD",
@@ -4317,7 +4317,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Mento Dollar",
       "symbol": "USDm",
       "peg_type": "peggedUSD",
@@ -4331,7 +4331,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Mu Digital AZND",
       "symbol": "AZND",
       "peg_type": "peggedUSD",
@@ -4345,7 +4345,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "OpenDollar USDO",
       "symbol": "USDO",
       "peg_type": "peggedUSD",
@@ -4359,7 +4359,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Defi.money",
       "symbol": "MONEY",
       "peg_type": "peggedUSD",
@@ -4373,7 +4373,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Hydrated Dollar",
       "symbol": "HOLLAR",
       "peg_type": "peggedUSD",
@@ -4387,7 +4387,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Moneta",
       "symbol": "USDM",
       "peg_type": "peggedUSD",
@@ -4401,7 +4401,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Stable Mint USD",
       "symbol": "USDSM",
       "peg_type": "peggedUSD",
@@ -4415,7 +4415,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USD CoinVertible",
       "symbol": "USDCV",
       "peg_type": "peggedUSD",
@@ -4429,7 +4429,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "eSui Dollar",
       "symbol": "suiUSDe",
       "peg_type": "peggedUSD",
@@ -4443,7 +4443,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "YUSD Stablecoin",
       "symbol": "YUSD",
       "peg_type": "peggedUSD",
@@ -4457,7 +4457,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USDB Blast",
       "symbol": "USDB",
       "peg_type": "peggedUSD",
@@ -4471,7 +4471,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "R",
       "symbol": "R",
       "peg_type": "peggedUSD",
@@ -4485,7 +4485,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Pinto",
       "symbol": "PINTO",
       "peg_type": "peggedUSD",
@@ -4499,7 +4499,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Saga Dollar",
       "symbol": "D",
       "peg_type": "peggedUSD",
@@ -4513,7 +4513,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USDX",
       "symbol": "USDX",
       "peg_type": "peggedUSD",
@@ -4527,7 +4527,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Telcoin eUSD",
       "symbol": "eUSD",
       "peg_type": "peggedUSD",
@@ -4541,7 +4541,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Alchemix USD",
       "symbol": "ALUSD",
       "peg_type": "peggedUSD",
@@ -4555,7 +4555,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Felix feUSD",
       "symbol": "FEUSD",
       "peg_type": "peggedUSD",
@@ -4569,7 +4569,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Lift Dollar",
       "symbol": "USDL",
       "peg_type": "peggedUSD",
@@ -4583,7 +4583,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Royal Dollar",
       "symbol": "RUSD",
       "peg_type": "peggedUSD",
@@ -4597,7 +4597,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Quantoz USDQ",
       "symbol": "USDQ",
       "peg_type": "peggedUSD",
@@ -4611,7 +4611,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Bera USD",
       "symbol": "BUSD",
       "peg_type": "peggedUSD",
@@ -4625,7 +4625,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "NXUSD",
       "symbol": "NXUSD",
       "peg_type": "peggedUSD",
@@ -4639,7 +4639,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Anzen USDz",
       "symbol": "USDz",
       "peg_type": "peggedUSD",
@@ -4653,7 +4653,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USBD",
       "symbol": "USBD",
       "peg_type": "peggedUSD",
@@ -4667,7 +4667,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USDH Stablecoin",
       "symbol": "USDH",
       "peg_type": "peggedUSD",
@@ -4681,7 +4681,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Solomon USDv",
       "symbol": "USDV",
       "peg_type": "peggedUSD",
@@ -4695,7 +4695,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "StablR USD",
       "symbol": "USDR",
       "peg_type": "peggedUSD",
@@ -4709,7 +4709,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Origin Dollar",
       "symbol": "OUSD",
       "peg_type": "peggedUSD",
@@ -4723,7 +4723,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "HomeCoin",
       "symbol": "HOME",
       "peg_type": "peggedUSD",
@@ -4737,7 +4737,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Bitcoin USD",
       "symbol": "BtcUSD",
       "peg_type": "peggedUSD",
@@ -4751,7 +4751,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USP",
       "symbol": "USP",
       "peg_type": "peggedUSD",
@@ -4765,7 +4765,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USDST",
       "symbol": "USDST",
       "peg_type": "peggedUSD",
@@ -4779,7 +4779,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "XAI",
       "symbol": "XAI",
       "peg_type": "peggedUSD",
@@ -4793,7 +4793,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Startale USD",
       "symbol": "USDSC",
       "peg_type": "peggedUSD",
@@ -4807,7 +4807,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Flying Tulip USD",
       "symbol": "ftUSD",
       "peg_type": "peggedUSD",
@@ -4821,7 +4821,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Parrot USD",
       "symbol": "PAI",
       "peg_type": "peggedUSD",
@@ -4835,7 +4835,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USDR",
       "symbol": "USDR",
       "peg_type": "peggedUSD",
@@ -4849,7 +4849,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Anzens USDA",
       "symbol": "USDA",
       "peg_type": "peggedUSD",
@@ -4863,7 +4863,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Fei USD",
       "symbol": "FEI",
       "peg_type": "peggedUSD",
@@ -4877,7 +4877,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Citrea USD",
       "symbol": "ctUSD",
       "peg_type": "peggedUSD",
@@ -4891,7 +4891,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Palm USD",
       "symbol": "PUSD",
       "peg_type": "peggedUSD",
@@ -4905,7 +4905,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USD Somnia",
       "symbol": "USDso",
       "peg_type": "peggedUSD",
@@ -4919,7 +4919,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Deel USD",
       "symbol": "DLUSD",
       "peg_type": "peggedUSD",
@@ -4933,7 +4933,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Monetrix USDM",
       "symbol": "USDM",
       "peg_type": "peggedUSD",
@@ -4947,7 +4947,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "mStable USD",
       "symbol": "MUSD",
       "peg_type": "peggedUSD",
@@ -4961,7 +4961,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "DigitalDollar",
       "symbol": "DUSD",
       "peg_type": "peggedUSD",
@@ -4975,7 +4975,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Dollar on Chain",
       "symbol": "DOC",
       "peg_type": "peggedUSD",
@@ -4989,7 +4989,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USDP Stablecoin",
       "symbol": "USDP",
       "peg_type": "peggedUSD",
@@ -5003,7 +5003,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Plume USD",
       "symbol": "pUSD",
       "peg_type": "peggedUSD",
@@ -5017,7 +5017,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "RIF US Dollar",
       "symbol": "USDRIF",
       "peg_type": "peggedUSD",
@@ -5031,7 +5031,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Synnax Stablecoin",
       "symbol": "syUSD",
       "peg_type": "peggedUSD",
@@ -5045,7 +5045,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Hermetica USDh",
       "symbol": "USDH",
       "peg_type": "peggedUSD",
@@ -5059,7 +5059,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Nexus USD",
       "symbol": "NUSD",
       "peg_type": "peggedUSD",
@@ -5073,7 +5073,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "XUSD",
       "symbol": "XUSD",
       "peg_type": "peggedUSD",
@@ -5087,7 +5087,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "FinChain Dollar",
       "symbol": "FUSD",
       "peg_type": "peggedUSD",
@@ -5101,7 +5101,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Web 3 Dollar",
       "symbol": "USD3",
       "peg_type": "peggedUSD",
@@ -5115,7 +5115,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Initia iUSD",
       "symbol": "iUSD",
       "peg_type": "peggedUSD",
@@ -5129,7 +5129,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Hyperbeat USD",
       "symbol": "beatUSD",
       "peg_type": "peggedUSD",
@@ -5143,7 +5143,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Sovryn Dollar",
       "symbol": "DLLR",
       "peg_type": "peggedUSD",
@@ -5157,7 +5157,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Noble Dollar",
       "symbol": "USDN",
       "peg_type": "peggedUSD",
@@ -5171,7 +5171,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "The Fedz FUSD",
       "symbol": "FUSD",
       "peg_type": "peggedUSD",
@@ -5185,7 +5185,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Interest Protocol",
       "symbol": "USDI",
       "peg_type": "peggedUSD",
@@ -5199,7 +5199,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Nerona USD",
       "symbol": "USDnr",
       "peg_type": "peggedUSD",
@@ -5213,7 +5213,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Streamflow USD+",
       "symbol": "USD+",
       "peg_type": "peggedUSD",
@@ -5227,7 +5227,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Magic Internet Money",
       "symbol": "MIM",
       "peg_type": "peggedUSD",
@@ -5241,7 +5241,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Djed StableCoin",
       "symbol": "DJED",
       "peg_type": "peggedUSD",
@@ -5255,7 +5255,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USDW",
       "symbol": "USDW",
       "peg_type": "peggedUSD",
@@ -5269,7 +5269,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USN",
       "symbol": "USN",
       "peg_type": "peggedUSD",
@@ -5283,7 +5283,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "iUSD",
       "symbol": "IUSD",
       "peg_type": "peggedUSD",
@@ -5297,7 +5297,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USDM",
       "symbol": "USDM",
       "peg_type": "peggedUSD",
@@ -5311,7 +5311,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "dTRINITY USD",
       "symbol": "dUSD",
       "peg_type": "peggedUSD",
@@ -5325,7 +5325,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Alto DUSD",
       "symbol": "DUSD",
       "peg_type": "peggedUSD",
@@ -5339,7 +5339,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Cod3x USD",
       "symbol": "cdxUSD",
       "peg_type": "peggedUSD",
@@ -5353,7 +5353,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Liquid Loans USDL",
       "symbol": "USDL",
       "peg_type": "peggedUSD",
@@ -5367,7 +5367,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Vai",
       "symbol": "VAI",
       "peg_type": "peggedUSD",
@@ -5381,7 +5381,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Note",
       "symbol": "NOTE",
       "peg_type": "peggedUSD",
@@ -5395,7 +5395,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "zkUSD Dollar",
       "symbol": "zkUSD",
       "peg_type": "peggedUSD",
@@ -5409,7 +5409,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USDH",
       "symbol": "USDH",
       "peg_type": "peggedUSD",
@@ -5423,7 +5423,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Youves uUSD",
       "symbol": "UUSD",
       "peg_type": "peggedUSD",
@@ -5437,7 +5437,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Multipli rwaUSD",
       "symbol": "rwaUSD",
       "peg_type": "peggedUSD",
@@ -5451,7 +5451,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "US Sonic Dollar",
       "symbol": "USSD",
       "peg_type": "peggedUSD",
@@ -5465,7 +5465,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Frontier Stable Token",
       "symbol": "FRNT",
       "peg_type": "peggedUSD",
@@ -5479,7 +5479,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Glo Dollar",
       "symbol": "USDGLO",
       "peg_type": "peggedUSD",
@@ -5493,7 +5493,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Balanced Dollars",
       "symbol": "BNUSD",
       "peg_type": "peggedUSD",
@@ -5507,7 +5507,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Czodiac USD",
       "symbol": "CZUSD",
       "peg_type": "peggedUSD",
@@ -5521,7 +5521,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Meme Dollar",
       "symbol": "PINA",
       "peg_type": "peggedUSD",
@@ -5535,7 +5535,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Angle USDA",
       "symbol": "USDA",
       "peg_type": "peggedUSD",
@@ -5549,7 +5549,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Solayer USD",
       "symbol": "sUSD",
       "peg_type": "peggedUSD",
@@ -5563,7 +5563,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "SMARDEX USDN",
       "symbol": "USDN",
       "peg_type": "peggedUSD",
@@ -5577,7 +5577,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Pareto USP",
       "symbol": "USP",
       "peg_type": "peggedUSD",
@@ -5591,7 +5591,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Parallel USDp",
       "symbol": "USDp",
       "peg_type": "peggedUSD",
@@ -5605,7 +5605,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Kolibri USD",
       "symbol": "KUSD",
       "peg_type": "peggedUSD",
@@ -5619,7 +5619,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Fathom Dollar",
       "symbol": "FXD",
       "peg_type": "peggedUSD",
@@ -5633,7 +5633,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Rings scUSD",
       "symbol": "SCUSD",
       "peg_type": "peggedUSD",
@@ -5647,7 +5647,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Pleasing USD",
       "symbol": "PUSD",
       "peg_type": "peggedUSD",
@@ -5661,7 +5661,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "eUSD (V2)",
       "symbol": "eUSD(v2)",
       "peg_type": "peggedUSD",
@@ -5675,7 +5675,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Worldwide USD",
       "symbol": "WUSD",
       "peg_type": "peggedUSD",
@@ -5689,7 +5689,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Sigma Money bnbUSD",
       "symbol": "BNBUSD",
       "peg_type": "peggedUSD",
@@ -5703,7 +5703,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "PXDC Stablecoin",
       "symbol": "PXDC",
       "peg_type": "peggedUSD",
@@ -5717,7 +5717,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Threshold USD",
       "symbol": "THUSD",
       "peg_type": "peggedUSD",
@@ -5731,7 +5731,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USDJ",
       "symbol": "USDJ",
       "peg_type": "peggedUSD",
@@ -5745,7 +5745,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Good Game US Dollar",
       "symbol": "GGUSD",
       "peg_type": "peggedUSD",
@@ -5759,7 +5759,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Overnight USD+",
       "symbol": "USD+",
       "peg_type": "peggedUSD",
@@ -5773,7 +5773,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Resolv USD",
       "symbol": "USR",
       "peg_type": "peggedUSD",
@@ -5787,7 +5787,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Sperax USD",
       "symbol": "USDS",
       "peg_type": "peggedUSD",
@@ -5801,7 +5801,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "WEUSD",
       "symbol": "WEUSD",
       "peg_type": "peggedUSD",
@@ -5815,7 +5815,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USDK",
       "symbol": "USDK",
       "peg_type": "peggedUSD",
@@ -5829,7 +5829,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Verified USD",
       "symbol": "USDV",
       "peg_type": "peggedUSD",
@@ -5843,7 +5843,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "mantraUSD",
       "symbol": "mantraUSD",
       "peg_type": "peggedUSD",
@@ -5857,7 +5857,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Level USD",
       "symbol": "LVLUSD",
       "peg_type": "peggedUSD",
@@ -5871,7 +5871,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Bread",
       "symbol": "BREAD",
       "peg_type": "peggedUSD",
@@ -5885,7 +5885,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Delpho USDV",
       "symbol": "USDV",
       "peg_type": "peggedUSD",
@@ -5899,7 +5899,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Lets Get HAI",
       "symbol": "HAI",
       "peg_type": "peggedUSD",
@@ -5913,7 +5913,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "KEI Stablecoin",
       "symbol": "KEI",
       "peg_type": "peggedUSD",
@@ -5927,7 +5927,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Stable Jack aUSD",
       "symbol": "aUSD",
       "peg_type": "peggedUSD",
@@ -5941,7 +5941,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Zunami USD",
       "symbol": "zunUSD",
       "peg_type": "peggedUSD",
@@ -5955,7 +5955,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "UXD Stablecoin",
       "symbol": "UXD",
       "peg_type": "peggedUSD",
@@ -5969,7 +5969,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Elara USD",
       "symbol": "elUSD",
       "peg_type": "peggedUSD",
@@ -5983,7 +5983,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Nectar",
       "symbol": "NECT",
       "peg_type": "peggedUSD",
@@ -5997,7 +5997,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Opus CASH",
       "symbol": "CASH",
       "peg_type": "peggedUSD",
@@ -6011,7 +6011,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "BAI Stablecoin",
       "symbol": "BAI",
       "peg_type": "peggedUSD",
@@ -6025,7 +6025,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "rUSD",
       "symbol": "rUSD",
       "peg_type": "peggedUSD",
@@ -6039,7 +6039,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "bitSmiley USD",
       "symbol": "bitUSD",
       "peg_type": "peggedUSD",
@@ -6053,7 +6053,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Asymmetry USDaf V2",
       "symbol": "USDaf",
       "peg_type": "peggedUSD",
@@ -6067,7 +6067,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "mkUSD",
       "symbol": "mkUSD",
       "peg_type": "peggedUSD",
@@ -6081,7 +6081,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USDT+",
       "symbol": "USDT+",
       "peg_type": "peggedUSD",
@@ -6095,7 +6095,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Reservoir Stablecoin",
       "symbol": "rUSD",
       "peg_type": "peggedUSD",
@@ -6109,7 +6109,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USDCB",
       "symbol": "USDCB",
       "peg_type": "peggedUSD",
@@ -6123,7 +6123,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USDtez",
       "symbol": "USDTZ",
       "peg_type": "peggedUSD",
@@ -6137,7 +6137,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Inter Stable Token",
       "symbol": "IST",
       "peg_type": "peggedUSD",
@@ -6151,7 +6151,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Reserve",
       "symbol": "RSV",
       "peg_type": "peggedUSD",
@@ -6165,7 +6165,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Legacy BOLD",
       "symbol": "BOLD",
       "peg_type": "peggedUSD",
@@ -6179,7 +6179,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USDFC",
       "symbol": "USDFC",
       "peg_type": "peggedUSD",
@@ -6193,7 +6193,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "STBL",
       "symbol": "STBL",
       "peg_type": "peggedUSD",
@@ -6207,7 +6207,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USDLemma",
       "symbol": "USDL",
       "peg_type": "peggedUSD",
@@ -6221,7 +6221,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Savvy USD",
       "symbol": "SVUSD",
       "peg_type": "peggedUSD",
@@ -6235,7 +6235,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "aUSD Seed",
       "symbol": "aSEED",
       "peg_type": "peggedUSD",
@@ -6249,7 +6249,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "SigmaUSD",
       "symbol": "SIGUSD",
       "peg_type": "peggedUSD",
@@ -6263,7 +6263,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USD Balance",
       "symbol": "USDB",
       "peg_type": "peggedUSD",
@@ -6277,7 +6277,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USE",
       "symbol": "USE",
       "peg_type": "peggedUSD",
@@ -6291,7 +6291,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Davos Protocol",
       "symbol": "DUSD",
       "peg_type": "peggedUSD",
@@ -6305,7 +6305,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "ZUSD",
       "symbol": "ZUSD",
       "peg_type": "peggedUSD",
@@ -6319,7 +6319,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Base Dollar",
       "symbol": "BD",
       "peg_type": "peggedUSD",
@@ -6333,7 +6333,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Quill USD",
       "symbol": "USDQ",
       "peg_type": "peggedUSD",
@@ -6347,7 +6347,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Last USD",
       "symbol": "USDXL",
       "peg_type": "peggedUSD",
@@ -6361,7 +6361,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "High Yield USD",
       "symbol": "HYUSD",
       "peg_type": "peggedUSD",
@@ -6375,7 +6375,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "peg-eUSD",
       "symbol": "peUSD",
       "peg_type": "peggedUSD",
@@ -6389,7 +6389,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "eUSD",
       "symbol": "EUSD",
       "peg_type": "peggedUSD",
@@ -6403,7 +6403,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "TheStandard USD",
       "symbol": "USDS",
       "peg_type": "peggedUSD",
@@ -6417,7 +6417,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "iAUSD",
       "symbol": "IAUSD",
       "peg_type": "peggedUSD",
@@ -6431,7 +6431,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Phoenix USD",
       "symbol": "phUSD",
       "peg_type": "peggedUSD",
@@ -6445,7 +6445,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "UST1",
       "symbol": "UST1",
       "peg_type": "peggedUSD",
@@ -6459,7 +6459,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Sable Coin",
       "symbol": "USDS",
       "peg_type": "peggedUSD",
@@ -6473,7 +6473,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "HYDT",
       "symbol": "HYDT",
       "peg_type": "peggedUSD",
@@ -6487,7 +6487,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Magma Wen",
       "symbol": "WEN",
       "peg_type": "peggedUSD",
@@ -6501,7 +6501,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "arUSD",
       "symbol": "ARUSD",
       "peg_type": "peggedUSD",
@@ -6515,7 +6515,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Vesta Stable",
       "symbol": "VST",
       "peg_type": "peggedUSD",
@@ -6529,7 +6529,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "GRAI",
       "symbol": "GRAI",
       "peg_type": "peggedUSD",
@@ -6543,7 +6543,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Stabl.fi Cash",
       "symbol": "CASH",
       "peg_type": "peggedUSD",
@@ -6557,7 +6557,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Mynth MyUSD",
       "symbol": "MyUSD",
       "peg_type": "peggedUSD",
@@ -6571,7 +6571,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "STAR",
       "symbol": "STAR",
       "peg_type": "peggedUSD",
@@ -6585,7 +6585,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "invUSD Stablecoin",
       "symbol": "invUSD",
       "peg_type": "peggedUSD",
@@ -6599,7 +6599,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USDU Finance",
       "symbol": "USDU",
       "peg_type": "peggedUSD",
@@ -6613,7 +6613,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Orby USC",
       "symbol": "USC",
       "peg_type": "peggedUSD",
@@ -6627,7 +6627,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "VDollar Finance",
       "symbol": "VUSD",
       "peg_type": "peggedUSD",
@@ -6641,7 +6641,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "HEX Dollar Coin",
       "symbol": "HEXDC",
       "peg_type": "peggedUSD",
@@ -6655,7 +6655,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Ethos Reserve Note",
       "symbol": "ERN",
       "peg_type": "peggedUSD",
@@ -6669,7 +6669,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "XBANKING USDE",
       "symbol": "USDE",
       "peg_type": "peggedUSD",
@@ -6683,7 +6683,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "NonDollar",
       "symbol": "USDA+",
       "peg_type": "peggedUSD",
@@ -6697,7 +6697,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Bytecash",
       "symbol": "BYC",
       "peg_type": "peggedUSD",
@@ -6711,7 +6711,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Redeemable USD",
       "symbol": "RUSD",
       "peg_type": "peggedUSD",
@@ -6725,7 +6725,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Whale Asset Dollar",
       "symbol": "WAD",
       "peg_type": "peggedUSD",
@@ -6739,7 +6739,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Hedge USD",
       "symbol": "USH",
       "peg_type": "peggedUSD",
@@ -6753,7 +6753,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Coin98 Dollar",
       "symbol": "CUSD",
       "peg_type": "peggedUSD",
@@ -6767,7 +6767,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Coinshift",
       "symbol": "csUSDL",
       "peg_type": "peggedUSD",
@@ -6781,7 +6781,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Moremoney USD",
       "symbol": "MONEY",
       "peg_type": "peggedUSD",
@@ -6795,7 +6795,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "HRUSD",
       "symbol": "HRUSD",
       "peg_type": "peggedUSD",
@@ -6809,7 +6809,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Move Dollar",
       "symbol": "MOD",
       "peg_type": "peggedUSD",
@@ -6823,7 +6823,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Dyad",
       "symbol": "DYAD",
       "peg_type": "peggedUSD",
@@ -6837,7 +6837,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Nerite USND",
       "symbol": "USND",
       "peg_type": "peggedUSD",
@@ -6851,7 +6851,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "ARYZE eUSD",
       "symbol": "eUSD",
       "peg_type": "peggedUSD",
@@ -6865,7 +6865,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "BaoUSD",
       "symbol": "BAOUSD",
       "peg_type": "peggedUSD",
@@ -6879,7 +6879,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "3USD",
       "symbol": "3USD",
       "peg_type": "peggedUSD",
@@ -6893,7 +6893,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Parallel USD",
       "symbol": "PAUSD",
       "peg_type": "peggedUSD",
@@ -6907,7 +6907,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "CLever USD",
       "symbol": "clevUSD",
       "peg_type": "peggedUSD",
@@ -6921,7 +6921,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Digital Standard Unit",
       "symbol": "DSU",
       "peg_type": "peggedUSD",
@@ -6935,7 +6935,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "BOB",
       "symbol": "BOB",
       "peg_type": "peggedUSD",
@@ -6949,7 +6949,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "UNO",
       "symbol": "UNO",
       "peg_type": "peggedUSD",
@@ -6963,7 +6963,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "EBUSD",
       "symbol": "EBUSD",
       "peg_type": "peggedUSD",
@@ -6977,7 +6977,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "DAI+",
       "symbol": "DAI+",
       "peg_type": "peggedUSD",
@@ -6991,7 +6991,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Fuse Dollar V3",
       "symbol": "FUSD",
       "peg_type": "peggedUSD",
@@ -7005,7 +7005,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Hyperstable USD",
       "symbol": "USH",
       "peg_type": "peggedUSD",
@@ -7019,7 +7019,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "GAI Stablecoin",
       "symbol": "GAI",
       "peg_type": "peggedUSD",
@@ -7033,7 +7033,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "btcUSD",
       "symbol": "btcUSD",
       "peg_type": "peggedUSD",
@@ -7047,7 +7047,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Classic USD",
       "symbol": "USC",
       "peg_type": "peggedUSD",
@@ -7061,7 +7061,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "PrismaLRT Ultra",
       "symbol": "ULTRA",
       "peg_type": "peggedUSD",
@@ -7075,7 +7075,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Mead",
       "symbol": "MEAD",
       "peg_type": "peggedUSD",
@@ -7089,7 +7089,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Dackie USD",
       "symbol": "DCKUSD",
       "peg_type": "peggedUSD",
@@ -7103,7 +7103,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Revenue Generating USD",
       "symbol": "rgUSD",
       "peg_type": "peggedUSD",
@@ -7117,7 +7117,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Arche Protocol MSD",
       "symbol": "MSD",
       "peg_type": "peggedUSD",
@@ -7131,7 +7131,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Offshift anonUSD",
       "symbol": "ANONUSD",
       "peg_type": "peggedUSD",
@@ -7145,7 +7145,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Chi USC",
       "symbol": "USC",
       "peg_type": "peggedUSD",
@@ -7159,7 +7159,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "PUSd",
       "symbol": "PUSD",
       "peg_type": "peggedUSD",
@@ -7173,7 +7173,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Jigsaw USD",
       "symbol": "JUSD",
       "peg_type": "peggedUSD",
@@ -7187,7 +7187,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Nexus",
       "symbol": "NEX",
       "peg_type": "peggedUSD",
@@ -7201,7 +7201,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USK",
       "symbol": "USK",
       "peg_type": "peggedUSD",
@@ -7215,7 +7215,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "TREN Debt Token",
       "symbol": "XY",
       "peg_type": "peggedUSD",
@@ -7229,7 +7229,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Fixed Income Asset Token",
       "symbol": "FIAT",
       "peg_type": "peggedUSD",
@@ -7243,7 +7243,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USDi",
       "symbol": "USDI",
       "peg_type": "peggedUSD",
@@ -7257,7 +7257,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "KNOX Dollar",
       "symbol": "KNOX",
       "peg_type": "peggedUSD",
@@ -7271,7 +7271,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Asymmetry USDaf",
       "symbol": "USDaf",
       "peg_type": "peggedUSD",
@@ -7285,7 +7285,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Money Protocol",
       "symbol": "BPD",
       "peg_type": "peggedUSD",
@@ -7299,7 +7299,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Orki USD",
       "symbol": "USDK",
       "peg_type": "peggedUSD",
@@ -7313,7 +7313,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Parabol USD",
       "symbol": "paraUSD",
       "peg_type": "peggedUSD",
@@ -7327,7 +7327,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Deaderal Reserve Note",
       "symbol": "USDeAD",
       "peg_type": "peggedUSD",
@@ -7341,7 +7341,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Gaming XP USD",
       "symbol": "xpUSD",
       "peg_type": "peggedUSD",
@@ -7355,7 +7355,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Kerne USD",
       "symbol": "kUSD",
       "peg_type": "peggedUSD",
@@ -7369,7 +7369,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Uncap USD",
       "symbol": "USDU",
       "peg_type": "peggedUSD",
@@ -7383,7 +7383,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "USD Stable Colb",
       "symbol": "SCB",
       "peg_type": "peggedUSD",
@@ -7397,7 +7397,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "litUSD",
       "symbol": "litUSD",
       "peg_type": "peggedUSD",
@@ -7411,7 +7411,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "PSY",
       "symbol": "sLSD",
       "peg_type": "peggedUSD",
@@ -7425,7 +7425,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Deuterium",
       "symbol": "d2O",
       "peg_type": "peggedUSD",
@@ -7439,7 +7439,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Phase Dollar",
       "symbol": "CASH",
       "peg_type": "peggedUSD",
@@ -7453,7 +7453,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "fUSD",
       "symbol": "FUSD",
       "peg_type": "peggedUSD",
@@ -7467,7 +7467,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Chad USD",
       "symbol": "cUSD",
       "peg_type": "peggedUSD",
@@ -7481,7 +7481,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Rocky USDr",
       "symbol": "USDR",
       "peg_type": "peggedUSD",
@@ -7495,7 +7495,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Monet USDmo",
       "symbol": "USDMO",
       "peg_type": "peggedUSD",
@@ -7509,7 +7509,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "Elixir deUSD",
       "symbol": "DEUSD",
       "peg_type": "peggedUSD",
@@ -7523,7 +7523,7 @@ window.DASHBOARD_DATA = {
       "data_source": "DefiLlama stablecoins"
     },
     {
-      "snapshot_utc": "2026-10-04T22:44:42+00:00",
+      "snapshot_utc": "2026-10-04T22:58:03+00:00",
       "stablecoin": "TerraClassicUSD",
       "symbol": "USTC",
       "peg_type": "peggedUSD",
@@ -7547,11 +7547,11 @@ window.DASHBOARD_DATA = {
       "tvl_usd": 19540635314.0,
       "tvl_previous_30d_usd": 17998458417.0,
       "tvl_30d_change": 0.08568383254109001,
-      "token_market_cap_usd": 2871461321.2419376,
-      "token_circulating_market_cap_usd": 2766728897.0,
-      "token_price_usd": 179.4663325776211,
+      "token_market_cap_usd": 2875955055.357323,
+      "token_circulating_market_cap_usd": 2771058728.0,
+      "token_price_usd": 179.7471909598327,
       "token_market_data_source": "aave-new",
-      "market_cap_to_tvl": 0.14694820690833232,
+      "market_cap_to_tvl": 0.14717817558863242,
       "fees_30d_usd": 37150869.0,
       "fees_previous_30d_usd": 32432007.0,
       "fees_30d_change": 0.14550015359826482,
@@ -7562,8 +7562,8 @@ window.DASHBOARD_DATA = {
       "holders_revenue_previous_30d_usd": 0.0,
       "holders_revenue_30d_change": null,
       "holders_revenue_to_fees": 0.0,
-      "fee_ps": 6.440991822743854,
-      "protocol_revenue_ps": 48.91366626284774,
+      "fee_ps": 6.4510717442377175,
+      "protocol_revenue_ps": 48.99021439851926,
       "holders_revenue_pe": null,
       "data_status": "已匹配协议与代币",
       "data_source": "DefiLlama protocols/fees/revenue/holders revenue; CoinPaprika"
@@ -7577,11 +7577,11 @@ window.DASHBOARD_DATA = {
       "tvl_usd": 11387678837.0,
       "tvl_previous_30d_usd": 9704407116.0,
       "tvl_30d_change": 0.17345435953781557,
-      "token_market_cap_usd": 2720157087.952236,
-      "token_circulating_market_cap_usd": 641626998.0,
-      "token_price_usd": 2.720157087952236,
+      "token_market_cap_usd": 2722196118.8383627,
+      "token_circulating_market_cap_usd": 642107961.0,
+      "token_price_usd": 2.7221961188383625,
       "token_market_data_source": "morpho-morpho",
-      "market_cap_to_tvl": 0.23886844078479838,
+      "market_cap_to_tvl": 0.23904749666750394,
       "fees_30d_usd": 19956961.0,
       "fees_previous_30d_usd": 18117533.0,
       "fees_30d_change": 0.10152750929169,
@@ -7592,7 +7592,7 @@ window.DASHBOARD_DATA = {
       "holders_revenue_previous_30d_usd": 0.0,
       "holders_revenue_30d_change": null,
       "holders_revenue_to_fees": 0.0,
-      "fee_ps": 11.358430641286166,
+      "fee_ps": 11.366944925625878,
       "protocol_revenue_ps": null,
       "holders_revenue_pe": null,
       "data_status": "已匹配协议与代币",
@@ -7607,11 +7607,11 @@ window.DASHBOARD_DATA = {
       "tvl_usd": 5620303491.0,
       "tvl_previous_30d_usd": 4487800481.0,
       "tvl_30d_change": 0.2523514614329843,
-      "token_market_cap_usd": 248260778.22887978,
-      "token_circulating_market_cap_usd": 42204332.0,
-      "token_price_usd": 0.02482607782288798,
+      "token_market_cap_usd": 247930391.55453694,
+      "token_circulating_market_cap_usd": 42148166.0,
+      "token_price_usd": 0.024793039155453694,
       "token_market_data_source": "spk-spark",
-      "market_cap_to_tvl": 0.04417213031759387,
+      "market_cap_to_tvl": 0.04411334582759758,
       "fees_30d_usd": 6417894.0,
       "fees_previous_30d_usd": 4922077.0,
       "fees_30d_change": 0.3038995529732672,
@@ -7622,9 +7622,9 @@ window.DASHBOARD_DATA = {
       "holders_revenue_previous_30d_usd": 975931.0,
       "holders_revenue_30d_change": -0.1746916534058248,
       "holders_revenue_to_fees": 0.12549973558304328,
-      "fee_ps": 3.2235493739441603,
-      "protocol_revenue_ps": 37.663135850362515,
-      "holders_revenue_pe": 25.685706499446244,
+      "fee_ps": 3.2192594584575684,
+      "protocol_revenue_ps": 37.61301356246953,
+      "holders_revenue_pe": 25.651523833907856,
       "data_status": "已匹配协议与代币",
       "data_source": "DefiLlama protocols/fees/revenue/holders revenue; CoinPaprika"
     },
@@ -7637,11 +7637,11 @@ window.DASHBOARD_DATA = {
       "tvl_usd": 3004042271.0,
       "tvl_previous_30d_usd": 3107787054.0,
       "tvl_30d_change": -0.0333822045067313,
-      "token_market_cap_usd": 309743556.6643836,
-      "token_circulating_market_cap_usd": 307715606.0,
-      "token_price_usd": 0.25806033925525657,
+      "token_market_cap_usd": 309186102.03607094,
+      "token_circulating_market_cap_usd": 307161801.0,
+      "token_price_usd": 0.2575959004399638,
       "token_market_data_source": "syrup-syrup-token",
-      "market_cap_to_tvl": 0.10310892082130212,
+      "market_cap_to_tvl": 0.10292335265080926,
       "fees_30d_usd": 9737476.0,
       "fees_previous_30d_usd": 9147343.0,
       "fees_30d_change": 0.06451414361525527,
@@ -7652,9 +7652,9 @@ window.DASHBOARD_DATA = {
       "holders_revenue_previous_30d_usd": 116371.0,
       "holders_revenue_30d_change": 0.2596351324642737,
       "holders_revenue_to_fees": 0.015053695639403886,
-      "fee_ps": 2.6507857945288182,
-      "protocol_revenue_ps": 19.56545633495492,
-      "holders_revenue_pe": 176.08870658911417,
+      "fee_ps": 2.6460150970339655,
+      "protocol_revenue_ps": 19.530243805253175,
+      "holders_revenue_pe": 175.771794542456,
       "data_status": "已匹配协议与代币",
       "data_source": "DefiLlama protocols/fees/revenue/holders revenue; CoinPaprika"
     },
@@ -7667,11 +7667,11 @@ window.DASHBOARD_DATA = {
       "tvl_usd": 1632399000.0,
       "tvl_previous_30d_usd": 1515568197.0,
       "tvl_30d_change": 0.0770871302467691,
-      "token_market_cap_usd": 250546665.83992803,
-      "token_circulating_market_cap_usd": 242233251.0,
-      "token_price_usd": 25.0546665839928,
+      "token_market_cap_usd": 250701567.7095867,
+      "token_circulating_market_cap_usd": 242383013.0,
+      "token_price_usd": 25.070156770958672,
       "token_market_data_source": "comp-compoundd",
-      "market_cap_to_tvl": 0.1534837168118383,
+      "market_cap_to_tvl": 0.15357860897341075,
       "fees_30d_usd": 2476688.0,
       "fees_previous_30d_usd": 2205213.0,
       "fees_30d_change": 0.12310602195796959,
@@ -7682,8 +7682,8 @@ window.DASHBOARD_DATA = {
       "holders_revenue_previous_30d_usd": 0.0,
       "holders_revenue_30d_change": null,
       "holders_revenue_to_fees": 0.0,
-      "fee_ps": 8.430165131818784,
-      "protocol_revenue_ps": 62.90773589394903,
+      "fee_ps": 8.435377128298851,
+      "protocol_revenue_ps": 62.9466289515489,
       "holders_revenue_pe": null,
       "data_status": "已匹配协议与代币",
       "data_source": "DefiLlama protocols/fees/revenue/holders revenue; CoinPaprika"
@@ -7697,11 +7697,11 @@ window.DASHBOARD_DATA = {
       "tvl_usd": 1399123675.0,
       "tvl_previous_30d_usd": 1321884570.0,
       "tvl_30d_change": 0.05843105120744393,
-      "token_market_cap_usd": 403891204.7871545,
-      "token_circulating_market_cap_usd": 54525312.0,
-      "token_price_usd": 0.04038912047871545,
+      "token_market_cap_usd": 403463008.4950524,
+      "token_circulating_market_cap_usd": 54467506.0,
+      "token_price_usd": 0.04034630084950524,
       "token_market_data_source": "kmno-kamino",
-      "market_cap_to_tvl": 0.28867441242258624,
+      "market_cap_to_tvl": 0.2883683663597876,
       "fees_30d_usd": 4778218.0,
       "fees_previous_30d_usd": 4079749.0,
       "fees_30d_change": 0.17120391475063784,
@@ -7712,8 +7712,8 @@ window.DASHBOARD_DATA = {
       "holders_revenue_previous_30d_usd": 0.0,
       "holders_revenue_30d_change": null,
       "holders_revenue_to_fees": 0.0,
-      "fee_ps": 7.043965009325556,
-      "protocol_revenue_ps": 54.63763122477462,
+      "fee_ps": 7.036497157431431,
+      "protocol_revenue_ps": 54.57970564773212,
       "holders_revenue_pe": null,
       "data_status": "已匹配协议与代币",
       "data_source": "DefiLlama protocols/fees/revenue/holders revenue; CoinPaprika"
@@ -7727,11 +7727,11 @@ window.DASHBOARD_DATA = {
       "tvl_usd": 1348324959.0,
       "tvl_previous_30d_usd": 1285642994.0,
       "tvl_30d_change": 0.04875534288486933,
-      "token_market_cap_usd": 102018968.45490542,
-      "token_circulating_market_cap_usd": 57103695.0,
-      "token_price_usd": 3.4297728898860456,
+      "token_market_cap_usd": 102016399.81381202,
+      "token_circulating_market_cap_usd": 57102257.0,
+      "token_price_usd": 3.429686534811892,
       "token_market_data_source": "xvs-venus",
-      "market_cap_to_tvl": 0.07566348733214054,
+      "market_cap_to_tvl": 0.07566158227128986,
       "fees_30d_usd": 1540478.0,
       "fees_previous_30d_usd": 1031665.0,
       "fees_30d_change": 0.4931959502357839,
@@ -7742,9 +7742,9 @@ window.DASHBOARD_DATA = {
       "holders_revenue_previous_30d_usd": 113638.0,
       "holders_revenue_30d_change": 1.714998504021542,
       "holders_revenue_to_fees": 0.20028004294770843,
-      "fee_ps": 5.518793974711389,
-      "protocol_revenue_ps": 18.32841584525814,
-      "holders_revenue_pe": 27.555386415371917,
+      "fee_ps": 5.5186550221106705,
+      "protocol_revenue_ps": 18.327954371055544,
+      "holders_revenue_pe": 27.55469262382547,
       "data_status": "已匹配协议与代币",
       "data_source": "DefiLlama protocols/fees/revenue/holders revenue; CoinPaprika"
     },
@@ -7757,11 +7757,11 @@ window.DASHBOARD_DATA = {
       "tvl_usd": 1326086870.0,
       "tvl_previous_30d_usd": 1093207259.0,
       "tvl_30d_change": 0.21302420843145903,
-      "token_market_cap_usd": 3341783005.3700447,
-      "token_circulating_market_cap_usd": 1109261159.0,
-      "token_price_usd": 0.3341783005370045,
+      "token_market_cap_usd": 3363858012.4800267,
+      "token_circulating_market_cap_usd": 1116588669.0,
+      "token_price_usd": 0.33638580124800266,
       "token_market_data_source": "jup-jupiter-exchange-token",
-      "market_cap_to_tvl": 2.5200332504385967,
+      "market_cap_to_tvl": 2.5366799781978284,
       "fees_30d_usd": 3999662.0,
       "fees_previous_30d_usd": 3556116.0,
       "fees_30d_change": 0.12472765230380561,
@@ -7772,9 +7772,9 @@ window.DASHBOARD_DATA = {
       "holders_revenue_previous_30d_usd": 89109.0,
       "holders_revenue_30d_change": 0.1278097610791278,
       "holders_revenue_to_fees": 0.025126623199660372,
-      "fee_ps": 69.62636270619127,
-      "protocol_revenue_ps": 2771.0194940612787,
-      "holders_revenue_pe": 2771.0194940612787,
+      "fee_ps": 70.08629755214372,
+      "protocol_revenue_ps": 2789.324176003525,
+      "holders_revenue_pe": 2789.324176003525,
       "data_status": "已匹配协议与代币",
       "data_source": "DefiLlama protocols/fees/revenue/holders revenue; CoinPaprika"
     },
@@ -7787,11 +7787,11 @@ window.DASHBOARD_DATA = {
       "tvl_usd": 1043697014.0,
       "tvl_previous_30d_usd": 853692903.0,
       "tvl_30d_change": 0.22256728424507002,
-      "token_market_cap_usd": 85272885.32434772,
-      "token_circulating_market_cap_usd": 19612763.0,
-      "token_price_usd": 0.08527288532434772,
+      "token_market_cap_usd": 85346159.07455315,
+      "token_circulating_market_cap_usd": 19629616.0,
+      "token_price_usd": 0.08534615907455315,
       "token_market_data_source": "lista-lista-dao",
-      "market_cap_to_tvl": 0.08170272040688978,
+      "market_cap_to_tvl": 0.0817729263663038,
       "fees_30d_usd": 314989.0,
       "fees_previous_30d_usd": 331505.0,
       "fees_30d_change": -0.04982126966410763,
@@ -7802,8 +7802,8 @@ window.DASHBOARD_DATA = {
       "holders_revenue_previous_30d_usd": 0.0,
       "holders_revenue_30d_change": null,
       "holders_revenue_to_fees": 0.0,
-      "fee_ps": 22.559752172390073,
-      "protocol_revenue_ps": 74.317322857924,
+      "fee_ps": 22.579137439337337,
+      "protocol_revenue_ps": 74.38118265263265,
       "holders_revenue_pe": null,
       "data_status": "已匹配协议与代币",
       "data_source": "DefiLlama protocols/fees/revenue/holders revenue; CoinPaprika"
@@ -7817,11 +7817,11 @@ window.DASHBOARD_DATA = {
       "tvl_usd": 715217001.0,
       "tvl_previous_30d_usd": 751027283.0,
       "tvl_30d_change": -0.04768173248907124,
-      "token_market_cap_usd": 176966516.41845727,
-      "token_circulating_market_cap_usd": 69789936.0,
-      "token_price_usd": 1.7696651641845726,
+      "token_market_cap_usd": 177191283.77016017,
+      "token_circulating_market_cap_usd": 69878577.0,
+      "token_price_usd": 1.7719128377016016,
       "token_market_data_source": "inst-instadapp",
-      "market_cap_to_tvl": 0.24743052272391,
+      "market_cap_to_tvl": 0.24774478727772883,
       "fees_30d_usd": 3350372.0,
       "fees_previous_30d_usd": 3216992.0,
       "fees_30d_change": 0.041461091603584965,
@@ -7832,8 +7832,8 @@ window.DASHBOARD_DATA = {
       "holders_revenue_previous_30d_usd": 0.0,
       "holders_revenue_30d_change": null,
       "holders_revenue_to_fees": 0.0,
-      "fee_ps": 4.401663367989616,
-      "protocol_revenue_ps": 34.658460735787,
+      "fee_ps": 4.407253974836231,
+      "protocol_revenue_ps": 34.7024808735585,
       "holders_revenue_pe": null,
       "data_status": "已匹配协议与代币",
       "data_source": "DefiLlama protocols/fees/revenue/holders revenue; CoinPaprika"
@@ -7847,11 +7847,11 @@ window.DASHBOARD_DATA = {
       "tvl_usd": 360118216.0,
       "tvl_previous_30d_usd": 317297783.0,
       "tvl_30d_change": 0.13495345790046065,
-      "token_market_cap_usd": 30882269.730636626,
-      "token_circulating_market_cap_usd": 11169931.0,
-      "token_price_usd": 0.030882269730636628,
+      "token_market_cap_usd": 30916787.187434513,
+      "token_circulating_market_cap_usd": 11182416.0,
+      "token_price_usd": 0.030916787187434513,
       "token_market_data_source": "dolo-dolomite",
-      "market_cap_to_tvl": 0.08575592224592334,
+      "market_cap_to_tvl": 0.08585177259523721,
       "fees_30d_usd": 1243410.0,
       "fees_previous_30d_usd": 1064912.0,
       "fees_30d_change": 0.16761760596180716,
@@ -7862,7 +7862,7 @@ window.DASHBOARD_DATA = {
       "holders_revenue_previous_30d_usd": null,
       "holders_revenue_30d_change": null,
       "holders_revenue_to_fees": null,
-      "fee_ps": 2.0697295964750584,
+      "fee_ps": 2.0720429562945526,
       "protocol_revenue_ps": null,
       "holders_revenue_pe": null,
       "data_status": "已匹配协议与代币",
@@ -7877,11 +7877,11 @@ window.DASHBOARD_DATA = {
       "tvl_usd": 348198478.0,
       "tvl_previous_30d_usd": 349668911.0,
       "tvl_30d_change": -0.00420521514421967,
-      "token_market_cap_usd": 38878227.59168499,
-      "token_circulating_market_cap_usd": 26724980.0,
-      "token_price_usd": 1.4302500789905221,
+      "token_market_cap_usd": 38826887.26456634,
+      "token_circulating_market_cap_usd": 26689689.0,
+      "token_price_usd": 1.4283613738857517,
       "token_market_data_source": "eul-euler",
-      "market_cap_to_tvl": 0.11165536338641029,
+      "market_cap_to_tvl": 0.11150791780475944,
       "fees_30d_usd": 1754854.0,
       "fees_previous_30d_usd": 1393217.0,
       "fees_30d_change": 0.25956975833628215,
@@ -7892,9 +7892,9 @@ window.DASHBOARD_DATA = {
       "holders_revenue_previous_30d_usd": 1.19,
       "holders_revenue_30d_change": -0.9747899159663865,
       "holders_revenue_to_fees": 1.7095439278709226e-08,
-      "fee_ps": 1.8462232751596899,
-      "protocol_revenue_ps": 44.45278459046804,
-      "holders_revenue_pe": 107995076.64356942,
+      "fee_ps": 1.843785260035229,
+      "protocol_revenue_ps": 44.3940828274613,
+      "holders_revenue_pe": 107852464.62379539,
       "data_status": "已匹配协议与代币",
       "data_source": "DefiLlama protocols/fees/revenue/holders revenue; CoinPaprika"
     },
@@ -7904,14 +7904,14 @@ window.DASHBOARD_DATA = {
       "intro": "Avalanche 生态代表性借贷市场。",
       "chains": "Avalanche",
       "matched_protocols": "Benqi Lending",
-      "tvl_usd": 130439128.0,
+      "tvl_usd": 129894424.0,
       "tvl_previous_30d_usd": 92768233.0,
-      "tvl_30d_change": 0.4060753749615992,
-      "token_market_cap_usd": 21131362.24896789,
-      "token_circulating_market_cap_usd": 21131362.0,
-      "token_price_usd": 0.0029349114234677623,
+      "tvl_30d_change": 0.40020370981950254,
+      "token_market_cap_usd": 21111453.958299566,
+      "token_circulating_market_cap_usd": 21111453.0,
+      "token_price_usd": 0.002932146383097162,
       "token_market_data_source": "qi-benqi",
-      "market_cap_to_tvl": 0.1620017135423344,
+      "market_cap_to_tvl": 0.16252779224995498,
       "fees_30d_usd": 155314.0,
       "fees_previous_30d_usd": 131851.0,
       "fees_30d_change": 0.1779508687837028,
@@ -7922,8 +7922,8 @@ window.DASHBOARD_DATA = {
       "holders_revenue_previous_30d_usd": 0.0,
       "holders_revenue_30d_change": null,
       "holders_revenue_to_fees": 0.0,
-      "fee_ps": 11.337978894888145,
-      "protocol_revenue_ps": 61.72047436404814,
+      "fee_ps": 11.327297151952155,
+      "protocol_revenue_ps": 61.66232623666528,
       "holders_revenue_pe": null,
       "data_status": "已匹配协议与代币",
       "data_source": "DefiLlama protocols/fees/revenue/holders revenue; CoinPaprika"
@@ -7937,11 +7937,11 @@ window.DASHBOARD_DATA = {
       "tvl_usd": 25508542.0,
       "tvl_previous_30d_usd": 22221397.0,
       "tvl_30d_change": 0.14792701826982346,
-      "token_market_cap_usd": 6487129.4580852,
-      "token_circulating_market_cap_usd": 6487129.0,
-      "token_price_usd": 0.00064871294580852,
+      "token_market_cap_usd": 6490348.642723769,
+      "token_circulating_market_cap_usd": 6490348.0,
+      "token_price_usd": 0.0006490348642723769,
       "token_market_data_source": "gear-gearbox",
-      "market_cap_to_tvl": 0.2543120441021364,
+      "market_cap_to_tvl": 0.2544382443623696,
       "fees_30d_usd": 5436.0,
       "fees_previous_30d_usd": -11390.0,
       "fees_30d_change": -1.477260755048288,
@@ -7952,8 +7952,8 @@ window.DASHBOARD_DATA = {
       "holders_revenue_previous_30d_usd": 0.0,
       "holders_revenue_30d_change": null,
       "holders_revenue_to_fees": 0.0,
-      "fee_ps": 99.44704221984915,
-      "protocol_revenue_ps": 476.45389778701224,
+      "fee_ps": 99.49639199662388,
+      "protocol_revenue_ps": 476.69033411507576,
       "holders_revenue_pe": null,
       "data_status": "已匹配协议与代币",
       "data_source": "DefiLlama protocols/fees/revenue/holders revenue; CoinPaprika"
@@ -7967,11 +7967,11 @@ window.DASHBOARD_DATA = {
       "tvl_usd": 13636225.0,
       "tvl_previous_30d_usd": 23705042.0,
       "tvl_30d_change": -0.4247542358288165,
-      "token_market_cap_usd": 11569078.6304666,
-      "token_circulating_market_cap_usd": 9473861.0,
-      "token_price_usd": 0.0023138157260933203,
+      "token_market_cap_usd": 11571276.76638333,
+      "token_circulating_market_cap_usd": 9475661.0,
+      "token_price_usd": 0.002314255353276666,
       "token_market_data_source": "well-moonwell",
-      "market_cap_to_tvl": 0.8484077250460887,
+      "market_cap_to_tvl": 0.8485689233188313,
       "fees_30d_usd": 195484.0,
       "fees_previous_30d_usd": 450645.0,
       "fees_30d_change": -0.5662128726602981,
@@ -7982,8 +7982,8 @@ window.DASHBOARD_DATA = {
       "holders_revenue_previous_30d_usd": 0.0,
       "holders_revenue_30d_change": null,
       "holders_revenue_to_fees": 0.0,
-      "fee_ps": 4.931809692211213,
-      "protocol_revenue_ps": 31.505175839750883,
+      "fee_ps": 4.932746740732118,
+      "protocol_revenue_ps": 31.511161853053085,
       "holders_revenue_pe": null,
       "data_status": "已匹配协议与代币",
       "data_source": "DefiLlama protocols/fees/revenue/holders revenue; CoinPaprika"
@@ -8027,11 +8027,11 @@ window.DASHBOARD_DATA = {
       "tvl_usd": 584606.0,
       "tvl_previous_30d_usd": 679273.0,
       "tvl_30d_change": -0.13936517423775124,
-      "token_market_cap_usd": 675418.883585299,
-      "token_circulating_market_cap_usd": 518958.0,
-      "token_price_usd": 0.00045027925572353267,
+      "token_market_cap_usd": 674725.0056774053,
+      "token_circulating_market_cap_usd": 518425.0,
+      "token_price_usd": 0.00044981667045160354,
       "token_market_data_source": "rdnt-radiant-capital",
-      "market_cap_to_tvl": 1.155340320806319,
+      "market_cap_to_tvl": 1.1541534053318052,
       "fees_30d_usd": 1858.2800000000002,
       "fees_previous_30d_usd": 707.6999999999999,
       "fees_30d_change": 1.6258018934576806,
@@ -8042,9 +8042,9 @@ window.DASHBOARD_DATA = {
       "holders_revenue_previous_30d_usd": 425.7900000000001,
       "holders_revenue_30d_change": 1.6181216092439936,
       "holders_revenue_to_fees": 0.5998934498568569,
-      "fee_ps": 30.288711585682236,
-      "protocol_revenue_ps": 75.65684113911094,
-      "holders_revenue_pe": 50.49015219771036,
+      "fee_ps": 30.257595091401964,
+      "protocol_revenue_ps": 75.57911661596941,
+      "holders_revenue_pe": 50.4382821626438,
       "data_status": "已匹配协议与代币",
       "data_source": "DefiLlama protocols/fees/revenue/holders revenue; CoinPaprika"
     },
@@ -8057,9 +8057,9 @@ window.DASHBOARD_DATA = {
       "tvl_usd": null,
       "tvl_previous_30d_usd": null,
       "tvl_30d_change": null,
-      "token_market_cap_usd": 5518726257.613819,
-      "token_circulating_market_cap_usd": 1753759482.0,
-      "token_price_usd": 0.05518726257613819,
+      "token_market_cap_usd": 5520595095.240311,
+      "token_circulating_market_cap_usd": 1754353367.0,
+      "token_price_usd": 0.055205950952403104,
       "token_market_data_source": "wlfi-official-world-liberty-financial",
       "market_cap_to_tvl": null,
       "fees_30d_usd": 11932417.0,
@@ -8072,8 +8072,8 @@ window.DASHBOARD_DATA = {
       "holders_revenue_previous_30d_usd": 0.0,
       "holders_revenue_30d_change": null,
       "holders_revenue_to_fees": 0.0,
-      "fee_ps": 38.54155070185291,
-      "protocol_revenue_ps": 38.54155070185291,
+      "fee_ps": 38.55460224613554,
+      "protocol_revenue_ps": 38.55460224613554,
       "holders_revenue_pe": null,
       "data_status": "已匹配协议与代币",
       "data_source": "DefiLlama protocols/fees/revenue/holders revenue; CoinPaprika"
