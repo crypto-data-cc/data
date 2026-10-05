@@ -3524,8 +3524,8 @@
           "totalLiquidityUSD": 765192
         },
         {
-          "date": 1791148655,
-          "totalLiquidityUSD": 765173
+          "date": 1791160175,
+          "totalLiquidityUSD": 765143
         }
       ],
       "tokensInUsd": [
@@ -8762,9 +8762,9 @@
           }
         },
         {
-          "date": 1791148655,
+          "date": 1791160175,
           "tokens": {
-            "USDC": 765173.98592
+            "USDC": 765143.70661
           }
         }
       ],
@@ -14002,7 +14002,7 @@
           }
         },
         {
-          "date": 1791148655,
+          "date": 1791160175,
           "tokens": {
             "USDC": 765175.0567
           }
@@ -17500,8 +17500,8 @@
       "totalLiquidityUSD": 765192
     },
     {
-      "date": 1791148655,
-      "totalLiquidityUSD": 765173
+      "date": 1791160175,
+      "totalLiquidityUSD": 765143
     }
   ],
   "tokensInUsd": [
@@ -22738,9 +22738,9 @@
       }
     },
     {
-      "date": 1791148655,
+      "date": 1791160175,
       "tokens": {
-        "USDC": 765173.98592
+        "USDC": 765143.70661
       }
     }
   ],
@@ -27978,14 +27978,14 @@
       }
     },
     {
-      "date": 1791148655,
+      "date": 1791160175,
       "tokens": {
         "USDC": 765175.0567
       }
     }
   ],
   "currentChainTvls": {
-    "Solana": 765173.98592
+    "Solana": 765143.70661
   },
   "raises": [],
   "hacks": [],

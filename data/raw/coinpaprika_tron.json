@@ -3,30 +3,30 @@
   "name": "TRON",
   "symbol": "TRX",
   "rank": 8,
-  "total_supply": 94982470324,
+  "total_supply": 94982751270,
   "max_supply": 0,
   "beta_value": 0.255053,
   "first_data_at": "2017-09-13T00:00:00Z",
-  "last_updated": "2026-10-04T22:52:14Z",
+  "last_updated": "2026-10-05T00:53:14Z",
   "quotes": {
     "USD": {
-      "price": 0.33598625713299607,
-      "volume_24h": 186229166.4267342,
-      "volume_24h_change_24h": -15.720000267028809,
-      "market_cap": 31912809595,
-      "market_cap_change_24h": 0.11999999731779099,
-      "percent_change_15m": 0.009999999776482582,
-      "percent_change_30m": 0.05999999865889549,
+      "price": 0.335813958178258,
+      "volume_24h": 193302066.54628983,
+      "volume_24h_change_24h": -13.40999984741211,
+      "market_cap": 31896519022,
+      "market_cap_change_24h": 0,
+      "percent_change_15m": 0,
+      "percent_change_30m": 0.11999999731779099,
       "percent_change_1h": 0.05000000074505806,
       "percent_change_6h": 0.07000000029802322,
-      "percent_change_12h": 0.03999999910593033,
-      "percent_change_24h": 0.10999999940395355,
-      "percent_change_7d": 0.7799999713897705,
+      "percent_change_12h": -0.20000000298023224,
+      "percent_change_24h": 0,
+      "percent_change_7d": 0.41999998688697815,
       "percent_change_30d": 0,
       "percent_change_1y": 0,
       "ath_price": 0.4404408234447792,
       "ath_date": "2024-12-04T00:12:23Z",
-      "percent_from_price_ath": -23.74
+      "percent_from_price_ath": -23.78
     }
   }
 }
