@@ -5,28 +5,28 @@
   "rank": 7,
   "total_supply": 630740924,
   "max_supply": 0,
-  "beta_value": 1.46781,
+  "beta_value": 1.46578,
   "first_data_at": "2020-08-26T00:00:00Z",
-  "last_updated": "2026-10-08T01:57:14Z",
+  "last_updated": "2026-10-09T02:09:12Z",
   "quotes": {
     "USD": {
-      "price": 116.1756549660699,
-      "volume_24h": 2164359452.009532,
-      "volume_24h_change_24h": 12.220000267028809,
-      "market_cap": 68438394530,
-      "market_cap_change_24h": -1.809999942779541,
-      "percent_change_15m": -0.07999999821186066,
-      "percent_change_30m": -0.23000000417232513,
-      "percent_change_1h": -0.49000000953674316,
-      "percent_change_6h": -0.05000000074505806,
-      "percent_change_12h": 0.05000000074505806,
-      "percent_change_24h": -1.809999942779541,
-      "percent_change_7d": -1.649999976158142,
+      "price": 109.80156376269143,
+      "volume_24h": 3622465510.194128,
+      "volume_24h_change_24h": 93.37000274658203,
+      "market_cap": 64639939902,
+      "market_cap_change_24h": -5.449999809265137,
+      "percent_change_15m": 0.36000001430511475,
+      "percent_change_30m": 0.27000001072883606,
+      "percent_change_1h": 0.9100000262260437,
+      "percent_change_6h": 0.5299999713897705,
+      "percent_change_12h": -2.4100000858306885,
+      "percent_change_24h": -5.389999866485596,
+      "percent_change_7d": -8.460000038146973,
       "percent_change_30d": 0,
       "percent_change_1y": 0,
       "ath_price": 294.1631972172844,
       "ath_date": "2025-01-19T11:17:03Z",
-      "percent_from_price_ath": -60.49
+      "percent_from_price_ath": -62.77
     }
   }
 }

@@ -2732,8 +2732,12 @@
           "totalLiquidityUSD": 180666403
         },
         {
-          "date": 1791422291,
+          "date": 1791417600,
           "totalLiquidityUSD": 180112959
+        },
+        {
+          "date": 1791507443,
+          "totalLiquidityUSD": 179649854
         }
       ],
       "tokensInUsd": [
@@ -6794,9 +6798,15 @@
           }
         },
         {
-          "date": 1791422291,
+          "date": 1791417600,
           "tokens": {
             "USDC": 180112959.03772
+          }
+        },
+        {
+          "date": 1791507443,
+          "tokens": {
+            "USDC": 179649854.73067
           }
         }
       ],
@@ -10858,9 +10868,15 @@
           }
         },
         {
-          "date": 1791422291,
+          "date": 1791417600,
           "tokens": {
             "USDC": 180170563.83519
+          }
+        },
+        {
+          "date": 1791507443,
+          "tokens": {
+            "USDC": 179715293.93174
           }
         }
       ]
@@ -13572,8 +13588,12 @@
       "totalLiquidityUSD": 180666403
     },
     {
-      "date": 1791422291,
+      "date": 1791417600,
       "totalLiquidityUSD": 180112959
+    },
+    {
+      "date": 1791507443,
+      "totalLiquidityUSD": 179649854
     }
   ],
   "tokensInUsd": [
@@ -17634,9 +17654,15 @@
       }
     },
     {
-      "date": 1791422291,
+      "date": 1791417600,
       "tokens": {
         "USDC": 180112959.03772
+      }
+    },
+    {
+      "date": 1791507443,
+      "tokens": {
+        "USDC": 179649854.73067
       }
     }
   ],
@@ -21698,14 +21724,20 @@
       }
     },
     {
-      "date": 1791422291,
+      "date": 1791417600,
       "tokens": {
         "USDC": 180170563.83519
+      }
+    },
+    {
+      "date": 1791507443,
+      "tokens": {
+        "USDC": 179715293.93174
       }
     }
   ],
   "currentChainTvls": {
-    "Hyperliquid L1": 180112959.03772
+    "Hyperliquid L1": 179649854.73067
   },
   "raises": [],
   "hacks": [],
@@ -21716,7 +21748,8 @@
     "Hyperliquid Bridge",
     "Hyperliquid HLP",
     "Hyperliquid Spot Orderbook",
-    "Hyperliquid Perps"
+    "Hyperliquid Perps",
+    "Hyperliquid Outcomes"
   ],
   "misrepresentedTokens": true
 }

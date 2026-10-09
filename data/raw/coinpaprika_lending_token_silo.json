@@ -1,0 +1,32 @@
+{
+  "id": "silo-silo-finance",
+  "name": "Silo Finance",
+  "symbol": "SILO",
+  "rank": 9598,
+  "total_supply": 1000000000,
+  "max_supply": 0,
+  "beta_value": 0.148876,
+  "first_data_at": "2021-12-15T00:00:00Z",
+  "last_updated": "2026-10-09T02:12:13Z",
+  "quotes": {
+    "USD": {
+      "price": 0.0008903416159447695,
+      "volume_24h": 13.706539111365958,
+      "volume_24h_change_24h": 0,
+      "market_cap": 0,
+      "market_cap_change_24h": 0,
+      "percent_change_15m": -0.019999999552965164,
+      "percent_change_30m": -0.019999999552965164,
+      "percent_change_1h": 0.05000000074505806,
+      "percent_change_6h": 5.369999885559082,
+      "percent_change_12h": 0,
+      "percent_change_24h": 0,
+      "percent_change_7d": 0,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 0.9483335877034553,
+      "ath_date": "2022-04-10T18:20:00Z",
+      "percent_from_price_ath": -99.91
+    }
+  }
+}

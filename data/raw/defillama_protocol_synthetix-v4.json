@@ -459,8 +459,8 @@
           "totalLiquidityUSD": 896668
         },
         {
-          "date": 1791422291,
-          "totalLiquidityUSD": 896979
+          "date": 1791505379,
+          "totalLiquidityUSD": 893628
         }
       ],
       "tokensInUsd": [
@@ -1221,10 +1221,10 @@
           }
         },
         {
-          "date": 1791422291,
+          "date": 1791505379,
           "tokens": {
-            "USDT": 805616.21896,
-            "WETH": 91363.32691
+            "USDT": 806067.29945,
+            "WETH": 87561.31497
           }
         }
       ],
@@ -1986,9 +1986,9 @@
           }
         },
         {
-          "date": 1791422291,
+          "date": 1791505379,
           "tokens": {
-            "USDT": 805994.36412,
+            "USDT": 806659.3169,
             "WETH": 35.40381
           }
         }
@@ -2429,8 +2429,8 @@
       "totalLiquidityUSD": 896668
     },
     {
-      "date": 1791422291,
-      "totalLiquidityUSD": 896979
+      "date": 1791505379,
+      "totalLiquidityUSD": 893628
     }
   ],
   "tokensInUsd": [
@@ -3191,10 +3191,10 @@
       }
     },
     {
-      "date": 1791422291,
+      "date": 1791505379,
       "tokens": {
-        "USDT": 805616.21896,
-        "WETH": 91363.32691
+        "USDT": 806067.29945,
+        "WETH": 87561.31497
       }
     }
   ],
@@ -3956,15 +3956,15 @@
       }
     },
     {
-      "date": 1791422291,
+      "date": 1791505379,
       "tokens": {
-        "USDT": 805994.36412,
+        "USDT": 806659.3169,
         "WETH": 35.40381
       }
     }
   ],
   "currentChainTvls": {
-    "Ethereum": 896979.54587
+    "Ethereum": 893628.61443
   },
   "raises": [],
   "hacks": [],
