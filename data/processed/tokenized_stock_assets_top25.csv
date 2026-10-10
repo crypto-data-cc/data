@@ -1,26 +1,26 @@
 ﻿rank,name,ticker,asset_class,total_value_usd,one_month_return,one_year_return,tokenization_types,platforms,networks
-1,Securitize Corp.,SECZ,Stocks,295013748.6,53.638814016172496,,Onchain Distributed,Securitize,"Avalanche C-Chain, Solana"
-2,Circle Internet Group (bStocks),CRCLB,Stocks,138184759.16477755,-20.783929446349802,,Onchain Distributed,bStocks,BNB Chain
-3,Strategy PP Variable xStock,STRCx,Stocks,137157329.88294688,1.7186700767263918,0.7396149949343789,Onchain Distributed,xStocks,"Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Optimism, Solana"
-4,Circle Internet Group (Ondo Tokenized),CRCLon,Stocks,101188971.88697523,-21.087902949664926,-45.7322268350129,Onchain Distributed,Ondo,"BNB Chain, Ethereum, HyperEVM, Solana"
-5,Strategy (bStocks),MSTRB,Stocks,91327888.47928743,7.401960784313744,,Onchain Distributed,bStocks,BNB Chain
-6,SpaceX (bStocks),SPCXB,Stocks,84408469.56874792,13.281514025008413,,Onchain Distributed,bStocks,BNB Chain
-7,Strategy Stretch Preferred (Ondo Tokenized),STRCon,Stocks,74190461.95221494,2.981962967380114,6.711180501747527,Onchain Distributed,Ondo,"BNB Chain, Ethereum, Solana"
-8,MicroStrategy xStock,MSTRx,Stocks,79401669.2084173,7.401960784313744,-53.297807551766056,Onchain Distributed,xStocks,"Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Optimism, Solana"
-9,iShares Core S&P 500 ETF (Ondo Tokenized),IVVon,Stocks,71606521.64888747,1.1373517646861009,17.118183616589032,Onchain Distributed,Ondo,"BNB Chain, Ethereum, HyperEVM, Solana"
-10,Invesco QQQ Trust (bStocks),QQQB,Stocks,70559798.78968897,5.3925114053633205,,Onchain Distributed,bStocks,BNB Chain
-11,FGRS,FGRS,Stocks,65903422.72,-23.025583982202434,,Onchain Distributed,Figure,Provenance
-12,Exodus Movement Inc.,EXOD,Stocks,58402500,-12.280701754385959,-78.12184449680247,Onchain Distributed,Securitize,Algorand
-13,SP500 xStock,SPYx,Stocks,55250475.03100801,0.9127617860527959,16.15554758488762,Onchain Distributed,xStocks,"Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Optimism, Solana"
-14,CRCLx xStock,CRCLx,Stocks,56214401.21862779,-20.783929446349802,-45.64281871974176,Onchain Distributed,xStocks,"Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Optimism, Solana"
-15,Tesla xStock,TSLAx,Stocks,47982191.529249355,6.701875282422076,-12.764090604724188,Onchain Distributed,xStocks,"Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Optimism, Solana"
-16,SPDR S&P 500 ETF (Ondo Tokenized),SPYon,Stocks,47391627.570239946,1.1075609015291699,17.086846022269242,Onchain Distributed,Ondo,"BNB Chain, Ethereum, HyperEVM, Solana"
-17,Micron Technology (bStocks),MUB,Stocks,46050394.22321379,7.0244641399187735,,Onchain Distributed,bStocks,BNB Chain
-18,NVIDIA (bStocks),NVDAB,Stocks,44450473.09451262,3.0864733460670424,,Onchain Distributed,bStocks,BNB Chain
-19,Micron Technology (Ondo Tokenized),MUon,Stocks,40315920.734306425,5.395785808330977,486.6488956550908,Onchain Distributed,Ondo,"BNB Chain, Ethereum, HyperEVM, Solana"
-20,NVIDIA (Ondo Tokenized),NVDAon,Stocks,36752462.03456629,2.6261403499832303,28.690560156976417,Onchain Distributed,Ondo,"BNB Chain, Ethereum, HyperEVM, Solana"
-21,Forward Industries Inc.,FWDI,Stocks,53805253.149,,,Onchain Distributed,Superstate Opening Bell,Solana
-22,Invesco QQQ (Ondo Tokenized),QQQon,Stocks,35286146.78640394,5.474249438534384,25.965762900030896,Onchain Distributed,Ondo,"BNB Chain, Ethereum, HyperEVM, Solana"
-23,SpaceX xStock,SPCXx,Stocks,177651819.67764825,13.281514025008413,,Onchain Distributed,xStocks,"Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Optimism, Solana"
-24,Alphabet (bStocks),GOOGLB,Stocks,32610141.07844318,3.5572888967677185,,Onchain Distributed,bStocks,BNB Chain
-25,Hims & Hers Health (Ondo Tokenized),HIMSon,Stocks,31279981.525577884,6.420521380717825,-48.60166194212556,Onchain Distributed,Ondo,"BNB Chain, Ethereum, Solana"
+1,Securitize Corp.,SECZ,Stocks,327620531.34000003,53.454545454545425,,Onchain Distributed,Securitize,"Avalanche C-Chain, Solana"
+2,Circle Internet Group (bStocks),CRCLB,Stocks,141380667.82643595,-15.949261800790172,,Onchain Distributed,bStocks,BNB Chain
+3,Strategy PP Variable xStock,STRCx,Stocks,149129385.92272133,1.4381884944920875,0.5561172901923372,Onchain Distributed,xStocks,"Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Optimism, Solana"
+4,Circle Internet Group (Ondo Tokenized),CRCLon,Stocks,97123888.52111816,-14.86368102617045,-46.343024703622795,Onchain Distributed,Ondo,"BNB Chain, Ethereum, HyperEVM, Solana"
+5,Strategy (bStocks),MSTRB,Stocks,92681100.74223356,10.95077644301201,,Onchain Distributed,bStocks,BNB Chain
+6,SpaceX (bStocks),SPCXB,Stocks,85012220.5349814,4.626311331204747,,Onchain Distributed,bStocks,BNB Chain
+7,Strategy Stretch Preferred (Ondo Tokenized),STRCon,Stocks,74813901.98958081,2.394694574018419,6.376901288845538,Onchain Distributed,Ondo,"BNB Chain, Ethereum, Solana"
+8,MicroStrategy xStock,MSTRx,Stocks,74758292.59154654,10.95077644301201,-54.21100362756951,Onchain Distributed,xStocks,"Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Optimism, Solana"
+9,iShares Core S&P 500 ETF (Ondo Tokenized),IVVon,Stocks,70538465.77971949,1.3604062724922983,15.843161616260515,Onchain Distributed,Ondo,"BNB Chain, Ethereum, HyperEVM, Solana"
+10,FGRS,FGRS,Stocks,65712950.400000006,-27.87142297138374,,Onchain Distributed,Figure,Provenance
+11,Invesco QQQ Trust (bStocks),QQQB,Stocks,65022419.99811805,4.067598418620211,,Onchain Distributed,bStocks,BNB Chain
+12,Exodus Movement Inc.,EXOD,Stocks,56695350,-14.959568733153628,-79.01563019620889,Onchain Distributed,Securitize,Algorand
+13,SP500 xStock,SPYx,Stocks,55604644.82116015,1.040524309363411,14.978235355291126,Onchain Distributed,xStocks,"Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Optimism, Solana"
+14,CRCLx xStock,CRCLx,Stocks,54305072.40278192,-15.949261800790172,-46.27143426824401,Onchain Distributed,xStocks,"Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Optimism, Solana"
+15,Forward Industries Inc.,FWDI,Stocks,52276281.138,,,Onchain Distributed,Superstate Opening Bell,Solana
+16,SPDR S&P 500 ETF (Ondo Tokenized),SPYon,Stocks,47598829.00296817,1.3635993188537254,15.810767381410052,Onchain Distributed,Ondo,"BNB Chain, Ethereum, HyperEVM, Solana"
+17,Tesla xStock,TSLAx,Stocks,47719138.66521132,1.8578878748370276,-14.518224714490879,Onchain Distributed,xStocks,"Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Optimism, Solana"
+18,NVIDIA (bStocks),NVDAB,Stocks,44019510.82140993,2.104283878970481,,Onchain Distributed,bStocks,BNB Chain
+19,Micron Technology (Ondo Tokenized),MUon,Stocks,44528029.0457214,3.497093661985917,426.39162751136405,Onchain Distributed,Ondo,"BNB Chain, Ethereum, HyperEVM, Solana"
+20,Micron Technology (bStocks),MUB,Stocks,41850736.386161745,3.5570751604583117,,Onchain Distributed,bStocks,BNB Chain
+21,NVIDIA (Ondo Tokenized),NVDAon,Stocks,36309199.13317034,2.538591452342387,22.128945228673082,Onchain Distributed,Ondo,"BNB Chain, Ethereum, HyperEVM, Solana"
+22,Invesco QQQ (Ondo Tokenized),QQQon,Stocks,35316767.9542724,4.303204434679531,22.458962338283172,Onchain Distributed,Ondo,"BNB Chain, Ethereum, HyperEVM, Solana"
+23,SpaceX xStock,SPCXx,Stocks,170200064.82559064,4.626311331204747,,Onchain Distributed,xStocks,"Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Optimism, Solana"
+24,Alphabet (bStocks),GOOGLB,Stocks,32162106.679250594,2.9347440595814955,,Onchain Distributed,bStocks,BNB Chain
+25,Hims & Hers Health (Ondo Tokenized),HIMSon,Stocks,31439798.630399153,-0.04444049417827722,-51.62247781942657,Onchain Distributed,Ondo,"BNB Chain, Ethereum, Solana"
