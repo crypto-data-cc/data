@@ -12,8 +12,8 @@
   "cmcId": null,
   "category": "Lending",
   "chains": [
-    "Arc",
     "Ethereum",
+    "Arc",
     "Avalanche"
   ],
   "module": "aave-v4/index.js",
@@ -40,556 +40,6 @@
   "methodology": "Counts the tokens locked in the contracts to be used as collateral to borrow or to earn yield. Borrowed coins are not counted towards the TVL, so only the coins actually locked in the contracts are counted. There's multiple reasons behind this but one of the main ones is to avoid inflating the TVL through cycled lending.",
   "tvlCodePath": "https://github.com/DefiLlama/DefiLlama-Adapters/blob/main/projects/aave-v4/index.js",
   "chainTvls": {
-    "Arc-borrowed": {
-      "tvl": [
-        {
-          "date": 1789603200,
-          "totalLiquidityUSD": 55
-        },
-        {
-          "date": 1789689600,
-          "totalLiquidityUSD": 100584
-        },
-        {
-          "date": 1789776000,
-          "totalLiquidityUSD": 675408
-        },
-        {
-          "date": 1789862400,
-          "totalLiquidityUSD": 1068910
-        },
-        {
-          "date": 1789948800,
-          "totalLiquidityUSD": 1147469
-        },
-        {
-          "date": 1790035200,
-          "totalLiquidityUSD": 1221140
-        },
-        {
-          "date": 1790121600,
-          "totalLiquidityUSD": 1251971
-        },
-        {
-          "date": 1790208000,
-          "totalLiquidityUSD": 1702188
-        },
-        {
-          "date": 1790294400,
-          "totalLiquidityUSD": 51386057
-        },
-        {
-          "date": 1790380800,
-          "totalLiquidityUSD": 56647072
-        },
-        {
-          "date": 1790467200,
-          "totalLiquidityUSD": 56481267
-        },
-        {
-          "date": 1790553600,
-          "totalLiquidityUSD": 61193237
-        },
-        {
-          "date": 1790640000,
-          "totalLiquidityUSD": 66008958
-        },
-        {
-          "date": 1790726400,
-          "totalLiquidityUSD": 67697921
-        },
-        {
-          "date": 1790812800,
-          "totalLiquidityUSD": 67306884
-        },
-        {
-          "date": 1790899200,
-          "totalLiquidityUSD": 67131834
-        },
-        {
-          "date": 1790985600,
-          "totalLiquidityUSD": 67336385
-        },
-        {
-          "date": 1791072000,
-          "totalLiquidityUSD": 67210340
-        },
-        {
-          "date": 1791158400,
-          "totalLiquidityUSD": 67445157
-        },
-        {
-          "date": 1791244800,
-          "totalLiquidityUSD": 67467674
-        },
-        {
-          "date": 1791331200,
-          "totalLiquidityUSD": 90504521
-        },
-        {
-          "date": 1791417600,
-          "totalLiquidityUSD": 90610512
-        },
-        {
-          "date": 1791504000,
-          "totalLiquidityUSD": 89297390
-        },
-        {
-          "date": 1791590400,
-          "totalLiquidityUSD": 86357669
-        },
-        {
-          "date": 1791673571,
-          "totalLiquidityUSD": 107599122
-        }
-      ],
-      "tokensInUsd": [
-        {
-          "date": 1789603200,
-          "tokens": {
-            "USDC": 55.56146
-          }
-        },
-        {
-          "date": 1789689600,
-          "tokens": {
-            "USDC": 75092.2278,
-            "EURC": 25002.3731,
-            "CIRBTC": 489.66547
-          }
-        },
-        {
-          "date": 1789776000,
-          "tokens": {
-            "USDC": 643136.9017,
-            "EURC": 25365.02493,
-            "CIRBTC": 631.48393,
-            "WETH": 6274.93641
-          }
-        },
-        {
-          "date": 1789862400,
-          "tokens": {
-            "USDC": 1056089.45943,
-            "EURC": 9589.00339,
-            "CIRBTC": 629.35594,
-            "WETH": 2602.97662
-          }
-        },
-        {
-          "date": 1789948800,
-          "tokens": {
-            "USDC": 1131751.93359,
-            "EURC": 12472.55307,
-            "CIRBTC": 628.35741,
-            "WETH": 2616.8772
-          }
-        },
-        {
-          "date": 1790035200,
-          "tokens": {
-            "USDC": 1205293.44817,
-            "EURC": 12434.21188,
-            "CIRBTC": 669.55519,
-            "WETH": 2742.83413
-          }
-        },
-        {
-          "date": 1790121600,
-          "tokens": {
-            "USDC": 1235032.85002,
-            "EURC": 12415.6481,
-            "CIRBTC": 667.28581,
-            "WETH": 3855.30771
-          }
-        },
-        {
-          "date": 1790208000,
-          "tokens": {
-            "USDC": 1477691.35378,
-            "EURC": 14812.60829,
-            "CIRBTC": 205928.03972,
-            "WETH": 3756.78217
-          }
-        },
-        {
-          "date": 1790294400,
-          "tokens": {
-            "USDC": 50990575.95274,
-            "EURC": 14577.92561,
-            "CIRBTC": 377137.39757,
-            "WETH": 3766.64568
-          }
-        },
-        {
-          "date": 1790380800,
-          "tokens": {
-            "USDC": 56082056.95513,
-            "EURC": 18996.97786,
-            "CIRBTC": 542250.50609,
-            "WETH": 3767.96281
-          }
-        },
-        {
-          "date": 1790467200,
-          "tokens": {
-            "USDC": 56050920.7112,
-            "EURC": 19370.71728,
-            "CIRBTC": 401238.93578,
-            "WETH": 9736.93286
-          }
-        },
-        {
-          "date": 1790553600,
-          "tokens": {
-            "USDC": 60762911.2338,
-            "EURC": 15203.4139,
-            "CIRBTC": 405273.80295,
-            "WETH": 9849.08208
-          }
-        },
-        {
-          "date": 1790640000,
-          "tokens": {
-            "USDC": 65772474.16702,
-            "EURC": 4798.60704,
-            "CIRBTC": 221888.80888,
-            "WETH": 9796.92225
-          }
-        },
-        {
-          "date": 1790726400,
-          "tokens": {
-            "USDC": 67483354.71014,
-            "EURC": 10787.70456,
-            "CIRBTC": 195057.25501,
-            "WETH": 8721.41854
-          }
-        },
-        {
-          "date": 1790812800,
-          "tokens": {
-            "USDC": 67087218.09382,
-            "EURC": 10215.98268,
-            "CIRBTC": 200671.0328,
-            "WETH": 8779.54795
-          }
-        },
-        {
-          "date": 1790899200,
-          "tokens": {
-            "USDC": 67081938.23948,
-            "EURC": 12408.15688,
-            "CIRBTC": 28628.12514,
-            "WETH": 8859.58592
-          }
-        },
-        {
-          "date": 1790985600,
-          "tokens": {
-            "USDC": 67105138.80771,
-            "EURC": 12390.82139,
-            "CIRBTC": 210116.92213,
-            "WETH": 8738.8937
-          }
-        },
-        {
-          "date": 1791072000,
-          "tokens": {
-            "USDC": 67101648.73183,
-            "EURC": 12537.76816,
-            "CIRBTC": 82918.92323,
-            "WETH": 13235.43609
-          }
-        },
-        {
-          "date": 1791158400,
-          "tokens": {
-            "USDC": 67399213.04154,
-            "EURC": 12828.37845,
-            "CIRBTC": 19794.59011,
-            "WETH": 13321.00939
-          }
-        },
-        {
-          "date": 1791244800,
-          "tokens": {
-            "USDC": 67366888.11658,
-            "EURC": 16151.96368,
-            "CIRBTC": 71261.18352,
-            "WETH": 13373.4207
-          }
-        },
-        {
-          "date": 1791331200,
-          "tokens": {
-            "USDC": 90364684.26626,
-            "EURC": 20367.7286,
-            "CIRBTC": 106179.2327,
-            "WETH": 13290.09207
-          }
-        },
-        {
-          "date": 1791417600,
-          "tokens": {
-            "USDC": 90093768.96205,
-            "EURC": 53948.6666,
-            "CIRBTC": 449398.10322,
-            "WETH": 13396.43813
-          }
-        },
-        {
-          "date": 1791504000,
-          "tokens": {
-            "USDC": 88768187.52379,
-            "EURC": 55403.42898,
-            "CIRBTC": 462873.76463,
-            "WETH": 10925.59318
-          }
-        },
-        {
-          "date": 1791590400,
-          "tokens": {
-            "USDC": 85884075.03164,
-            "EURC": 68814.54522,
-            "CIRBTC": 393796.18978,
-            "WETH": 10983.34261
-          }
-        },
-        {
-          "date": 1791673571,
-          "tokens": {
-            "USDC": 107192896.00399,
-            "EURC": 74154.99549,
-            "CIRBTC": 321002.65888,
-            "WETH": 11068.54284
-          }
-        }
-      ],
-      "tokens": [
-        {
-          "date": 1789603200,
-          "tokens": {
-            "USDC": 55.57989
-          }
-        },
-        {
-          "date": 1789689600,
-          "tokens": {
-            "USDC": 75121.09944,
-            "EURC": 21792.50498,
-            "CIRBTC": 0.00641
-          }
-        },
-        {
-          "date": 1789776000,
-          "tokens": {
-            "USDC": 643267.75438,
-            "EURC": 22057.78008,
-            "CIRBTC": 0.00775,
-            "WETH": 2.39581
-          }
-        },
-        {
-          "date": 1789862400,
-          "tokens": {
-            "USDC": 1056383.5059,
-            "EURC": 8341.38081,
-            "CIRBTC": 0.00775,
-            "WETH": 0.99019
-          }
-        },
-        {
-          "date": 1789948800,
-          "tokens": {
-            "USDC": 1132061.02583,
-            "EURC": 10861.39288,
-            "CIRBTC": 0.00775,
-            "WETH": 0.99019
-          }
-        },
-        {
-          "date": 1790035200,
-          "tokens": {
-            "USDC": 1205459.48712,
-            "EURC": 10846.45858,
-            "CIRBTC": 0.00775,
-            "WETH": 0.99019
-          }
-        },
-        {
-          "date": 1790121600,
-          "tokens": {
-            "USDC": 1235153.99273,
-            "EURC": 10846.47302,
-            "CIRBTC": 0.00775,
-            "WETH": 1.40019
-          }
-        },
-        {
-          "date": 1790208000,
-          "tokens": {
-            "USDC": 1477895.24012,
-            "EURC": 13017.23805,
-            "CIRBTC": 2.43878,
-            "WETH": 1.40019
-          }
-        },
-        {
-          "date": 1790294400,
-          "tokens": {
-            "USDC": 50999361.03725,
-            "EURC": 12820.78453,
-            "CIRBTC": 4.4589,
-            "WETH": 1.40019
-          }
-        },
-        {
-          "date": 1790380800,
-          "tokens": {
-            "USDC": 56088774.96269,
-            "EURC": 16680.41342,
-            "CIRBTC": 6.4498,
-            "WETH": 1.40029
-          }
-        },
-        {
-          "date": 1790467200,
-          "tokens": {
-            "USDC": 56057569.37681,
-            "EURC": 17016.9457,
-            "CIRBTC": 4.76171,
-            "WETH": 3.65129
-          }
-        },
-        {
-          "date": 1790553600,
-          "tokens": {
-            "USDC": 60773357.98762,
-            "EURC": 13362.03687,
-            "CIRBTC": 4.80559,
-            "WETH": 3.65129
-          }
-        },
-        {
-          "date": 1790640000,
-          "tokens": {
-            "USDC": 65777868.9605,
-            "EURC": 4222.62379,
-            "CIRBTC": 2.6596,
-            "WETH": 3.65129
-          }
-        },
-        {
-          "date": 1790726400,
-          "tokens": {
-            "USDC": 67492403.6214,
-            "EURC": 9517.62746,
-            "CIRBTC": 2.3371,
-            "WETH": 3.26934
-          }
-        },
-        {
-          "date": 1790812800,
-          "tokens": {
-            "USDC": 67099131.12726,
-            "EURC": 9018.43714,
-            "CIRBTC": 2.4048,
-            "WETH": 3.2716
-          }
-        },
-        {
-          "date": 1790899200,
-          "tokens": {
-            "USDC": 67089046.39109,
-            "EURC": 11038.99062,
-            "CIRBTC": 0.33745,
-            "WETH": 3.27311
-          }
-        },
-        {
-          "date": 1790985600,
-          "tokens": {
-            "USDC": 67106769.80307,
-            "EURC": 11019.00553,
-            "CIRBTC": 2.48649,
-            "WETH": 3.27396
-          }
-        },
-        {
-          "date": 1791072000,
-          "tokens": {
-            "USDC": 67103655.0483,
-            "EURC": 11149.01992,
-            "CIRBTC": 0.97866,
-            "WETH": 4.92446
-          }
-        },
-        {
-          "date": 1791158400,
-          "tokens": {
-            "USDC": 67401974.57731,
-            "EURC": 11401.03515,
-            "CIRBTC": 0.22894,
-            "WETH": 4.92662
-          }
-        },
-        {
-          "date": 1791244800,
-          "tokens": {
-            "USDC": 67368625.21039,
-            "EURC": 14401.05697,
-            "CIRBTC": 0.82981,
-            "WETH": 4.92662
-          }
-        },
-        {
-          "date": 1791331200,
-          "tokens": {
-            "USDC": 90372388.90983,
-            "EURC": 18102.76063,
-            "CIRBTC": 1.24074,
-            "WETH": 4.92685
-          }
-        },
-        {
-          "date": 1791417600,
-          "tokens": {
-            "USDC": 90119235.09537,
-            "EURC": 48183.44817,
-            "CIRBTC": 5.40148,
-            "WETH": 5.20768
-          }
-        },
-        {
-          "date": 1791504000,
-          "tokens": {
-            "USDC": 88801954.95061,
-            "EURC": 49446.62688,
-            "CIRBTC": 5.66657,
-            "WETH": 4.4168
-          }
-        },
-        {
-          "date": 1791590400,
-          "tokens": {
-            "USDC": 85907398.2712,
-            "EURC": 61496.95245,
-            "CIRBTC": 4.77035,
-            "WETH": 4.4168
-          }
-        },
-        {
-          "date": 1791673571,
-          "tokens": {
-            "USDC": 107226004.15142,
-            "EURC": 66268.30554,
-            "CIRBTC": 3.8703,
-            "WETH": 4.4168
-          }
-        }
-      ]
-    },
     "Ethereum-borrowed": {
       "tvl": [
         {
@@ -1373,8 +823,12 @@
           "totalLiquidityUSD": 293308044
         },
         {
-          "date": 1791673571,
-          "totalLiquidityUSD": 294894764
+          "date": 1791676800,
+          "totalLiquidityUSD": 294709357
+        },
+        {
+          "date": 1791766787,
+          "totalLiquidityUSD": 299314461
         }
       ],
       "tokensInUsd": [
@@ -4469,19 +3923,35 @@
           }
         },
         {
-          "date": 1791673571,
+          "date": 1791676800,
           "tokens": {
-            "WETH": 98026752.06106,
-            "USDT": 26726585.39377,
-            "USDC": 41368247.43625,
-            "GHO": 1187012.1921,
-            "RLUSD": 54.16718,
-            "USDG": 101597806.70664,
-            "FRXUSD": 24464456.82115,
-            "EURC": 850296.45975,
-            "WBTC": 363807.63815,
-            "CBBTC": 299478.50156,
-            "USDE": 10267.43432
+            "WETH": 97836695.65249,
+            "USDT": 26726077.18799,
+            "USDC": 41370277.30169,
+            "GHO": 1186796.24427,
+            "RLUSD": 54.16711,
+            "USDG": 101603163.65452,
+            "FRXUSD": 24462400.0818,
+            "EURC": 850533.66245,
+            "WBTC": 363985.71784,
+            "CBBTC": 299105.73404,
+            "USDE": 10267.62553
+          }
+        },
+        {
+          "date": 1791766787,
+          "tokens": {
+            "WETH": 101963042.13189,
+            "USDT": 26439024.90048,
+            "USDC": 41222576.75317,
+            "GHO": 1192467.21902,
+            "RLUSD": 56.6814,
+            "USDG": 102576519.61705,
+            "FRXUSD": 24349598.65806,
+            "EURC": 854842.82108,
+            "WBTC": 405953.89047,
+            "CBBTC": 302361.21856,
+            "USDE": 8017.42117
           }
         }
       ],
@@ -7577,1783 +7047,35 @@
           }
         },
         {
-          "date": 1791673571,
+          "date": 1791676800,
           "tokens": {
-            "WETH": 39116.35364,
-            "USDT": 26747459.54142,
-            "USDC": 41381024.64525,
-            "GHO": 1188651.02828,
-            "RLUSD": 54.16481,
-            "USDG": 101615195.62686,
-            "FRXUSD": 24469291.2009,
-            "EURC": 759863.92047,
+            "WETH": 39117.14064,
+            "USDT": 26747657.06929,
+            "USDC": 41382326.45984,
+            "GHO": 1188658.64354,
+            "RLUSD": 54.16515,
+            "USDG": 101615845.04461,
+            "FRXUSD": 24469445.24844,
+            "EURC": 759869.03803,
             "WBTC": 4.39367,
-            "CBBTC": 3.60821,
-            "USDE": 10274.98006
-          }
-        }
-      ]
-    },
-    "Avalanche-borrowed": {
-      "tvl": [
-        {
-          "date": 1785801600,
-          "totalLiquidityUSD": 1025079
-        },
-        {
-          "date": 1785888000,
-          "totalLiquidityUSD": 1022840
-        },
-        {
-          "date": 1785974400,
-          "totalLiquidityUSD": 1022498
-        },
-        {
-          "date": 1786060800,
-          "totalLiquidityUSD": 1062018
-        },
-        {
-          "date": 1786147200,
-          "totalLiquidityUSD": 1144826
-        },
-        {
-          "date": 1786233600,
-          "totalLiquidityUSD": 1416224
-        },
-        {
-          "date": 1786320000,
-          "totalLiquidityUSD": 2144444
-        },
-        {
-          "date": 1786406400,
-          "totalLiquidityUSD": 1607745
-        },
-        {
-          "date": 1786492800,
-          "totalLiquidityUSD": 1837549
-        },
-        {
-          "date": 1786579200,
-          "totalLiquidityUSD": 2239997
-        },
-        {
-          "date": 1786665600,
-          "totalLiquidityUSD": 2208415
-        },
-        {
-          "date": 1786752000,
-          "totalLiquidityUSD": 2353173
-        },
-        {
-          "date": 1786838400,
-          "totalLiquidityUSD": 2305746
-        },
-        {
-          "date": 1786924800,
-          "totalLiquidityUSD": 2366046
-        },
-        {
-          "date": 1787011200,
-          "totalLiquidityUSD": 2462585
-        },
-        {
-          "date": 1787097600,
-          "totalLiquidityUSD": 2564906
-        },
-        {
-          "date": 1787184000,
-          "totalLiquidityUSD": 2710251
-        },
-        {
-          "date": 1787270400,
-          "totalLiquidityUSD": 2925804
-        },
-        {
-          "date": 1787356800,
-          "totalLiquidityUSD": 3177275
-        },
-        {
-          "date": 1787443200,
-          "totalLiquidityUSD": 3114859
-        },
-        {
-          "date": 1787529600,
-          "totalLiquidityUSD": 3182175
-        },
-        {
-          "date": 1787616000,
-          "totalLiquidityUSD": 3349139
-        },
-        {
-          "date": 1787702400,
-          "totalLiquidityUSD": 3282037
-        },
-        {
-          "date": 1787788800,
-          "totalLiquidityUSD": 3588066
-        },
-        {
-          "date": 1787875200,
-          "totalLiquidityUSD": 4566155
-        },
-        {
-          "date": 1787961600,
-          "totalLiquidityUSD": 4698559
-        },
-        {
-          "date": 1788048000,
-          "totalLiquidityUSD": 4784284
-        },
-        {
-          "date": 1788134400,
-          "totalLiquidityUSD": 5421761
-        },
-        {
-          "date": 1788220800,
-          "totalLiquidityUSD": 4866037
-        },
-        {
-          "date": 1788307200,
-          "totalLiquidityUSD": 4886714
-        },
-        {
-          "date": 1788393600,
-          "totalLiquidityUSD": 4765020
-        },
-        {
-          "date": 1788480000,
-          "totalLiquidityUSD": 4703119
-        },
-        {
-          "date": 1788566400,
-          "totalLiquidityUSD": 4672521
-        },
-        {
-          "date": 1788652800,
-          "totalLiquidityUSD": 4817376
-        },
-        {
-          "date": 1788739200,
-          "totalLiquidityUSD": 4983121
-        },
-        {
-          "date": 1788825600,
-          "totalLiquidityUSD": 5068372
-        },
-        {
-          "date": 1788912000,
-          "totalLiquidityUSD": 6625057
-        },
-        {
-          "date": 1788998400,
-          "totalLiquidityUSD": 6146929
-        },
-        {
-          "date": 1789084800,
-          "totalLiquidityUSD": 6075225
-        },
-        {
-          "date": 1789171200,
-          "totalLiquidityUSD": 6152494
-        },
-        {
-          "date": 1789257600,
-          "totalLiquidityUSD": 6598098
-        },
-        {
-          "date": 1789344000,
-          "totalLiquidityUSD": 6709227
-        },
-        {
-          "date": 1789430400,
-          "totalLiquidityUSD": 6738322
-        },
-        {
-          "date": 1789516800,
-          "totalLiquidityUSD": 6722127
-        },
-        {
-          "date": 1789603200,
-          "totalLiquidityUSD": 6260435
-        },
-        {
-          "date": 1789689600,
-          "totalLiquidityUSD": 6427388
-        },
-        {
-          "date": 1789776000,
-          "totalLiquidityUSD": 6462175
-        },
-        {
-          "date": 1789862400,
-          "totalLiquidityUSD": 6783639
-        },
-        {
-          "date": 1789948800,
-          "totalLiquidityUSD": 7195193
-        },
-        {
-          "date": 1790035200,
-          "totalLiquidityUSD": 7405217
-        },
-        {
-          "date": 1790121600,
-          "totalLiquidityUSD": 7625573
-        },
-        {
-          "date": 1790208000,
-          "totalLiquidityUSD": 7488159
-        },
-        {
-          "date": 1790294400,
-          "totalLiquidityUSD": 7446990
-        },
-        {
-          "date": 1790380800,
-          "totalLiquidityUSD": 7828508
-        },
-        {
-          "date": 1790467200,
-          "totalLiquidityUSD": 8136791
-        },
-        {
-          "date": 1790553600,
-          "totalLiquidityUSD": 8223818
-        },
-        {
-          "date": 1790640000,
-          "totalLiquidityUSD": 8598609
-        },
-        {
-          "date": 1790726400,
-          "totalLiquidityUSD": 9481166
-        },
-        {
-          "date": 1790812800,
-          "totalLiquidityUSD": 8654615
-        },
-        {
-          "date": 1790899200,
-          "totalLiquidityUSD": 9166135
-        },
-        {
-          "date": 1790985600,
-          "totalLiquidityUSD": 8518623
-        },
-        {
-          "date": 1791072000,
-          "totalLiquidityUSD": 8652319
-        },
-        {
-          "date": 1791158400,
-          "totalLiquidityUSD": 8777982
-        },
-        {
-          "date": 1791244800,
-          "totalLiquidityUSD": 8817379
-        },
-        {
-          "date": 1791331200,
-          "totalLiquidityUSD": 8724521
-        },
-        {
-          "date": 1791417600,
-          "totalLiquidityUSD": 8253930
-        },
-        {
-          "date": 1791504000,
-          "totalLiquidityUSD": 8177760
-        },
-        {
-          "date": 1791590400,
-          "totalLiquidityUSD": 8799131
-        },
-        {
-          "date": 1791673571,
-          "totalLiquidityUSD": 8856074
-        }
-      ],
-      "tokensInUsd": [
-        {
-          "date": 1785801600,
-          "tokens": {
-            "WAVAX": 662173.62583,
-            "BTC.B": 15877.42134,
-            "AVALANCHEUSDC": 220258.385,
-            "USDT": 126769.6045,
-            "EURC": 0
-          }
-        },
-        {
-          "date": 1785888000,
-          "tokens": {
-            "WAVAX": 669149.5866,
-            "BTC.B": 16050.72839,
-            "AVALANCHEUSDC": 227329.64791,
-            "USDT": 110310.23099,
-            "EURC": 0
-          }
-        },
-        {
-          "date": 1785974400,
-          "tokens": {
-            "WAVAX": 665233.1438,
-            "BTC.B": 16170.26035,
-            "AVALANCHEUSDC": 230771.34416,
-            "USDT": 110323.70813,
-            "EURC": 0
-          }
-        },
-        {
-          "date": 1786060800,
-          "tokens": {
-            "WAVAX": 686202.80926,
-            "BTC.B": 25703.82926,
-            "AVALANCHEUSDC": 239775.04708,
-            "USDT": 110337.13093,
-            "EURC": 0
-          }
-        },
-        {
-          "date": 1786147200,
-          "tokens": {
-            "WAVAX": 717636.56391,
-            "BTC.B": 25935.45157,
-            "AVALANCHEUSDC": 289985.94885,
-            "USDT": 111268.62741,
-            "EURC": 0
-          }
-        },
-        {
-          "date": 1786233600,
-          "tokens": {
-            "WAVAX": 983997.14679,
-            "BTC.B": 25995.05378,
-            "AVALANCHEUSDC": 294977.0731,
-            "USDT": 111255.10478,
-            "EURC": 0
-          }
-        },
-        {
-          "date": 1786320000,
-          "tokens": {
-            "WAVAX": 1166014.25961,
-            "BTC.B": 351394.48067,
-            "AVALANCHEUSDC": 496427.92775,
-            "USDT": 130608.11895,
-            "EURC": 0
-          }
-        },
-        {
-          "date": 1786406400,
-          "tokens": {
-            "WAVAX": 1174565.55643,
-            "BTC.B": 20.62237,
-            "AVALANCHEUSDC": 302576.22963,
-            "USDT": 130582.86185,
-            "EURC": 0
-          }
-        },
-        {
-          "date": 1786492800,
-          "tokens": {
-            "WAVAX": 1198496.75818,
-            "BTC.B": 25441.97698,
-            "AVALANCHEUSDC": 483013.92375,
-            "USDT": 130596.88731,
-            "EURC": 0.00074
-          }
-        },
-        {
-          "date": 1786579200,
-          "tokens": {
-            "WAVAX": 1246770.39812,
-            "BTC.B": 31761.10682,
-            "AVALANCHEUSDC": 838138.39979,
-            "USDT": 123327.23454,
-            "EURC": 0.00074
-          }
-        },
-        {
-          "date": 1786665600,
-          "tokens": {
-            "WAVAX": 1308388.95668,
-            "BTC.B": 63364.5805,
-            "AVALANCHEUSDC": 713264.64881,
-            "USDT": 123340.16201,
-            "EURC": 57.62388
-          }
-        },
-        {
-          "date": 1786752000,
-          "tokens": {
-            "WAVAX": 1315395.07079,
-            "BTC.B": 63016.69434,
-            "AVALANCHEUSDC": 920370.35645,
-            "USDT": 54333.63125,
-            "EURC": 57.7826
-          }
-        },
-        {
-          "date": 1786838400,
-          "tokens": {
-            "WAVAX": 1267869.53266,
-            "BTC.B": 63066.09459,
-            "AVALANCHEUSDC": 919431.52435,
-            "USDT": 55321.29567,
-            "EURC": 57.78725
-          }
-        },
-        {
-          "date": 1786924800,
-          "tokens": {
-            "WAVAX": 1275665.6591,
-            "BTC.B": 62880.56831,
-            "AVALANCHEUSDC": 970494.0886,
-            "USDT": 56948.76046,
-            "EURC": 57.83423
-          }
-        },
-        {
-          "date": 1787011200,
-          "tokens": {
-            "WAVAX": 1304077.27336,
-            "BTC.B": 64451.46101,
-            "AVALANCHEUSDC": 1027553.25233,
-            "USDT": 66446.08175,
-            "EURC": 57.88538
-          }
-        },
-        {
-          "date": 1787097600,
-          "tokens": {
-            "WAVAX": 1350554.26635,
-            "BTC.B": 64605.59323,
-            "AVALANCHEUSDC": 1073065.49822,
-            "USDT": 76623.69697,
-            "EURC": 57.88253
-          }
-        },
-        {
-          "date": 1787184000,
-          "tokens": {
-            "WAVAX": 1467142.20723,
-            "BTC.B": 69743.60646,
-            "AVALANCHEUSDC": 1072411.99946,
-            "USDT": 100953.75238,
-            "EURC": 0.00075
-          }
-        },
-        {
-          "date": 1787270400,
-          "tokens": {
-            "WAVAX": 1576287.38318,
-            "BTC.B": 73105.53997,
-            "AVALANCHEUSDC": 1175165.77017,
-            "USDT": 101245.75364,
-            "EURC": 0.00075
-          }
-        },
-        {
-          "date": 1787356800,
-          "tokens": {
-            "WAVAX": 1719871.66053,
-            "BTC.B": 156902.92587,
-            "AVALANCHEUSDC": 1201363.39164,
-            "USDT": 99137.31568,
-            "EURC": 0.00075
-          }
-        },
-        {
-          "date": 1787443200,
-          "tokens": {
-            "WAVAX": 1642464.94784,
-            "BTC.B": 153943.93932,
-            "AVALANCHEUSDC": 1217894.88942,
-            "USDT": 100546.53272,
-            "WETH": 9.67501,
-            "EURC": 0.00075
-          }
-        },
-        {
-          "date": 1787529600,
-          "tokens": {
-            "WAVAX": 1672250.39885,
-            "BTC.B": 155098.67407,
-            "AVALANCHEUSDC": 1254210.43332,
-            "USDT": 100606.61216,
-            "WETH": 9.8258,
-            "EURC": 0.00075
-          }
-        },
-        {
-          "date": 1787616000,
-          "tokens": {
-            "WAVAX": 1663760.2108,
-            "BTC.B": 157589.01744,
-            "AVALANCHEUSDC": 1433869.36817,
-            "USDT": 93910.98876,
-            "WETH": 9.90144,
-            "EURC": 0.00075
-          }
-        },
-        {
-          "date": 1787702400,
-          "tokens": {
-            "WAVAX": 1608637.91998,
-            "BTC.B": 196130.4766,
-            "AVALANCHEUSDC": 1382742.42132,
-            "USDT": 94517.33593,
-            "WETH": 9.75757,
-            "EURC": 0.00075
-          }
-        },
-        {
-          "date": 1787788800,
-          "tokens": {
-            "WAVAX": 1636803.55482,
-            "BTC.B": 197628.32154,
-            "AVALANCHEUSDC": 1659047.44155,
-            "USDT": 94577.0351,
-            "WETH": 10.02717,
-            "EURC": 0.00075
-          }
-        },
-        {
-          "date": 1787875200,
-          "tokens": {
-            "WAVAX": 1687993.46348,
-            "BTC.B": 201146.60157,
-            "AVALANCHEUSDC": 2548262.41276,
-            "USDT": 128365.29194,
-            "WETH": 387.54617,
-            "EURC": 0.00075
-          }
-        },
-        {
-          "date": 1787961600,
-          "tokens": {
-            "WAVAX": 1646518.15099,
-            "BTC.B": 194791.35588,
-            "AVALANCHEUSDC": 2681423.41235,
-            "USDT": 175450.2107,
-            "WETH": 376.36611,
-            "EURC": 0.00074
-          }
-        },
-        {
-          "date": 1788048000,
-          "tokens": {
-            "WAVAX": 1686142.09032,
-            "BTC.B": 195610.8267,
-            "AVALANCHEUSDC": 2718295.86329,
-            "USDT": 183866.43887,
-            "WETH": 369.57781,
-            "EURC": 0.00074
-          }
-        },
-        {
-          "date": 1788134400,
-          "tokens": {
-            "WAVAX": 1665307.11812,
-            "BTC.B": 194823.71332,
-            "AVALANCHEUSDC": 3372267.83925,
-            "USDT": 184146.88335,
-            "WETH": 5215.98783,
-            "EURC": 0.00074
-          }
-        },
-        {
-          "date": 1788220800,
-          "tokens": {
-            "WAVAX": 1690149.71234,
-            "BTC.B": 196845.99759,
-            "AVALANCHEUSDC": 2798298.59237,
-            "USDT": 175364.19598,
-            "WETH": 5320.58006,
-            "EURC": 58.08309
-          }
-        },
-        {
-          "date": 1788307200,
-          "tokens": {
-            "WAVAX": 1673465.96295,
-            "BTC.B": 193035.95912,
-            "AVALANCHEUSDC": 2824513.71466,
-            "USDT": 190423.78967,
-            "WETH": 5182.17945,
-            "EURC": 92.66092
-          }
-        },
-        {
-          "date": 1788393600,
-          "tokens": {
-            "WAVAX": 1654120.90055,
-            "BTC.B": 192885.22085,
-            "AVALANCHEUSDC": 2673910.35347,
-            "USDT": 191145.04385,
-            "WETH": 52866.62444,
-            "EURC": 92.68376
-          }
-        },
-        {
-          "date": 1788480000,
-          "tokens": {
-            "WAVAX": 1743172.01477,
-            "BTC.B": 203157.2773,
-            "AVALANCHEUSDC": 2534426.87743,
-            "USDT": 216883.99684,
-            "WETH": 5386.6444,
-            "EURC": 93.04877
-          }
-        },
-        {
-          "date": 1788566400,
-          "tokens": {
-            "WAVAX": 1712701.88753,
-            "BTC.B": 199231.25533,
-            "AVALANCHEUSDC": 2510908.76928,
-            "USDT": 244305.47511,
-            "WETH": 5281.1667,
-            "EURC": 92.91526
-          }
-        },
-        {
-          "date": 1788652800,
-          "tokens": {
-            "WAVAX": 1765163.60866,
-            "BTC.B": 199649.29435,
-            "AVALANCHEUSDC": 2576675.14986,
-            "USDT": 270459.88734,
-            "WETH": 5335.44897,
-            "EURC": 92.88399
-          }
-        },
-        {
-          "date": 1788739200,
-          "tokens": {
-            "WAVAX": 1867247.74692,
-            "BTC.B": 200652.00993,
-            "AVALANCHEUSDC": 2418737.46397,
-            "USDT": 490988.8467,
-            "WETH": 5402.34244,
-            "EURC": 92.94703
-          }
-        },
-        {
-          "date": 1788825600,
-          "tokens": {
-            "WAVAX": 1917059.01942,
-            "BTC.B": 197929.30893,
-            "AVALANCHEUSDC": 2374133.56108,
-            "USDT": 573314.50803,
-            "WETH": 5842.89723,
-            "EURC": 93.00942
-          }
-        },
-        {
-          "date": 1788912000,
-          "tokens": {
-            "WAVAX": 1899006.16035,
-            "BTC.B": 197064.2952,
-            "AVALANCHEUSDC": 3893150.42465,
-            "USDT": 580020.17642,
-            "WETH": 55723.83503,
-            "EURC": 93.06529
-          }
-        },
-        {
-          "date": 1788998400,
-          "tokens": {
-            "WAVAX": 1851829.47792,
-            "BTC.B": 156819.31087,
-            "AVALANCHEUSDC": 3679687.73729,
-            "USDT": 403750.72153,
-            "WETH": 54748.98496,
-            "EURC": 93.05617
-          }
-        },
-        {
-          "date": 1789084800,
-          "tokens": {
-            "WAVAX": 1770109.28864,
-            "BTC.B": 192318.44836,
-            "AVALANCHEUSDC": 3660251.25194,
-            "USDT": 410212.80969,
-            "WETH": 42240.46663,
-            "EURC": 92.92992
-          }
-        },
-        {
-          "date": 1789171200,
-          "tokens": {
-            "WAVAX": 1796306.05586,
-            "BTC.B": 208728.3643,
-            "AVALANCHEUSDC": 3555893.13433,
-            "USDT": 544467.61036,
-            "WETH": 47006.18902,
-            "EURC": 92.80503
-          }
-        },
-        {
-          "date": 1789257600,
-          "tokens": {
-            "WAVAX": 1782154.21409,
-            "BTC.B": 209171.10025,
-            "AVALANCHEUSDC": 4000068.80387,
-            "USDT": 559384.87621,
-            "WETH": 47226.40035,
-            "EURC": 92.76575
-          }
-        },
-        {
-          "date": 1789344000,
-          "tokens": {
-            "WAVAX": 1782490.67747,
-            "BTC.B": 207749.98756,
-            "AVALANCHEUSDC": 4002032.06006,
-            "USDT": 670526.3815,
-            "WETH": 46335.90652,
-            "EURC": 92.76287
-          }
-        },
-        {
-          "date": 1789430400,
-          "tokens": {
-            "WAVAX": 1819272.13876,
-            "BTC.B": 211100.54451,
-            "AVALANCHEUSDC": 3972191.98961,
-            "USDT": 688636.95371,
-            "WETH": 47028.46639,
-            "EURC": 92.43823
-          }
-        },
-        {
-          "date": 1789516800,
-          "tokens": {
-            "WAVAX": 1746141.32211,
-            "BTC.B": 212281.73384,
-            "AVALANCHEUSDC": 4016343.73807,
-            "USDT": 702324.57493,
-            "WETH": 44943.32227,
-            "EURC": 92.31575
-          }
-        },
-        {
-          "date": 1789603200,
-          "tokens": {
-            "WAVAX": 1860726.21153,
-            "BTC.B": 221861.69265,
-            "AVALANCHEUSDC": 3425671.67719,
-            "USDT": 706788.96628,
-            "WETH": 45294.7606,
-            "EURC": 91.7702
-          }
-        },
-        {
-          "date": 1789689600,
-          "tokens": {
-            "WAVAX": 1891093.58248,
-            "BTC.B": 221513.44298,
-            "AVALANCHEUSDC": 3431398.44669,
-            "USDT": 837616.86462,
-            "WETH": 45674.35147,
-            "EURC": 91.84809
-          }
-        },
-        {
-          "date": 1789776000,
-          "tokens": {
-            "WAVAX": 2091857.47899,
-            "BTC.B": 350.46254,
-            "AVALANCHEUSDC": 3450466.77643,
-            "USDT": 869922.46593,
-            "WETH": 49015.89978,
-            "EURC": 562.61854
-          }
-        },
-        {
-          "date": 1789862400,
-          "tokens": {
-            "WAVAX": 2502672.86264,
-            "BTC.B": 350.30228,
-            "AVALANCHEUSDC": 3419119.99083,
-            "USDT": 848565.68392,
-            "WETH": 12367.8593,
-            "EURC": 562.45666
-          }
-        },
-        {
-          "date": 1789948800,
-          "tokens": {
-            "WAVAX": 2890713.16637,
-            "BTC.B": 350.07968,
-            "AVALANCHEUSDC": 3442574.18324,
-            "USDT": 845696.92124,
-            "WETH": 15067.5657,
-            "EURC": 791.57764
-          }
-        },
-        {
-          "date": 1790035200,
-          "tokens": {
-            "WAVAX": 2823013.28073,
-            "BTC.B": 372.66942,
-            "AVALANCHEUSDC": 3634862.9164,
-            "USDT": 922047.32022,
-            "WETH": 23787.68049,
-            "EURC": 1134.12627
-          }
-        },
-        {
-          "date": 1790121600,
-          "tokens": {
-            "WAVAX": 2856327.95181,
-            "BTC.B": 371.42271,
-            "AVALANCHEUSDC": 3639128.69938,
-            "USDT": 923290.12546,
-            "WETH": 205323.27041,
-            "EURC": 1132.46951
-          }
-        },
-        {
-          "date": 1790208000,
-          "tokens": {
-            "WAVAX": 2604876.83944,
-            "BTC.B": 363.61397,
-            "AVALANCHEUSDC": 3725301.32147,
-            "USDT": 956609.68973,
-            "WETH": 200223.31188,
-            "EURC": 784.4508
-          }
-        },
-        {
-          "date": 1790294400,
-          "tokens": {
-            "WAVAX": 2568828.5779,
-            "BTC.B": 364.5989,
-            "AVALANCHEUSDC": 3751471.49671,
-            "USDT": 965067.772,
-            "WETH": 160459.42651,
-            "EURC": 798.83611
-          }
-        },
-        {
-          "date": 1790380800,
-          "tokens": {
-            "WAVAX": 2658495.0345,
-            "BTC.B": 362.30007,
-            "AVALANCHEUSDC": 3873930.71452,
-            "USDT": 1120289.42391,
-            "WETH": 174630.80875,
-            "EURC": 800.13746
-          }
-        },
-        {
-          "date": 1790467200,
-          "tokens": {
-            "WAVAX": 2756406.57755,
-            "BTC.B": 363.22769,
-            "AVALANCHEUSDC": 3865906.12259,
-            "USDT": 1337440.06301,
-            "WETH": 175875.73066,
-            "EURC": 799.763
-          }
-        },
-        {
-          "date": 1790553600,
-          "tokens": {
-            "WAVAX": 2701991.0171,
-            "BTC.B": 366.06971,
-            "AVALANCHEUSDC": 3831066.67533,
-            "USDT": 1504991.77121,
-            "WETH": 184603.8765,
-            "EURC": 799.42138
-          }
-        },
-        {
-          "date": 1790640000,
-          "tokens": {
-            "WAVAX": 2716779.61601,
-            "BTC.B": 359.63309,
-            "AVALANCHEUSDC": 4295636.57836,
-            "USDT": 1346973.10971,
-            "WETH": 238062.10785,
-            "EURC": 798.45526
-          }
-        },
-        {
-          "date": 1790726400,
-          "tokens": {
-            "WAVAX": 2893425.28594,
-            "BTC.B": 359.58872,
-            "AVALANCHEUSDC": 5032014.58835,
-            "USDT": 1317893.80943,
-            "WETH": 236676.5927,
-            "EURC": 796.39493
-          }
-        },
-        {
-          "date": 1790812800,
-          "tokens": {
-            "WAVAX": 2748980.57611,
-            "BTC.B": 359.74489,
-            "AVALANCHEUSDC": 4329385.96013,
-            "USDT": 1337429.50243,
-            "WETH": 237663.69352,
-            "EURC": 795.95238
-          }
-        },
-        {
-          "date": 1790899200,
-          "tokens": {
-            "WAVAX": 2796944.18848,
-            "BTC.B": 365.90631,
-            "AVALANCHEUSDC": 4699811.86565,
-            "USDT": 1379834.59664,
-            "WETH": 288388.71236,
-            "EURC": 789.81634
-          }
-        },
-        {
-          "date": 1790985600,
-          "tokens": {
-            "WAVAX": 2731075.94835,
-            "BTC.B": 364.45402,
-            "AVALANCHEUSDC": 3597437.1039,
-            "USDT": 1904432.1128,
-            "WETH": 284523.58965,
-            "EURC": 790.16198
-          }
-        },
-        {
-          "date": 1791072000,
-          "tokens": {
-            "WAVAX": 2847784.98188,
-            "BTC.B": 365.29904,
-            "AVALANCHEUSDC": 3601443.94793,
-            "USDT": 1915554.25801,
-            "WETH": 286381.00928,
-            "EURC": 790.22744
-          }
-        },
-        {
-          "date": 1791158400,
-          "tokens": {
-            "WAVAX": 2852210.03025,
-            "BTC.B": 372.8715,
-            "AVALANCHEUSDC": 3687390.69686,
-            "USDT": 1941614.57908,
-            "WETH": 295604.06818,
-            "EURC": 790.69044
-          }
-        },
-        {
-          "date": 1791244800,
-          "tokens": {
-            "WAVAX": 2867102.48108,
-            "BTC.B": 369.78426,
-            "AVALANCHEUSDC": 3683408.08358,
-            "USDT": 1963017.38574,
-            "WETH": 302693.68542,
-            "EURC": 788.2694
-          }
-        },
-        {
-          "date": 1791331200,
-          "tokens": {
-            "WAVAX": 2960340.01321,
-            "BTC.B": 368.87562,
-            "AVALANCHEUSDC": 3038826.38634,
-            "USDT": 2422713.94004,
-            "WETH": 301143.60506,
-            "EURC": 1128.22776
-          }
-        },
-        {
-          "date": 1791417600,
-          "tokens": {
-            "WAVAX": 2836497.11273,
-            "BTC.B": 358.78898,
-            "AVALANCHEUSDC": 3112009.36091,
-            "USDT": 2004339.05206,
-            "WETH": 299603.847,
-            "EURC": 1122.78525
-          }
-        },
-        {
-          "date": 1791504000,
-          "tokens": {
-            "WAVAX": 2586754.67862,
-            "BTC.B": 352.19002,
-            "AVALANCHEUSDC": 3247841.5348,
-            "USDT": 2064940.05212,
-            "WETH": 277431.53438,
-            "EURC": 440.67058
-          }
-        },
-        {
-          "date": 1791590400,
-          "tokens": {
-            "WAVAX": 2676490.32266,
-            "BTC.B": 355.79911,
-            "AVALANCHEUSDC": 3837275.03002,
-            "USDT": 2008905.56749,
-            "WETH": 275325.08513,
-            "EURC": 779.2448
-          }
-        },
-        {
-          "date": 1791673571,
-          "tokens": {
-            "WAVAX": 2702926.93984,
-            "BTC.B": 357.63475,
-            "AVALANCHEUSDC": 3852726.14828,
-            "USDT": 2011055.8498,
-            "WETH": 288228.88343,
-            "EURC": 779.27565
-          }
-        }
-      ],
-      "tokens": [
-        {
-          "date": 1785801600,
-          "tokens": {
-            "WAVAX": 100862.15688,
-            "BTC.B": 0.25032,
-            "AVALANCHEUSDC": 220306.74166,
-            "USDT": 126897.95915,
-            "EURC": 0
-          }
-        },
-        {
-          "date": 1785888000,
-          "tokens": {
-            "WAVAX": 100460.41966,
-            "BTC.B": 0.25032,
-            "AVALANCHEUSDC": 227363.33085,
-            "USDT": 110405.46966,
-            "EURC": 0
-          }
-        },
-        {
-          "date": 1785974400,
-          "tokens": {
-            "WAVAX": 100011.10172,
-            "BTC.B": 0.25033,
-            "AVALANCHEUSDC": 230865.48432,
-            "USDT": 110412.74763,
-            "EURC": 0
-          }
-        },
-        {
-          "date": 1786060800,
-          "tokens": {
-            "WAVAX": 107015.93641,
-            "BTC.B": 0.40031,
-            "AVALANCHEUSDC": 239860.56493,
-            "USDT": 110418.59954,
-            "EURC": 0
-          }
-        },
-        {
-          "date": 1786147200,
-          "tokens": {
-            "WAVAX": 111781.24255,
-            "BTC.B": 0.40032,
-            "AVALANCHEUSDC": 290062.89017,
-            "USDT": 111322.66112,
-            "EURC": 0
-          }
-        },
-        {
-          "date": 1786233600,
-          "tokens": {
-            "WAVAX": 152285.81259,
-            "BTC.B": 0.40033,
-            "AVALANCHEUSDC": 295090.58755,
-            "USDT": 111326.50043,
-            "EURC": 0
-          }
-        },
-        {
-          "date": 1786320000,
-          "tokens": {
-            "WAVAX": 181306.63891,
-            "BTC.B": 5.40044,
-            "AVALANCHEUSDC": 496594.56037,
-            "USDT": 130690.37435,
-            "EURC": 0
-          }
-        },
-        {
-          "date": 1786406400,
-          "tokens": {
-            "WAVAX": 181516.60714,
-            "BTC.B": 0.00032,
-            "AVALANCHEUSDC": 302694.34108,
-            "USDT": 130694.81126,
-            "EURC": 0
-          }
-        },
-        {
-          "date": 1786492800,
-          "tokens": {
-            "WAVAX": 190187.16769,
-            "BTC.B": 0.40033,
-            "AVALANCHEUSDC": 483198.48408,
-            "USDT": 130699.05657,
-            "EURC": 0.00064
-          }
-        },
-        {
-          "date": 1786579200,
-          "tokens": {
-            "WAVAX": 195989.75494,
-            "BTC.B": 0.50033,
-            "AVALANCHEUSDC": 838536.36684,
-            "USDT": 123433.39903,
-            "EURC": 0.00064
-          }
-        },
-        {
-          "date": 1786665600,
-          "tokens": {
-            "WAVAX": 203144.02999,
-            "BTC.B": 1.00032,
-            "AVALANCHEUSDC": 713558.84864,
-            "USDT": 123442.98918,
-            "EURC": 50.00116
-          }
-        },
-        {
-          "date": 1786752000,
-          "tokens": {
-            "WAVAX": 203156.04974,
-            "BTC.B": 1.00033,
-            "AVALANCHEUSDC": 920688.51268,
-            "USDT": 54378.4541,
-            "EURC": 50.00276
-          }
-        },
-        {
-          "date": 1786838400,
-          "tokens": {
-            "WAVAX": 202049.08691,
-            "BTC.B": 1.00034,
-            "AVALANCHEUSDC": 919775.09584,
-            "USDT": 55366.90678,
-            "EURC": 50.00439
-          }
-        },
-        {
-          "date": 1786924800,
-          "tokens": {
-            "WAVAX": 202068.95023,
-            "BTC.B": 1.00035,
-            "AVALANCHEUSDC": 970943.12797,
-            "USDT": 56994.331,
-            "EURC": 50.00598
-          }
-        },
-        {
-          "date": 1787011200,
-          "tokens": {
-            "WAVAX": 205568.84528,
-            "BTC.B": 1.00036,
-            "AVALANCHEUSDC": 1027886.56568,
-            "USDT": 66495.6094,
-            "EURC": 50.00757
-          }
-        },
-        {
-          "date": 1787097600,
-          "tokens": {
-            "WAVAX": 213579.48471,
-            "BTC.B": 1.00036,
-            "AVALANCHEUSDC": 1073315.12593,
-            "USDT": 76667.2064,
-            "EURC": 50.0092
-          }
-        },
-        {
-          "date": 1787184000,
-          "tokens": {
-            "WAVAX": 216142.25228,
-            "BTC.B": 1.00037,
-            "AVALANCHEUSDC": 1072783.77161,
-            "USDT": 101010.1434,
-            "EURC": 0.00064
-          }
-        },
-        {
-          "date": 1787270400,
-          "tokens": {
-            "WAVAX": 216156.47278,
-            "BTC.B": 1.00031,
-            "AVALANCHEUSDC": 1175405.42306,
-            "USDT": 101276.88508,
-            "EURC": 0.00064
-          }
-        },
-        {
-          "date": 1787356800,
-          "tokens": {
-            "WAVAX": 218802.12013,
-            "BTC.B": 2.00033,
-            "AVALANCHEUSDC": 1201494.43221,
-            "USDT": 99158.20354,
-            "EURC": 0.00064
-          }
-        },
-        {
-          "date": 1787443200,
-          "tokens": {
-            "WAVAX": 219814.85862,
-            "BTC.B": 2.00036,
-            "AVALANCHEUSDC": 1218015.71871,
-            "USDT": 100566.55986,
-            "WETH": 0.004,
-            "EURC": 0.00064
-          }
-        },
-        {
-          "date": 1787529600,
-          "tokens": {
-            "WAVAX": 219837.67465,
-            "BTC.B": 2.00103,
-            "AVALANCHEUSDC": 1254341.92991,
-            "USDT": 100620.35631,
-            "WETH": 0.004,
-            "EURC": 0.00064
-          }
-        },
-        {
-          "date": 1787616000,
-          "tokens": {
-            "WAVAX": 220139.9665,
-            "BTC.B": 2.00097,
-            "AVALANCHEUSDC": 1433990.9182,
-            "USDT": 93924.10666,
-            "WETH": 0.004,
-            "EURC": 0.00064
-          }
-        },
-        {
-          "date": 1787702400,
-          "tokens": {
-            "WAVAX": 219451.18599,
-            "BTC.B": 2.50099,
-            "AVALANCHEUSDC": 1382882.74114,
-            "USDT": 94526.94557,
-            "WETH": 0.004,
-            "EURC": 0.00064
-          }
-        },
-        {
-          "date": 1787788800,
-          "tokens": {
-            "WAVAX": 220108.22778,
-            "BTC.B": 2.50102,
-            "AVALANCHEUSDC": 1659136.4003,
-            "USDT": 94579.67971,
-            "WETH": 0.004,
-            "EURC": 0.00064
-          }
-        },
-        {
-          "date": 1787875200,
-          "tokens": {
-            "WAVAX": 224240.37132,
-            "BTC.B": 2.50096,
-            "AVALANCHEUSDC": 2548204.11799,
-            "USDT": 128357.36906,
-            "WETH": 0.154,
-            "EURC": 0.00064
-          }
-        },
-        {
-          "date": 1787961600,
-          "tokens": {
-            "WAVAX": 224868.90381,
-            "BTC.B": 2.50098,
-            "AVALANCHEUSDC": 2681569.47923,
-            "USDT": 175458.02892,
-            "WETH": 0.154,
-            "EURC": 0.00064
-          }
-        },
-        {
-          "date": 1788048000,
-          "tokens": {
-            "WAVAX": 229892.94062,
-            "BTC.B": 2.501,
-            "AVALANCHEUSDC": 2718375.41001,
-            "USDT": 183869.30337,
-            "WETH": 0.15,
-            "EURC": 0.00064
-          }
-        },
-        {
-          "date": 1788134400,
-          "tokens": {
-            "WAVAX": 232887.69475,
-            "BTC.B": 2.50096,
-            "AVALANCHEUSDC": 3372922.31687,
-            "USDT": 184185.92187,
-            "WETH": 2.15001,
-            "EURC": 0.00064
-          }
-        },
-        {
-          "date": 1788220800,
-          "tokens": {
-            "WAVAX": 232903.87179,
-            "BTC.B": 2.50034,
-            "AVALANCHEUSDC": 2798633.48499,
-            "USDT": 175408.61601,
-            "WETH": 2.15001,
-            "EURC": 50.00203
-          }
-        },
-        {
-          "date": 1788307200,
-          "tokens": {
-            "WAVAX": 233117.46037,
-            "BTC.B": 2.50096,
-            "AVALANCHEUSDC": 2825160.78887,
-            "USDT": 190496.30109,
-            "WETH": 2.15001,
-            "EURC": 80.00396
-          }
-        },
-        {
-          "date": 1788393600,
-          "tokens": {
-            "WAVAX": 230878.2628,
-            "BTC.B": 2.50098,
-            "AVALANCHEUSDC": 2674425.42269,
-            "USDT": 191202.87536,
-            "WETH": 22.15015,
-            "EURC": 80.00787
-          }
-        },
-        {
-          "date": 1788480000,
-          "tokens": {
-            "WAVAX": 231898.02515,
-            "BTC.B": 2.50099,
-            "AVALANCHEUSDC": 2534511.76423,
-            "USDT": 216876.65391,
-            "WETH": 2.15006,
-            "EURC": 80.01203
-          }
-        },
-        {
-          "date": 1788566400,
-          "tokens": {
-            "WAVAX": 231904.11003,
-            "BTC.B": 2.50092,
-            "AVALANCHEUSDC": 2510875.37728,
-            "USDT": 244250.15154,
-            "WETH": 2.15008,
-            "EURC": 80.01601
-          }
-        },
-        {
-          "date": 1788652800,
-          "tokens": {
-            "WAVAX": 232488.25191,
-            "BTC.B": 2.50094,
-            "AVALANCHEUSDC": 2576699.52199,
-            "USDT": 270446.1777,
-            "WETH": 2.15009,
-            "EURC": 80.02012
-          }
-        },
-        {
-          "date": 1788739200,
-          "tokens": {
-            "WAVAX": 236589.11156,
-            "BTC.B": 2.50432,
-            "AVALANCHEUSDC": 2418999.82403,
-            "USDT": 491025.0177,
-            "WETH": 2.1501,
-            "EURC": 80.02434
-          }
-        },
-        {
-          "date": 1788825600,
-          "tokens": {
-            "WAVAX": 237727.12275,
-            "BTC.B": 2.50434,
-            "AVALANCHEUSDC": 2374404.20357,
-            "USDT": 573409.88286,
-            "WETH": 2.3501,
-            "EURC": 80.02836
-          }
-        },
-        {
-          "date": 1788912000,
-          "tokens": {
-            "WAVAX": 237941.22278,
-            "BTC.B": 2.50436,
-            "AVALANCHEUSDC": 3893146.71539,
-            "USDT": 580105.3494,
-            "WETH": 22.35037,
-            "EURC": 80.03245
-          }
-        },
-        {
-          "date": 1788998400,
-          "tokens": {
-            "WAVAX": 238095.14039,
-            "BTC.B": 2.00431,
-            "AVALANCHEUSDC": 3680146.92375,
-            "USDT": 403859.78832,
-            "WETH": 22.20089,
-            "EURC": 80.03644
-          }
-        },
-        {
-          "date": 1789084800,
-          "tokens": {
-            "WAVAX": 236871.55045,
-            "BTC.B": 2.50432,
-            "AVALANCHEUSDC": 3660239.7326,
-            "USDT": 410326.45136,
-            "WETH": 17.20129,
-            "EURC": 80.04049
-          }
-        },
-        {
-          "date": 1789171200,
-          "tokens": {
-            "WAVAX": 241061.34893,
-            "BTC.B": 2.70432,
-            "AVALANCHEUSDC": 3556391.77588,
-            "USDT": 544561.8897,
-            "WETH": 18.70164,
-            "EURC": 80.0442
-          }
-        },
-        {
-          "date": 1789257600,
-          "tokens": {
-            "WAVAX": 241098.8201,
-            "BTC.B": 2.70693,
-            "AVALANCHEUSDC": 4000504.41355,
-            "USDT": 559470.19941,
-            "WETH": 18.70205,
-            "EURC": 80.04822
-          }
-        },
-        {
-          "date": 1789344000,
-          "tokens": {
-            "WAVAX": 244756.87126,
-            "BTC.B": 2.70564,
-            "AVALANCHEUSDC": 4002677.97676,
-            "USDT": 670744.88712,
-            "WETH": 18.70246,
-            "EURC": 80.05226
-          }
-        },
-        {
-          "date": 1789430400,
-          "tokens": {
-            "WAVAX": 240320.31795,
-            "BTC.B": 2.70561,
-            "AVALANCHEUSDC": 3972641.66848,
-            "USDT": 688728.95647,
-            "WETH": 18.70287,
-            "EURC": 80.05576
-          }
-        },
-        {
-          "date": 1789516800,
-          "tokens": {
-            "WAVAX": 240814.21515,
-            "BTC.B": 2.80432,
-            "AVALANCHEUSDC": 4017437.41595,
-            "USDT": 702710.35159,
-            "WETH": 18.70329,
-            "EURC": 80.05597
-          }
-        },
-        {
-          "date": 1789603200,
-          "tokens": {
-            "WAVAX": 247754.23953,
-            "BTC.B": 2.90432,
-            "AVALANCHEUSDC": 3426798.29211,
-            "USDT": 707253.01957,
-            "WETH": 18.70371,
-            "EURC": 80.05618
-          }
-        },
-        {
-          "date": 1789689600,
-          "tokens": {
-            "WAVAX": 249127.6468,
-            "BTC.B": 2.90433,
-            "AVALANCHEUSDC": 3432727.64182,
-            "USDT": 838230.02687,
-            "WETH": 18.70413,
-            "EURC": 80.0564
-          }
-        },
-        {
-          "date": 1789776000,
-          "tokens": {
-            "WAVAX": 250678.00447,
-            "BTC.B": 0.00431,
-            "AVALANCHEUSDC": 3451225.01413,
-            "USDT": 870171.45962,
-            "WETH": 18.71174,
-            "EURC": 489.26094
-          }
-        },
-        {
-          "date": 1789862400,
-          "tokens": {
-            "WAVAX": 250132.46455,
-            "BTC.B": 0.00431,
-            "AVALANCHEUSDC": 3420071.97474,
-            "USDT": 848870.26137,
-            "WETH": 4.70632,
-            "EURC": 489.27558
-          }
-        },
-        {
-          "date": 1789948800,
-          "tokens": {
-            "WAVAX": 255753.67366,
-            "BTC.B": 0.00431,
-            "AVALANCHEUSDC": 3443436.67717,
-            "USDT": 845926.01507,
-            "WETH": 5.70636,
-            "EURC": 689.28597
-          }
-        },
-        {
-          "date": 1790035200,
-          "tokens": {
-            "WAVAX": 251392.89289,
-            "BTC.B": 0.00431,
-            "AVALANCHEUSDC": 3635379.58562,
-            "USDT": 922246.44912,
-            "WETH": 8.57659,
-            "EURC": 989.30706
-          }
-        },
-        {
-          "date": 1790121600,
-          "tokens": {
-            "WAVAX": 252811.42656,
-            "BTC.B": 0.00431,
-            "AVALANCHEUSDC": 3639584.5965,
-            "USDT": 923432.38193,
-            "WETH": 74.57813,
-            "EURC": 989.34021
-          }
-        },
-        {
-          "date": 1790208000,
-          "tokens": {
-            "WAVAX": 254347.91806,
-            "BTC.B": 0.00431,
-            "AVALANCHEUSDC": 3725815.32465,
-            "USDT": 956761.23356,
-            "WETH": 74.58206,
-            "EURC": 689.37101
-          }
-        },
-        {
-          "date": 1790294400,
-          "tokens": {
-            "WAVAX": 250453.91207,
-            "BTC.B": 0.00431,
-            "AVALANCHEUSDC": 3752174.1756,
-            "USDT": 965355.76217,
-            "WETH": 59.58447,
-            "EURC": 702.5489
-          }
-        },
-        {
-          "date": 1790380800,
-          "tokens": {
-            "WAVAX": 250233.95194,
-            "BTC.B": 0.00431,
-            "AVALANCHEUSDC": 3874347.05368,
-            "USDT": 1120500.38604,
-            "WETH": 64.86864,
-            "EURC": 702.56563
-          }
-        },
-        {
-          "date": 1790467200,
-          "tokens": {
-            "WAVAX": 252431.36349,
-            "BTC.B": 0.00431,
-            "AVALANCHEUSDC": 3866364.68985,
-            "USDT": 1337653.78598,
-            "WETH": 65.28973,
-            "EURC": 702.58233
-          }
-        },
-        {
-          "date": 1790553600,
-          "tokens": {
-            "WAVAX": 250296.00319,
-            "BTC.B": 0.00431,
-            "AVALANCHEUSDC": 3831814.70669,
-            "USDT": 1505347.22612,
-            "WETH": 68.61142,
-            "EURC": 702.59864
-          }
-        },
-        {
-          "date": 1790640000,
-          "tokens": {
-            "WAVAX": 252095.81486,
-            "BTC.B": 0.00431,
-            "AVALANCHEUSDC": 4295910.69683,
-            "USDT": 1347331.74499,
-            "WETH": 88.58799,
-            "EURC": 702.61561
-          }
-        },
-        {
-          "date": 1790726400,
-          "tokens": {
-            "WAVAX": 254043.79034,
-            "BTC.B": 0.00431,
-            "AVALANCHEUSDC": 5032689.33628,
-            "USDT": 1318309.27513,
-            "WETH": 88.64158,
-            "EURC": 702.63235
-          }
-        },
-        {
-          "date": 1790812800,
-          "tokens": {
-            "WAVAX": 253549.58891,
-            "BTC.B": 0.00431,
-            "AVALANCHEUSDC": 4330205.78204,
-            "USDT": 1338088.63432,
-            "WETH": 88.58895,
-            "EURC": 702.64865
-          }
-        },
-        {
-          "date": 1790899200,
-          "tokens": {
-            "WAVAX": 254751.5887,
-            "BTC.B": 0.00431,
-            "AVALANCHEUSDC": 4700309.86819,
-            "USDT": 1380235.09218,
-            "WETH": 106.5882,
-            "EURC": 702.66481
-          }
-        },
-        {
-          "date": 1790985600,
-          "tokens": {
-            "WAVAX": 252722.14958,
-            "BTC.B": 0.00431,
-            "AVALANCHEUSDC": 3597524.53987,
-            "USDT": 1904613.97244,
-            "WETH": 106.58889,
-            "EURC": 702.68136
-          }
-        },
-        {
-          "date": 1791072000,
-          "tokens": {
-            "WAVAX": 255929.44109,
-            "BTC.B": 0.00431,
-            "AVALANCHEUSDC": 3601551.62987,
-            "USDT": 1915821.17889,
-            "WETH": 106.59716,
-            "EURC": 702.69775
-          }
-        },
-        {
-          "date": 1791158400,
-          "tokens": {
-            "WAVAX": 257101.27216,
-            "BTC.B": 0.00431,
-            "AVALANCHEUSDC": 3687541.77965,
-            "USDT": 1941887.18095,
-            "WETH": 108.40594,
-            "EURC": 702.71465
-          }
-        },
-        {
-          "date": 1791244800,
-          "tokens": {
-            "WAVAX": 257011.8462,
-            "BTC.B": 0.00431,
-            "AVALANCHEUSDC": 3683469.71333,
-            "USDT": 1963145.70852,
-            "WETH": 111.6394,
-            "EURC": 702.73124
-          }
-        },
-        {
-          "date": 1791331200,
-          "tokens": {
-            "WAVAX": 256020.28319,
-            "BTC.B": 0.00431,
-            "AVALANCHEUSDC": 3039085.48174,
-            "USDT": 2422943.23055,
-            "WETH": 111.59738,
-            "EURC": 1002.76459
-          }
-        },
-        {
-          "date": 1791417600,
-          "tokens": {
-            "WAVAX": 256638.99945,
-            "BTC.B": 0.00431,
-            "AVALANCHEUSDC": 3112889.00937,
-            "USDT": 2005123.37364,
-            "WETH": 116.57556,
-            "EURC": 1002.79893
-          }
-        },
-        {
-          "date": 1791504000,
-          "tokens": {
-            "WAVAX": 256506.6842,
-            "BTC.B": 0.00431,
-            "AVALANCHEUSDC": 3249165.91635,
-            "USDT": 2066456.65071,
-            "WETH": 112.13674,
-            "EURC": 393.31055
-          }
-        },
-        {
-          "date": 1791590400,
-          "tokens": {
-            "WAVAX": 259411.83516,
-            "BTC.B": 0.00431,
-            "AVALANCHEUSDC": 3838313.6688,
-            "USDT": 2010431.81663,
-            "WETH": 110.69449,
-            "EURC": 696.38156
-          }
-        },
-        {
-          "date": 1791673571,
-          "tokens": {
-            "WAVAX": 260603.83511,
-            "BTC.B": 0.00431,
-            "AVALANCHEUSDC": 3853916.12103,
-            "USDT": 2012626.53592,
-            "WETH": 115.14578,
-            "EURC": 696.39647
+            "CBBTC": 3.60822,
+            "USDE": 10275.09102
+          }
+        },
+        {
+          "date": 1791766787,
+          "tokens": {
+            "WETH": 40112.96279,
+            "USDT": 26461826.07877,
+            "USDC": 41234949.39853,
+            "GHO": 1194438.95609,
+            "RLUSD": 56.67105,
+            "USDG": 102578929.90122,
+            "FRXUSD": 24355634.79118,
+            "EURC": 762915.83244,
+            "WBTC": 4.85219,
+            "CBBTC": 3.60825,
+            "USDE": 8023.03256
           }
         }
       ]
@@ -10141,8 +7863,12 @@
           "totalLiquidityUSD": 443043420
         },
         {
-          "date": 1791673571,
-          "totalLiquidityUSD": 445128264
+          "date": 1791676800,
+          "totalLiquidityUSD": 445191990
+        },
+        {
+          "date": 1791766787,
+          "totalLiquidityUSD": 450393884
         }
       ],
       "tokensInUsd": [
@@ -15065,30 +12791,57 @@
           }
         },
         {
-          "date": 1791673571,
+          "date": 1791676800,
           "tokens": {
-            "WETH": 18291371.68172,
-            "WSTETH": 61239994.30064,
-            "WEETH": 137256890.7457,
-            "RSETH": 3275312.21185,
-            "USDT": 3012518.39573,
-            "USDC": 3808988.82858,
-            "GHO": 168223.77149,
-            "RLUSD": 16.52232,
-            "USDG": 14038725.50784,
-            "FRXUSD": 3794387.52885,
-            "EURC": 412085.667,
-            "WBTC": 68453814.31807,
-            "CBBTC": 26812833.38093,
-            "LBTC": 387814.57872,
-            "XAUT": 6117274.26106,
-            "AAVE": 3369623.86903,
-            "LINK": 8918153.262,
-            "SUSDE": 4930374.28536,
-            "USDE": 26314628.50498,
-            "PAXG": 2529121.71673,
-            "PT-USDG-24SEP2026": 670345.27992,
-            "SYRUPUSDG": 51325765.77142
+            "WETH": 18250988.64005,
+            "WSTETH": 61269103.74585,
+            "WEETH": 137334338.37396,
+            "RSETH": 3275779.82335,
+            "USDT": 3012438.8661,
+            "USDC": 3808575.14866,
+            "GHO": 168192.08974,
+            "RLUSD": 16.52219,
+            "USDG": 14039376.0028,
+            "FRXUSD": 3794044.64718,
+            "EURC": 412197.84827,
+            "WBTC": 68510358.4302,
+            "CBBTC": 26779442.52533,
+            "LBTC": 387804.59703,
+            "XAUT": 6117483.9564,
+            "AAVE": 3357801.40311,
+            "LINK": 8901757.41007,
+            "SUSDE": 4930451.67214,
+            "USDE": 26314834.3686,
+            "SYRUPUSDG": 51327675.31485,
+            "PAXG": 2528965.71499,
+            "PT-USDG-24SEP2026": 670363.42516
+          }
+        },
+        {
+          "date": 1791766787,
+          "tokens": {
+            "WETH": 15846261.05812,
+            "WSTETH": 62272656.45966,
+            "WEETH": 143030106.88761,
+            "RSETH": 3324227.59654,
+            "USDT": 3387237.49918,
+            "USDC": 4098332.61707,
+            "GHO": 162683.79645,
+            "RLUSD": 14.02415,
+            "USDG": 12707404.01808,
+            "FRXUSD": 4169548.9123,
+            "EURC": 436201.63915,
+            "WBTC": 69287294.25113,
+            "CBBTC": 27072944.12483,
+            "LBTC": 434491.56341,
+            "XAUT": 6187763.35556,
+            "AAVE": 3436668.0694,
+            "LINK": 9168594.80459,
+            "SUSDE": 4801058.07271,
+            "USDE": 26439315.59076,
+            "PAXG": 2630898.92311,
+            "PT-USDG-24SEP2026": 109362.84571,
+            "SYRUPUSDG": 51390818.51906
           }
         }
       ],
@@ -20012,366 +17765,397 @@
           }
         },
         {
-          "date": 1791673571,
+          "date": 1791676800,
           "tokens": {
-            "WETH": 7298.94389,
+            "WETH": 7297.12389,
             "WSTETH": 19630.19289,
             "WEETH": 49595.59768,
             "RSETH": 1212.1128,
             "USDT": 3014871.24975,
-            "USDC": 3810165.2924,
+            "USDC": 3809684.40215,
             "GHO": 168456.02791,
             "RLUSD": 16.52159,
             "USDG": 14041128.29867,
             "FRXUSD": 3795137.33133,
             "EURC": 368258.65486,
-            "WBTC": 826.70954,
+            "WBTC": 826.98802,
             "CBBTC": 323.04977,
             "LBTC": 4.66312,
             "XAUT": 1463.50249,
-            "AAVE": 19955.8291,
+            "AAVE": 19960.86088,
             "LINK": 685072.14113,
             "SUSDE": 3939573.92859,
             "USDE": 26333967.64349,
+            "SYRUPUSDG": 50608293.29239,
             "PAXG": 604.65248,
-            "PT-USDG-24SEP2026": 670479.75115,
-            "SYRUPUSDG": 50608293.29239
+            "PT-USDG-24SEP2026": 670479.75115
+          }
+        },
+        {
+          "date": 1791766787,
+          "tokens": {
+            "WETH": 6234.0282,
+            "WSTETH": 19641.41632,
+            "WEETH": 50863.5921,
+            "RSETH": 1212.1128,
+            "USDT": 3390158.67371,
+            "USDC": 4099562.70068,
+            "GHO": 162952.79309,
+            "RLUSD": 14.02159,
+            "USDG": 12707702.60936,
+            "FRXUSD": 4170582.5208,
+            "EURC": 389293.94789,
+            "WBTC": 828.16032,
+            "CBBTC": 323.07738,
+            "LBTC": 5.17191,
+            "XAUT": 1473.89773,
+            "AAVE": 20015.50915,
+            "LINK": 687374.67899,
+            "SUSDE": 3835569.96395,
+            "USDE": 26457820.46684,
+            "PAXG": 626.35248,
+            "PT-USDG-24SEP2026": 109365.77428,
+            "SYRUPUSDG": 50656731.74066
           }
         }
       ]
     },
-    "Arc": {
+    "Arc-borrowed": {
       "tvl": [
         {
           "date": 1789603200,
-          "totalLiquidityUSD": 77312253
+          "totalLiquidityUSD": 55
         },
         {
           "date": 1789689600,
-          "totalLiquidityUSD": 126518592
+          "totalLiquidityUSD": 100584
         },
         {
           "date": 1789776000,
-          "totalLiquidityUSD": 127056978
+          "totalLiquidityUSD": 675408
         },
         {
           "date": 1789862400,
-          "totalLiquidityUSD": 127152442
+          "totalLiquidityUSD": 1068910
         },
         {
           "date": 1789948800,
-          "totalLiquidityUSD": 127227285
+          "totalLiquidityUSD": 1147469
         },
         {
           "date": 1790035200,
-          "totalLiquidityUSD": 127409663
+          "totalLiquidityUSD": 1221140
         },
         {
           "date": 1790121600,
-          "totalLiquidityUSD": 145428834
+          "totalLiquidityUSD": 1251971
         },
         {
           "date": 1790208000,
-          "totalLiquidityUSD": 145674635
+          "totalLiquidityUSD": 1702188
         },
         {
           "date": 1790294400,
-          "totalLiquidityUSD": 180864966
+          "totalLiquidityUSD": 51386057
         },
         {
           "date": 1790380800,
-          "totalLiquidityUSD": 182282542
+          "totalLiquidityUSD": 56647072
         },
         {
           "date": 1790467200,
-          "totalLiquidityUSD": 182366656
+          "totalLiquidityUSD": 56481267
         },
         {
           "date": 1790553600,
-          "totalLiquidityUSD": 184618561
+          "totalLiquidityUSD": 61193237
         },
         {
           "date": 1790640000,
-          "totalLiquidityUSD": 179430250
+          "totalLiquidityUSD": 66008958
         },
         {
           "date": 1790726400,
-          "totalLiquidityUSD": 180469113
+          "totalLiquidityUSD": 67697921
         },
         {
           "date": 1790812800,
-          "totalLiquidityUSD": 180366601
+          "totalLiquidityUSD": 67306884
         },
         {
           "date": 1790899200,
-          "totalLiquidityUSD": 180910349
+          "totalLiquidityUSD": 67131834
         },
         {
           "date": 1790985600,
-          "totalLiquidityUSD": 180447643
+          "totalLiquidityUSD": 67336385
         },
         {
           "date": 1791072000,
-          "totalLiquidityUSD": 180700745
+          "totalLiquidityUSD": 67210340
         },
         {
           "date": 1791158400,
-          "totalLiquidityUSD": 182728404
+          "totalLiquidityUSD": 67445157
         },
         {
           "date": 1791244800,
-          "totalLiquidityUSD": 182272557
+          "totalLiquidityUSD": 67467674
         },
         {
           "date": 1791331200,
-          "totalLiquidityUSD": 184530666
+          "totalLiquidityUSD": 90504521
         },
         {
           "date": 1791417600,
-          "totalLiquidityUSD": 181264803
+          "totalLiquidityUSD": 90610512
         },
         {
           "date": 1791504000,
-          "totalLiquidityUSD": 181929141
+          "totalLiquidityUSD": 89297390
         },
         {
           "date": 1791590400,
-          "totalLiquidityUSD": 191002078
+          "totalLiquidityUSD": 86357669
         },
         {
-          "date": 1791673571,
-          "totalLiquidityUSD": 194044725
+          "date": 1791676800,
+          "totalLiquidityUSD": 107600494
+        },
+        {
+          "date": 1791766787,
+          "totalLiquidityUSD": 107818151
         }
       ],
       "tokensInUsd": [
         {
           "date": 1789603200,
           "tokens": {
-            "USDC": 75732999.47861,
-            "EURC": 1577206.81368,
-            "CIRBTC": 2044.76359,
-            "WETH": 2.42295
+            "USDC": 55.56146
           }
         },
         {
           "date": 1789689600,
           "tokens": {
-            "USDC": 124726985.18462,
-            "EURC": 1554450.59833,
-            "CIRBTC": 235643.86828,
-            "WETH": 1512.54984
+            "USDC": 75092.2278,
+            "EURC": 25002.3731,
+            "CIRBTC": 489.66547
           }
         },
         {
           "date": 1789776000,
           "tokens": {
-            "USDC": 124189041.01459,
-            "EURC": 1716927.64161,
-            "CIRBTC": 345974.02788,
-            "WETH": 805036.19701
+            "USDC": 643136.9017,
+            "EURC": 25365.02493,
+            "CIRBTC": 631.48393,
+            "WETH": 6274.93641
           }
         },
         {
           "date": 1789862400,
           "tokens": {
-            "USDC": 123735924.09792,
-            "EURC": 1573072.91807,
-            "CIRBTC": 1030077.95175,
-            "WETH": 813367.94431
+            "USDC": 1056089.45943,
+            "EURC": 9589.00339,
+            "CIRBTC": 629.35594,
+            "WETH": 2602.97662
           }
         },
         {
           "date": 1789948800,
           "tokens": {
-            "USDC": 123682671.24503,
-            "EURC": 1567985.49677,
-            "CIRBTC": 1132279.08676,
-            "WETH": 844349.20938
+            "USDC": 1131751.93359,
+            "EURC": 12472.55307,
+            "CIRBTC": 628.35741,
+            "WETH": 2616.8772
           }
         },
         {
           "date": 1790035200,
           "tokens": {
-            "USDC": 123632517.93543,
-            "EURC": 1565564.18313,
-            "CIRBTC": 1324696.82221,
-            "WETH": 886884.45321
+            "USDC": 1205293.44817,
+            "EURC": 12434.21188,
+            "CIRBTC": 669.55519,
+            "WETH": 2742.83413
           }
         },
         {
           "date": 1790121600,
           "tokens": {
-            "USDC": 141597720.02165,
-            "EURC": 1563254.61983,
-            "CIRBTC": 1393856.7828,
-            "WETH": 874002.59407
+            "USDC": 1235032.85002,
+            "EURC": 12415.6481,
+            "CIRBTC": 667.28581,
+            "WETH": 3855.30771
           }
         },
         {
           "date": 1790208000,
           "tokens": {
-            "USDC": 141664485.82942,
-            "EURC": 1559361.10143,
-            "CIRBTC": 1351388.61942,
-            "WETH": 1099400.09703
+            "USDC": 1477691.35378,
+            "EURC": 14812.60829,
+            "CIRBTC": 205928.03972,
+            "WETH": 3756.78217
           }
         },
         {
           "date": 1790294400,
           "tokens": {
-            "USDC": 92377100.81175,
-            "EURC": 1558760.63218,
-            "CIRBTC": 84475238.53008,
-            "WETH": 2453866.82245
+            "USDC": 50990575.95274,
+            "EURC": 14577.92561,
+            "CIRBTC": 377137.39757,
+            "WETH": 3766.64568
           }
         },
         {
           "date": 1790380800,
           "tokens": {
-            "USDC": 87582000.71203,
-            "EURC": 1556866.75812,
-            "CIRBTC": 83951506.44799,
-            "WETH": 9192169.0464
+            "USDC": 56082056.95513,
+            "EURC": 18996.97786,
+            "CIRBTC": 542250.50609,
+            "WETH": 3767.96281
           }
         },
         {
           "date": 1790467200,
           "tokens": {
-            "USDC": 87431150.85765,
-            "EURC": 1555721.69342,
-            "CIRBTC": 84273628.32812,
-            "WETH": 9106155.47729
+            "USDC": 56050920.7112,
+            "EURC": 19370.71728,
+            "CIRBTC": 401238.93578,
+            "WETH": 9736.93286
           }
         },
         {
           "date": 1790553600,
           "tokens": {
-            "USDC": 82744914.57606,
-            "EURC": 1559060.71112,
-            "CIRBTC": 84341036.66454,
-            "WETH": 15973549.78438
+            "USDC": 60762911.2338,
+            "EURC": 15203.4139,
+            "CIRBTC": 405273.80295,
+            "WETH": 9849.08208
           }
         },
         {
           "date": 1790640000,
           "tokens": {
-            "USDC": 77505597.40557,
-            "EURC": 1567496.62946,
-            "CIRBTC": 84454037.36235,
-            "WETH": 15903119.13647
+            "USDC": 65772474.16702,
+            "EURC": 4798.60704,
+            "CIRBTC": 221888.80888,
+            "WETH": 9796.92225
           }
         },
         {
           "date": 1790726400,
           "tokens": {
-            "USDC": 75742434.62203,
-            "EURC": 1563905.79158,
-            "CIRBTC": 87334523.47058,
-            "WETH": 15828249.3583
+            "USDC": 67483354.71014,
+            "EURC": 10787.70456,
+            "CIRBTC": 195057.25501,
+            "WETH": 8721.41854
           }
         },
         {
           "date": 1790812800,
           "tokens": {
-            "USDC": 76143972.19091,
-            "EURC": 1570042.46512,
-            "CIRBTC": 87468779.8741,
-            "WETH": 15183806.93197
+            "USDC": 67087218.09382,
+            "EURC": 10215.98268,
+            "CIRBTC": 200671.0328,
+            "WETH": 8779.54795
           }
         },
         {
           "date": 1790899200,
           "tokens": {
-            "USDC": 75919478.72034,
-            "EURC": 1569217.53448,
-            "CIRBTC": 88084434.54577,
-            "WETH": 15337218.45853
+            "USDC": 67081938.23948,
+            "EURC": 12408.15688,
+            "CIRBTC": 28628.12514,
+            "WETH": 8859.58592
           }
         },
         {
           "date": 1790985600,
           "tokens": {
-            "USDC": 76183927.71508,
-            "EURC": 1569890.0288,
-            "CIRBTC": 87570813.68148,
-            "WETH": 15123012.35274
+            "USDC": 67105138.80771,
+            "EURC": 12390.82139,
+            "CIRBTC": 210116.92213,
+            "WETH": 8738.8937
           }
         },
         {
           "date": 1791072000,
           "tokens": {
-            "USDC": 75994043.35679,
-            "EURC": 1569837.27347,
-            "CIRBTC": 87912516.26275,
-            "WETH": 15224348.34322
+            "USDC": 67101648.73183,
+            "EURC": 12537.76816,
+            "CIRBTC": 82918.92323,
+            "WETH": 13235.43609
           }
         },
         {
           "date": 1791158400,
           "tokens": {
-            "USDC": 75593252.44287,
-            "EURC": 1572000.34303,
-            "CIRBTC": 90246368.55013,
-            "WETH": 15316782.89658
+            "USDC": 67399213.04154,
+            "EURC": 12828.37845,
+            "CIRBTC": 19794.59011,
+            "WETH": 13321.00939
           }
         },
         {
           "date": 1791244800,
           "tokens": {
-            "USDC": 75729604.71091,
-            "EURC": 1563600.01085,
-            "CIRBTC": 89601790.04815,
-            "WETH": 15377562.47388
+            "USDC": 67366888.11658,
+            "EURC": 16151.96368,
+            "CIRBTC": 71261.18352,
+            "WETH": 13373.4207
           }
         },
         {
           "date": 1791331200,
           "tokens": {
-            "USDC": 52774371.72688,
-            "EURC": 1564258.64065,
-            "CIRBTC": 89174153.74528,
-            "WETH": 15281234.13248,
-            "SYRUPUSDC": 25736648.67213
+            "USDC": 90364684.26626,
+            "EURC": 20367.7286,
+            "CIRBTC": 106179.2327,
+            "WETH": 13290.09207
           }
         },
         {
           "date": 1791417600,
           "tokens": {
-            "USDC": 53534844.23602,
-            "EURC": 1536619.32175,
-            "CIRBTC": 85977407.86336,
-            "WETH": 14582272.89187,
-            "SYRUPUSDC": 25633658.7483
+            "USDC": 90093768.96205,
+            "EURC": 53948.6666,
+            "CIRBTC": 449398.10322,
+            "WETH": 13396.43813
           }
         },
         {
           "date": 1791504000,
           "tokens": {
-            "USDC": 54730820.90764,
-            "EURC": 1528357.31989,
-            "CIRBTC": 86038140.68371,
-            "WETH": 14026694.53013,
-            "SYRUPUSDC": 25605128.25019
+            "USDC": 88768187.52379,
+            "EURC": 55403.42898,
+            "CIRBTC": 462873.76463,
+            "WETH": 10925.59318
           }
         },
         {
           "date": 1791590400,
           "tokens": {
-            "USDC": 57542710.47235,
-            "EURC": 1503655.61931,
-            "CIRBTC": 87041825.07476,
-            "WETH": 14081919.16223,
-            "SYRUPUSDC": 30831968.13466
+            "USDC": 85884075.03164,
+            "EURC": 68814.54522,
+            "CIRBTC": 393796.18978,
+            "WETH": 10983.34261
           }
         },
         {
-          "date": 1791673571,
+          "date": 1791676800,
           "tokens": {
-            "USDC": 36097925.96845,
-            "EURC": 1498344.25505,
-            "CIRBTC": 88256780.28716,
-            "WETH": 14173558.00063,
-            "SYRUPUSDC": 54018116.72974
+            "USDC": 107194283.78404,
+            "EURC": 74175.21755,
+            "CIRBTC": 320967.11546,
+            "WETH": 11068.54287
+          }
+        },
+        {
+          "date": 1791766787,
+          "tokens": {
+            "USDC": 107486049.77382,
+            "EURC": 117186.83975,
+            "CIRBTC": 203679.87995,
+            "WETH": 11235.30176
           }
         }
       ],
@@ -20379,231 +18163,231 @@
         {
           "date": 1789603200,
           "tokens": {
-            "USDC": 75758127.29288,
-            "EURC": 1375884.1591,
-            "CIRBTC": 0.02677,
-            "WETH": 0.001
+            "USDC": 55.57989
           }
         },
         {
           "date": 1789689600,
           "tokens": {
-            "USDC": 124774940.52142,
-            "EURC": 1354886.28499,
-            "CIRBTC": 3.08666,
-            "WETH": 0.61954
+            "USDC": 75121.09944,
+            "EURC": 21792.50498,
+            "CIRBTC": 0.00641
           }
         },
         {
           "date": 1789776000,
           "tokens": {
-            "USDC": 124214308.52442,
-            "EURC": 1493064.26626,
-            "CIRBTC": 4.2439,
-            "WETH": 307.36726
+            "USDC": 643267.75438,
+            "EURC": 22057.78008,
+            "CIRBTC": 0.00775,
+            "WETH": 2.39581
           }
         },
         {
           "date": 1789862400,
           "tokens": {
-            "USDC": 123770375.83076,
-            "EURC": 1368400.83465,
-            "CIRBTC": 12.67831,
-            "WETH": 309.41132
+            "USDC": 1056383.5059,
+            "EURC": 8341.38081,
+            "CIRBTC": 0.00775,
+            "WETH": 0.99019
           }
         },
         {
           "date": 1789948800,
           "tokens": {
-            "USDC": 123716450.16146,
-            "EURC": 1365438.68847,
-            "CIRBTC": 13.95845,
-            "WETH": 319.49073
+            "USDC": 1132061.02583,
+            "EURC": 10861.39288,
+            "CIRBTC": 0.00775,
+            "WETH": 0.99019
           }
         },
         {
           "date": 1790035200,
           "tokens": {
-            "USDC": 123649549.31749,
-            "EURC": 1365653.66873,
-            "CIRBTC": 15.32581,
-            "WETH": 320.17476
+            "USDC": 1205459.48712,
+            "EURC": 10846.45858,
+            "CIRBTC": 0.00775,
+            "WETH": 0.99019
           }
         },
         {
           "date": 1790121600,
           "tokens": {
-            "USDC": 141611609.15218,
-            "EURC": 1365679.73841,
-            "CIRBTC": 16.18093,
-            "WETH": 317.42528
+            "USDC": 1235153.99273,
+            "EURC": 10846.47302,
+            "CIRBTC": 0.00775,
+            "WETH": 1.40019
           }
         },
         {
           "date": 1790208000,
           "tokens": {
-            "USDC": 141684032.16685,
-            "EURC": 1370357.89111,
-            "CIRBTC": 16.00432,
-            "WETH": 409.75825
+            "USDC": 1477895.24012,
+            "EURC": 13017.23805,
+            "CIRBTC": 2.43878,
+            "WETH": 1.40019
           }
         },
         {
           "date": 1790294400,
           "tokens": {
-            "USDC": 92393016.31423,
-            "EURC": 1370876.40113,
-            "CIRBTC": 998.75194,
-            "WETH": 912.1878
+            "USDC": 50999361.03725,
+            "EURC": 12820.78453,
+            "CIRBTC": 4.4589,
+            "WETH": 1.40019
           }
         },
         {
           "date": 1790380800,
           "tokens": {
-            "USDC": 87592492.06302,
-            "EURC": 1367016.44677,
-            "CIRBTC": 998.56109,
-            "WETH": 3416.09923
+            "USDC": 56088774.96269,
+            "EURC": 16680.41342,
+            "CIRBTC": 6.4498,
+            "WETH": 1.40029
           }
         },
         {
           "date": 1790467200,
           "tokens": {
-            "USDC": 87441521.79319,
-            "EURC": 1366683.08139,
-            "CIRBTC": 1000.11819,
-            "WETH": 3414.7558
+            "USDC": 56057569.37681,
+            "EURC": 17016.9457,
+            "CIRBTC": 4.76171,
+            "WETH": 3.65129
           }
         },
         {
           "date": 1790553600,
           "tokens": {
-            "USDC": 82759140.61847,
-            "EURC": 1370233.47813,
-            "CIRBTC": 1000.08539,
-            "WETH": 5921.7827
+            "USDC": 60773357.98762,
+            "EURC": 13362.03687,
+            "CIRBTC": 4.80559,
+            "WETH": 3.65129
           }
         },
         {
           "date": 1790640000,
           "tokens": {
-            "USDC": 77511954.57392,
-            "EURC": 1379347.90484,
-            "CIRBTC": 1012.28127,
-            "WETH": 5927.06177
+            "USDC": 65777868.9605,
+            "EURC": 4222.62379,
+            "CIRBTC": 2.6596,
+            "WETH": 3.65129
           }
         },
         {
           "date": 1790726400,
           "tokens": {
-            "USDC": 75752591.00166,
-            "EURC": 1379781.27122,
-            "CIRBTC": 1046.40604,
-            "WETH": 5933.43908
+            "USDC": 67492403.6214,
+            "EURC": 9517.62746,
+            "CIRBTC": 2.3371,
+            "WETH": 3.26934
           }
         },
         {
           "date": 1790812800,
           "tokens": {
-            "USDC": 76157493.48025,
-            "EURC": 1385997.77727,
-            "CIRBTC": 1048.20913,
-            "WETH": 5658.07034
+            "USDC": 67099131.12726,
+            "EURC": 9018.43714,
+            "CIRBTC": 2.4048,
+            "WETH": 3.2716
           }
         },
         {
           "date": 1790899200,
           "tokens": {
-            "USDC": 75927523.31743,
-            "EURC": 1396063.71982,
-            "CIRBTC": 1038.29276,
-            "WETH": 5666.22748
+            "USDC": 67089046.39109,
+            "EURC": 11038.99062,
+            "CIRBTC": 0.33745,
+            "WETH": 3.27311
           }
         },
         {
           "date": 1790985600,
           "tokens": {
-            "USDC": 76185779.37108,
-            "EURC": 1396083.95235,
-            "CIRBTC": 1036.29918,
-            "WETH": 5665.71423
+            "USDC": 67106769.80307,
+            "EURC": 11019.00553,
+            "CIRBTC": 2.48649,
+            "WETH": 3.27396
           }
         },
         {
           "date": 1791072000,
           "tokens": {
-            "USDC": 75996315.55282,
-            "EURC": 1395953.95344,
-            "CIRBTC": 1037.59997,
-            "WETH": 5664.46415
+            "USDC": 67103655.0483,
+            "EURC": 11149.01992,
+            "CIRBTC": 0.97866,
+            "WETH": 4.92446
           }
         },
         {
           "date": 1791158400,
           "tokens": {
-            "USDC": 75596349.71154,
-            "EURC": 1397092.48804,
-            "CIRBTC": 1043.77505,
-            "WETH": 5664.72963
+            "USDC": 67401974.57731,
+            "EURC": 11401.03515,
+            "CIRBTC": 0.22894,
+            "WETH": 4.92662
           }
         },
         {
           "date": 1791244800,
           "tokens": {
-            "USDC": 75731557.44217,
-            "EURC": 1394102.49321,
-            "CIRBTC": 1043.38383,
-            "WETH": 5664.92002
+            "USDC": 67368625.21039,
+            "EURC": 14401.05697,
+            "CIRBTC": 0.82981,
+            "WETH": 4.92662
           }
         },
         {
           "date": 1791331200,
           "tokens": {
-            "USDC": 52778871.35776,
-            "EURC": 1390307.20056,
-            "CIRBTC": 1042.02655,
-            "WETH": 5664.99498,
-            "SYRUPUSDC": 21688884.30623
+            "USDC": 90372388.90983,
+            "EURC": 18102.76063,
+            "CIRBTC": 1.24074,
+            "WETH": 4.92685
           }
         },
         {
           "date": 1791417600,
           "tokens": {
-            "USDC": 53549955.19741,
-            "EURC": 1372408.66383,
-            "CIRBTC": 1033.3937,
-            "WETH": 5668.65397,
-            "SYRUPUSDC": 21603149.08512
+            "USDC": 90119235.09537,
+            "EURC": 48183.44817,
+            "CIRBTC": 5.40148,
+            "WETH": 5.20768
           }
         },
         {
           "date": 1791504000,
           "tokens": {
-            "USDC": 54751512.05404,
-            "EURC": 1364033.15698,
-            "CIRBTC": 1053.29206,
-            "WETH": 5670.46043,
-            "SYRUPUSDC": 21578712.83512
+            "USDC": 88801954.95061,
+            "EURC": 49446.62688,
+            "CIRBTC": 5.66657,
+            "WETH": 4.4168
           }
         },
         {
           "date": 1791590400,
           "tokens": {
-            "USDC": 57558285.61104,
-            "EURC": 1343760.07035,
-            "CIRBTC": 1054.40286,
-            "WETH": 5662.8538,
-            "SYRUPUSDC": 25976537.22227
+            "USDC": 85907398.2712,
+            "EURC": 61496.95245,
+            "CIRBTC": 4.77035,
+            "WETH": 4.4168
           }
         },
         {
-          "date": 1791673571,
+          "date": 1791676800,
           "tokens": {
-            "USDC": 36107844.90825,
-            "EURC": 1338989.15703,
-            "CIRBTC": 1064.103,
-            "WETH": 5655.83186,
-            "SYRUPUSDC": 45506650.73427
+            "USDC": 107226653.47091,
+            "EURC": 66268.3368,
+            "CIRBTC": 3.8703,
+            "WETH": 4.4168
+          }
+        },
+        {
+          "date": 1791766787,
+          "tokens": {
+            "USDC": 107520010.5623,
+            "EURC": 104584.95199,
+            "CIRBTC": 2.43225,
+            "WETH": 4.4168
           }
         }
       ]
@@ -20883,8 +18667,12 @@
           "totalLiquidityUSD": 30285006
         },
         {
-          "date": 1791673571,
-          "totalLiquidityUSD": 31808467
+          "date": 1791676800,
+          "totalLiquidityUSD": 31796751
+        },
+        {
+          "date": 1791766787,
+          "totalLiquidityUSD": 33007317
         }
       ],
       "tokensInUsd": [
@@ -21705,15 +19493,27 @@
           }
         },
         {
-          "date": 1791673571,
+          "date": 1791676800,
           "tokens": {
-            "WAVAX": 3159115.37391,
-            "BTC.B": 9217410.23317,
-            "AVALANCHEUSDC": 6464117.42709,
-            "USDT": 7785611.23429,
-            "WETH": 1480151.38772,
-            "EURC": 5298.69485,
-            "SAVAX": 3696763.04855
+            "WAVAX": 3156076.78186,
+            "BTC.B": 9212873.41656,
+            "AVALANCHEUSDC": 6464394.29837,
+            "USDT": 7785405.69635,
+            "WETH": 1481520.68944,
+            "EURC": 5300.13731,
+            "SAVAX": 3691180.09096
+          }
+        },
+        {
+          "date": 1791766787,
+          "tokens": {
+            "WAVAX": 3313017.83426,
+            "BTC.B": 9384966.0934,
+            "AVALANCHEUSDC": 6460016.33935,
+            "USDT": 8443441.59213,
+            "WETH": 1502479.55948,
+            "SAVAX": 3898090.24153,
+            "EURC": 5305.71605
           }
         }
       ],
@@ -22535,15 +20335,2409 @@
           }
         },
         {
-          "date": 1791673571,
+          "date": 1791676800,
           "tokens": {
-            "WAVAX": 304587.43441,
+            "WAVAX": 304631.6005,
             "BTC.B": 111.09689,
-            "AVALANCHEUSDC": 6466113.96754,
+            "AVALANCHEUSDC": 6466161.56416,
             "USDT": 7791691.99605,
             "WETH": 591.31194,
             "EURC": 4735.15678,
-            "SAVAX": 275642.70702
+            "SAVAX": 275640.53068
+          }
+        },
+        {
+          "date": 1791766787,
+          "tokens": {
+            "WAVAX": 302994.99344,
+            "BTC.B": 112.00812,
+            "AVALANCHEUSDC": 6461916.14914,
+            "USDT": 8450708.43169,
+            "WETH": 590.65234,
+            "SAVAX": 276571.87057,
+            "EURC": 4735.15678
+          }
+        }
+      ]
+    },
+    "Avalanche-borrowed": {
+      "tvl": [
+        {
+          "date": 1785801600,
+          "totalLiquidityUSD": 1025079
+        },
+        {
+          "date": 1785888000,
+          "totalLiquidityUSD": 1022840
+        },
+        {
+          "date": 1785974400,
+          "totalLiquidityUSD": 1022498
+        },
+        {
+          "date": 1786060800,
+          "totalLiquidityUSD": 1062018
+        },
+        {
+          "date": 1786147200,
+          "totalLiquidityUSD": 1144826
+        },
+        {
+          "date": 1786233600,
+          "totalLiquidityUSD": 1416224
+        },
+        {
+          "date": 1786320000,
+          "totalLiquidityUSD": 2144444
+        },
+        {
+          "date": 1786406400,
+          "totalLiquidityUSD": 1607745
+        },
+        {
+          "date": 1786492800,
+          "totalLiquidityUSD": 1837549
+        },
+        {
+          "date": 1786579200,
+          "totalLiquidityUSD": 2239997
+        },
+        {
+          "date": 1786665600,
+          "totalLiquidityUSD": 2208415
+        },
+        {
+          "date": 1786752000,
+          "totalLiquidityUSD": 2353173
+        },
+        {
+          "date": 1786838400,
+          "totalLiquidityUSD": 2305746
+        },
+        {
+          "date": 1786924800,
+          "totalLiquidityUSD": 2366046
+        },
+        {
+          "date": 1787011200,
+          "totalLiquidityUSD": 2462585
+        },
+        {
+          "date": 1787097600,
+          "totalLiquidityUSD": 2564906
+        },
+        {
+          "date": 1787184000,
+          "totalLiquidityUSD": 2710251
+        },
+        {
+          "date": 1787270400,
+          "totalLiquidityUSD": 2925804
+        },
+        {
+          "date": 1787356800,
+          "totalLiquidityUSD": 3177275
+        },
+        {
+          "date": 1787443200,
+          "totalLiquidityUSD": 3114859
+        },
+        {
+          "date": 1787529600,
+          "totalLiquidityUSD": 3182175
+        },
+        {
+          "date": 1787616000,
+          "totalLiquidityUSD": 3349139
+        },
+        {
+          "date": 1787702400,
+          "totalLiquidityUSD": 3282037
+        },
+        {
+          "date": 1787788800,
+          "totalLiquidityUSD": 3588066
+        },
+        {
+          "date": 1787875200,
+          "totalLiquidityUSD": 4566155
+        },
+        {
+          "date": 1787961600,
+          "totalLiquidityUSD": 4698559
+        },
+        {
+          "date": 1788048000,
+          "totalLiquidityUSD": 4784284
+        },
+        {
+          "date": 1788134400,
+          "totalLiquidityUSD": 5421761
+        },
+        {
+          "date": 1788220800,
+          "totalLiquidityUSD": 4866037
+        },
+        {
+          "date": 1788307200,
+          "totalLiquidityUSD": 4886714
+        },
+        {
+          "date": 1788393600,
+          "totalLiquidityUSD": 4765020
+        },
+        {
+          "date": 1788480000,
+          "totalLiquidityUSD": 4703119
+        },
+        {
+          "date": 1788566400,
+          "totalLiquidityUSD": 4672521
+        },
+        {
+          "date": 1788652800,
+          "totalLiquidityUSD": 4817376
+        },
+        {
+          "date": 1788739200,
+          "totalLiquidityUSD": 4983121
+        },
+        {
+          "date": 1788825600,
+          "totalLiquidityUSD": 5068372
+        },
+        {
+          "date": 1788912000,
+          "totalLiquidityUSD": 6625057
+        },
+        {
+          "date": 1788998400,
+          "totalLiquidityUSD": 6146929
+        },
+        {
+          "date": 1789084800,
+          "totalLiquidityUSD": 6075225
+        },
+        {
+          "date": 1789171200,
+          "totalLiquidityUSD": 6152494
+        },
+        {
+          "date": 1789257600,
+          "totalLiquidityUSD": 6598098
+        },
+        {
+          "date": 1789344000,
+          "totalLiquidityUSD": 6709227
+        },
+        {
+          "date": 1789430400,
+          "totalLiquidityUSD": 6738322
+        },
+        {
+          "date": 1789516800,
+          "totalLiquidityUSD": 6722127
+        },
+        {
+          "date": 1789603200,
+          "totalLiquidityUSD": 6260435
+        },
+        {
+          "date": 1789689600,
+          "totalLiquidityUSD": 6427388
+        },
+        {
+          "date": 1789776000,
+          "totalLiquidityUSD": 6462175
+        },
+        {
+          "date": 1789862400,
+          "totalLiquidityUSD": 6783639
+        },
+        {
+          "date": 1789948800,
+          "totalLiquidityUSD": 7195193
+        },
+        {
+          "date": 1790035200,
+          "totalLiquidityUSD": 7405217
+        },
+        {
+          "date": 1790121600,
+          "totalLiquidityUSD": 7625573
+        },
+        {
+          "date": 1790208000,
+          "totalLiquidityUSD": 7488159
+        },
+        {
+          "date": 1790294400,
+          "totalLiquidityUSD": 7446990
+        },
+        {
+          "date": 1790380800,
+          "totalLiquidityUSD": 7828508
+        },
+        {
+          "date": 1790467200,
+          "totalLiquidityUSD": 8136791
+        },
+        {
+          "date": 1790553600,
+          "totalLiquidityUSD": 8223818
+        },
+        {
+          "date": 1790640000,
+          "totalLiquidityUSD": 8598609
+        },
+        {
+          "date": 1790726400,
+          "totalLiquidityUSD": 9481166
+        },
+        {
+          "date": 1790812800,
+          "totalLiquidityUSD": 8654615
+        },
+        {
+          "date": 1790899200,
+          "totalLiquidityUSD": 9166135
+        },
+        {
+          "date": 1790985600,
+          "totalLiquidityUSD": 8518623
+        },
+        {
+          "date": 1791072000,
+          "totalLiquidityUSD": 8652319
+        },
+        {
+          "date": 1791158400,
+          "totalLiquidityUSD": 8777982
+        },
+        {
+          "date": 1791244800,
+          "totalLiquidityUSD": 8817379
+        },
+        {
+          "date": 1791331200,
+          "totalLiquidityUSD": 8724521
+        },
+        {
+          "date": 1791417600,
+          "totalLiquidityUSD": 8253930
+        },
+        {
+          "date": 1791504000,
+          "totalLiquidityUSD": 8177760
+        },
+        {
+          "date": 1791590400,
+          "totalLiquidityUSD": 8799131
+        },
+        {
+          "date": 1791676800,
+          "totalLiquidityUSD": 8853416
+        },
+        {
+          "date": 1791766787,
+          "totalLiquidityUSD": 9059001
+        }
+      ],
+      "tokensInUsd": [
+        {
+          "date": 1785801600,
+          "tokens": {
+            "WAVAX": 662173.62583,
+            "BTC.B": 15877.42134,
+            "AVALANCHEUSDC": 220258.385,
+            "USDT": 126769.6045,
+            "EURC": 0
+          }
+        },
+        {
+          "date": 1785888000,
+          "tokens": {
+            "WAVAX": 669149.5866,
+            "BTC.B": 16050.72839,
+            "AVALANCHEUSDC": 227329.64791,
+            "USDT": 110310.23099,
+            "EURC": 0
+          }
+        },
+        {
+          "date": 1785974400,
+          "tokens": {
+            "WAVAX": 665233.1438,
+            "BTC.B": 16170.26035,
+            "AVALANCHEUSDC": 230771.34416,
+            "USDT": 110323.70813,
+            "EURC": 0
+          }
+        },
+        {
+          "date": 1786060800,
+          "tokens": {
+            "WAVAX": 686202.80926,
+            "BTC.B": 25703.82926,
+            "AVALANCHEUSDC": 239775.04708,
+            "USDT": 110337.13093,
+            "EURC": 0
+          }
+        },
+        {
+          "date": 1786147200,
+          "tokens": {
+            "WAVAX": 717636.56391,
+            "BTC.B": 25935.45157,
+            "AVALANCHEUSDC": 289985.94885,
+            "USDT": 111268.62741,
+            "EURC": 0
+          }
+        },
+        {
+          "date": 1786233600,
+          "tokens": {
+            "WAVAX": 983997.14679,
+            "BTC.B": 25995.05378,
+            "AVALANCHEUSDC": 294977.0731,
+            "USDT": 111255.10478,
+            "EURC": 0
+          }
+        },
+        {
+          "date": 1786320000,
+          "tokens": {
+            "WAVAX": 1166014.25961,
+            "BTC.B": 351394.48067,
+            "AVALANCHEUSDC": 496427.92775,
+            "USDT": 130608.11895,
+            "EURC": 0
+          }
+        },
+        {
+          "date": 1786406400,
+          "tokens": {
+            "WAVAX": 1174565.55643,
+            "BTC.B": 20.62237,
+            "AVALANCHEUSDC": 302576.22963,
+            "USDT": 130582.86185,
+            "EURC": 0
+          }
+        },
+        {
+          "date": 1786492800,
+          "tokens": {
+            "WAVAX": 1198496.75818,
+            "BTC.B": 25441.97698,
+            "AVALANCHEUSDC": 483013.92375,
+            "USDT": 130596.88731,
+            "EURC": 0.00074
+          }
+        },
+        {
+          "date": 1786579200,
+          "tokens": {
+            "WAVAX": 1246770.39812,
+            "BTC.B": 31761.10682,
+            "AVALANCHEUSDC": 838138.39979,
+            "USDT": 123327.23454,
+            "EURC": 0.00074
+          }
+        },
+        {
+          "date": 1786665600,
+          "tokens": {
+            "WAVAX": 1308388.95668,
+            "BTC.B": 63364.5805,
+            "AVALANCHEUSDC": 713264.64881,
+            "USDT": 123340.16201,
+            "EURC": 57.62388
+          }
+        },
+        {
+          "date": 1786752000,
+          "tokens": {
+            "WAVAX": 1315395.07079,
+            "BTC.B": 63016.69434,
+            "AVALANCHEUSDC": 920370.35645,
+            "USDT": 54333.63125,
+            "EURC": 57.7826
+          }
+        },
+        {
+          "date": 1786838400,
+          "tokens": {
+            "WAVAX": 1267869.53266,
+            "BTC.B": 63066.09459,
+            "AVALANCHEUSDC": 919431.52435,
+            "USDT": 55321.29567,
+            "EURC": 57.78725
+          }
+        },
+        {
+          "date": 1786924800,
+          "tokens": {
+            "WAVAX": 1275665.6591,
+            "BTC.B": 62880.56831,
+            "AVALANCHEUSDC": 970494.0886,
+            "USDT": 56948.76046,
+            "EURC": 57.83423
+          }
+        },
+        {
+          "date": 1787011200,
+          "tokens": {
+            "WAVAX": 1304077.27336,
+            "BTC.B": 64451.46101,
+            "AVALANCHEUSDC": 1027553.25233,
+            "USDT": 66446.08175,
+            "EURC": 57.88538
+          }
+        },
+        {
+          "date": 1787097600,
+          "tokens": {
+            "WAVAX": 1350554.26635,
+            "BTC.B": 64605.59323,
+            "AVALANCHEUSDC": 1073065.49822,
+            "USDT": 76623.69697,
+            "EURC": 57.88253
+          }
+        },
+        {
+          "date": 1787184000,
+          "tokens": {
+            "WAVAX": 1467142.20723,
+            "BTC.B": 69743.60646,
+            "AVALANCHEUSDC": 1072411.99946,
+            "USDT": 100953.75238,
+            "EURC": 0.00075
+          }
+        },
+        {
+          "date": 1787270400,
+          "tokens": {
+            "WAVAX": 1576287.38318,
+            "BTC.B": 73105.53997,
+            "AVALANCHEUSDC": 1175165.77017,
+            "USDT": 101245.75364,
+            "EURC": 0.00075
+          }
+        },
+        {
+          "date": 1787356800,
+          "tokens": {
+            "WAVAX": 1719871.66053,
+            "BTC.B": 156902.92587,
+            "AVALANCHEUSDC": 1201363.39164,
+            "USDT": 99137.31568,
+            "EURC": 0.00075
+          }
+        },
+        {
+          "date": 1787443200,
+          "tokens": {
+            "WAVAX": 1642464.94784,
+            "BTC.B": 153943.93932,
+            "AVALANCHEUSDC": 1217894.88942,
+            "USDT": 100546.53272,
+            "WETH": 9.67501,
+            "EURC": 0.00075
+          }
+        },
+        {
+          "date": 1787529600,
+          "tokens": {
+            "WAVAX": 1672250.39885,
+            "BTC.B": 155098.67407,
+            "AVALANCHEUSDC": 1254210.43332,
+            "USDT": 100606.61216,
+            "WETH": 9.8258,
+            "EURC": 0.00075
+          }
+        },
+        {
+          "date": 1787616000,
+          "tokens": {
+            "WAVAX": 1663760.2108,
+            "BTC.B": 157589.01744,
+            "AVALANCHEUSDC": 1433869.36817,
+            "USDT": 93910.98876,
+            "WETH": 9.90144,
+            "EURC": 0.00075
+          }
+        },
+        {
+          "date": 1787702400,
+          "tokens": {
+            "WAVAX": 1608637.91998,
+            "BTC.B": 196130.4766,
+            "AVALANCHEUSDC": 1382742.42132,
+            "USDT": 94517.33593,
+            "WETH": 9.75757,
+            "EURC": 0.00075
+          }
+        },
+        {
+          "date": 1787788800,
+          "tokens": {
+            "WAVAX": 1636803.55482,
+            "BTC.B": 197628.32154,
+            "AVALANCHEUSDC": 1659047.44155,
+            "USDT": 94577.0351,
+            "WETH": 10.02717,
+            "EURC": 0.00075
+          }
+        },
+        {
+          "date": 1787875200,
+          "tokens": {
+            "WAVAX": 1687993.46348,
+            "BTC.B": 201146.60157,
+            "AVALANCHEUSDC": 2548262.41276,
+            "USDT": 128365.29194,
+            "WETH": 387.54617,
+            "EURC": 0.00075
+          }
+        },
+        {
+          "date": 1787961600,
+          "tokens": {
+            "WAVAX": 1646518.15099,
+            "BTC.B": 194791.35588,
+            "AVALANCHEUSDC": 2681423.41235,
+            "USDT": 175450.2107,
+            "WETH": 376.36611,
+            "EURC": 0.00074
+          }
+        },
+        {
+          "date": 1788048000,
+          "tokens": {
+            "WAVAX": 1686142.09032,
+            "BTC.B": 195610.8267,
+            "AVALANCHEUSDC": 2718295.86329,
+            "USDT": 183866.43887,
+            "WETH": 369.57781,
+            "EURC": 0.00074
+          }
+        },
+        {
+          "date": 1788134400,
+          "tokens": {
+            "WAVAX": 1665307.11812,
+            "BTC.B": 194823.71332,
+            "AVALANCHEUSDC": 3372267.83925,
+            "USDT": 184146.88335,
+            "WETH": 5215.98783,
+            "EURC": 0.00074
+          }
+        },
+        {
+          "date": 1788220800,
+          "tokens": {
+            "WAVAX": 1690149.71234,
+            "BTC.B": 196845.99759,
+            "AVALANCHEUSDC": 2798298.59237,
+            "USDT": 175364.19598,
+            "WETH": 5320.58006,
+            "EURC": 58.08309
+          }
+        },
+        {
+          "date": 1788307200,
+          "tokens": {
+            "WAVAX": 1673465.96295,
+            "BTC.B": 193035.95912,
+            "AVALANCHEUSDC": 2824513.71466,
+            "USDT": 190423.78967,
+            "WETH": 5182.17945,
+            "EURC": 92.66092
+          }
+        },
+        {
+          "date": 1788393600,
+          "tokens": {
+            "WAVAX": 1654120.90055,
+            "BTC.B": 192885.22085,
+            "AVALANCHEUSDC": 2673910.35347,
+            "USDT": 191145.04385,
+            "WETH": 52866.62444,
+            "EURC": 92.68376
+          }
+        },
+        {
+          "date": 1788480000,
+          "tokens": {
+            "WAVAX": 1743172.01477,
+            "BTC.B": 203157.2773,
+            "AVALANCHEUSDC": 2534426.87743,
+            "USDT": 216883.99684,
+            "WETH": 5386.6444,
+            "EURC": 93.04877
+          }
+        },
+        {
+          "date": 1788566400,
+          "tokens": {
+            "WAVAX": 1712701.88753,
+            "BTC.B": 199231.25533,
+            "AVALANCHEUSDC": 2510908.76928,
+            "USDT": 244305.47511,
+            "WETH": 5281.1667,
+            "EURC": 92.91526
+          }
+        },
+        {
+          "date": 1788652800,
+          "tokens": {
+            "WAVAX": 1765163.60866,
+            "BTC.B": 199649.29435,
+            "AVALANCHEUSDC": 2576675.14986,
+            "USDT": 270459.88734,
+            "WETH": 5335.44897,
+            "EURC": 92.88399
+          }
+        },
+        {
+          "date": 1788739200,
+          "tokens": {
+            "WAVAX": 1867247.74692,
+            "BTC.B": 200652.00993,
+            "AVALANCHEUSDC": 2418737.46397,
+            "USDT": 490988.8467,
+            "WETH": 5402.34244,
+            "EURC": 92.94703
+          }
+        },
+        {
+          "date": 1788825600,
+          "tokens": {
+            "WAVAX": 1917059.01942,
+            "BTC.B": 197929.30893,
+            "AVALANCHEUSDC": 2374133.56108,
+            "USDT": 573314.50803,
+            "WETH": 5842.89723,
+            "EURC": 93.00942
+          }
+        },
+        {
+          "date": 1788912000,
+          "tokens": {
+            "WAVAX": 1899006.16035,
+            "BTC.B": 197064.2952,
+            "AVALANCHEUSDC": 3893150.42465,
+            "USDT": 580020.17642,
+            "WETH": 55723.83503,
+            "EURC": 93.06529
+          }
+        },
+        {
+          "date": 1788998400,
+          "tokens": {
+            "WAVAX": 1851829.47792,
+            "BTC.B": 156819.31087,
+            "AVALANCHEUSDC": 3679687.73729,
+            "USDT": 403750.72153,
+            "WETH": 54748.98496,
+            "EURC": 93.05617
+          }
+        },
+        {
+          "date": 1789084800,
+          "tokens": {
+            "WAVAX": 1770109.28864,
+            "BTC.B": 192318.44836,
+            "AVALANCHEUSDC": 3660251.25194,
+            "USDT": 410212.80969,
+            "WETH": 42240.46663,
+            "EURC": 92.92992
+          }
+        },
+        {
+          "date": 1789171200,
+          "tokens": {
+            "WAVAX": 1796306.05586,
+            "BTC.B": 208728.3643,
+            "AVALANCHEUSDC": 3555893.13433,
+            "USDT": 544467.61036,
+            "WETH": 47006.18902,
+            "EURC": 92.80503
+          }
+        },
+        {
+          "date": 1789257600,
+          "tokens": {
+            "WAVAX": 1782154.21409,
+            "BTC.B": 209171.10025,
+            "AVALANCHEUSDC": 4000068.80387,
+            "USDT": 559384.87621,
+            "WETH": 47226.40035,
+            "EURC": 92.76575
+          }
+        },
+        {
+          "date": 1789344000,
+          "tokens": {
+            "WAVAX": 1782490.67747,
+            "BTC.B": 207749.98756,
+            "AVALANCHEUSDC": 4002032.06006,
+            "USDT": 670526.3815,
+            "WETH": 46335.90652,
+            "EURC": 92.76287
+          }
+        },
+        {
+          "date": 1789430400,
+          "tokens": {
+            "WAVAX": 1819272.13876,
+            "BTC.B": 211100.54451,
+            "AVALANCHEUSDC": 3972191.98961,
+            "USDT": 688636.95371,
+            "WETH": 47028.46639,
+            "EURC": 92.43823
+          }
+        },
+        {
+          "date": 1789516800,
+          "tokens": {
+            "WAVAX": 1746141.32211,
+            "BTC.B": 212281.73384,
+            "AVALANCHEUSDC": 4016343.73807,
+            "USDT": 702324.57493,
+            "WETH": 44943.32227,
+            "EURC": 92.31575
+          }
+        },
+        {
+          "date": 1789603200,
+          "tokens": {
+            "WAVAX": 1860726.21153,
+            "BTC.B": 221861.69265,
+            "AVALANCHEUSDC": 3425671.67719,
+            "USDT": 706788.96628,
+            "WETH": 45294.7606,
+            "EURC": 91.7702
+          }
+        },
+        {
+          "date": 1789689600,
+          "tokens": {
+            "WAVAX": 1891093.58248,
+            "BTC.B": 221513.44298,
+            "AVALANCHEUSDC": 3431398.44669,
+            "USDT": 837616.86462,
+            "WETH": 45674.35147,
+            "EURC": 91.84809
+          }
+        },
+        {
+          "date": 1789776000,
+          "tokens": {
+            "WAVAX": 2091857.47899,
+            "BTC.B": 350.46254,
+            "AVALANCHEUSDC": 3450466.77643,
+            "USDT": 869922.46593,
+            "WETH": 49015.89978,
+            "EURC": 562.61854
+          }
+        },
+        {
+          "date": 1789862400,
+          "tokens": {
+            "WAVAX": 2502672.86264,
+            "BTC.B": 350.30228,
+            "AVALANCHEUSDC": 3419119.99083,
+            "USDT": 848565.68392,
+            "WETH": 12367.8593,
+            "EURC": 562.45666
+          }
+        },
+        {
+          "date": 1789948800,
+          "tokens": {
+            "WAVAX": 2890713.16637,
+            "BTC.B": 350.07968,
+            "AVALANCHEUSDC": 3442574.18324,
+            "USDT": 845696.92124,
+            "WETH": 15067.5657,
+            "EURC": 791.57764
+          }
+        },
+        {
+          "date": 1790035200,
+          "tokens": {
+            "WAVAX": 2823013.28073,
+            "BTC.B": 372.66942,
+            "AVALANCHEUSDC": 3634862.9164,
+            "USDT": 922047.32022,
+            "WETH": 23787.68049,
+            "EURC": 1134.12627
+          }
+        },
+        {
+          "date": 1790121600,
+          "tokens": {
+            "WAVAX": 2856327.95181,
+            "BTC.B": 371.42271,
+            "AVALANCHEUSDC": 3639128.69938,
+            "USDT": 923290.12546,
+            "WETH": 205323.27041,
+            "EURC": 1132.46951
+          }
+        },
+        {
+          "date": 1790208000,
+          "tokens": {
+            "WAVAX": 2604876.83944,
+            "BTC.B": 363.61397,
+            "AVALANCHEUSDC": 3725301.32147,
+            "USDT": 956609.68973,
+            "WETH": 200223.31188,
+            "EURC": 784.4508
+          }
+        },
+        {
+          "date": 1790294400,
+          "tokens": {
+            "WAVAX": 2568828.5779,
+            "BTC.B": 364.5989,
+            "AVALANCHEUSDC": 3751471.49671,
+            "USDT": 965067.772,
+            "WETH": 160459.42651,
+            "EURC": 798.83611
+          }
+        },
+        {
+          "date": 1790380800,
+          "tokens": {
+            "WAVAX": 2658495.0345,
+            "BTC.B": 362.30007,
+            "AVALANCHEUSDC": 3873930.71452,
+            "USDT": 1120289.42391,
+            "WETH": 174630.80875,
+            "EURC": 800.13746
+          }
+        },
+        {
+          "date": 1790467200,
+          "tokens": {
+            "WAVAX": 2756406.57755,
+            "BTC.B": 363.22769,
+            "AVALANCHEUSDC": 3865906.12259,
+            "USDT": 1337440.06301,
+            "WETH": 175875.73066,
+            "EURC": 799.763
+          }
+        },
+        {
+          "date": 1790553600,
+          "tokens": {
+            "WAVAX": 2701991.0171,
+            "BTC.B": 366.06971,
+            "AVALANCHEUSDC": 3831066.67533,
+            "USDT": 1504991.77121,
+            "WETH": 184603.8765,
+            "EURC": 799.42138
+          }
+        },
+        {
+          "date": 1790640000,
+          "tokens": {
+            "WAVAX": 2716779.61601,
+            "BTC.B": 359.63309,
+            "AVALANCHEUSDC": 4295636.57836,
+            "USDT": 1346973.10971,
+            "WETH": 238062.10785,
+            "EURC": 798.45526
+          }
+        },
+        {
+          "date": 1790726400,
+          "tokens": {
+            "WAVAX": 2893425.28594,
+            "BTC.B": 359.58872,
+            "AVALANCHEUSDC": 5032014.58835,
+            "USDT": 1317893.80943,
+            "WETH": 236676.5927,
+            "EURC": 796.39493
+          }
+        },
+        {
+          "date": 1790812800,
+          "tokens": {
+            "WAVAX": 2748980.57611,
+            "BTC.B": 359.74489,
+            "AVALANCHEUSDC": 4329385.96013,
+            "USDT": 1337429.50243,
+            "WETH": 237663.69352,
+            "EURC": 795.95238
+          }
+        },
+        {
+          "date": 1790899200,
+          "tokens": {
+            "WAVAX": 2796944.18848,
+            "BTC.B": 365.90631,
+            "AVALANCHEUSDC": 4699811.86565,
+            "USDT": 1379834.59664,
+            "WETH": 288388.71236,
+            "EURC": 789.81634
+          }
+        },
+        {
+          "date": 1790985600,
+          "tokens": {
+            "WAVAX": 2731075.94835,
+            "BTC.B": 364.45402,
+            "AVALANCHEUSDC": 3597437.1039,
+            "USDT": 1904432.1128,
+            "WETH": 284523.58965,
+            "EURC": 790.16198
+          }
+        },
+        {
+          "date": 1791072000,
+          "tokens": {
+            "WAVAX": 2847784.98188,
+            "BTC.B": 365.29904,
+            "AVALANCHEUSDC": 3601443.94793,
+            "USDT": 1915554.25801,
+            "WETH": 286381.00928,
+            "EURC": 790.22744
+          }
+        },
+        {
+          "date": 1791158400,
+          "tokens": {
+            "WAVAX": 2852210.03025,
+            "BTC.B": 372.8715,
+            "AVALANCHEUSDC": 3687390.69686,
+            "USDT": 1941614.57908,
+            "WETH": 295604.06818,
+            "EURC": 790.69044
+          }
+        },
+        {
+          "date": 1791244800,
+          "tokens": {
+            "WAVAX": 2867102.48108,
+            "BTC.B": 369.78426,
+            "AVALANCHEUSDC": 3683408.08358,
+            "USDT": 1963017.38574,
+            "WETH": 302693.68542,
+            "EURC": 788.2694
+          }
+        },
+        {
+          "date": 1791331200,
+          "tokens": {
+            "WAVAX": 2960340.01321,
+            "BTC.B": 368.87562,
+            "AVALANCHEUSDC": 3038826.38634,
+            "USDT": 2422713.94004,
+            "WETH": 301143.60506,
+            "EURC": 1128.22776
+          }
+        },
+        {
+          "date": 1791417600,
+          "tokens": {
+            "WAVAX": 2836497.11273,
+            "BTC.B": 358.78898,
+            "AVALANCHEUSDC": 3112009.36091,
+            "USDT": 2004339.05206,
+            "WETH": 299603.847,
+            "EURC": 1122.78525
+          }
+        },
+        {
+          "date": 1791504000,
+          "tokens": {
+            "WAVAX": 2586754.67862,
+            "BTC.B": 352.19002,
+            "AVALANCHEUSDC": 3247841.5348,
+            "USDT": 2064940.05212,
+            "WETH": 277431.53438,
+            "EURC": 440.67058
+          }
+        },
+        {
+          "date": 1791590400,
+          "tokens": {
+            "WAVAX": 2676490.32266,
+            "BTC.B": 355.79911,
+            "AVALANCHEUSDC": 3837275.03002,
+            "USDT": 2008905.56749,
+            "WETH": 275325.08513,
+            "EURC": 779.2448
+          }
+        },
+        {
+          "date": 1791676800,
+          "tokens": {
+            "WAVAX": 2699952.60735,
+            "BTC.B": 357.45872,
+            "AVALANCHEUSDC": 3852825.6823,
+            "USDT": 2011005.76171,
+            "WETH": 288495.74043,
+            "EURC": 779.48879
+          }
+        },
+        {
+          "date": 1791766787,
+          "tokens": {
+            "WAVAX": 2860707.39143,
+            "BTC.B": 361.1735,
+            "AVALANCHEUSDC": 3867182.72026,
+            "USDT": 2035537.97057,
+            "WETH": 294432.38092,
+            "EURC": 780.32632
+          }
+        }
+      ],
+      "tokens": [
+        {
+          "date": 1785801600,
+          "tokens": {
+            "WAVAX": 100862.15688,
+            "BTC.B": 0.25032,
+            "AVALANCHEUSDC": 220306.74166,
+            "USDT": 126897.95915,
+            "EURC": 0
+          }
+        },
+        {
+          "date": 1785888000,
+          "tokens": {
+            "WAVAX": 100460.41966,
+            "BTC.B": 0.25032,
+            "AVALANCHEUSDC": 227363.33085,
+            "USDT": 110405.46966,
+            "EURC": 0
+          }
+        },
+        {
+          "date": 1785974400,
+          "tokens": {
+            "WAVAX": 100011.10172,
+            "BTC.B": 0.25033,
+            "AVALANCHEUSDC": 230865.48432,
+            "USDT": 110412.74763,
+            "EURC": 0
+          }
+        },
+        {
+          "date": 1786060800,
+          "tokens": {
+            "WAVAX": 107015.93641,
+            "BTC.B": 0.40031,
+            "AVALANCHEUSDC": 239860.56493,
+            "USDT": 110418.59954,
+            "EURC": 0
+          }
+        },
+        {
+          "date": 1786147200,
+          "tokens": {
+            "WAVAX": 111781.24255,
+            "BTC.B": 0.40032,
+            "AVALANCHEUSDC": 290062.89017,
+            "USDT": 111322.66112,
+            "EURC": 0
+          }
+        },
+        {
+          "date": 1786233600,
+          "tokens": {
+            "WAVAX": 152285.81259,
+            "BTC.B": 0.40033,
+            "AVALANCHEUSDC": 295090.58755,
+            "USDT": 111326.50043,
+            "EURC": 0
+          }
+        },
+        {
+          "date": 1786320000,
+          "tokens": {
+            "WAVAX": 181306.63891,
+            "BTC.B": 5.40044,
+            "AVALANCHEUSDC": 496594.56037,
+            "USDT": 130690.37435,
+            "EURC": 0
+          }
+        },
+        {
+          "date": 1786406400,
+          "tokens": {
+            "WAVAX": 181516.60714,
+            "BTC.B": 0.00032,
+            "AVALANCHEUSDC": 302694.34108,
+            "USDT": 130694.81126,
+            "EURC": 0
+          }
+        },
+        {
+          "date": 1786492800,
+          "tokens": {
+            "WAVAX": 190187.16769,
+            "BTC.B": 0.40033,
+            "AVALANCHEUSDC": 483198.48408,
+            "USDT": 130699.05657,
+            "EURC": 0.00064
+          }
+        },
+        {
+          "date": 1786579200,
+          "tokens": {
+            "WAVAX": 195989.75494,
+            "BTC.B": 0.50033,
+            "AVALANCHEUSDC": 838536.36684,
+            "USDT": 123433.39903,
+            "EURC": 0.00064
+          }
+        },
+        {
+          "date": 1786665600,
+          "tokens": {
+            "WAVAX": 203144.02999,
+            "BTC.B": 1.00032,
+            "AVALANCHEUSDC": 713558.84864,
+            "USDT": 123442.98918,
+            "EURC": 50.00116
+          }
+        },
+        {
+          "date": 1786752000,
+          "tokens": {
+            "WAVAX": 203156.04974,
+            "BTC.B": 1.00033,
+            "AVALANCHEUSDC": 920688.51268,
+            "USDT": 54378.4541,
+            "EURC": 50.00276
+          }
+        },
+        {
+          "date": 1786838400,
+          "tokens": {
+            "WAVAX": 202049.08691,
+            "BTC.B": 1.00034,
+            "AVALANCHEUSDC": 919775.09584,
+            "USDT": 55366.90678,
+            "EURC": 50.00439
+          }
+        },
+        {
+          "date": 1786924800,
+          "tokens": {
+            "WAVAX": 202068.95023,
+            "BTC.B": 1.00035,
+            "AVALANCHEUSDC": 970943.12797,
+            "USDT": 56994.331,
+            "EURC": 50.00598
+          }
+        },
+        {
+          "date": 1787011200,
+          "tokens": {
+            "WAVAX": 205568.84528,
+            "BTC.B": 1.00036,
+            "AVALANCHEUSDC": 1027886.56568,
+            "USDT": 66495.6094,
+            "EURC": 50.00757
+          }
+        },
+        {
+          "date": 1787097600,
+          "tokens": {
+            "WAVAX": 213579.48471,
+            "BTC.B": 1.00036,
+            "AVALANCHEUSDC": 1073315.12593,
+            "USDT": 76667.2064,
+            "EURC": 50.0092
+          }
+        },
+        {
+          "date": 1787184000,
+          "tokens": {
+            "WAVAX": 216142.25228,
+            "BTC.B": 1.00037,
+            "AVALANCHEUSDC": 1072783.77161,
+            "USDT": 101010.1434,
+            "EURC": 0.00064
+          }
+        },
+        {
+          "date": 1787270400,
+          "tokens": {
+            "WAVAX": 216156.47278,
+            "BTC.B": 1.00031,
+            "AVALANCHEUSDC": 1175405.42306,
+            "USDT": 101276.88508,
+            "EURC": 0.00064
+          }
+        },
+        {
+          "date": 1787356800,
+          "tokens": {
+            "WAVAX": 218802.12013,
+            "BTC.B": 2.00033,
+            "AVALANCHEUSDC": 1201494.43221,
+            "USDT": 99158.20354,
+            "EURC": 0.00064
+          }
+        },
+        {
+          "date": 1787443200,
+          "tokens": {
+            "WAVAX": 219814.85862,
+            "BTC.B": 2.00036,
+            "AVALANCHEUSDC": 1218015.71871,
+            "USDT": 100566.55986,
+            "WETH": 0.004,
+            "EURC": 0.00064
+          }
+        },
+        {
+          "date": 1787529600,
+          "tokens": {
+            "WAVAX": 219837.67465,
+            "BTC.B": 2.00103,
+            "AVALANCHEUSDC": 1254341.92991,
+            "USDT": 100620.35631,
+            "WETH": 0.004,
+            "EURC": 0.00064
+          }
+        },
+        {
+          "date": 1787616000,
+          "tokens": {
+            "WAVAX": 220139.9665,
+            "BTC.B": 2.00097,
+            "AVALANCHEUSDC": 1433990.9182,
+            "USDT": 93924.10666,
+            "WETH": 0.004,
+            "EURC": 0.00064
+          }
+        },
+        {
+          "date": 1787702400,
+          "tokens": {
+            "WAVAX": 219451.18599,
+            "BTC.B": 2.50099,
+            "AVALANCHEUSDC": 1382882.74114,
+            "USDT": 94526.94557,
+            "WETH": 0.004,
+            "EURC": 0.00064
+          }
+        },
+        {
+          "date": 1787788800,
+          "tokens": {
+            "WAVAX": 220108.22778,
+            "BTC.B": 2.50102,
+            "AVALANCHEUSDC": 1659136.4003,
+            "USDT": 94579.67971,
+            "WETH": 0.004,
+            "EURC": 0.00064
+          }
+        },
+        {
+          "date": 1787875200,
+          "tokens": {
+            "WAVAX": 224240.37132,
+            "BTC.B": 2.50096,
+            "AVALANCHEUSDC": 2548204.11799,
+            "USDT": 128357.36906,
+            "WETH": 0.154,
+            "EURC": 0.00064
+          }
+        },
+        {
+          "date": 1787961600,
+          "tokens": {
+            "WAVAX": 224868.90381,
+            "BTC.B": 2.50098,
+            "AVALANCHEUSDC": 2681569.47923,
+            "USDT": 175458.02892,
+            "WETH": 0.154,
+            "EURC": 0.00064
+          }
+        },
+        {
+          "date": 1788048000,
+          "tokens": {
+            "WAVAX": 229892.94062,
+            "BTC.B": 2.501,
+            "AVALANCHEUSDC": 2718375.41001,
+            "USDT": 183869.30337,
+            "WETH": 0.15,
+            "EURC": 0.00064
+          }
+        },
+        {
+          "date": 1788134400,
+          "tokens": {
+            "WAVAX": 232887.69475,
+            "BTC.B": 2.50096,
+            "AVALANCHEUSDC": 3372922.31687,
+            "USDT": 184185.92187,
+            "WETH": 2.15001,
+            "EURC": 0.00064
+          }
+        },
+        {
+          "date": 1788220800,
+          "tokens": {
+            "WAVAX": 232903.87179,
+            "BTC.B": 2.50034,
+            "AVALANCHEUSDC": 2798633.48499,
+            "USDT": 175408.61601,
+            "WETH": 2.15001,
+            "EURC": 50.00203
+          }
+        },
+        {
+          "date": 1788307200,
+          "tokens": {
+            "WAVAX": 233117.46037,
+            "BTC.B": 2.50096,
+            "AVALANCHEUSDC": 2825160.78887,
+            "USDT": 190496.30109,
+            "WETH": 2.15001,
+            "EURC": 80.00396
+          }
+        },
+        {
+          "date": 1788393600,
+          "tokens": {
+            "WAVAX": 230878.2628,
+            "BTC.B": 2.50098,
+            "AVALANCHEUSDC": 2674425.42269,
+            "USDT": 191202.87536,
+            "WETH": 22.15015,
+            "EURC": 80.00787
+          }
+        },
+        {
+          "date": 1788480000,
+          "tokens": {
+            "WAVAX": 231898.02515,
+            "BTC.B": 2.50099,
+            "AVALANCHEUSDC": 2534511.76423,
+            "USDT": 216876.65391,
+            "WETH": 2.15006,
+            "EURC": 80.01203
+          }
+        },
+        {
+          "date": 1788566400,
+          "tokens": {
+            "WAVAX": 231904.11003,
+            "BTC.B": 2.50092,
+            "AVALANCHEUSDC": 2510875.37728,
+            "USDT": 244250.15154,
+            "WETH": 2.15008,
+            "EURC": 80.01601
+          }
+        },
+        {
+          "date": 1788652800,
+          "tokens": {
+            "WAVAX": 232488.25191,
+            "BTC.B": 2.50094,
+            "AVALANCHEUSDC": 2576699.52199,
+            "USDT": 270446.1777,
+            "WETH": 2.15009,
+            "EURC": 80.02012
+          }
+        },
+        {
+          "date": 1788739200,
+          "tokens": {
+            "WAVAX": 236589.11156,
+            "BTC.B": 2.50432,
+            "AVALANCHEUSDC": 2418999.82403,
+            "USDT": 491025.0177,
+            "WETH": 2.1501,
+            "EURC": 80.02434
+          }
+        },
+        {
+          "date": 1788825600,
+          "tokens": {
+            "WAVAX": 237727.12275,
+            "BTC.B": 2.50434,
+            "AVALANCHEUSDC": 2374404.20357,
+            "USDT": 573409.88286,
+            "WETH": 2.3501,
+            "EURC": 80.02836
+          }
+        },
+        {
+          "date": 1788912000,
+          "tokens": {
+            "WAVAX": 237941.22278,
+            "BTC.B": 2.50436,
+            "AVALANCHEUSDC": 3893146.71539,
+            "USDT": 580105.3494,
+            "WETH": 22.35037,
+            "EURC": 80.03245
+          }
+        },
+        {
+          "date": 1788998400,
+          "tokens": {
+            "WAVAX": 238095.14039,
+            "BTC.B": 2.00431,
+            "AVALANCHEUSDC": 3680146.92375,
+            "USDT": 403859.78832,
+            "WETH": 22.20089,
+            "EURC": 80.03644
+          }
+        },
+        {
+          "date": 1789084800,
+          "tokens": {
+            "WAVAX": 236871.55045,
+            "BTC.B": 2.50432,
+            "AVALANCHEUSDC": 3660239.7326,
+            "USDT": 410326.45136,
+            "WETH": 17.20129,
+            "EURC": 80.04049
+          }
+        },
+        {
+          "date": 1789171200,
+          "tokens": {
+            "WAVAX": 241061.34893,
+            "BTC.B": 2.70432,
+            "AVALANCHEUSDC": 3556391.77588,
+            "USDT": 544561.8897,
+            "WETH": 18.70164,
+            "EURC": 80.0442
+          }
+        },
+        {
+          "date": 1789257600,
+          "tokens": {
+            "WAVAX": 241098.8201,
+            "BTC.B": 2.70693,
+            "AVALANCHEUSDC": 4000504.41355,
+            "USDT": 559470.19941,
+            "WETH": 18.70205,
+            "EURC": 80.04822
+          }
+        },
+        {
+          "date": 1789344000,
+          "tokens": {
+            "WAVAX": 244756.87126,
+            "BTC.B": 2.70564,
+            "AVALANCHEUSDC": 4002677.97676,
+            "USDT": 670744.88712,
+            "WETH": 18.70246,
+            "EURC": 80.05226
+          }
+        },
+        {
+          "date": 1789430400,
+          "tokens": {
+            "WAVAX": 240320.31795,
+            "BTC.B": 2.70561,
+            "AVALANCHEUSDC": 3972641.66848,
+            "USDT": 688728.95647,
+            "WETH": 18.70287,
+            "EURC": 80.05576
+          }
+        },
+        {
+          "date": 1789516800,
+          "tokens": {
+            "WAVAX": 240814.21515,
+            "BTC.B": 2.80432,
+            "AVALANCHEUSDC": 4017437.41595,
+            "USDT": 702710.35159,
+            "WETH": 18.70329,
+            "EURC": 80.05597
+          }
+        },
+        {
+          "date": 1789603200,
+          "tokens": {
+            "WAVAX": 247754.23953,
+            "BTC.B": 2.90432,
+            "AVALANCHEUSDC": 3426798.29211,
+            "USDT": 707253.01957,
+            "WETH": 18.70371,
+            "EURC": 80.05618
+          }
+        },
+        {
+          "date": 1789689600,
+          "tokens": {
+            "WAVAX": 249127.6468,
+            "BTC.B": 2.90433,
+            "AVALANCHEUSDC": 3432727.64182,
+            "USDT": 838230.02687,
+            "WETH": 18.70413,
+            "EURC": 80.0564
+          }
+        },
+        {
+          "date": 1789776000,
+          "tokens": {
+            "WAVAX": 250678.00447,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 3451225.01413,
+            "USDT": 870171.45962,
+            "WETH": 18.71174,
+            "EURC": 489.26094
+          }
+        },
+        {
+          "date": 1789862400,
+          "tokens": {
+            "WAVAX": 250132.46455,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 3420071.97474,
+            "USDT": 848870.26137,
+            "WETH": 4.70632,
+            "EURC": 489.27558
+          }
+        },
+        {
+          "date": 1789948800,
+          "tokens": {
+            "WAVAX": 255753.67366,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 3443436.67717,
+            "USDT": 845926.01507,
+            "WETH": 5.70636,
+            "EURC": 689.28597
+          }
+        },
+        {
+          "date": 1790035200,
+          "tokens": {
+            "WAVAX": 251392.89289,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 3635379.58562,
+            "USDT": 922246.44912,
+            "WETH": 8.57659,
+            "EURC": 989.30706
+          }
+        },
+        {
+          "date": 1790121600,
+          "tokens": {
+            "WAVAX": 252811.42656,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 3639584.5965,
+            "USDT": 923432.38193,
+            "WETH": 74.57813,
+            "EURC": 989.34021
+          }
+        },
+        {
+          "date": 1790208000,
+          "tokens": {
+            "WAVAX": 254347.91806,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 3725815.32465,
+            "USDT": 956761.23356,
+            "WETH": 74.58206,
+            "EURC": 689.37101
+          }
+        },
+        {
+          "date": 1790294400,
+          "tokens": {
+            "WAVAX": 250453.91207,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 3752174.1756,
+            "USDT": 965355.76217,
+            "WETH": 59.58447,
+            "EURC": 702.5489
+          }
+        },
+        {
+          "date": 1790380800,
+          "tokens": {
+            "WAVAX": 250233.95194,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 3874347.05368,
+            "USDT": 1120500.38604,
+            "WETH": 64.86864,
+            "EURC": 702.56563
+          }
+        },
+        {
+          "date": 1790467200,
+          "tokens": {
+            "WAVAX": 252431.36349,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 3866364.68985,
+            "USDT": 1337653.78598,
+            "WETH": 65.28973,
+            "EURC": 702.58233
+          }
+        },
+        {
+          "date": 1790553600,
+          "tokens": {
+            "WAVAX": 250296.00319,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 3831814.70669,
+            "USDT": 1505347.22612,
+            "WETH": 68.61142,
+            "EURC": 702.59864
+          }
+        },
+        {
+          "date": 1790640000,
+          "tokens": {
+            "WAVAX": 252095.81486,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 4295910.69683,
+            "USDT": 1347331.74499,
+            "WETH": 88.58799,
+            "EURC": 702.61561
+          }
+        },
+        {
+          "date": 1790726400,
+          "tokens": {
+            "WAVAX": 254043.79034,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 5032689.33628,
+            "USDT": 1318309.27513,
+            "WETH": 88.64158,
+            "EURC": 702.63235
+          }
+        },
+        {
+          "date": 1790812800,
+          "tokens": {
+            "WAVAX": 253549.58891,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 4330205.78204,
+            "USDT": 1338088.63432,
+            "WETH": 88.58895,
+            "EURC": 702.64865
+          }
+        },
+        {
+          "date": 1790899200,
+          "tokens": {
+            "WAVAX": 254751.5887,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 4700309.86819,
+            "USDT": 1380235.09218,
+            "WETH": 106.5882,
+            "EURC": 702.66481
+          }
+        },
+        {
+          "date": 1790985600,
+          "tokens": {
+            "WAVAX": 252722.14958,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 3597524.53987,
+            "USDT": 1904613.97244,
+            "WETH": 106.58889,
+            "EURC": 702.68136
+          }
+        },
+        {
+          "date": 1791072000,
+          "tokens": {
+            "WAVAX": 255929.44109,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 3601551.62987,
+            "USDT": 1915821.17889,
+            "WETH": 106.59716,
+            "EURC": 702.69775
+          }
+        },
+        {
+          "date": 1791158400,
+          "tokens": {
+            "WAVAX": 257101.27216,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 3687541.77965,
+            "USDT": 1941887.18095,
+            "WETH": 108.40594,
+            "EURC": 702.71465
+          }
+        },
+        {
+          "date": 1791244800,
+          "tokens": {
+            "WAVAX": 257011.8462,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 3683469.71333,
+            "USDT": 1963145.70852,
+            "WETH": 111.6394,
+            "EURC": 702.73124
+          }
+        },
+        {
+          "date": 1791331200,
+          "tokens": {
+            "WAVAX": 256020.28319,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 3039085.48174,
+            "USDT": 2422943.23055,
+            "WETH": 111.59738,
+            "EURC": 1002.76459
+          }
+        },
+        {
+          "date": 1791417600,
+          "tokens": {
+            "WAVAX": 256638.99945,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 3112889.00937,
+            "USDT": 2005123.37364,
+            "WETH": 116.57556,
+            "EURC": 1002.79893
+          }
+        },
+        {
+          "date": 1791504000,
+          "tokens": {
+            "WAVAX": 256506.6842,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 3249165.91635,
+            "USDT": 2066456.65071,
+            "WETH": 112.13674,
+            "EURC": 393.31055
+          }
+        },
+        {
+          "date": 1791590400,
+          "tokens": {
+            "WAVAX": 259411.83516,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 3838313.6688,
+            "USDT": 2010431.81663,
+            "WETH": 110.69449,
+            "EURC": 696.38156
+          }
+        },
+        {
+          "date": 1791676800,
+          "tokens": {
+            "WAVAX": 260605.47347,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 3853878.98547,
+            "USDT": 2012629.54156,
+            "WETH": 115.14586,
+            "EURC": 696.39736
+          }
+        },
+        {
+          "date": 1791766787,
+          "tokens": {
+            "WAVAX": 261628.5395,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 3868320.0102,
+            "USDT": 2037289.85429,
+            "WETH": 115.74678,
+            "EURC": 696.41259
+          }
+        }
+      ]
+    },
+    "Arc": {
+      "tvl": [
+        {
+          "date": 1789603200,
+          "totalLiquidityUSD": 77312253
+        },
+        {
+          "date": 1789689600,
+          "totalLiquidityUSD": 126518592
+        },
+        {
+          "date": 1789776000,
+          "totalLiquidityUSD": 127056978
+        },
+        {
+          "date": 1789862400,
+          "totalLiquidityUSD": 127152442
+        },
+        {
+          "date": 1789948800,
+          "totalLiquidityUSD": 127227285
+        },
+        {
+          "date": 1790035200,
+          "totalLiquidityUSD": 127409663
+        },
+        {
+          "date": 1790121600,
+          "totalLiquidityUSD": 145428834
+        },
+        {
+          "date": 1790208000,
+          "totalLiquidityUSD": 145674635
+        },
+        {
+          "date": 1790294400,
+          "totalLiquidityUSD": 180864966
+        },
+        {
+          "date": 1790380800,
+          "totalLiquidityUSD": 182282542
+        },
+        {
+          "date": 1790467200,
+          "totalLiquidityUSD": 182366656
+        },
+        {
+          "date": 1790553600,
+          "totalLiquidityUSD": 184618561
+        },
+        {
+          "date": 1790640000,
+          "totalLiquidityUSD": 179430250
+        },
+        {
+          "date": 1790726400,
+          "totalLiquidityUSD": 180469113
+        },
+        {
+          "date": 1790812800,
+          "totalLiquidityUSD": 180366601
+        },
+        {
+          "date": 1790899200,
+          "totalLiquidityUSD": 180910349
+        },
+        {
+          "date": 1790985600,
+          "totalLiquidityUSD": 180447643
+        },
+        {
+          "date": 1791072000,
+          "totalLiquidityUSD": 180700745
+        },
+        {
+          "date": 1791158400,
+          "totalLiquidityUSD": 182728404
+        },
+        {
+          "date": 1791244800,
+          "totalLiquidityUSD": 182272557
+        },
+        {
+          "date": 1791331200,
+          "totalLiquidityUSD": 184530666
+        },
+        {
+          "date": 1791417600,
+          "totalLiquidityUSD": 181264803
+        },
+        {
+          "date": 1791504000,
+          "totalLiquidityUSD": 181929141
+        },
+        {
+          "date": 1791590400,
+          "totalLiquidityUSD": 191002078
+        },
+        {
+          "date": 1791676800,
+          "totalLiquidityUSD": 194037188
+        },
+        {
+          "date": 1791766787,
+          "totalLiquidityUSD": 194994699
+        }
+      ],
+      "tokensInUsd": [
+        {
+          "date": 1789603200,
+          "tokens": {
+            "USDC": 75732999.47861,
+            "EURC": 1577206.81368,
+            "CIRBTC": 2044.76359,
+            "WETH": 2.42295
+          }
+        },
+        {
+          "date": 1789689600,
+          "tokens": {
+            "USDC": 124726985.18462,
+            "EURC": 1554450.59833,
+            "CIRBTC": 235643.86828,
+            "WETH": 1512.54984
+          }
+        },
+        {
+          "date": 1789776000,
+          "tokens": {
+            "USDC": 124189041.01459,
+            "EURC": 1716927.64161,
+            "CIRBTC": 345974.02788,
+            "WETH": 805036.19701
+          }
+        },
+        {
+          "date": 1789862400,
+          "tokens": {
+            "USDC": 123735924.09792,
+            "EURC": 1573072.91807,
+            "CIRBTC": 1030077.95175,
+            "WETH": 813367.94431
+          }
+        },
+        {
+          "date": 1789948800,
+          "tokens": {
+            "USDC": 123682671.24503,
+            "EURC": 1567985.49677,
+            "CIRBTC": 1132279.08676,
+            "WETH": 844349.20938
+          }
+        },
+        {
+          "date": 1790035200,
+          "tokens": {
+            "USDC": 123632517.93543,
+            "EURC": 1565564.18313,
+            "CIRBTC": 1324696.82221,
+            "WETH": 886884.45321
+          }
+        },
+        {
+          "date": 1790121600,
+          "tokens": {
+            "USDC": 141597720.02165,
+            "EURC": 1563254.61983,
+            "CIRBTC": 1393856.7828,
+            "WETH": 874002.59407
+          }
+        },
+        {
+          "date": 1790208000,
+          "tokens": {
+            "USDC": 141664485.82942,
+            "EURC": 1559361.10143,
+            "CIRBTC": 1351388.61942,
+            "WETH": 1099400.09703
+          }
+        },
+        {
+          "date": 1790294400,
+          "tokens": {
+            "USDC": 92377100.81175,
+            "EURC": 1558760.63218,
+            "CIRBTC": 84475238.53008,
+            "WETH": 2453866.82245
+          }
+        },
+        {
+          "date": 1790380800,
+          "tokens": {
+            "USDC": 87582000.71203,
+            "EURC": 1556866.75812,
+            "CIRBTC": 83951506.44799,
+            "WETH": 9192169.0464
+          }
+        },
+        {
+          "date": 1790467200,
+          "tokens": {
+            "USDC": 87431150.85765,
+            "EURC": 1555721.69342,
+            "CIRBTC": 84273628.32812,
+            "WETH": 9106155.47729
+          }
+        },
+        {
+          "date": 1790553600,
+          "tokens": {
+            "USDC": 82744914.57606,
+            "EURC": 1559060.71112,
+            "CIRBTC": 84341036.66454,
+            "WETH": 15973549.78438
+          }
+        },
+        {
+          "date": 1790640000,
+          "tokens": {
+            "USDC": 77505597.40557,
+            "EURC": 1567496.62946,
+            "CIRBTC": 84454037.36235,
+            "WETH": 15903119.13647
+          }
+        },
+        {
+          "date": 1790726400,
+          "tokens": {
+            "USDC": 75742434.62203,
+            "EURC": 1563905.79158,
+            "CIRBTC": 87334523.47058,
+            "WETH": 15828249.3583
+          }
+        },
+        {
+          "date": 1790812800,
+          "tokens": {
+            "USDC": 76143972.19091,
+            "EURC": 1570042.46512,
+            "CIRBTC": 87468779.8741,
+            "WETH": 15183806.93197
+          }
+        },
+        {
+          "date": 1790899200,
+          "tokens": {
+            "USDC": 75919478.72034,
+            "EURC": 1569217.53448,
+            "CIRBTC": 88084434.54577,
+            "WETH": 15337218.45853
+          }
+        },
+        {
+          "date": 1790985600,
+          "tokens": {
+            "USDC": 76183927.71508,
+            "EURC": 1569890.0288,
+            "CIRBTC": 87570813.68148,
+            "WETH": 15123012.35274
+          }
+        },
+        {
+          "date": 1791072000,
+          "tokens": {
+            "USDC": 75994043.35679,
+            "EURC": 1569837.27347,
+            "CIRBTC": 87912516.26275,
+            "WETH": 15224348.34322
+          }
+        },
+        {
+          "date": 1791158400,
+          "tokens": {
+            "USDC": 75593252.44287,
+            "EURC": 1572000.34303,
+            "CIRBTC": 90246368.55013,
+            "WETH": 15316782.89658
+          }
+        },
+        {
+          "date": 1791244800,
+          "tokens": {
+            "USDC": 75729604.71091,
+            "EURC": 1563600.01085,
+            "CIRBTC": 89601790.04815,
+            "WETH": 15377562.47388
+          }
+        },
+        {
+          "date": 1791331200,
+          "tokens": {
+            "USDC": 52774371.72688,
+            "EURC": 1564258.64065,
+            "CIRBTC": 89174153.74528,
+            "WETH": 15281234.13248,
+            "SYRUPUSDC": 25736648.67213
+          }
+        },
+        {
+          "date": 1791417600,
+          "tokens": {
+            "USDC": 53534844.23602,
+            "EURC": 1536619.32175,
+            "CIRBTC": 85977407.86336,
+            "WETH": 14582272.89187,
+            "SYRUPUSDC": 25633658.7483
+          }
+        },
+        {
+          "date": 1791504000,
+          "tokens": {
+            "USDC": 54730820.90764,
+            "EURC": 1528357.31989,
+            "CIRBTC": 86038140.68371,
+            "WETH": 14026694.53013,
+            "SYRUPUSDC": 25605128.25019
+          }
+        },
+        {
+          "date": 1791590400,
+          "tokens": {
+            "USDC": 57542710.47235,
+            "EURC": 1503655.61931,
+            "CIRBTC": 87041825.07476,
+            "WETH": 14081919.16223,
+            "SYRUPUSDC": 30831968.13466
+          }
+        },
+        {
+          "date": 1791676800,
+          "tokens": {
+            "USDC": 36098148.62905,
+            "EURC": 1498752.14636,
+            "CIRBTC": 88246969.18172,
+            "WETH": 14173558.00063,
+            "SYRUPUSDC": 54019760.1496
+          }
+        },
+        {
+          "date": 1791766787,
+          "tokens": {
+            "USDC": 35813637.56282,
+            "EURC": 1457508.95805,
+            "CIRBTC": 90404807.31475,
+            "WETH": 8052937.23763,
+            "SYRUPUSDC": 59265807.96382
+          }
+        }
+      ],
+      "tokens": [
+        {
+          "date": 1789603200,
+          "tokens": {
+            "USDC": 75758127.29288,
+            "EURC": 1375884.1591,
+            "CIRBTC": 0.02677,
+            "WETH": 0.001
+          }
+        },
+        {
+          "date": 1789689600,
+          "tokens": {
+            "USDC": 124774940.52142,
+            "EURC": 1354886.28499,
+            "CIRBTC": 3.08666,
+            "WETH": 0.61954
+          }
+        },
+        {
+          "date": 1789776000,
+          "tokens": {
+            "USDC": 124214308.52442,
+            "EURC": 1493064.26626,
+            "CIRBTC": 4.2439,
+            "WETH": 307.36726
+          }
+        },
+        {
+          "date": 1789862400,
+          "tokens": {
+            "USDC": 123770375.83076,
+            "EURC": 1368400.83465,
+            "CIRBTC": 12.67831,
+            "WETH": 309.41132
+          }
+        },
+        {
+          "date": 1789948800,
+          "tokens": {
+            "USDC": 123716450.16146,
+            "EURC": 1365438.68847,
+            "CIRBTC": 13.95845,
+            "WETH": 319.49073
+          }
+        },
+        {
+          "date": 1790035200,
+          "tokens": {
+            "USDC": 123649549.31749,
+            "EURC": 1365653.66873,
+            "CIRBTC": 15.32581,
+            "WETH": 320.17476
+          }
+        },
+        {
+          "date": 1790121600,
+          "tokens": {
+            "USDC": 141611609.15218,
+            "EURC": 1365679.73841,
+            "CIRBTC": 16.18093,
+            "WETH": 317.42528
+          }
+        },
+        {
+          "date": 1790208000,
+          "tokens": {
+            "USDC": 141684032.16685,
+            "EURC": 1370357.89111,
+            "CIRBTC": 16.00432,
+            "WETH": 409.75825
+          }
+        },
+        {
+          "date": 1790294400,
+          "tokens": {
+            "USDC": 92393016.31423,
+            "EURC": 1370876.40113,
+            "CIRBTC": 998.75194,
+            "WETH": 912.1878
+          }
+        },
+        {
+          "date": 1790380800,
+          "tokens": {
+            "USDC": 87592492.06302,
+            "EURC": 1367016.44677,
+            "CIRBTC": 998.56109,
+            "WETH": 3416.09923
+          }
+        },
+        {
+          "date": 1790467200,
+          "tokens": {
+            "USDC": 87441521.79319,
+            "EURC": 1366683.08139,
+            "CIRBTC": 1000.11819,
+            "WETH": 3414.7558
+          }
+        },
+        {
+          "date": 1790553600,
+          "tokens": {
+            "USDC": 82759140.61847,
+            "EURC": 1370233.47813,
+            "CIRBTC": 1000.08539,
+            "WETH": 5921.7827
+          }
+        },
+        {
+          "date": 1790640000,
+          "tokens": {
+            "USDC": 77511954.57392,
+            "EURC": 1379347.90484,
+            "CIRBTC": 1012.28127,
+            "WETH": 5927.06177
+          }
+        },
+        {
+          "date": 1790726400,
+          "tokens": {
+            "USDC": 75752591.00166,
+            "EURC": 1379781.27122,
+            "CIRBTC": 1046.40604,
+            "WETH": 5933.43908
+          }
+        },
+        {
+          "date": 1790812800,
+          "tokens": {
+            "USDC": 76157493.48025,
+            "EURC": 1385997.77727,
+            "CIRBTC": 1048.20913,
+            "WETH": 5658.07034
+          }
+        },
+        {
+          "date": 1790899200,
+          "tokens": {
+            "USDC": 75927523.31743,
+            "EURC": 1396063.71982,
+            "CIRBTC": 1038.29276,
+            "WETH": 5666.22748
+          }
+        },
+        {
+          "date": 1790985600,
+          "tokens": {
+            "USDC": 76185779.37108,
+            "EURC": 1396083.95235,
+            "CIRBTC": 1036.29918,
+            "WETH": 5665.71423
+          }
+        },
+        {
+          "date": 1791072000,
+          "tokens": {
+            "USDC": 75996315.55282,
+            "EURC": 1395953.95344,
+            "CIRBTC": 1037.59997,
+            "WETH": 5664.46415
+          }
+        },
+        {
+          "date": 1791158400,
+          "tokens": {
+            "USDC": 75596349.71154,
+            "EURC": 1397092.48804,
+            "CIRBTC": 1043.77505,
+            "WETH": 5664.72963
+          }
+        },
+        {
+          "date": 1791244800,
+          "tokens": {
+            "USDC": 75731557.44217,
+            "EURC": 1394102.49321,
+            "CIRBTC": 1043.38383,
+            "WETH": 5664.92002
+          }
+        },
+        {
+          "date": 1791331200,
+          "tokens": {
+            "USDC": 52778871.35776,
+            "EURC": 1390307.20056,
+            "CIRBTC": 1042.02655,
+            "WETH": 5664.99498,
+            "SYRUPUSDC": 21688884.30623
+          }
+        },
+        {
+          "date": 1791417600,
+          "tokens": {
+            "USDC": 53549955.19741,
+            "EURC": 1372408.66383,
+            "CIRBTC": 1033.3937,
+            "WETH": 5668.65397,
+            "SYRUPUSDC": 21603149.08512
+          }
+        },
+        {
+          "date": 1791504000,
+          "tokens": {
+            "USDC": 54751512.05404,
+            "EURC": 1364033.15698,
+            "CIRBTC": 1053.29206,
+            "WETH": 5670.46043,
+            "SYRUPUSDC": 21578712.83512
+          }
+        },
+        {
+          "date": 1791590400,
+          "tokens": {
+            "USDC": 57558285.61104,
+            "EURC": 1343760.07035,
+            "CIRBTC": 1054.40286,
+            "WETH": 5662.8538,
+            "SYRUPUSDC": 25976537.22227
+          }
+        },
+        {
+          "date": 1791676800,
+          "tokens": {
+            "USDC": 36107877.90189,
+            "EURC": 1338989.15703,
+            "CIRBTC": 1064.103,
+            "WETH": 5655.83186,
+            "SYRUPUSDC": 45506650.73427
+          }
+        },
+        {
+          "date": 1791766787,
+          "tokens": {
+            "USDC": 35824169.90447,
+            "EURC": 1300773.23294,
+            "CIRBTC": 1079.5718,
+            "WETH": 3165.75769,
+            "SYRUPUSDC": 49920203.93397
           }
         }
       ]
@@ -23331,8 +23525,12 @@
           "totalLiquidityUSD": 388464844
         },
         {
-          "date": 1791673571,
-          "totalLiquidityUSD": 411349961
+          "date": 1791676800,
+          "totalLiquidityUSD": 411163268
+        },
+        {
+          "date": 1791766787,
+          "totalLiquidityUSD": 416191615
         }
       ],
       "tokensInUsd": [
@@ -26654,23 +26852,43 @@
           }
         },
         {
-          "date": 1791673571,
+          "date": 1791676800,
           "tokens": {
-            "USDC": 148561143.44024,
-            "EURC": 925230.73089,
-            "CIRBTC": 321002.65888,
-            "WETH": 98326049.48732,
-            "USDT": 28737641.24357,
-            "GHO": 1187012.1921,
-            "RLUSD": 54.16718,
-            "USDG": 101597806.70664,
-            "FRXUSD": 24464456.82115,
-            "WBTC": 363807.63815,
-            "CBBTC": 299478.50156,
-            "USDE": 10267.43432,
-            "WAVAX": 2702926.93984,
-            "BTC.B": 357.63475,
-            "AVALANCHEUSDC": 3852726.14828
+            "WETH": 98136259.93578,
+            "USDT": 28737082.9497,
+            "USDC": 148564561.08573,
+            "GHO": 1186796.24427,
+            "RLUSD": 54.16711,
+            "USDG": 101603163.65452,
+            "FRXUSD": 24462400.0818,
+            "EURC": 925488.36879,
+            "WBTC": 363985.71784,
+            "CBBTC": 299105.73404,
+            "USDE": 10267.62553,
+            "CIRBTC": 320967.11546,
+            "WAVAX": 2699952.60735,
+            "BTC.B": 357.45872,
+            "AVALANCHEUSDC": 3852825.6823
+          }
+        },
+        {
+          "date": 1791766787,
+          "tokens": {
+            "WETH": 102268709.81457,
+            "USDT": 28474562.87105,
+            "USDC": 148708626.52699,
+            "GHO": 1192467.21902,
+            "RLUSD": 56.6814,
+            "USDG": 102576519.61705,
+            "FRXUSD": 24349598.65806,
+            "EURC": 972809.98715,
+            "WBTC": 405953.89047,
+            "CBBTC": 302361.21856,
+            "USDE": 8017.42117,
+            "CIRBTC": 203679.87995,
+            "WAVAX": 2860707.39143,
+            "BTC.B": 361.1735,
+            "AVALANCHEUSDC": 3867182.72026
           }
         }
       ],
@@ -29993,23 +30211,43 @@
           }
         },
         {
-          "date": 1791673571,
+          "date": 1791676800,
           "tokens": {
-            "USDC": 148607028.79667,
-            "EURC": 826828.62249,
-            "CIRBTC": 3.8703,
-            "WETH": 39235.91622,
-            "USDT": 28760086.07734,
-            "GHO": 1188651.02828,
-            "RLUSD": 54.16481,
-            "USDG": 101615195.62686,
-            "FRXUSD": 24469291.2009,
+            "WETH": 39236.7033,
+            "USDT": 28760286.61085,
+            "USDC": 148608979.93075,
+            "GHO": 1188658.64354,
+            "RLUSD": 54.16515,
+            "USDG": 101615845.04461,
+            "FRXUSD": 24469445.24844,
+            "EURC": 826833.77219,
             "WBTC": 4.39367,
-            "CBBTC": 3.60821,
-            "USDE": 10274.98006,
-            "WAVAX": 260603.83511,
+            "CBBTC": 3.60822,
+            "USDE": 10275.09102,
+            "CIRBTC": 3.8703,
+            "WAVAX": 260605.47347,
             "BTC.B": 0.00431,
-            "AVALANCHEUSDC": 3853916.12103
+            "AVALANCHEUSDC": 3853878.98547
+          }
+        },
+        {
+          "date": 1791766787,
+          "tokens": {
+            "WETH": 40233.12638,
+            "USDT": 28499115.93305,
+            "USDC": 148754959.96083,
+            "GHO": 1194438.95609,
+            "RLUSD": 56.67105,
+            "USDG": 102578929.90122,
+            "FRXUSD": 24355634.79118,
+            "EURC": 868197.19702,
+            "WBTC": 4.85219,
+            "CBBTC": 3.60825,
+            "USDE": 8023.03256,
+            "CIRBTC": 2.43225,
+            "WAVAX": 261628.5395,
+            "BTC.B": 0.00431,
+            "AVALANCHEUSDC": 3868320.0102
           }
         }
       ]
@@ -30797,8 +31035,12 @@
       "totalLiquidityUSD": 664330505
     },
     {
-      "date": 1791673571,
-      "totalLiquidityUSD": 670981457
+      "date": 1791676800,
+      "totalLiquidityUSD": 671025929
+    },
+    {
+      "date": 1791766787,
+      "totalLiquidityUSD": 678395901
     }
   ],
   "tokensInUsd": [
@@ -36021,36 +36263,69 @@
       }
     },
     {
-      "date": 1791673571,
+      "date": 1791676800,
       "tokens": {
-        "WETH": 33945081.07007,
-        "WSTETH": 61239994.30064,
-        "WEETH": 137256890.7457,
-        "RSETH": 3275312.21185,
-        "USDT": 10798129.63002,
-        "USDC": 39906914.79703,
-        "GHO": 168223.77149,
-        "RLUSD": 16.52232,
-        "USDG": 14038725.50784,
-        "FRXUSD": 3794387.52885,
-        "EURC": 1915728.6169,
-        "WBTC": 68453814.31807,
-        "CBBTC": 26812833.38093,
-        "LBTC": 387814.57872,
-        "XAUT": 6117274.26106,
-        "AAVE": 3369623.86903,
-        "LINK": 8918153.262,
-        "SUSDE": 4930374.28536,
-        "USDE": 26314628.50498,
-        "PAXG": 2529121.71673,
-        "PT-USDG-24SEP2026": 670345.27992,
-        "SYRUPUSDG": 51325765.77142,
-        "CIRBTC": 88256780.28716,
-        "SYRUPUSDC": 54018116.72974,
-        "WAVAX": 3159115.37391,
-        "BTC.B": 9217410.23317,
-        "AVALANCHEUSDC": 6464117.42709,
-        "SAVAX": 3696763.04855
+        "WETH": 33906067.33012,
+        "WSTETH": 61269103.74585,
+        "WEETH": 137334338.37396,
+        "RSETH": 3275779.82335,
+        "USDT": 10797844.56245,
+        "USDC": 39906723.77772,
+        "GHO": 168192.08974,
+        "RLUSD": 16.52219,
+        "USDG": 14039376.0028,
+        "FRXUSD": 3794044.64718,
+        "EURC": 1916250.13194,
+        "WBTC": 68510358.4302,
+        "CBBTC": 26779442.52533,
+        "LBTC": 387804.59703,
+        "XAUT": 6117483.9564,
+        "AAVE": 3357801.40311,
+        "LINK": 8901757.41007,
+        "SUSDE": 4930451.67214,
+        "USDE": 26314834.3686,
+        "SYRUPUSDG": 51327675.31485,
+        "PAXG": 2528965.71499,
+        "PT-USDG-24SEP2026": 670363.42516,
+        "CIRBTC": 88246969.18172,
+        "SYRUPUSDC": 54019760.1496,
+        "WAVAX": 3156076.78186,
+        "BTC.B": 9212873.41656,
+        "AVALANCHEUSDC": 6464394.29837,
+        "SAVAX": 3691180.09096
+      }
+    },
+    {
+      "date": 1791766787,
+      "tokens": {
+        "WETH": 25401677.85523,
+        "WSTETH": 62272656.45966,
+        "WEETH": 143030106.88761,
+        "RSETH": 3324227.59654,
+        "USDT": 11830679.09131,
+        "USDC": 39911970.1799,
+        "GHO": 162683.79645,
+        "RLUSD": 14.02415,
+        "USDG": 12707404.01808,
+        "FRXUSD": 4169548.9123,
+        "EURC": 1899016.31325,
+        "WBTC": 69287294.25113,
+        "CBBTC": 27072944.12483,
+        "LBTC": 434491.56341,
+        "XAUT": 6187763.35556,
+        "AAVE": 3436668.0694,
+        "LINK": 9168594.80459,
+        "SUSDE": 4801058.07271,
+        "USDE": 26439315.59076,
+        "PAXG": 2630898.92311,
+        "PT-USDG-24SEP2026": 109362.84571,
+        "SYRUPUSDG": 51390818.51906,
+        "WAVAX": 3313017.83426,
+        "BTC.B": 9384966.0934,
+        "AVALANCHEUSDC": 6460016.33935,
+        "SAVAX": 3898090.24153,
+        "CIRBTC": 90404807.31475,
+        "SYRUPUSDC": 59265807.96382
       }
     }
   ],
@@ -41274,47 +41549,80 @@
       }
     },
     {
-      "date": 1791673571,
+      "date": 1791676800,
       "tokens": {
-        "WETH": 13546.08769,
+        "WETH": 13544.26769,
         "WSTETH": 19630.19289,
         "WEETH": 49595.59768,
         "RSETH": 1212.1128,
         "USDT": 10806563.24579,
-        "USDC": 39918010.20065,
+        "USDC": 39917562.30404,
         "GHO": 168456.02791,
         "RLUSD": 16.52159,
         "USDG": 14041128.29867,
         "FRXUSD": 3795137.33133,
         "EURC": 1711982.96866,
-        "WBTC": 826.70954,
+        "WBTC": 826.98802,
         "CBBTC": 323.04977,
         "LBTC": 4.66312,
         "XAUT": 1463.50249,
-        "AAVE": 19955.8291,
+        "AAVE": 19960.86088,
         "LINK": 685072.14113,
         "SUSDE": 3939573.92859,
         "USDE": 26333967.64349,
+        "SYRUPUSDG": 50608293.29239,
         "PAXG": 604.65248,
         "PT-USDG-24SEP2026": 670479.75115,
-        "SYRUPUSDG": 50608293.29239,
         "CIRBTC": 1064.103,
         "SYRUPUSDC": 45506650.73427,
-        "WAVAX": 304587.43441,
+        "WAVAX": 304631.6005,
         "BTC.B": 111.09689,
-        "AVALANCHEUSDC": 6466113.96754,
-        "SAVAX": 275642.70702
+        "AVALANCHEUSDC": 6466161.56416,
+        "SAVAX": 275640.53068
+      }
+    },
+    {
+      "date": 1791766787,
+      "tokens": {
+        "WETH": 9990.43823,
+        "WSTETH": 19641.41632,
+        "WEETH": 50863.5921,
+        "RSETH": 1212.1128,
+        "USDT": 11840867.10539,
+        "USDC": 39923732.60516,
+        "GHO": 162952.79309,
+        "RLUSD": 14.02159,
+        "USDG": 12707702.60936,
+        "FRXUSD": 4170582.5208,
+        "EURC": 1694802.3376,
+        "WBTC": 828.16032,
+        "CBBTC": 323.07738,
+        "LBTC": 5.17191,
+        "XAUT": 1473.89773,
+        "AAVE": 20015.50915,
+        "LINK": 687374.67899,
+        "SUSDE": 3835569.96395,
+        "USDE": 26457820.46684,
+        "PAXG": 626.35248,
+        "PT-USDG-24SEP2026": 109365.77428,
+        "SYRUPUSDG": 50656731.74066,
+        "WAVAX": 302994.99344,
+        "BTC.B": 112.00812,
+        "AVALANCHEUSDC": 6461916.14914,
+        "SAVAX": 276571.87057,
+        "CIRBTC": 1079.5718,
+        "SYRUPUSDC": 49920203.93397
       }
     }
   ],
   "currentChainTvls": {
-    "Arc-borrowed": 107599122.2012,
-    "Ethereum-borrowed": 294894764.81194,
-    "Avalanche-borrowed": 8856074.73174,
-    "Ethereum": 445128264.38992,
-    "Arc": 194044725.24102,
-    "Avalanche": 31808467.39958,
-    "borrowed": 411349961.74487
+    "Ethereum-borrowed": 299314461.31234,
+    "Ethereum": 450393884.62857,
+    "Arc-borrowed": 107818151.79527,
+    "Avalanche": 33007317.37621,
+    "Avalanche-borrowed": 9059001.963,
+    "Arc": 194994699.03708,
+    "borrowed": 416191615.07062
   },
   "raises": [],
   "hacks": [],
