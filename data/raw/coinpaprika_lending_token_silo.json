@@ -2,31 +2,31 @@
   "id": "silo-silo-finance",
   "name": "Silo Finance",
   "symbol": "SILO",
-  "rank": 11209,
+  "rank": 7936,
   "total_supply": 1000000000,
   "max_supply": 0,
-  "beta_value": -0.0110284,
+  "beta_value": 0.0236771,
   "first_data_at": "2021-12-15T00:00:00Z",
-  "last_updated": "2026-10-12T01:23:16Z",
+  "last_updated": "2026-10-13T03:04:16Z",
   "quotes": {
     "USD": {
-      "price": 0.0007797707998142331,
-      "volume_24h": 0.0019656586744636875,
-      "volume_24h_change_24h": -99.98999786376953,
+      "price": 0.0008448251918231366,
+      "volume_24h": 97.58685821572533,
+      "volume_24h_change_24h": 4959796,
       "market_cap": 0,
       "market_cap_change_24h": 0,
-      "percent_change_15m": -0.009999999776482582,
-      "percent_change_30m": 0.05999999865889549,
+      "percent_change_15m": 0.18000000715255737,
+      "percent_change_30m": 0.17000000178813934,
       "percent_change_1h": 0.15000000596046448,
-      "percent_change_6h": 0,
-      "percent_change_12h": 0,
-      "percent_change_24h": 1.2999999523162842,
+      "percent_change_6h": 9.680000305175781,
+      "percent_change_12h": 8.9399995803833,
+      "percent_change_24h": 8.239999771118164,
       "percent_change_7d": 0,
       "percent_change_30d": 0,
       "percent_change_1y": 0,
       "ath_price": 0.9483335877034553,
       "ath_date": "2022-04-10T18:20:00Z",
-      "percent_from_price_ath": -99.92
+      "percent_from_price_ath": -99.91
     }
   }
 }
