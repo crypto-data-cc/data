@@ -1,6 +1,6 @@
 # 代币化美股/ETF 锁仓价值快照
 
-- 生成时间 UTC: 2026-10-14T01:14:39+00:00
+- 生成时间 UTC: 2026-10-15T00:35:51+00:00
 - 数据源: RWA.xyz Tokenized Stocks (https://app.rwa-xyz.com/stocks)
 - 口径: RWA.xyz 的 Total Value。Distributed 指面向链上分发/持有的代币化股票；Represented 指链上记录/表示层。
 - 注意: RWA.xyz 企业 API 需要 key；本脚本使用公开页面内嵌快照。
@@ -9,58 +9,58 @@
 
 | 指标 | 数值 | 变化区间 | 变化 |
 |---|---:|---:|---:|
-| Distributed Value | $3.28B | 30d | 12.27% |
-| Represented Value | $24.60M | 30d | -3.26% |
-| Monthly Transfer Volume | $9.96B | 30d | -72.23% |
-| Monthly Active Addresses | 1,178,006 | 30d | -65.98% |
-| Holders | 4,376,578 | 30d | 18.61% |
+| Distributed Value | $3.32B | 30d | 18.59% |
+| Represented Value | $24.29M | 30d | -1.59% |
+| Monthly Transfer Volume | $10.06B | 30d | -72.62% |
+| Monthly Active Addresses | 1,259,148 | 30d | -63.65% |
+| Holders | 4,389,696 | 30d | 18.17% |
 
 ## 平台排行
 
 | 排名 | 平台 | 资产数 | 总价值 | 7日变化 | 市占率 |
 |---:|---|---:|---:|---:|---:|
-| 1 | bStocks | 91 | $930.45M | 32.23% | 28.37% |
-| 2 | Ondo | 408 | $912.62M | 8.47% | 27.83% |
-| 3 | xStocks | 1443 | $594.08M | -1.64% | 18.12% |
-| 4 | Securitize | 3 | $374.95M | 31.39% | 11.43% |
-| 5 | Reality | 3159 | $147.40M | -0.99% | 4.49% |
-| 6 | Robinhood | 189 | $135.67M | -13.54% | 4.14% |
-| 7 | Figure | 1 | $67.76M | -20.17% | 2.07% |
-| 8 | Superstate Opening Bell | 3 | $52.62M | 43.69% | 1.60% |
-| 9 | WisdomTree | 6 | $28.67M | 3.14% | 0.87% |
-| 10 | Dinari | 688 | $12.05M | 22.90% | 0.37% |
+| 1 | bStocks | 91 | $982.78M | 42.31% | 29.64% |
+| 2 | Ondo | 408 | $914.15M | 11.29% | 27.57% |
+| 3 | xStocks | 1449 | $595.08M | 11.28% | 17.95% |
+| 4 | Securitize | 3 | $357.16M | 28.22% | 10.77% |
+| 5 | Reality | 3159 | $148.59M | 5.26% | 4.48% |
+| 6 | Robinhood | 189 | $136.91M | -11.46% | 4.13% |
+| 7 | Figure | 1 | $64.88M | -18.12% | 1.96% |
+| 8 | Superstate Opening Bell | 3 | $52.61M | 43.78% | 1.59% |
+| 9 | WisdomTree | 6 | $28.76M | 4.24% | 0.87% |
+| 10 | Dinari | 688 | $11.96M | 21.06% | 0.36% |
 
 ## 网络排行
 
 | 排名 | 网络 | 资产数 | 总价值 | 7日变化 | 市占率 |
 |---:|---|---:|---:|---:|---:|
-| 1 | BNB Chain | 2766 | $1.22B | 22.32% | 37.35% |
-| 2 | Ethereum | 2745 | $755.20M | 11.85% | 23.03% |
-| 3 | Solana | 1850 | $499.13M | -2.38% | 15.22% |
-| 4 | Avalanche C-Chain | 701 | $308.68M | 43.90% | 9.41% |
-| 5 | Arbitrum | 5379 | $158.56M | 0.34% | 4.84% |
-| 6 | Robinhood | 352 | $135.97M | -13.35% | 4.15% |
-| 7 | Provenance | 1 | $67.76M | -20.17% | 2.07% |
-| 8 | Algorand | 1 | $54.45M | -4.27% | 1.66% |
-| 9 | Stellar | 6 | $28.35M | 1.99% | 0.86% |
-| 10 | Ink | 1435 | $22.70M | 107.08% | 0.69% |
+| 1 | BNB Chain | 2772 | $1.28B | 31.47% | 38.63% |
+| 2 | Ethereum | 2751 | $753.34M | 13.03% | 22.72% |
+| 3 | Solana | 1856 | $499.37M | 12.30% | 15.06% |
+| 4 | Avalanche C-Chain | 701 | $291.44M | 39.93% | 8.79% |
+| 5 | Arbitrum | 5385 | $159.78M | 6.24% | 4.82% |
+| 6 | Robinhood | 352 | $137.19M | -11.32% | 4.14% |
+| 7 | Provenance | 1 | $64.88M | -18.12% | 1.96% |
+| 8 | Algorand | 1 | $54.18M | -4.29% | 1.63% |
+| 9 | Stellar | 6 | $28.34M | 2.72% | 0.85% |
+| 10 | Ink | 1441 | $22.73M | 120.08% | 0.69% |
 
 ## 首页资产排行
 
 | 排名 | 资产 | Ticker | 总价值 | 1月收益 | 平台 | 网络 |
 |---:|---|---|---:|---:|---|---|
-| 1 | Securitize Corp. | SECZ | $306.92M | 43.41% | Securitize | Avalanche C-Chain, Solana |
-| 2 | Circle Internet Group (bStocks) | CRCLB | $149.58M | -7.43% | bStocks | BNB Chain |
-| 3 | Strategy PP Variable xStock | STRCx | $147.87M | 1.26% | xStocks | Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Optimism, Solana |
-| 4 | Strategy (bStocks) | MSTRB | $98.83M | 16.58% | bStocks | BNB Chain |
-| 5 | Circle Internet Group (Ondo Tokenized) | CRCLon | $102.75M | -10.75% | Ondo | BNB Chain, Ethereum, HyperEVM, Solana |
-| 6 | SpaceX (bStocks) | SPCXB | $86.58M | 8.07% | bStocks | BNB Chain |
-| 7 | MicroStrategy xStock | MSTRx | $76.38M | 16.58% | xStocks | Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Optimism, Solana |
-| 8 | Strategy Stretch Preferred (Ondo Tokenized) | STRCon | $69.61M | 2.41% | Ondo | BNB Chain, Ethereum, Solana |
-| 9 | FGRS | FGRS | $67.76M | -18.38% | Figure | Provenance |
-| 10 | Invesco QQQ Trust (bStocks) | QQQB | $64.26M | 4.36% | bStocks | BNB Chain |
-| 11 | iShares Core S&P 500 ETF (Ondo Tokenized) | IVVon | $48.46M | 1.85% | Ondo | BNB Chain, Ethereum, HyperEVM, Solana |
-| 12 | CRCLx xStock | CRCLx | $57.38M | -7.43% | xStocks | Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Optimism, Solana |
-| 13 | SP500 xStock | SPYx | $55.29M | 1.81% | xStocks | Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Optimism, Solana |
-| 14 | Exodus Movement Inc. | EXOD | $54.45M | 0.83% | Securitize | Algorand |
+| 1 | Securitize Corp. | SECZ | $289.58M | 35.31% | Securitize | Avalanche C-Chain, Solana |
+| 2 | Circle Internet Group (bStocks) | CRCLB | $151.41M | -6.99% | bStocks | BNB Chain |
+| 3 | Strategy PP Variable xStock | STRCx | $149.13M | 1.28% | xStocks | Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Optimism, Solana |
+| 4 | Strategy (bStocks) | MSTRB | $101.12M | 16.19% | bStocks | BNB Chain |
+| 5 | Circle Internet Group (Ondo Tokenized) | CRCLon | $97.24M | -6.04% | Ondo | BNB Chain, Ethereum, HyperEVM, Solana |
+| 6 | SpaceX (bStocks) | SPCXB | $95.97M | 3.52% | bStocks | BNB Chain |
+| 7 | MicroStrategy xStock | MSTRx | $72.55M | 16.19% | xStocks | Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Optimism, Solana |
+| 8 | Invesco QQQ Trust (bStocks) | QQQB | $67.66M | 4.01% | bStocks | BNB Chain |
+| 9 | Strategy Stretch Preferred (Ondo Tokenized) | STRCon | $67.45M | 2.44% | Ondo | BNB Chain, Ethereum, Solana |
+| 10 | FGRS | FGRS | $64.88M | -21.85% | Figure | Provenance |
+| 11 | iShares Core S&P 500 ETF (Ondo Tokenized) | IVVon | $61.17M | 1.88% | Ondo | BNB Chain, Ethereum, HyperEVM, Solana |
+| 12 | CRCLx xStock | CRCLx | $54.09M | -6.99% | xStocks | Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Optimism, Solana |
+| 13 | SP500 xStock | SPYx | $54.83M | 1.80% | xStocks | Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Optimism, Solana |
+| 14 | Exodus Movement Inc. | EXOD | $54.18M | 0.33% | Securitize | Algorand |
 | 15 | Forward Industries Inc. | FWDI | $52.35M | 69.58% | Superstate Opening Bell | Solana |
