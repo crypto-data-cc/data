@@ -2784,8 +2784,12 @@
           "totalLiquidityUSD": 179015630
         },
         {
-          "date": 1792536419,
-          "totalLiquidityUSD": 178138541
+          "date": 1792540800,
+          "totalLiquidityUSD": 178162715
+        },
+        {
+          "date": 1792620611,
+          "totalLiquidityUSD": 177725590
         }
       ],
       "tokensInUsd": [
@@ -6924,9 +6928,15 @@
           }
         },
         {
-          "date": 1792536419,
+          "date": 1792540800,
           "tokens": {
-            "USDC": 178138541.18249
+            "USDC": 178162715.4276
+          }
+        },
+        {
+          "date": 1792620611,
+          "tokens": {
+            "USDC": 177725590.48797
           }
         }
       ],
@@ -11066,9 +11076,15 @@
           }
         },
         {
-          "date": 1792536419,
+          "date": 1792540800,
           "tokens": {
-            "USDC": 178182645.1299
+            "USDC": 178207002.37152
+          }
+        },
+        {
+          "date": 1792620611,
+          "tokens": {
+            "USDC": 177766397.59977
           }
         }
       ]
@@ -13832,8 +13848,12 @@
       "totalLiquidityUSD": 179015630
     },
     {
-      "date": 1792536419,
-      "totalLiquidityUSD": 178138541
+      "date": 1792540800,
+      "totalLiquidityUSD": 178162715
+    },
+    {
+      "date": 1792620611,
+      "totalLiquidityUSD": 177725590
     }
   ],
   "tokensInUsd": [
@@ -17972,9 +17992,15 @@
       }
     },
     {
-      "date": 1792536419,
+      "date": 1792540800,
       "tokens": {
-        "USDC": 178138541.18249
+        "USDC": 178162715.4276
+      }
+    },
+    {
+      "date": 1792620611,
+      "tokens": {
+        "USDC": 177725590.48797
       }
     }
   ],
@@ -22114,14 +22140,20 @@
       }
     },
     {
-      "date": 1792536419,
+      "date": 1792540800,
       "tokens": {
-        "USDC": 178182645.1299
+        "USDC": 178207002.37152
+      }
+    },
+    {
+      "date": 1792620611,
+      "tokens": {
+        "USDC": 177766397.59977
       }
     }
   ],
   "currentChainTvls": {
-    "Hyperliquid L1": 178138541.18249
+    "Hyperliquid L1": 177725590.48797
   },
   "raises": [],
   "hacks": [],
@@ -22130,6 +22162,7 @@
   "otherProtocols": [
     "Hyperliquid",
     "Hyperliquid Bridge",
+    "Hyperliquid Earn",
     "Hyperliquid HLP",
     "Hyperliquid Spot Orderbook",
     "Hyperliquid Perps",
