@@ -3596,8 +3596,12 @@
           "totalLiquidityUSD": 762053
         },
         {
-          "date": 1792712063,
-          "totalLiquidityUSD": 761862
+          "date": 1792713600,
+          "totalLiquidityUSD": 761847
+        },
+        {
+          "date": 1792798283,
+          "totalLiquidityUSD": 762017
         }
       ],
       "tokensInUsd": [
@@ -8942,9 +8946,15 @@
           }
         },
         {
-          "date": 1792712063,
+          "date": 1792713600,
           "tokens": {
-            "USDC": 761862.18277
+            "USDC": 761847.12504
+          }
+        },
+        {
+          "date": 1792798283,
+          "tokens": {
+            "USDC": 762017.62965
           }
         }
       ],
@@ -14290,9 +14300,15 @@
           }
         },
         {
-          "date": 1792712063,
+          "date": 1792713600,
           "tokens": {
             "USDC": 762239.59975
+          }
+        },
+        {
+          "date": 1792798283,
+          "tokens": {
+            "USDC": 762236.89975
           }
         }
       ]
@@ -17860,8 +17876,12 @@
       "totalLiquidityUSD": 762053
     },
     {
-      "date": 1792712063,
-      "totalLiquidityUSD": 761862
+      "date": 1792713600,
+      "totalLiquidityUSD": 761847
+    },
+    {
+      "date": 1792798283,
+      "totalLiquidityUSD": 762017
     }
   ],
   "tokensInUsd": [
@@ -23206,9 +23226,15 @@
       }
     },
     {
-      "date": 1792712063,
+      "date": 1792713600,
       "tokens": {
-        "USDC": 761862.18277
+        "USDC": 761847.12504
+      }
+    },
+    {
+      "date": 1792798283,
+      "tokens": {
+        "USDC": 762017.62965
       }
     }
   ],
@@ -28554,14 +28580,20 @@
       }
     },
     {
-      "date": 1792712063,
+      "date": 1792713600,
       "tokens": {
         "USDC": 762239.59975
+      }
+    },
+    {
+      "date": 1792798283,
+      "tokens": {
+        "USDC": 762236.89975
       }
     }
   ],
   "currentChainTvls": {
-    "Solana": 761862.18277
+    "Solana": 762017.62965
   },
   "raises": [],
   "hacks": [],
