@@ -1917,8 +1917,12 @@
           "totalLiquidityUSD": 1463559
         },
         {
-          "date": 1793229779,
-          "totalLiquidityUSD": 1464120
+          "date": 1793232000,
+          "totalLiquidityUSD": 1464117
+        },
+        {
+          "date": 1793321435,
+          "totalLiquidityUSD": 1467090
         }
       ],
       "tokensInUsd": [
@@ -4731,9 +4735,15 @@
           }
         },
         {
-          "date": 1793229779,
+          "date": 1793232000,
           "tokens": {
-            "USDC": 1464120.84267
+            "USDC": 1464117.56204
+          }
+        },
+        {
+          "date": 1793321435,
+          "tokens": {
+            "USDC": 1467090.72431
           }
         }
       ],
@@ -7547,9 +7557,15 @@
           }
         },
         {
-          "date": 1793229779,
+          "date": 1793232000,
           "tokens": {
             "USDC": 1464793.66569
+          }
+        },
+        {
+          "date": 1793321435,
+          "tokens": {
+            "USDC": 1468518.98286
           }
         }
       ]
@@ -9377,8 +9393,12 @@
           "totalLiquidityUSD": 829493
         },
         {
-          "date": 1793229779,
-          "totalLiquidityUSD": 854847
+          "date": 1793232000,
+          "totalLiquidityUSD": 850040
+        },
+        {
+          "date": 1793321435,
+          "totalLiquidityUSD": 788205
         }
       ],
       "tokensInUsd": [
@@ -12113,9 +12133,15 @@
           }
         },
         {
-          "date": 1793229779,
+          "date": 1793232000,
           "tokens": {
-            "BLUE": 854847.05547
+            "BLUE": 850040.40545
+          }
+        },
+        {
+          "date": 1793321435,
+          "tokens": {
+            "BLUE": 788205.27534
           }
         }
       ],
@@ -14851,7 +14877,13 @@
           }
         },
         {
-          "date": 1793229779,
+          "date": 1793232000,
+          "tokens": {
+            "BLUE": 97715081.79
+          }
+        },
+        {
+          "date": 1793321435,
           "tokens": {
             "BLUE": 97715081.79
           }
@@ -16681,8 +16713,12 @@
           "totalLiquidityUSD": 829493
         },
         {
-          "date": 1793229779,
-          "totalLiquidityUSD": 854847
+          "date": 1793232000,
+          "totalLiquidityUSD": 850040
+        },
+        {
+          "date": 1793321435,
+          "totalLiquidityUSD": 788205
         }
       ],
       "tokensInUsd": [
@@ -19417,9 +19453,15 @@
           }
         },
         {
-          "date": 1793229779,
+          "date": 1793232000,
           "tokens": {
-            "BLUE": 854847.05547
+            "BLUE": 850040.40545
+          }
+        },
+        {
+          "date": 1793321435,
+          "tokens": {
+            "BLUE": 788205.27534
           }
         }
       ],
@@ -22155,7 +22197,13 @@
           }
         },
         {
-          "date": 1793229779,
+          "date": 1793232000,
+          "tokens": {
+            "BLUE": 97715081.79
+          }
+        },
+        {
+          "date": 1793321435,
           "tokens": {
             "BLUE": 97715081.79
           }
@@ -24037,8 +24085,12 @@
       "totalLiquidityUSD": 1463559
     },
     {
-      "date": 1793229779,
-      "totalLiquidityUSD": 1464120
+      "date": 1793232000,
+      "totalLiquidityUSD": 1464117
+    },
+    {
+      "date": 1793321435,
+      "totalLiquidityUSD": 1467090
     }
   ],
   "tokensInUsd": [
@@ -26851,9 +26903,15 @@
       }
     },
     {
-      "date": 1793229779,
+      "date": 1793232000,
       "tokens": {
-        "USDC": 1464120.84267
+        "USDC": 1464117.56204
+      }
+    },
+    {
+      "date": 1793321435,
+      "tokens": {
+        "USDC": 1467090.72431
       }
     }
   ],
@@ -29667,16 +29725,22 @@
       }
     },
     {
-      "date": 1793229779,
+      "date": 1793232000,
       "tokens": {
         "USDC": 1464793.66569
+      }
+    },
+    {
+      "date": 1793321435,
+      "tokens": {
+        "USDC": 1468518.98286
       }
     }
   ],
   "currentChainTvls": {
-    "Sui": 1464120.84267,
-    "Sui-staking": 854847.05547,
-    "staking": 854847.05547
+    "Sui": 1467090.72431,
+    "Sui-staking": 788205.27534,
+    "staking": 788205.27534
   },
   "raises": [],
   "hacks": [],

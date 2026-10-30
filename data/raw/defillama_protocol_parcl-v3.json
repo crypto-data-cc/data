@@ -3620,8 +3620,12 @@
           "totalLiquidityUSD": 761042
         },
         {
-          "date": 1793230535,
-          "totalLiquidityUSD": 761158
+          "date": 1793232000,
+          "totalLiquidityUSD": 761129
+        },
+        {
+          "date": 1793322959,
+          "totalLiquidityUSD": 760823
         }
       ],
       "tokensInUsd": [
@@ -9002,9 +9006,15 @@
           }
         },
         {
-          "date": 1793230535,
+          "date": 1793232000,
           "tokens": {
-            "USDC": 761158.92885
+            "USDC": 761129.3419
+          }
+        },
+        {
+          "date": 1793322959,
+          "tokens": {
+            "USDC": 760823.75791
           }
         }
       ],
@@ -14386,9 +14396,15 @@
           }
         },
         {
-          "date": 1793230535,
+          "date": 1793232000,
           "tokens": {
             "USDC": 761502.72144
+          }
+        },
+        {
+          "date": 1793322959,
+          "tokens": {
+            "USDC": 761500.64688
           }
         }
       ]
@@ -17980,8 +17996,12 @@
       "totalLiquidityUSD": 761042
     },
     {
-      "date": 1793230535,
-      "totalLiquidityUSD": 761158
+      "date": 1793232000,
+      "totalLiquidityUSD": 761129
+    },
+    {
+      "date": 1793322959,
+      "totalLiquidityUSD": 760823
     }
   ],
   "tokensInUsd": [
@@ -23362,9 +23382,15 @@
       }
     },
     {
-      "date": 1793230535,
+      "date": 1793232000,
       "tokens": {
-        "USDC": 761158.92885
+        "USDC": 761129.3419
+      }
+    },
+    {
+      "date": 1793322959,
+      "tokens": {
+        "USDC": 760823.75791
       }
     }
   ],
@@ -28746,14 +28772,20 @@
       }
     },
     {
-      "date": 1793230535,
+      "date": 1793232000,
       "tokens": {
         "USDC": 761502.72144
+      }
+    },
+    {
+      "date": 1793322959,
+      "tokens": {
+        "USDC": 761500.64688
       }
     }
   ],
   "currentChainTvls": {
-    "Solana": 761158.92885
+    "Solana": 760823.75791
   },
   "raises": [],
   "hacks": [],
