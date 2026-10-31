@@ -8765,8 +8765,12 @@
           "totalLiquidityUSD": 9893722
         },
         {
-          "date": 1793323439,
+          "date": 1793318400,
           "totalLiquidityUSD": 9681118
+        },
+        {
+          "date": 1793406743,
+          "totalLiquidityUSD": 9718023
         }
       ],
       "tokensInUsd": [
@@ -23781,12 +23785,21 @@
           }
         },
         {
-          "date": 1793323439,
+          "date": 1793318400,
           "tokens": {
             "WETH": 3564973.75092,
             "USDC": 4573482.80328,
             "DAI": 1542426.37379,
             "SAI": 235.66279
+          }
+        },
+        {
+          "date": 1793406743,
+          "tokens": {
+            "SAI": 238.40881,
+            "WETH": 3598115.84841,
+            "USDC": 4576509.64214,
+            "DAI": 1543159.18509
           }
         }
       ],
@@ -38802,12 +38815,21 @@
           }
         },
         {
-          "date": 1793323439,
+          "date": 1793318400,
           "tokens": {
             "WETH": 1603.98947,
             "USDC": 4577551.73517,
             "DAI": 1542898.31496,
             "SAI": 20.2757
+          }
+        },
+        {
+          "date": 1793406743,
+          "tokens": {
+            "SAI": 20.2757,
+            "WETH": 1603.98947,
+            "USDC": 4577375.89943,
+            "DAI": 1542750.72218
           }
         }
       ]
@@ -47535,8 +47557,12 @@
       "totalLiquidityUSD": 9893722
     },
     {
-      "date": 1793323439,
+      "date": 1793318400,
       "totalLiquidityUSD": 9681118
+    },
+    {
+      "date": 1793406743,
+      "totalLiquidityUSD": 9718023
     }
   ],
   "tokensInUsd": [
@@ -65467,12 +65493,21 @@
       }
     },
     {
-      "date": 1793323439,
+      "date": 1793318400,
       "tokens": {
         "WETH": 3564973.75092,
         "USDC": 4573482.80328,
         "DAI": 1542426.37379,
         "SAI": 235.66279
+      }
+    },
+    {
+      "date": 1793406743,
+      "tokens": {
+        "SAI": 238.40881,
+        "WETH": 3598115.84841,
+        "USDC": 4576509.64214,
+        "DAI": 1543159.18509
       }
     }
   ],
@@ -83404,17 +83439,26 @@
       }
     },
     {
-      "date": 1793323439,
+      "date": 1793318400,
       "tokens": {
         "WETH": 1603.98947,
         "USDC": 4577551.73517,
         "DAI": 1542898.31496,
         "SAI": 20.2757
       }
+    },
+    {
+      "date": 1793406743,
+      "tokens": {
+        "SAI": 20.2757,
+        "WETH": 1603.98947,
+        "USDC": 4577375.89943,
+        "DAI": 1542750.72218
+      }
     }
   ],
   "currentChainTvls": {
-    "Ethereum": 9681118.59077
+    "Ethereum": 9718023.08446
   },
   "raises": [
     {
@@ -83539,7 +83583,8 @@
       "returnedFunds": null,
       "defillamaId": "144",
       "parentProtocolId": "parent#dydx",
-      "language": null
+      "language": null,
+      "description": "On July 23, 2024, the dYdX domain (dydx.exchange) was compromised when attackers changed DNS nameservers via a compromised Squarespace account. Two users lost approximately $31,000 when redirected to a malicious contract attempting to steal their tokens. The site was restored within three hours and the domain was transferred to Cloudflare."
     },
     {
       "date": 1700265600,
@@ -83556,7 +83601,8 @@
       "returnedFunds": null,
       "defillamaId": "144",
       "parentProtocolId": "parent#dydx",
-      "language": null
+      "language": null,
+      "description": "On November 17-18, 2023, dYdX V3's insurance fund lost $9M via coordinated market manipulation in less-liquid SUSHI and YFI markets. The attacker built leveraged positions on dYdX, orchestrated spot market price surges, and triggered a liquidation cascade worth $38M notional to drain the insurance fund."
     }
   ],
   "mcap": null,

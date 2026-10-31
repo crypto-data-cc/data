@@ -1189,7 +1189,11 @@
           "totalLiquidityUSD": 0
         },
         {
-          "date": 1793317871,
+          "date": 1793318400,
+          "totalLiquidityUSD": 0
+        },
+        {
+          "date": 1793406491,
           "totalLiquidityUSD": 0
         }
       ],
@@ -2649,7 +2653,11 @@
           "tokens": {}
         },
         {
-          "date": 1793317871,
+          "date": 1793318400,
+          "tokens": {}
+        },
+        {
+          "date": 1793406491,
           "tokens": {}
         }
       ],
@@ -4109,7 +4117,11 @@
           "tokens": {}
         },
         {
-          "date": 1793317871,
+          "date": 1793318400,
+          "tokens": {}
+        },
+        {
+          "date": 1793406491,
           "tokens": {}
         }
       ]
@@ -11273,8 +11285,12 @@
           "totalLiquidityUSD": 640922
         },
         {
-          "date": 1793317871,
-          "totalLiquidityUSD": 640626
+          "date": 1793318400,
+          "totalLiquidityUSD": 640677
+        },
+        {
+          "date": 1793406491,
+          "totalLiquidityUSD": 641145
         }
       ],
       "tokensInUsd": [
@@ -54350,11 +54366,19 @@
           }
         },
         {
-          "date": 1793317871,
+          "date": 1793318400,
           "tokens": {
-            "USDC": 640612.01916,
-            "SYRUPUSDC": 7.92955,
-            "LBTC": 6.52607
+            "USDC": 640663.50145,
+            "SYRUPUSDC": 7.9434,
+            "LBTC": 6.45299
+          }
+        },
+        {
+          "date": 1793406491,
+          "tokens": {
+            "USDC": 641131.53084,
+            "SYRUPUSDC": 7.9542,
+            "LBTC": 6.48085
           }
         }
       ],
@@ -97431,7 +97455,15 @@
           }
         },
         {
-          "date": 1793317871,
+          "date": 1793318400,
+          "tokens": {
+            "USDC": 641233.48635,
+            "SYRUPUSDC": 6.6873,
+            "LBTC": 8e-05
+          }
+        },
+        {
+          "date": 1793406491,
           "tokens": {
             "USDC": 641233.48635,
             "SYRUPUSDC": 6.6873,
@@ -98575,7 +98607,11 @@
           "totalLiquidityUSD": 0
         },
         {
-          "date": 1793317871,
+          "date": 1793318400,
+          "totalLiquidityUSD": 0
+        },
+        {
+          "date": 1793406491,
           "totalLiquidityUSD": 0
         }
       ],
@@ -100035,7 +100071,11 @@
           "tokens": {}
         },
         {
-          "date": 1793317871,
+          "date": 1793318400,
+          "tokens": {}
+        },
+        {
+          "date": 1793406491,
           "tokens": {}
         }
       ],
@@ -101495,7 +101535,11 @@
           "tokens": {}
         },
         {
-          "date": 1793317871,
+          "date": 1793318400,
+          "tokens": {}
+        },
+        {
+          "date": 1793406491,
           "tokens": {}
         }
       ]
@@ -108659,8 +108703,12 @@
       "totalLiquidityUSD": 640922
     },
     {
-      "date": 1793317871,
-      "totalLiquidityUSD": 640626
+      "date": 1793318400,
+      "totalLiquidityUSD": 640677
+    },
+    {
+      "date": 1793406491,
+      "totalLiquidityUSD": 641145
     }
   ],
   "tokensInUsd": [
@@ -151736,11 +151784,19 @@
       }
     },
     {
-      "date": 1793317871,
+      "date": 1793318400,
       "tokens": {
-        "USDC": 640612.01916,
-        "SYRUPUSDC": 7.92955,
-        "LBTC": 6.52607
+        "USDC": 640663.50145,
+        "SYRUPUSDC": 7.9434,
+        "LBTC": 6.45299
+      }
+    },
+    {
+      "date": 1793406491,
+      "tokens": {
+        "USDC": 641131.53084,
+        "SYRUPUSDC": 7.9542,
+        "LBTC": 6.48085
       }
     }
   ],
@@ -194817,7 +194873,15 @@
       }
     },
     {
-      "date": 1793317871,
+      "date": 1793318400,
+      "tokens": {
+        "USDC": 641233.48635,
+        "SYRUPUSDC": 6.6873,
+        "LBTC": 8e-05
+      }
+    },
+    {
+      "date": 1793406491,
       "tokens": {
         "USDC": 641233.48635,
         "SYRUPUSDC": 6.6873,
@@ -194827,7 +194891,7 @@
   ],
   "currentChainTvls": {
     "Solana-staking": 0,
-    "Solana": 640626.47478,
+    "Solana": 641145.96588,
     "staking": 0
   },
   "raises": [
@@ -194893,7 +194957,8 @@
       "returnedFunds": 14500000,
       "defillamaId": "970",
       "parentProtocolId": "parent#drift",
-      "language": "Rust"
+      "language": "Rust",
+      "description": "On May 11, 2022, Drift Protocol on Solana experienced three interconnected bugs: users could withdraw positive PnL without realizing losses, leverage increased with long-short imbalance, and insurance funds weren't isolated per market. LUNA collapse exposed these issues, causing $8.72M net withdrawal and $14.5M shortfall."
     },
     {
       "date": 1775001600,
@@ -194910,7 +194975,8 @@
       "returnedFunds": null,
       "defillamaId": "970",
       "parentProtocolId": "parent#drift",
-      "language": "Rust"
+      "language": "Rust",
+      "description": "On April 1, 2026, Drift Protocol on Solana was exploited for ~$295M when attackers tricked Security Council members into pre-signing transactions via Solana durable nonces, handing over admin control. Attackers whitelisted a worthless fake token (CVT) as collateral, deposited 500M CVT, and withdrew $285M in real assets (USDC, SOL, ETH) in ~12 minutes. Security firms linked the attack to DPRK/Lazarus Group."
     }
   ],
   "mcap": null,
