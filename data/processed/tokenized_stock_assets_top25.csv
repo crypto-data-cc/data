@@ -2,25 +2,25 @@
 1,Securitize Corp.,SECZ,Stocks,202169777.04,-48.183687457162435,,Onchain Distributed,Securitize,"Avalanche C-Chain, Solana"
 2,SpaceX (bStocks),SPCXB,Stocks,171097909.51664963,-10.698661010208166,,Onchain Distributed,bStocks,BNB Chain
 3,Circle Internet Group (bStocks),CRCLB,Stocks,146067668.86413166,-11.719605695509316,,Onchain Distributed,bStocks,BNB Chain
-4,Strategy PP Variable xStock,STRCx,Stocks,141971356.33452785,-0.2214393558127692,0.2426939023159047,Onchain Distributed,xStocks,"Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Monad, Optimism, Solana"
+4,Strategy PP Variable xStock,STRCx,Stocks,141326350.9758731,-0.2214393558127692,-0.2515596699534939,Onchain Distributed,xStocks,"Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Monad, Optimism, Solana"
 5,Alphabet (bStocks),GOOGLB,Stocks,104482599.70329991,-18.67007672634273,,Onchain Distributed,bStocks,BNB Chain
 6,Strategy (bStocks),MSTRB,Stocks,98932279.40838508,-14.74949376183946,,Onchain Distributed,bStocks,BNB Chain
 7,Invesco QQQ Trust (bStocks),QQQB,Stocks,97705848.1081298,-6.661529934979771,,Onchain Distributed,bStocks,BNB Chain
-8,Circle Internet Group (Ondo Tokenized),CRCLon,Stocks,88316364.33107421,-10.770786035815583,-42.05247132280513,Onchain Distributed,Ondo,"BNB Chain, Ethereum, HyperEVM, Solana"
+8,Circle Internet Group (Ondo Tokenized),CRCLon,Stocks,85320619.25871584,-10.993003229278742,-42.701716475147556,Onchain Distributed,Ondo,"BNB Chain, Ethereum, HyperEVM, Solana"
 9,SanDisk (bStocks),SNDKB,Stocks,76696643.60619737,-33.85271482679939,,Onchain Distributed,bStocks,BNB Chain
-10,MicroStrategy xStock,MSTRx,Stocks,74204849.58012766,-14.74949376183946,-48.73315787406208,Onchain Distributed,xStocks,"Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Monad, Optimism, Solana"
+10,MicroStrategy xStock,MSTRx,Stocks,71958139.95346832,-14.74949376183946,-51.57508070201471,Onchain Distributed,xStocks,"Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Monad, Optimism, Solana"
 11,Micron Technology (bStocks),MUB,Stocks,61418017.55514729,-16.925277827969364,,Onchain Distributed,bStocks,BNB Chain
-12,iShares Core S&P 500 ETF (Ondo Tokenized),IVVon,Stocks,60534564.68073982,-1.0996442901084258,11.472043289395351,Onchain Distributed,Ondo,"BNB Chain, Ethereum, HyperEVM, Solana"
-13,SP500 xStock,SPYx,Stocks,57388326.85503496,-0.9060750298309772,11.163084888869212,Onchain Distributed,xStocks,"Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Monad, Optimism, Solana"
-14,CRCLx xStock,CRCLx,Stocks,56901096.65453385,-11.719605695509316,-40.88501344633685,Onchain Distributed,xStocks,"Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Monad, Optimism, Solana"
-15,Strategy Stretch Preferred (Ondo Tokenized),STRCon,Stocks,52517900.308216944,0.9992983140886258,7.140239484990074,Onchain Distributed,Ondo,"BNB Chain, Ethereum, Solana"
+12,iShares Core S&P 500 ETF (Ondo Tokenized),IVVon,Stocks,60029994.78966049,-1.0996442901084258,11.84659797340104,Onchain Distributed,Ondo,"BNB Chain, Ethereum, HyperEVM, Solana"
+13,SP500 xStock,SPYx,Stocks,56902045.5444655,-0.9060750298309772,10.79963639562498,Onchain Distributed,xStocks,"Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Monad, Optimism, Solana"
+14,CRCLx xStock,CRCLx,Stocks,53940909.61406289,-11.719605695509316,-42.87289336903445,Onchain Distributed,xStocks,"Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Monad, Optimism, Solana"
+15,Strategy Stretch Preferred (Ondo Tokenized),STRCon,Stocks,52568672.17953303,1.284794286305524,6.913338485708542,Onchain Distributed,Ondo,"BNB Chain, Ethereum, Solana"
 16,FGRS,FGRS,Stocks,51336640.419999994,-25.19930675909877,,Onchain Distributed,Figure,Provenance
-17,Tesla xStock,TSLAx,Stocks,48658350.05482121,12.682844339223841,-9.154737559645499,Onchain Distributed,xStocks,"Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Monad, Optimism, Solana"
-18,SPDR S&P 500 ETF (Ondo Tokenized),SPYon,Stocks,47924606.37144625,-1.0956595527775725,11.452009161217823,Onchain Distributed,Ondo,"BNB Chain, Ethereum, HyperEVM, Solana"
-19,Exodus Movement Inc.,EXOD,Stocks,46272750,-28.172942817294267,-78.29751369574383,Onchain Distributed,Securitize,Algorand
-20,Forward Industries Inc.,FWDI,Stocks,46233201.285,-18.589743589743602,-55.77994428969364,Onchain Distributed,Superstate Opening Bell,Solana
+17,Tesla xStock,TSLAx,Stocks,49073365.24884455,12.682844339223841,-12.429910636060937,Onchain Distributed,xStocks,"Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Monad, Optimism, Solana"
+18,SPDR S&P 500 ETF (Ondo Tokenized),SPYon,Stocks,47525068.34155758,-0.9935288440378942,11.99990800889228,Onchain Distributed,Ondo,"BNB Chain, Ethereum, HyperEVM, Solana"
+19,Exodus Movement Inc.,EXOD,Stocks,46272750,-28.172942817294267,-78.97100857492856,Onchain Distributed,Securitize,Algorand
+20,Forward Industries Inc.,FWDI,Stocks,46233201.285,-18.589743589743602,-55.872133425990334,Onchain Distributed,Superstate Opening Bell,Solana
 21,NVIDIA (bStocks),NVDAB,Stocks,43910187.8961544,-10.394955775461911,,Onchain Distributed,bStocks,BNB Chain
-22,SpaceX xStock,SPCXx,Stocks,149063925.6999004,-10.698661010208166,,Onchain Distributed,xStocks,"Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Monad, Optimism, Solana"
+22,SpaceX xStock,SPCXx,Stocks,149063921.74466938,-10.698661010208177,,Onchain Distributed,xStocks,"Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Monad, Optimism, Solana"
 23,Intel (bStocks),INTCB,Stocks,39331222.14055345,-45.30483240455795,,Onchain Distributed,bStocks,BNB Chain
-24,BNB Standard Corporation (bStocks),BNCB,Stocks,36452125.828516506,-15.959252971137506,,Onchain Distributed,bStocks,BNB Chain
-25,Invesco QQQ (Ondo Tokenized),QQQon,Stocks,34629521.762687944,-6.749098972698397,9.728404853309991,Onchain Distributed,Ondo,"BNB Chain, Ethereum, HyperEVM, Solana"
+24,BNB Standard Corporation (bStocks),BNCB,Stocks,36452125.828516506,-15.959252971137516,,Onchain Distributed,bStocks,BNB Chain
+25,Invesco QQQ (Ondo Tokenized),QQQon,Stocks,34091186.456870615,-6.451144025316902,10.812168805856427,Onchain Distributed,Ondo,"BNB Chain, Ethereum, HyperEVM, Solana"
