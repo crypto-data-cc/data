@@ -3469,7 +3469,11 @@
           "totalLiquidityUSD": 0
         },
         {
-          "date": 1793755271,
+          "date": 1793836800,
+          "totalLiquidityUSD": 0
+        },
+        {
+          "date": 1793842547,
           "totalLiquidityUSD": 0
         }
       ],
@@ -6895,7 +6899,11 @@
           "tokens": {}
         },
         {
-          "date": 1793755271,
+          "date": 1793836800,
+          "tokens": {}
+        },
+        {
+          "date": 1793842547,
           "tokens": {}
         }
       ],
@@ -10321,7 +10329,11 @@
           "tokens": {}
         },
         {
-          "date": 1793755271,
+          "date": 1793836800,
+          "tokens": {}
+        },
+        {
+          "date": 1793842547,
           "tokens": {}
         }
       ]
@@ -13753,7 +13765,11 @@
           "totalLiquidityUSD": 0
         },
         {
-          "date": 1793755271,
+          "date": 1793836800,
+          "totalLiquidityUSD": 0
+        },
+        {
+          "date": 1793842547,
           "totalLiquidityUSD": 0
         }
       ],
@@ -17179,7 +17195,11 @@
           "tokens": {}
         },
         {
-          "date": 1793755271,
+          "date": 1793836800,
+          "tokens": {}
+        },
+        {
+          "date": 1793842547,
           "tokens": {}
         }
       ],
@@ -20605,7 +20625,11 @@
           "tokens": {}
         },
         {
-          "date": 1793755271,
+          "date": 1793836800,
+          "tokens": {}
+        },
+        {
+          "date": 1793842547,
           "tokens": {}
         }
       ]
@@ -24837,8 +24861,12 @@
           "totalLiquidityUSD": 15
         },
         {
-          "date": 1793755271,
-          "totalLiquidityUSD": 15
+          "date": 1793836800,
+          "totalLiquidityUSD": 16
+        },
+        {
+          "date": 1793842547,
+          "totalLiquidityUSD": 16
         }
       ],
       "tokensInUsd": [
@@ -46468,9 +46496,15 @@
           }
         },
         {
-          "date": 1793755271,
+          "date": 1793836800,
           "tokens": {
-            "PUFETH": 15.04608
+            "PUFETH": 16.10277
+          }
+        },
+        {
+          "date": 1793842547,
+          "tokens": {
+            "PUFETH": 16.05834
           }
         }
       ],
@@ -68101,7 +68135,13 @@
           }
         },
         {
-          "date": 1793755271,
+          "date": 1793836800,
+          "tokens": {
+            "PUFETH": 0.00609
+          }
+        },
+        {
+          "date": 1793842547,
           "tokens": {
             "PUFETH": 0.00609
           }
@@ -71699,7 +71739,11 @@
           "totalLiquidityUSD": 0
         },
         {
-          "date": 1793755271,
+          "date": 1793836800,
+          "totalLiquidityUSD": 0
+        },
+        {
+          "date": 1793842547,
           "totalLiquidityUSD": 0
         }
       ],
@@ -86791,9 +86835,15 @@
           }
         },
         {
-          "date": 1793755271,
+          "date": 1793836800,
           "tokens": {
-            "USDC": 0.03024
+            "USDC": 0.03025
+          }
+        },
+        {
+          "date": 1793842547,
+          "tokens": {
+            "USDC": 0.03025
           }
         }
       ],
@@ -101885,7 +101935,13 @@
           }
         },
         {
-          "date": 1793755271,
+          "date": 1793836800,
+          "tokens": {
+            "USDC": 0.03026
+          }
+        },
+        {
+          "date": 1793842547,
           "tokens": {
             "USDC": 0.03026
           }
@@ -102935,7 +102991,11 @@
           "totalLiquidityUSD": 0
         },
         {
-          "date": 1793755271,
+          "date": 1793836800,
+          "totalLiquidityUSD": 0
+        },
+        {
+          "date": 1793842547,
           "totalLiquidityUSD": 0
         }
       ],
@@ -104898,7 +104958,13 @@
           }
         },
         {
-          "date": 1793755271,
+          "date": 1793836800,
+          "tokens": {
+            "WHYPE": 1e-05
+          }
+        },
+        {
+          "date": 1793842547,
           "tokens": {
             "WHYPE": 1e-05
           }
@@ -106863,7 +106929,13 @@
           }
         },
         {
-          "date": 1793755271,
+          "date": 1793836800,
+          "tokens": {
+            "WHYPE": 0
+          }
+        },
+        {
+          "date": 1793842547,
           "tokens": {
             "WHYPE": 0
           }
@@ -110461,7 +110533,11 @@
           "totalLiquidityUSD": 0
         },
         {
-          "date": 1793755271,
+          "date": 1793836800,
+          "totalLiquidityUSD": 0
+        },
+        {
+          "date": 1793842547,
           "totalLiquidityUSD": 0
         }
       ],
@@ -124001,11 +124077,19 @@
           }
         },
         {
-          "date": 1793755271,
+          "date": 1793836800,
           "tokens": {
-            "USDE": 0.69153,
-            "CBBTC": 0.00694,
-            "SUSDE": 0.07275
+            "USDE": 0.69168,
+            "CBBTC": 0.00723,
+            "SUSDE": 0.07281
+          }
+        },
+        {
+          "date": 1793842547,
+          "tokens": {
+            "CBBTC": 0.00723,
+            "USDE": 0.69161,
+            "SUSDE": 0.07281
           }
         }
       ],
@@ -137545,10 +137629,18 @@
           }
         },
         {
-          "date": 1793755271,
+          "date": 1793836800,
           "tokens": {
             "USDE": 0.69192,
             "CBBTC": 0,
+            "SUSDE": 0.05796
+          }
+        },
+        {
+          "date": 1793842547,
+          "tokens": {
+            "CBBTC": 0,
+            "USDE": 0.69192,
             "SUSDE": 0.05796
           }
         }
@@ -141145,8 +141237,12 @@
           "totalLiquidityUSD": 295103
         },
         {
-          "date": 1793755271,
-          "totalLiquidityUSD": 295103
+          "date": 1793836800,
+          "totalLiquidityUSD": 295170
+        },
+        {
+          "date": 1793842547,
+          "totalLiquidityUSD": 295164
         }
       ],
       "tokensInUsd": [
@@ -155645,11 +155741,19 @@
           }
         },
         {
-          "date": 1793755271,
+          "date": 1793836800,
           "tokens": {
-            "USDC": 295093.23159,
-            "OLAS": 6.48925,
-            "SUSDE": 3.67835
+            "OLAS": 6.99983,
+            "SUSDE": 3.68107,
+            "USDC": 295160.12084
+          }
+        },
+        {
+          "date": 1793842547,
+          "tokens": {
+            "USDC": 295154.15221,
+            "OLAS": 6.93975,
+            "SUSDE": 3.68132
           }
         }
       ],
@@ -170149,7 +170253,15 @@
           }
         },
         {
-          "date": 1793755271,
+          "date": 1793836800,
+          "tokens": {
+            "OLAS": 108.95057,
+            "SUSDE": 2.93023,
+            "USDC": 295238.50552
+          }
+        },
+        {
+          "date": 1793842547,
           "tokens": {
             "USDC": 295238.50552,
             "OLAS": 108.95057,
@@ -174385,8 +174497,12 @@
       "totalLiquidityUSD": 295119
     },
     {
-      "date": 1793755271,
-      "totalLiquidityUSD": 295119
+      "date": 1793836800,
+      "totalLiquidityUSD": 295187
+    },
+    {
+      "date": 1793842547,
+      "totalLiquidityUSD": 295181
     }
   ],
   "tokensInUsd": [
@@ -199630,15 +199746,27 @@
       }
     },
     {
-      "date": 1793755271,
+      "date": 1793836800,
       "tokens": {
-        "PUFETH": 15.04608,
-        "USDC": 295093.26183,
+        "OLAS": 6.99983,
+        "SUSDE": 3.75387,
+        "USDC": 295160.15109,
+        "USDE": 0.69168,
+        "CBBTC": 0.00723,
+        "PUFETH": 16.10277,
+        "WHYPE": 1e-05
+      }
+    },
+    {
+      "date": 1793842547,
+      "tokens": {
+        "PUFETH": 16.05834,
+        "USDC": 295154.18245,
         "WHYPE": 1e-05,
-        "USDE": 0.69153,
-        "CBBTC": 0.00694,
-        "SUSDE": 3.7511,
-        "OLAS": 6.48925
+        "CBBTC": 0.00723,
+        "USDE": 0.69161,
+        "SUSDE": 3.75413,
+        "OLAS": 6.93975
       }
     }
   ],
@@ -224883,13 +225011,25 @@
       }
     },
     {
-      "date": 1793755271,
+      "date": 1793836800,
+      "tokens": {
+        "OLAS": 108.95057,
+        "SUSDE": 2.98819,
+        "USDC": 295238.53577,
+        "USDE": 0.69192,
+        "CBBTC": 0,
+        "PUFETH": 0.00609,
+        "WHYPE": 0
+      }
+    },
+    {
+      "date": 1793842547,
       "tokens": {
         "PUFETH": 0.00609,
         "USDC": 295238.53577,
         "WHYPE": 0,
-        "USDE": 0.69192,
         "CBBTC": 0,
+        "USDE": 0.69192,
         "SUSDE": 2.98819,
         "OLAS": 108.95057
       }
@@ -224898,11 +225038,11 @@
   "currentChainTvls": {
     "Mode": 0,
     "Blast": 0,
-    "Ethereum": 15.04608,
-    "Arbitrum": 0.03024,
+    "Ethereum": 16.05834,
+    "Arbitrum": 0.03025,
     "Hyperliquid L1": 1e-05,
-    "Base": 0.77122,
-    "Optimism": 295103.39918
+    "Base": 0.77164,
+    "Optimism": 295164.77329
   },
   "raises": [
     {

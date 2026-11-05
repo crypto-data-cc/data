@@ -8,7 +8,7 @@
   "description": "The most powerful open trading platform for crypto assets. Margin trade, borrow, and lend cryptocurrency.",
   "chain": "Ethereum",
   "logo": "https://icons.llamao.fi/icons/protocols/dydx-v3",
-  "audits": null,
+  "audits": "2",
   "gecko_id": null,
   "cmcId": null,
   "category": "Derivatives",
@@ -8789,8 +8789,12 @@
           "totalLiquidityUSD": 7095957
         },
         {
-          "date": 1793752199,
-          "totalLiquidityUSD": 7095957
+          "date": 1793836800,
+          "totalLiquidityUSD": 7328178
+        },
+        {
+          "date": 1793842535,
+          "totalLiquidityUSD": 7311997
         }
       ],
       "tokensInUsd": [
@@ -23859,12 +23863,21 @@
           }
         },
         {
-          "date": 1793752199,
+          "date": 1793836800,
           "tokens": {
-            "WETH": 3639546.80298,
-            "USDC": 1916355.92895,
-            "DAI": 1539813.21389,
-            "SAI": 241.30963
+            "SAI": 259.04492,
+            "WETH": 3884208.77766,
+            "USDC": 1903807.79991,
+            "DAI": 1539903.20692
+          }
+        },
+        {
+          "date": 1793842535,
+          "tokens": {
+            "SAI": 256.69533,
+            "WETH": 3868168.71853,
+            "USDC": 1903712.63615,
+            "DAI": 1539859.66238
           }
         }
       ],
@@ -38934,12 +38947,21 @@
           }
         },
         {
-          "date": 1793752199,
+          "date": 1793836800,
           "tokens": {
-            "WETH": 1602.56162,
-            "USDC": 1916713.05035,
-            "DAI": 1539585.30722,
-            "SAI": 20.2757
+            "SAI": 20.2757,
+            "WETH": 1602.17831,
+            "USDC": 1904113.90378,
+            "DAI": 1539585.30722
+          }
+        },
+        {
+          "date": 1793842535,
+          "tokens": {
+            "SAI": 20.2757,
+            "WETH": 1602.17831,
+            "USDC": 1904113.90378,
+            "DAI": 1539585.30722
           }
         }
       ]
@@ -47691,8 +47713,12 @@
       "totalLiquidityUSD": 7095957
     },
     {
-      "date": 1793752199,
-      "totalLiquidityUSD": 7095957
+      "date": 1793836800,
+      "totalLiquidityUSD": 7328178
+    },
+    {
+      "date": 1793842535,
+      "totalLiquidityUSD": 7311997
     }
   ],
   "tokensInUsd": [
@@ -65677,12 +65703,21 @@
       }
     },
     {
-      "date": 1793752199,
+      "date": 1793836800,
       "tokens": {
-        "WETH": 3639546.80298,
-        "USDC": 1916355.92895,
-        "DAI": 1539813.21389,
-        "SAI": 241.30963
+        "SAI": 259.04492,
+        "WETH": 3884208.77766,
+        "USDC": 1903807.79991,
+        "DAI": 1539903.20692
+      }
+    },
+    {
+      "date": 1793842535,
+      "tokens": {
+        "SAI": 256.69533,
+        "WETH": 3868168.71853,
+        "USDC": 1903712.63615,
+        "DAI": 1539859.66238
       }
     }
   ],
@@ -83668,17 +83703,26 @@
       }
     },
     {
-      "date": 1793752199,
+      "date": 1793836800,
       "tokens": {
-        "WETH": 1602.56162,
-        "USDC": 1916713.05035,
-        "DAI": 1539585.30722,
-        "SAI": 20.2757
+        "SAI": 20.2757,
+        "WETH": 1602.17831,
+        "USDC": 1904113.90378,
+        "DAI": 1539585.30722
+      }
+    },
+    {
+      "date": 1793842535,
+      "tokens": {
+        "SAI": 20.2757,
+        "WETH": 1602.17831,
+        "USDC": 1904113.90378,
+        "DAI": 1539585.30722
       }
     }
   ],
   "currentChainTvls": {
-    "Ethereum": 7095957.25545
+    "Ethereum": 7311997.7124
   },
   "raises": [
     {
