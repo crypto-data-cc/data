@@ -1217,7 +1217,11 @@
           "totalLiquidityUSD": 0
         },
         {
-          "date": 1793842463,
+          "date": 1793923200,
+          "totalLiquidityUSD": 0
+        },
+        {
+          "date": 1793926331,
           "totalLiquidityUSD": 0
         }
       ],
@@ -2705,7 +2709,11 @@
           "tokens": {}
         },
         {
-          "date": 1793842463,
+          "date": 1793923200,
+          "tokens": {}
+        },
+        {
+          "date": 1793926331,
           "tokens": {}
         }
       ],
@@ -4193,7 +4201,11 @@
           "tokens": {}
         },
         {
-          "date": 1793842463,
+          "date": 1793923200,
+          "tokens": {}
+        },
+        {
+          "date": 1793926331,
           "tokens": {}
         }
       ]
@@ -11385,8 +11397,12 @@
           "totalLiquidityUSD": 640640
         },
         {
-          "date": 1793842463,
-          "totalLiquidityUSD": 640494
+          "date": 1793923200,
+          "totalLiquidityUSD": 638885
+        },
+        {
+          "date": 1793926331,
+          "totalLiquidityUSD": 638885
         }
       ],
       "tokensInUsd": [
@@ -54518,11 +54534,19 @@
           }
         },
         {
-          "date": 1793842463,
+          "date": 1793923200,
           "tokens": {
-            "USDC": 640479.39289,
-            "SYRUPUSDC": 7.96184,
-            "LBTC": 6.72443
+            "USDC": 638871.12692,
+            "SYRUPUSDC": 7.95637,
+            "LBTC": 6.38039
+          }
+        },
+        {
+          "date": 1793926331,
+          "tokens": {
+            "USDC": 638871.12692,
+            "SYRUPUSDC": 7.95637,
+            "LBTC": 6.38039
           }
         }
       ],
@@ -97655,9 +97679,17 @@
           }
         },
         {
-          "date": 1793842463,
+          "date": 1793923200,
           "tokens": {
-            "USDC": 640614.39418,
+            "USDC": 638929.78515,
+            "SYRUPUSDC": 6.6873,
+            "LBTC": 8e-05
+          }
+        },
+        {
+          "date": 1793926331,
+          "tokens": {
+            "USDC": 638929.78515,
             "SYRUPUSDC": 6.6873,
             "LBTC": 8e-05
           }
@@ -98827,7 +98859,11 @@
           "totalLiquidityUSD": 0
         },
         {
-          "date": 1793842463,
+          "date": 1793923200,
+          "totalLiquidityUSD": 0
+        },
+        {
+          "date": 1793926331,
           "totalLiquidityUSD": 0
         }
       ],
@@ -100315,7 +100351,11 @@
           "tokens": {}
         },
         {
-          "date": 1793842463,
+          "date": 1793923200,
+          "tokens": {}
+        },
+        {
+          "date": 1793926331,
           "tokens": {}
         }
       ],
@@ -101803,7 +101843,11 @@
           "tokens": {}
         },
         {
-          "date": 1793842463,
+          "date": 1793923200,
+          "tokens": {}
+        },
+        {
+          "date": 1793926331,
           "tokens": {}
         }
       ]
@@ -108995,8 +109039,12 @@
       "totalLiquidityUSD": 640640
     },
     {
-      "date": 1793842463,
-      "totalLiquidityUSD": 640494
+      "date": 1793923200,
+      "totalLiquidityUSD": 638885
+    },
+    {
+      "date": 1793926331,
+      "totalLiquidityUSD": 638885
     }
   ],
   "tokensInUsd": [
@@ -152128,11 +152176,19 @@
       }
     },
     {
-      "date": 1793842463,
+      "date": 1793923200,
       "tokens": {
-        "USDC": 640479.39289,
-        "SYRUPUSDC": 7.96184,
-        "LBTC": 6.72443
+        "USDC": 638871.12692,
+        "SYRUPUSDC": 7.95637,
+        "LBTC": 6.38039
+      }
+    },
+    {
+      "date": 1793926331,
+      "tokens": {
+        "USDC": 638871.12692,
+        "SYRUPUSDC": 7.95637,
+        "LBTC": 6.38039
       }
     }
   ],
@@ -195265,9 +195321,17 @@
       }
     },
     {
-      "date": 1793842463,
+      "date": 1793923200,
       "tokens": {
-        "USDC": 640614.39418,
+        "USDC": 638929.78515,
+        "SYRUPUSDC": 6.6873,
+        "LBTC": 8e-05
+      }
+    },
+    {
+      "date": 1793926331,
+      "tokens": {
+        "USDC": 638929.78515,
         "SYRUPUSDC": 6.6873,
         "LBTC": 8e-05
       }
@@ -195275,7 +195339,7 @@
   ],
   "currentChainTvls": {
     "Solana-staking": 0,
-    "Solana": 640494.07916,
+    "Solana": 638885.46369,
     "staking": 0
   },
   "raises": [

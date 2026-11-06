@@ -3648,8 +3648,16 @@
           "totalLiquidityUSD": 761194
         },
         {
-          "date": 1793842439,
-          "totalLiquidityUSD": 760545
+          "date": 1793836800,
+          "totalLiquidityUSD": 760529
+        },
+        {
+          "date": 1793923200,
+          "totalLiquidityUSD": 760561
+        },
+        {
+          "date": 1793927495,
+          "totalLiquidityUSD": 760508
         }
       ],
       "tokensInUsd": [
@@ -9072,9 +9080,21 @@
           }
         },
         {
-          "date": 1793842439,
+          "date": 1793836800,
           "tokens": {
-            "USDC": 760545.69516
+            "USDC": 760529.86738
+          }
+        },
+        {
+          "date": 1793923200,
+          "tokens": {
+            "USDC": 760561.61381
+          }
+        },
+        {
+          "date": 1793927495,
+          "tokens": {
+            "USDC": 760508.34284
           }
         }
       ],
@@ -14498,9 +14518,21 @@
           }
         },
         {
-          "date": 1793842439,
+          "date": 1793836800,
           "tokens": {
             "USDC": 760697.83473
+          }
+        },
+        {
+          "date": 1793923200,
+          "tokens": {
+            "USDC": 760638.96129
+          }
+        },
+        {
+          "date": 1793927495,
+          "tokens": {
+            "USDC": 760638.96129
           }
         }
       ]
@@ -18120,8 +18152,16 @@
       "totalLiquidityUSD": 761194
     },
     {
-      "date": 1793842439,
-      "totalLiquidityUSD": 760545
+      "date": 1793836800,
+      "totalLiquidityUSD": 760529
+    },
+    {
+      "date": 1793923200,
+      "totalLiquidityUSD": 760561
+    },
+    {
+      "date": 1793927495,
+      "totalLiquidityUSD": 760508
     }
   ],
   "tokensInUsd": [
@@ -23544,9 +23584,21 @@
       }
     },
     {
-      "date": 1793842439,
+      "date": 1793836800,
       "tokens": {
-        "USDC": 760545.69516
+        "USDC": 760529.86738
+      }
+    },
+    {
+      "date": 1793923200,
+      "tokens": {
+        "USDC": 760561.61381
+      }
+    },
+    {
+      "date": 1793927495,
+      "tokens": {
+        "USDC": 760508.34284
       }
     }
   ],
@@ -28970,14 +29022,26 @@
       }
     },
     {
-      "date": 1793842439,
+      "date": 1793836800,
       "tokens": {
         "USDC": 760697.83473
+      }
+    },
+    {
+      "date": 1793923200,
+      "tokens": {
+        "USDC": 760638.96129
+      }
+    },
+    {
+      "date": 1793927495,
+      "tokens": {
+        "USDC": 760638.96129
       }
     }
   ],
   "currentChainTvls": {
-    "Solana": 760545.69516
+    "Solana": 760508.34284
   },
   "raises": [],
   "hacks": [],
