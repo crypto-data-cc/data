@@ -2949,7 +2949,7 @@
           "totalLiquidityUSD": 0
         },
         {
-          "date": 1793930159,
+          "date": 1793997575,
           "totalLiquidityUSD": 0
         }
       ],
@@ -7149,7 +7149,7 @@
           "tokens": {}
         },
         {
-          "date": 1793930159,
+          "date": 1793997575,
           "tokens": {}
         }
       ],
@@ -11349,7 +11349,7 @@
           "tokens": {}
         },
         {
-          "date": 1793930159,
+          "date": 1793997575,
           "tokens": {}
         }
       ]
@@ -14253,8 +14253,8 @@
           "totalLiquidityUSD": 44582
         },
         {
-          "date": 1793930159,
-          "totalLiquidityUSD": 44582
+          "date": 1793997575,
+          "totalLiquidityUSD": 44574
         }
       ],
       "tokensInUsd": [
@@ -24020,18 +24020,18 @@
           }
         },
         {
-          "date": 1793930159,
+          "date": 1793997575,
           "tokens": {
-            "CONAN": 0.01159,
-            "JITOSOL": 1905.81573,
-            "LADYBUG": 0.69452,
-            "USDC": 41742.193,
-            "WBTC": 893.03607,
-            "SACHI": 0.07101,
-            "67COIN": 0.01967,
-            "DOODLES": 16.75861,
-            "MAMA": 0.05921,
-            "BONK": 23.86393
+            "JITOSOL": 1897.3344,
+            "USDC": 41746.38097,
+            "WBTC": 889.10017,
+            "CONAN": 0.01157,
+            "LADYBUG": 0.6915,
+            "SACHI": 0.07304,
+            "67COIN": 0.01982,
+            "DOODLES": 17.29382,
+            "MAMA": 0.05942,
+            "BONK": 23.80568
           }
         }
       ],
@@ -33798,13 +33798,13 @@
           }
         },
         {
-          "date": 1793930159,
+          "date": 1793997575,
           "tokens": {
-            "CONAN": 59,
             "JITOSOL": 16.13321,
-            "LADYBUG": 11000,
             "USDC": 41749.37018,
             "WBTC": 0.01173,
+            "CONAN": 59,
+            "LADYBUG": 11000,
             "SACHI": 2000,
             "67COIN": 670,
             "DOODLES": 9996,
@@ -36713,7 +36713,7 @@
           "totalLiquidityUSD": 0
         },
         {
-          "date": 1793930159,
+          "date": 1793997575,
           "totalLiquidityUSD": 0
         }
       ],
@@ -40913,7 +40913,7 @@
           "tokens": {}
         },
         {
-          "date": 1793930159,
+          "date": 1793997575,
           "tokens": {}
         }
       ],
@@ -45113,7 +45113,7 @@
           "tokens": {}
         },
         {
-          "date": 1793930159,
+          "date": 1793997575,
           "tokens": {}
         }
       ]
@@ -48017,8 +48017,8 @@
       "totalLiquidityUSD": 44582
     },
     {
-      "date": 1793930159,
-      "totalLiquidityUSD": 44582
+      "date": 1793997575,
+      "totalLiquidityUSD": 44574
     }
   ],
   "tokensInUsd": [
@@ -57784,18 +57784,18 @@
       }
     },
     {
-      "date": 1793930159,
+      "date": 1793997575,
       "tokens": {
-        "CONAN": 0.01159,
-        "JITOSOL": 1905.81573,
-        "LADYBUG": 0.69452,
-        "USDC": 41742.193,
-        "WBTC": 893.03607,
-        "SACHI": 0.07101,
-        "67COIN": 0.01967,
-        "DOODLES": 16.75861,
-        "MAMA": 0.05921,
-        "BONK": 23.86393
+        "JITOSOL": 1897.3344,
+        "USDC": 41746.38097,
+        "WBTC": 889.10017,
+        "CONAN": 0.01157,
+        "LADYBUG": 0.6915,
+        "SACHI": 0.07304,
+        "67COIN": 0.01982,
+        "DOODLES": 17.29382,
+        "MAMA": 0.05942,
+        "BONK": 23.80568
       }
     }
   ],
@@ -67562,13 +67562,13 @@
       }
     },
     {
-      "date": 1793930159,
+      "date": 1793997575,
       "tokens": {
-        "CONAN": 59,
         "JITOSOL": 16.13321,
-        "LADYBUG": 11000,
         "USDC": 41749.37018,
         "WBTC": 0.01173,
+        "CONAN": 59,
+        "LADYBUG": 11000,
         "SACHI": 2000,
         "67COIN": 670,
         "DOODLES": 9996,
@@ -67579,7 +67579,7 @@
   ],
   "currentChainTvls": {
     "Solana-staking": 0,
-    "Solana": 44582.52334,
+    "Solana": 44574.77039,
     "staking": 0
   },
   "raises": [],
