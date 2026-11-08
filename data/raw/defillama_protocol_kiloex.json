@@ -3571,7 +3571,11 @@
           "totalLiquidityUSD": 0
         },
         {
-          "date": 1794012215,
+          "date": 1794009600,
+          "totalLiquidityUSD": 0
+        },
+        {
+          "date": 1794095375,
           "totalLiquidityUSD": 0
         }
       ],
@@ -8901,7 +8905,11 @@
           "tokens": {}
         },
         {
-          "date": 1794012215,
+          "date": 1794009600,
+          "tokens": {}
+        },
+        {
+          "date": 1794095375,
           "tokens": {}
         }
       ],
@@ -14231,7 +14239,11 @@
           "tokens": {}
         },
         {
-          "date": 1794012215,
+          "date": 1794009600,
+          "tokens": {}
+        },
+        {
+          "date": 1794095375,
           "tokens": {}
         }
       ]
@@ -17459,7 +17471,11 @@
           "totalLiquidityUSD": 0
         },
         {
-          "date": 1794012215,
+          "date": 1794009600,
+          "totalLiquidityUSD": 0
+        },
+        {
+          "date": 1794095375,
           "totalLiquidityUSD": 0
         }
       ],
@@ -23545,7 +23561,11 @@
           "tokens": {}
         },
         {
-          "date": 1794012215,
+          "date": 1794009600,
+          "tokens": {}
+        },
+        {
+          "date": 1794095375,
           "tokens": {}
         }
       ],
@@ -29631,7 +29651,11 @@
           "tokens": {}
         },
         {
-          "date": 1794012215,
+          "date": 1794009600,
+          "tokens": {}
+        },
+        {
+          "date": 1794095375,
           "tokens": {}
         }
       ]
@@ -34039,7 +34063,11 @@
           "totalLiquidityUSD": 0
         },
         {
-          "date": 1794012215,
+          "date": 1794009600,
+          "totalLiquidityUSD": 0
+        },
+        {
+          "date": 1794095375,
           "totalLiquidityUSD": 0
         }
       ],
@@ -43223,7 +43251,13 @@
           }
         },
         {
-          "date": 1794012215,
+          "date": 1794009600,
+          "tokens": {
+            "USDC": 0.0026
+          }
+        },
+        {
+          "date": 1794095375,
           "tokens": {
             "USDC": 0.0026
           }
@@ -52409,7 +52443,13 @@
           }
         },
         {
-          "date": 1794012215,
+          "date": 1794009600,
+          "tokens": {
+            "USDC": 0.0026
+          }
+        },
+        {
+          "date": 1794095375,
           "tokens": {
             "USDC": 0.0026
           }
@@ -55367,8 +55407,12 @@
           "totalLiquidityUSD": 329372
         },
         {
-          "date": 1794012215,
+          "date": 1794009600,
           "totalLiquidityUSD": 329574
+        },
+        {
+          "date": 1794095375,
+          "totalLiquidityUSD": 328856
         }
       ],
       "tokensInUsd": [
@@ -63739,13 +63783,23 @@
           }
         },
         {
-          "date": 1794012215,
+          "date": 1794009600,
           "tokens": {
             "USDC": 301162.48293,
             "CBBTC": 11602.04546,
             "WEETH": 5684.81828,
             "WSTETH": 9960.79034,
             "SOLVBTC": 1164.60991
+          }
+        },
+        {
+          "date": 1794095375,
+          "tokens": {
+            "USDC": 300514.59408,
+            "CBBTC": 11584.82462,
+            "WEETH": 5658.11012,
+            "WSTETH": 9936.33362,
+            "SOLVBTC": 1162.47717
           }
         }
       ],
@@ -72117,9 +72171,19 @@
           }
         },
         {
-          "date": 1794012215,
+          "date": 1794009600,
           "tokens": {
             "USDC": 301203.58321,
+            "CBBTC": 0.153,
+            "WEETH": 2.2895,
+            "WSTETH": 3.5628,
+            "SOLVBTC": 0.0154
+          }
+        },
+        {
+          "date": 1794095375,
+          "tokens": {
+            "USDC": 300587.2155,
             "CBBTC": 0.153,
             "WEETH": 2.2895,
             "WSTETH": 3.5628,
@@ -76531,8 +76595,12 @@
           "totalLiquidityUSD": 359990
         },
         {
-          "date": 1794012215,
+          "date": 1794009600,
           "totalLiquidityUSD": 360146
+        },
+        {
+          "date": 1794095375,
+          "totalLiquidityUSD": 359905
         }
       ],
       "tokensInUsd": [
@@ -85870,12 +85938,21 @@
           }
         },
         {
-          "date": 1794012215,
+          "date": 1794009600,
           "tokens": {
             "USDT": 287594.14354,
             "FDUSD": 71068.51408,
             "WBNB": 1310.18259,
             "ETH": 173.1989
+          }
+        },
+        {
+          "date": 1794095375,
+          "tokens": {
+            "USDT": 287352.39628,
+            "FDUSD": 71066.73511,
+            "WBNB": 1314.07528,
+            "ETH": 172.76581
           }
         }
       ],
@@ -95214,9 +95291,18 @@
           }
         },
         {
-          "date": 1794012215,
+          "date": 1794009600,
           "tokens": {
             "USDT": 287951.20303,
+            "FDUSD": 71308.634,
+            "WBNB": 1.8897,
+            "ETH": 0.0774
+          }
+        },
+        {
+          "date": 1794095375,
+          "tokens": {
+            "USDT": 287723.55967,
             "FDUSD": 71308.634,
             "WBNB": 1.8897,
             "ETH": 0.0774
@@ -99995,8 +100081,12 @@
           "totalLiquidityUSD": 622155
         },
         {
-          "date": 1794012215,
+          "date": 1794009600,
           "totalLiquidityUSD": 622222
+        },
+        {
+          "date": 1794095375,
+          "totalLiquidityUSD": 623175
         }
       ],
       "tokensInUsd": [
@@ -116191,7 +116281,7 @@
           }
         },
         {
-          "date": 1794012215,
+          "date": 1794009600,
           "tokens": {
             "USDT": 191891.53229,
             "FDUSD": 112.63597,
@@ -116205,6 +116295,23 @@
             "STONE": 23144.16377,
             "REX": 5e-05,
             "KILO": 87379.77649
+          }
+        },
+        {
+          "date": 1794095375,
+          "tokens": {
+            "USDT": 192256.30622,
+            "FDUSD": 112.63428,
+            "WBNB": 309354.91179,
+            "DOGE": 260.38974,
+            "BTCB": 22.68565,
+            "SLISBNB": 49.85861,
+            "LISUSD": 55.35877,
+            "USDC": 7839.73326,
+            "SOLVBTC": 2332.50289,
+            "STONE": 23128.54224,
+            "REX": 5e-05,
+            "KILO": 87762.23006
           }
         }
       ],
@@ -132400,7 +132507,7 @@
           }
         },
         {
-          "date": 1794012215,
+          "date": 1794009600,
           "tokens": {
             "USDT": 192064.58468,
             "FDUSD": 113.0171,
@@ -132414,6 +132521,23 @@
             "STONE": 9.6342,
             "REX": 5.31912,
             "KILO": 31832364.57925
+          }
+        },
+        {
+          "date": 1794095375,
+          "tokens": {
+            "USDT": 192468.35959,
+            "FDUSD": 113.0171,
+            "WBNB": 446.0254,
+            "DOGE": 3649.8662,
+            "BTCB": 0.0003,
+            "SLISBNB": 0.0691,
+            "LISUSD": 55.5389,
+            "USDC": 7843.7301,
+            "SOLVBTC": 0.0309,
+            "STONE": 9.6342,
+            "REX": 5.31912,
+            "KILO": 31832016.76528
           }
         }
       ]
@@ -137189,8 +137313,12 @@
       "totalLiquidityUSD": 1311519
     },
     {
-      "date": 1794012215,
+      "date": 1794009600,
       "totalLiquidityUSD": 1311943
+    },
+    {
+      "date": 1794095375,
+      "totalLiquidityUSD": 1311937
     }
   ],
   "tokensInUsd": [
@@ -160154,7 +160282,7 @@
       }
     },
     {
-      "date": 1794012215,
+      "date": 1794009600,
       "tokens": {
         "USDC": 309003.56005,
         "CBBTC": 11602.04546,
@@ -160172,6 +160300,27 @@
         "STONE": 23144.16377,
         "REX": 5e-05,
         "KILO": 87379.77649
+      }
+    },
+    {
+      "date": 1794095375,
+      "tokens": {
+        "USDC": 308354.32994,
+        "CBBTC": 11584.82462,
+        "WEETH": 5658.11012,
+        "WSTETH": 9936.33362,
+        "SOLVBTC": 3494.98005,
+        "USDT": 479608.7025,
+        "FDUSD": 71179.36939,
+        "WBNB": 310668.98707,
+        "ETH": 172.76581,
+        "DOGE": 260.38974,
+        "BTCB": 22.68565,
+        "SLISBNB": 49.85861,
+        "LISUSD": 55.35877,
+        "STONE": 23128.54224,
+        "REX": 5e-05,
+        "KILO": 87762.23006
       }
     }
   ],
@@ -183136,7 +183285,7 @@
       }
     },
     {
-      "date": 1794012215,
+      "date": 1794009600,
       "tokens": {
         "USDC": 309047.31591,
         "CBBTC": 0.153,
@@ -183155,15 +183304,36 @@
         "REX": 5.31912,
         "KILO": 31832364.57925
       }
+    },
+    {
+      "date": 1794095375,
+      "tokens": {
+        "USDC": 308430.94821,
+        "CBBTC": 0.153,
+        "WEETH": 2.2895,
+        "WSTETH": 3.5628,
+        "SOLVBTC": 0.0463,
+        "USDT": 480191.91926,
+        "FDUSD": 71421.6511,
+        "WBNB": 447.9151,
+        "ETH": 0.0774,
+        "DOGE": 3649.8662,
+        "BTCB": 0.0003,
+        "SLISBNB": 0.0691,
+        "LISUSD": 55.5389,
+        "STONE": 9.6342,
+        "REX": 5.31912,
+        "KILO": 31832016.76528
+      }
     }
   ],
   "currentChainTvls": {
     "Taiko": 0,
     "BSquared": 0,
     "Manta": 0.0026,
-    "Base": 329574.74692,
-    "Op_Bnb": 360146.03911,
-    "Binance": 622222.92181
+    "Base": 328856.33961,
+    "Op_Bnb": 359905.97248,
+    "Binance": 623175.15355
   },
   "raises": [
     {
@@ -183224,5 +183394,5 @@
       "description": "On April 14, 2025, at 18:53 UTC, KiloEx was exploited for $7.5M via ETH/USD price oracle manipulation across Base, BSC, and opBNB. The attacker opened positions at artificially low prices and closed at real high prices without the oracle system validating feed freshness or enforcing rate limits."
     }
   ],
-  "mcap": 581093.4072638585
+  "mcap": 582986.4027277888
 }

@@ -35,7 +35,7 @@
   "dimensions": {
     "fees": "maple-finance"
   },
-  "methodology": "TVL is pool cash and cash deployed in DeFi strategies on Ethereum, plus the loan collateral reported by the Maple API, each collateral asset counted on the chain it is custodied on. Borrowed is the principal outstanding on active loans, staking is the assets held in the stSYRUP vault.",
+  "methodology": "TVL is the cash held by Maple pools on Ethereum, including cash deployed to yield strategies, plus borrower collateral: the balances of the collateral tokens at the custody addresses Maple publishes for each pool, read on the chain where they are held (BTC on Bitcoin, XRP on the XRP Ledger, ETH, wstETH, PYUSD and other tokens on Ethereum). Collateral Maple reports that is not held at those addresses is not counted. Borrowed is the principal outstanding in the pools' loan managers. Staking is SYRUP deposited in stSYRUP.",
   "tvlCodePath": "https://github.com/DefiLlama/DefiLlama-Adapters/blob/main/projects/maple/index.js",
   "hallmarks": [
     [
@@ -91,7 +91,7 @@
           "totalLiquidityUSD": 0
         },
         {
-          "date": 1794011171,
+          "date": 1794097511,
           "totalLiquidityUSD": 0
         }
       ],
@@ -141,7 +141,7 @@
           "tokens": {}
         },
         {
-          "date": 1794011171,
+          "date": 1794097511,
           "tokens": {}
         }
       ],
@@ -191,7 +191,7 @@
           "tokens": {}
         },
         {
-          "date": 1794011171,
+          "date": 1794097511,
           "tokens": {}
         }
       ]
@@ -6539,7 +6539,7 @@
           "totalLiquidityUSD": 0
         },
         {
-          "date": 1794011171,
+          "date": 1794097511,
           "totalLiquidityUSD": 0
         }
       ],
@@ -14825,7 +14825,7 @@
           "tokens": {}
         },
         {
-          "date": 1794011171,
+          "date": 1794097511,
           "tokens": {}
         }
       ],
@@ -23111,7 +23111,7 @@
           "tokens": {}
         },
         {
-          "date": 1794011171,
+          "date": 1794097511,
           "tokens": {}
         }
       ]
@@ -31003,8 +31003,8 @@
           "totalLiquidityUSD": 21215102
         },
         {
-          "date": 1794011171,
-          "totalLiquidityUSD": 21215102
+          "date": 1794097511,
+          "totalLiquidityUSD": 20453912
         }
       ],
       "tokensInUsd": [
@@ -42833,9 +42833,9 @@
           }
         },
         {
-          "date": 1794011171,
+          "date": 1794097511,
           "tokens": {
-            "SYRUP": 21215102.33555
+            "SYRUP": 20453912.08042
           }
         }
       ],
@@ -54665,7 +54665,7 @@
           }
         },
         {
-          "date": 1794011171,
+          "date": 1794097511,
           "tokens": {
             "SYRUP": 146707981.68167
           }
@@ -54719,8 +54719,8 @@
           "totalLiquidityUSD": 1907143152
         },
         {
-          "date": 1794011171,
-          "totalLiquidityUSD": 1907143152
+          "date": 1794097511,
+          "totalLiquidityUSD": 1810248348
         }
       ],
       "tokensInUsd": [
@@ -54791,9 +54791,9 @@
           }
         },
         {
-          "date": 1794011171,
+          "date": 1794097511,
           "tokens": {
-            "BTC": 1907143152.64418
+            "BTC": 1810248348.72774
           }
         }
       ],
@@ -54865,9 +54865,9 @@
           }
         },
         {
-          "date": 1794011171,
+          "date": 1794097511,
           "tokens": {
-            "BTC": 25137.40251
+            "BTC": 23905.52324
           }
         }
       ]
@@ -54919,8 +54919,8 @@
           "totalLiquidityUSD": 265301615
         },
         {
-          "date": 1794011171,
-          "totalLiquidityUSD": 265301615
+          "date": 1794097511,
+          "totalLiquidityUSD": 261497363
         }
       ],
       "tokensInUsd": [
@@ -54991,9 +54991,9 @@
           }
         },
         {
-          "date": 1794011171,
+          "date": 1794097511,
           "tokens": {
-            "XRP": 265301615.4939
+            "XRP": 261497363.90939
           }
         }
       ],
@@ -55065,9 +55065,9 @@
           }
         },
         {
-          "date": 1794011171,
+          "date": 1794097511,
           "tokens": {
-            "XRP": 225080754.8595
+            "XRP": 225080754.83702
           }
         }
       ]
@@ -63059,8 +63059,8 @@
           "totalLiquidityUSD": 301162633
         },
         {
-          "date": 1794011171,
-          "totalLiquidityUSD": 301162633
+          "date": 1794097511,
+          "totalLiquidityUSD": 284040982
         }
       ],
       "tokensInUsd": [
@@ -77996,13 +77996,16 @@
           }
         },
         {
-          "date": 1794011171,
+          "date": 1794097511,
           "tokens": {
-            "USDC": 64807560.88942,
-            "USDT": 5242118.24792,
-            "WETH": 177811317.65186,
-            "WBTC": 46998682.18045,
-            "USDG": 6302954.08618
+            "USDC": 4853126.37106,
+            "USDT": 1564588.39097,
+            "WETH": 155465337.73259,
+            "STETH": 0,
+            "WSTETH": 21903923.87784,
+            "WBTC": 46931525.46117,
+            "USDG": 3332385.08755,
+            "PYUSD": 49990095.92189
           }
         }
       ],
@@ -92939,13 +92942,16 @@
           }
         },
         {
-          "date": 1794011171,
+          "date": 1794097511,
           "tokens": {
-            "USDC": 64817052.74724,
-            "USDT": 5248940.71608,
-            "WETH": 79333.83732,
-            "WBTC": 620,
-            "USDG": 6302954.08618
+            "USDC": 4854031.34429,
+            "USDT": 1566625.00347,
+            "WETH": 69548.98858,
+            "STETH": 0,
+            "WSTETH": 7843.48297,
+            "WBTC": 620.001,
+            "USDG": 3332385.08755,
+            "PYUSD": 50000000.0594
           }
         }
       ]
@@ -100837,8 +100843,8 @@
           "totalLiquidityUSD": 1798638432
         },
         {
-          "date": 1794011171,
-          "totalLiquidityUSD": 1798638432
+          "date": 1794097511,
+          "totalLiquidityUSD": 1798589693
         }
       ],
       "tokensInUsd": [
@@ -114933,10 +114939,10 @@
           }
         },
         {
-          "date": 1794011171,
+          "date": 1794097511,
           "tokens": {
-            "USDT": 273246944.22498,
-            "USDC": 1216901473.42541,
+            "USDT": 273246884.03242,
+            "USDC": 1216852794.25363,
             "USDG": 308490015
           }
         }
@@ -129033,7 +129039,7 @@
           }
         },
         {
-          "date": 1794011171,
+          "date": 1794097511,
           "tokens": {
             "USDT": 273602567.37,
             "USDC": 1217079703.49,
@@ -136929,8 +136935,8 @@
           "totalLiquidityUSD": 21215102
         },
         {
-          "date": 1794011171,
-          "totalLiquidityUSD": 21215102
+          "date": 1794097511,
+          "totalLiquidityUSD": 20453912
         }
       ],
       "tokensInUsd": [
@@ -148759,9 +148765,9 @@
           }
         },
         {
-          "date": 1794011171,
+          "date": 1794097511,
           "tokens": {
-            "SYRUP": 21215102.33555
+            "SYRUP": 20453912.08042
           }
         }
       ],
@@ -160591,7 +160597,7 @@
           }
         },
         {
-          "date": 1794011171,
+          "date": 1794097511,
           "tokens": {
             "SYRUP": 146707981.68167
           }
@@ -168485,8 +168491,8 @@
           "totalLiquidityUSD": 1798638432
         },
         {
-          "date": 1794011171,
-          "totalLiquidityUSD": 1798638432
+          "date": 1794097511,
+          "totalLiquidityUSD": 1798589693
         }
       ],
       "tokensInUsd": [
@@ -182581,10 +182587,10 @@
           }
         },
         {
-          "date": 1794011171,
+          "date": 1794097511,
           "tokens": {
-            "USDT": 273246944.22498,
-            "USDC": 1216901473.42541,
+            "USDT": 273246884.03242,
+            "USDC": 1216852794.25363,
             "USDG": 308490015
           }
         }
@@ -196681,7 +196687,7 @@
           }
         },
         {
-          "date": 1794011171,
+          "date": 1794097511,
           "tokens": {
             "USDT": 273602567.37,
             "USDC": 1217079703.49,
@@ -204677,8 +204683,8 @@
       "totalLiquidityUSD": 2473607401
     },
     {
-      "date": 1794011171,
-      "totalLiquidityUSD": 2473607401
+      "date": 1794097511,
+      "totalLiquidityUSD": 2355786695
     }
   ],
   "tokensInUsd": [
@@ -219670,15 +219676,18 @@
       }
     },
     {
-      "date": 1794011171,
+      "date": 1794097511,
       "tokens": {
-        "BTC": 1907143152.64418,
-        "XRP": 265301615.4939,
-        "USDC": 64807560.88942,
-        "USDT": 5242118.24792,
-        "WETH": 177811317.65186,
-        "WBTC": 46998682.18045,
-        "USDG": 6302954.08618
+        "BTC": 1810248348.72774,
+        "XRP": 261497363.90939,
+        "USDC": 4853126.37106,
+        "USDT": 1564588.39097,
+        "WETH": 155465337.73259,
+        "STETH": 0,
+        "WSTETH": 21903923.87784,
+        "WBTC": 46931525.46117,
+        "USDG": 3332385.08755,
+        "PYUSD": 49990095.92189
       }
     }
   ],
@@ -234671,28 +234680,31 @@
       }
     },
     {
-      "date": 1794011171,
+      "date": 1794097511,
       "tokens": {
-        "BTC": 25137.40251,
-        "XRP": 225080754.8595,
-        "USDC": 64817052.74724,
-        "USDT": 5248940.71608,
-        "WETH": 79333.83732,
-        "WBTC": 620,
-        "USDG": 6302954.08618
+        "BTC": 23905.52324,
+        "XRP": 225080754.83702,
+        "USDC": 4854031.34429,
+        "USDT": 1566625.00347,
+        "WETH": 69548.98858,
+        "STETH": 0,
+        "WSTETH": 7843.48297,
+        "WBTC": 620.001,
+        "USDG": 3332385.08755,
+        "PYUSD": 50000000.0594
       }
     }
   ],
   "currentChainTvls": {
     "Hyperliquid L1": 0,
     "Solana": 0,
-    "Ethereum-staking": 21215102.33555,
-    "Bitcoin": 1907143152.64418,
-    "Ripple": 265301615.4939,
-    "Ethereum": 301162633.05582,
-    "Ethereum-borrowed": 1798638432.6504,
-    "staking": 21215102.33555,
-    "borrowed": 1798638432.6504
+    "Ethereum-staking": 20453912.08042,
+    "Bitcoin": 1810248348.72774,
+    "Ripple": 261497363.90939,
+    "Ethereum": 284040982.84307,
+    "Ethereum-borrowed": 1798589693.28605,
+    "staking": 20453912.08042,
+    "borrowed": 1798589693.28605
   },
   "raises": [
     {
