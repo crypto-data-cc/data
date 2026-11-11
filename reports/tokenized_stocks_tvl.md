@@ -1,6 +1,6 @@
 # 代币化美股/ETF 锁仓价值快照
 
-- 生成时间 UTC: 2026-11-10T04:08:39+00:00
+- 生成时间 UTC: 2026-11-11T01:58:06+00:00
 - 数据源: RWA.xyz Tokenized Stocks (https://app.rwa-xyz.com/stocks)
 - 口径: RWA.xyz 的 Total Value。Distributed 指面向链上分发/持有的代币化股票；Represented 指链上记录/表示层。
 - 注意: RWA.xyz 企业 API 需要 key；本脚本使用公开页面内嵌快照。
@@ -9,57 +9,57 @@
 
 | 指标 | 数值 | 变化区间 | 变化 |
 |---|---:|---:|---:|
-| Distributed Value | $3.73B | 30d | 6.99% |
-| Monthly Transfer Volume | $37.87B | 30d | -53.80% |
-| Monthly Active Addresses | 630,838 | 30d | -73.53% |
-| Holders | 4,777,407 | 30d | 8.02% |
+| Distributed Value | $3.87B | 30d | 13.09% |
+| Monthly Transfer Volume | $38.84B | 30d | -52.65% |
+| Monthly Active Addresses | 738,317 | 30d | -69.03% |
+| Holders | 4,798,417 | 30d | 7.94% |
 
 ## 平台排行
 
 | 排名 | 平台 | 资产数 | 总价值 | 7日变化 | 市占率 |
 |---:|---|---:|---:|---:|---:|
-| 1 | bStocks | 104 | $1.43B | 54.44% | 38.33% |
-| 2 | Ondo | 433 | $876.61M | -5.59% | 23.50% |
-| 3 | xStocks | 1498 | $682.69M | -2.32% | 18.30% |
-| 4 | Securitize | 27 | $232.72M | -45.49% | 6.24% |
-| 5 | Reality | 3237 | $166.64M | 8.60% | 4.47% |
-| 6 | Robinhood | 198 | $149.60M | 9.58% | 4.01% |
-| 7 | Figure | 1 | $54.07M | -20.43% | 1.45% |
-| 8 | Coinbase Global | 288 | $44.29M | 42.07% | 1.19% |
-| 9 | Superstate Opening Bell | 3 | $41.68M | -22.40% | 1.12% |
-| 10 | WisdomTree | 6 | $26.87M | -6.47% | 0.72% |
+| 1 | bStocks | 104 | $1.51B | 62.11% | 39.05% |
+| 2 | Ondo | 433 | $906.79M | -0.53% | 23.42% |
+| 3 | xStocks | 1498 | $699.53M | -0.07% | 18.06% |
+| 4 | Securitize | 27 | $236.75M | -36.96% | 6.11% |
+| 5 | Reality | 3237 | $171.31M | 13.23% | 4.42% |
+| 6 | Robinhood | 198 | $149.83M | 10.34% | 3.87% |
+| 7 | Figure | 1 | $58.34M | -13.90% | 1.51% |
+| 8 | Coinbase Global | 307 | $43.98M | 32.80% | 1.14% |
+| 9 | Superstate Opening Bell | 3 | $40.46M | -23.11% | 1.04% |
+| 10 | WisdomTree | 6 | $27.65M | -3.54% | 0.71% |
 
 ## 网络排行
 
 | 排名 | 网络 | 资产数 | 总价值 | 7日变化 | 市占率 |
 |---:|---|---:|---:|---:|---:|
-| 1 | BNB Chain | 2912 | $1.69B | 37.84% | 45.33% |
-| 2 | Ethereum | 2876 | $746.96M | -3.24% | 20.02% |
-| 3 | Solana | 1971 | $574.65M | -3.83% | 15.40% |
-| 4 | Avalanche C-Chain | 744 | $179.42M | -50.04% | 4.81% |
-| 5 | Arbitrum | 5563 | $177.30M | 7.73% | 4.75% |
-| 6 | Robinhood | 365 | $149.93M | 9.61% | 4.02% |
-| 7 | Provenance | 1 | $54.07M | -20.43% | 1.45% |
-| 8 | Base | 1234 | $52.07M | 32.61% | 1.40% |
-| 9 | Algorand | 1 | $36.57M | -34.46% | 0.98% |
-| 10 | Stellar | 6 | $26.49M | -6.72% | 0.71% |
+| 1 | BNB Chain | 2912 | $1.79B | 45.85% | 46.21% |
+| 2 | Ethereum | 2876 | $760.22M | -0.30% | 19.63% |
+| 3 | Solana | 1971 | $589.80M | -1.27% | 15.23% |
+| 4 | Arbitrum | 5563 | $182.14M | 12.08% | 4.70% |
+| 5 | Avalanche C-Chain | 744 | $179.67M | -41.80% | 4.64% |
+| 6 | Robinhood | 365 | $150.16M | 10.34% | 3.88% |
+| 7 | Provenance | 1 | $58.34M | -13.90% | 1.51% |
+| 8 | Base | 1253 | $51.92M | 25.96% | 1.34% |
+| 9 | Algorand | 1 | $40.25M | -26.07% | 1.04% |
+| 10 | Stellar | 6 | $27.27M | -3.81% | 0.70% |
 
 ## 首页资产排行
 
 | 排名 | 资产 | Ticker | 总价值 | 1月收益 | 平台 | 网络 |
 |---:|---|---|---:|---:|---|---|
-| 1 | SpaceX (bStocks) | SPCXB | $205.82M | -16.38% | bStocks | BNB Chain |
-| 2 | Securitize Corp. | SECZ | $186.12M | -45.02% | Securitize | Avalanche C-Chain, Solana |
-| 3 | Circle Internet Group (bStocks) | CRCLB | $149.36M | -16.03% | bStocks | BNB Chain |
-| 4 | Strategy PP Variable xStock | STRCx | $132.55M | 1.20% | xStocks | Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Monad, Optimism, Solana |
-| 5 | Invesco QQQ Trust (bStocks) | QQQB | $119.17M | -12.24% | bStocks | BNB Chain |
-| 6 | Alphabet (bStocks) | GOOGLB | $114.85M | -18.23% | bStocks | BNB Chain |
-| 7 | Strategy (bStocks) | MSTRB | $110.27M | -14.88% | bStocks | BNB Chain |
-| 8 | SanDisk (bStocks) | SNDKB | $92.00M | -48.12% | bStocks | BNB Chain |
-| 9 | Circle Internet Group (Ondo Tokenized) | CRCLon | $79.26M | -18.29% | Ondo | BNB Chain, Ethereum, HyperEVM, Solana |
-| 10 | MicroStrategy xStock | MSTRx | $70.37M | -14.88% | xStocks | Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Monad, Optimism, Solana |
-| 11 | Intel (bStocks) | INTCB | $70.55M | -47.44% | bStocks | BNB Chain |
-| 12 | Micron Technology (bStocks) | MUB | $68.82M | -33.38% | bStocks | BNB Chain |
-| 13 | Semicon Bull 3X ETF (bStocks) | SOXLB | $60.50M | -67.74% | bStocks | BNB Chain |
-| 14 | SP500 xStock | SPYx | $60.38M | -4.83% | xStocks | Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Monad, Optimism, Solana |
-| 15 | iShares Core S&P 500 ETF (Ondo Tokenized) | IVVon | $58.09M | -4.91% | Ondo | BNB Chain, Ethereum, HyperEVM, Solana |
+| 1 | SpaceX (bStocks) | SPCXB | $219.01M | -12.61% | bStocks | BNB Chain |
+| 2 | Securitize Corp. | SECZ | $186.39M | -49.57% | Securitize | Avalanche C-Chain, Solana |
+| 3 | Circle Internet Group (bStocks) | CRCLB | $148.46M | -20.06% | bStocks | BNB Chain |
+| 4 | Invesco QQQ Trust (bStocks) | QQQB | $121.48M | -9.57% | bStocks | BNB Chain |
+| 5 | Strategy PP Variable xStock | STRCx | $124.42M | 1.13% | xStocks | Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Monad, Optimism, Solana |
+| 6 | Alphabet (bStocks) | GOOGLB | $117.51M | -18.06% | bStocks | BNB Chain |
+| 7 | Strategy (bStocks) | MSTRB | $108.56M | -18.63% | bStocks | BNB Chain |
+| 8 | SanDisk (bStocks) | SNDKB | $94.98M | -43.96% | bStocks | BNB Chain |
+| 9 | Circle Internet Group (Ondo Tokenized) | CRCLon | $77.61M | -19.73% | Ondo | BNB Chain, Ethereum, HyperEVM, Solana |
+| 10 | Semicon Bull 3X ETF (bStocks) | SOXLB | $74.98M | -59.79% | bStocks | BNB Chain |
+| 11 | Micron Technology (bStocks) | MUB | $72.02M | -28.74% | bStocks | BNB Chain |
+| 12 | Intel (bStocks) | INTCB | $71.89M | -43.30% | bStocks | BNB Chain |
+| 13 | MicroStrategy xStock | MSTRx | $68.48M | -18.63% | xStocks | Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Monad, Optimism, Solana |
+| 14 | NVIDIA (bStocks) | NVDAB | $69.28M | -22.07% | bStocks | BNB Chain |
+| 15 | SP500 xStock | SPYx | $60.61M | -3.15% | xStocks | Arbitrum, BNB Chain, Ethereum, HyperEVM, Ink, Mantle, Monad, Optimism, Solana |

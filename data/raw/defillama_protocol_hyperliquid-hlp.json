@@ -2868,8 +2868,8 @@
           "totalLiquidityUSD": 149286417
         },
         {
-          "date": 1794279011,
-          "totalLiquidityUSD": 149376319
+          "date": 1794355283,
+          "totalLiquidityUSD": 149319767
         }
       ],
       "tokensInUsd": [
@@ -7134,9 +7134,9 @@
           }
         },
         {
-          "date": 1794279011,
+          "date": 1794355283,
           "tokens": {
-            "USDC": 149376319.96856
+            "USDC": 149319767.00098
           }
         }
       ],
@@ -11402,9 +11402,9 @@
           }
         },
         {
-          "date": 1794279011,
+          "date": 1794355283,
           "tokens": {
-            "USDC": 149405652.8252
+            "USDC": 149341590.92983
           }
         }
       ]
@@ -14252,8 +14252,8 @@
       "totalLiquidityUSD": 149286417
     },
     {
-      "date": 1794279011,
-      "totalLiquidityUSD": 149376319
+      "date": 1794355283,
+      "totalLiquidityUSD": 149319767
     }
   ],
   "tokensInUsd": [
@@ -18518,9 +18518,9 @@
       }
     },
     {
-      "date": 1794279011,
+      "date": 1794355283,
       "tokens": {
-        "USDC": 149376319.96856
+        "USDC": 149319767.00098
       }
     }
   ],
@@ -22786,14 +22786,14 @@
       }
     },
     {
-      "date": 1794279011,
+      "date": 1794355283,
       "tokens": {
-        "USDC": 149405652.8252
+        "USDC": 149341590.92983
       }
     }
   ],
   "currentChainTvls": {
-    "Hyperliquid L1": 149376319.96856
+    "Hyperliquid L1": 149319767.00098
   },
   "raises": [],
   "hacks": [],
