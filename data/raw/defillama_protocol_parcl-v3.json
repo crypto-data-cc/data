@@ -3684,8 +3684,12 @@
           "totalLiquidityUSD": 758967
         },
         {
-          "date": 1794602591,
-          "totalLiquidityUSD": 757190
+          "date": 1794614400,
+          "totalLiquidityUSD": 311051
+        },
+        {
+          "date": 1794702467,
+          "totalLiquidityUSD": 302385
         }
       ],
       "tokensInUsd": [
@@ -9162,9 +9166,15 @@
           }
         },
         {
-          "date": 1794602591,
+          "date": 1794614400,
           "tokens": {
-            "USDC": 757190.42382
+            "USDC": 311051.4704
+          }
+        },
+        {
+          "date": 1794702467,
+          "tokens": {
+            "USDC": 302385.1151
           }
         }
       ],
@@ -14642,9 +14652,15 @@
           }
         },
         {
-          "date": 1794602591,
+          "date": 1794614400,
           "tokens": {
-            "USDC": 757304.47008
+            "USDC": 311126.36636
+          }
+        },
+        {
+          "date": 1794702467,
+          "tokens": {
+            "USDC": 302459.25282
           }
         }
       ]
@@ -18300,8 +18316,12 @@
       "totalLiquidityUSD": 758967
     },
     {
-      "date": 1794602591,
-      "totalLiquidityUSD": 757190
+      "date": 1794614400,
+      "totalLiquidityUSD": 311051
+    },
+    {
+      "date": 1794702467,
+      "totalLiquidityUSD": 302385
     }
   ],
   "tokensInUsd": [
@@ -23778,9 +23798,15 @@
       }
     },
     {
-      "date": 1794602591,
+      "date": 1794614400,
       "tokens": {
-        "USDC": 757190.42382
+        "USDC": 311051.4704
+      }
+    },
+    {
+      "date": 1794702467,
+      "tokens": {
+        "USDC": 302385.1151
       }
     }
   ],
@@ -29258,14 +29284,20 @@
       }
     },
     {
-      "date": 1794602591,
+      "date": 1794614400,
       "tokens": {
-        "USDC": 757304.47008
+        "USDC": 311126.36636
+      }
+    },
+    {
+      "date": 1794702467,
+      "tokens": {
+        "USDC": 302459.25282
       }
     }
   ],
   "currentChainTvls": {
-    "Solana": 757190.42382
+    "Solana": 302385.1151
   },
   "raises": [],
   "hacks": [],
