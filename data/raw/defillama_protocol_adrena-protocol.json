@@ -2985,8 +2985,16 @@
           "totalLiquidityUSD": 2301
         },
         {
-          "date": 1794780755,
-          "totalLiquidityUSD": 44064
+          "date": 1794787200,
+          "totalLiquidityUSD": 44040
+        },
+        {
+          "date": 1794873600,
+          "totalLiquidityUSD": 44042
+        },
+        {
+          "date": 1794875699,
+          "totalLiquidityUSD": 44042
         }
       ],
       "tokensInUsd": [
@@ -12886,17 +12894,48 @@
           }
         },
         {
-          "date": 1794780755,
+          "date": 1794787200,
           "tokens": {
-            "CONAN": 0.00906,
-            "LADYBUG": 0.51936,
-            "USDC": 41738.7185,
-            "SACHI": 0.05713,
-            "DOODLES": 14.23696,
-            "BONK": 19.65481,
-            "JITOSOL": 1526.68537,
-            "WBTC": 764.21049,
-            "67COIN": 0.01536
+            "CONAN": 0.00909,
+            "JITOSOL": 1506.03084,
+            "LADYBUG": 0.52827,
+            "USDC": 41740.79971,
+            "WBTC": 759.61045,
+            "SACHI": 0.05808,
+            "67COIN": 0.01556,
+            "DOODLES": 14.00535,
+            "MAMA": 0.03578,
+            "BONK": 19.40283
+          }
+        },
+        {
+          "date": 1794873600,
+          "tokens": {
+            "JITOSOL": 1508.63842,
+            "USDC": 41741.82475,
+            "WBTC": 758.05006,
+            "BONK": 19.24857,
+            "CONAN": 0.00896,
+            "LADYBUG": 0.51431,
+            "SACHI": 0.05711,
+            "67COIN": 0.01527,
+            "DOODLES": 13.97441,
+            "MAMA": 0.03501
+          }
+        },
+        {
+          "date": 1794875699,
+          "tokens": {
+            "JITOSOL": 1508.63842,
+            "USDC": 41741.82475,
+            "WBTC": 758.05006,
+            "BONK": 19.24857,
+            "CONAN": 0.00896,
+            "LADYBUG": 0.51431,
+            "SACHI": 0.05711,
+            "67COIN": 0.01527,
+            "DOODLES": 13.97441,
+            "MAMA": 0.03501
           }
         }
       ],
@@ -22797,17 +22836,48 @@
           }
         },
         {
-          "date": 1794780755,
+          "date": 1794787200,
           "tokens": {
             "CONAN": 59,
+            "JITOSOL": 16.13321,
             "LADYBUG": 11000,
             "USDC": 41749.37018,
-            "SACHI": 2000,
-            "DOODLES": 9996,
-            "BONK": 8291807.99051,
-            "JITOSOL": 16.13321,
             "WBTC": 0.01173,
-            "67COIN": 670
+            "SACHI": 2000,
+            "67COIN": 670,
+            "DOODLES": 9996,
+            "MAMA": 501,
+            "BONK": 8291807.99051
+          }
+        },
+        {
+          "date": 1794873600,
+          "tokens": {
+            "JITOSOL": 16.13321,
+            "USDC": 41749.37018,
+            "WBTC": 0.01173,
+            "BONK": 8291807.99051,
+            "CONAN": 59,
+            "LADYBUG": 11000,
+            "SACHI": 2000,
+            "67COIN": 670,
+            "DOODLES": 9996,
+            "MAMA": 501
+          }
+        },
+        {
+          "date": 1794875699,
+          "tokens": {
+            "JITOSOL": 16.13321,
+            "USDC": 41749.37018,
+            "WBTC": 0.01173,
+            "BONK": 8291807.99051,
+            "CONAN": 59,
+            "LADYBUG": 11000,
+            "SACHI": 2000,
+            "67COIN": 670,
+            "DOODLES": 9996,
+            "MAMA": 501
           }
         }
       ]
@@ -25747,7 +25817,15 @@
           "totalLiquidityUSD": 0
         },
         {
-          "date": 1794780755,
+          "date": 1794787200,
+          "totalLiquidityUSD": 0
+        },
+        {
+          "date": 1794873600,
+          "totalLiquidityUSD": 0
+        },
+        {
+          "date": 1794875699,
           "totalLiquidityUSD": 0
         }
       ],
@@ -29983,7 +30061,15 @@
           "tokens": {}
         },
         {
-          "date": 1794780755,
+          "date": 1794787200,
+          "tokens": {}
+        },
+        {
+          "date": 1794873600,
+          "tokens": {}
+        },
+        {
+          "date": 1794875699,
           "tokens": {}
         }
       ],
@@ -34219,7 +34305,15 @@
           "tokens": {}
         },
         {
-          "date": 1794780755,
+          "date": 1794787200,
+          "tokens": {}
+        },
+        {
+          "date": 1794873600,
+          "tokens": {}
+        },
+        {
+          "date": 1794875699,
           "tokens": {}
         }
       ]
@@ -37159,7 +37253,15 @@
           "totalLiquidityUSD": 0
         },
         {
-          "date": 1794780755,
+          "date": 1794787200,
+          "totalLiquidityUSD": 0
+        },
+        {
+          "date": 1794873600,
+          "totalLiquidityUSD": 0
+        },
+        {
+          "date": 1794875699,
           "totalLiquidityUSD": 0
         }
       ],
@@ -41395,7 +41497,15 @@
           "tokens": {}
         },
         {
-          "date": 1794780755,
+          "date": 1794787200,
+          "tokens": {}
+        },
+        {
+          "date": 1794873600,
+          "tokens": {}
+        },
+        {
+          "date": 1794875699,
           "tokens": {}
         }
       ],
@@ -45631,7 +45741,15 @@
           "tokens": {}
         },
         {
-          "date": 1794780755,
+          "date": 1794787200,
+          "tokens": {}
+        },
+        {
+          "date": 1794873600,
+          "tokens": {}
+        },
+        {
+          "date": 1794875699,
           "tokens": {}
         }
       ]
@@ -48571,8 +48689,16 @@
       "totalLiquidityUSD": 2301
     },
     {
-      "date": 1794780755,
-      "totalLiquidityUSD": 44064
+      "date": 1794787200,
+      "totalLiquidityUSD": 44040
+    },
+    {
+      "date": 1794873600,
+      "totalLiquidityUSD": 44042
+    },
+    {
+      "date": 1794875699,
+      "totalLiquidityUSD": 44042
     }
   ],
   "tokensInUsd": [
@@ -58472,17 +58598,48 @@
       }
     },
     {
-      "date": 1794780755,
+      "date": 1794787200,
       "tokens": {
-        "CONAN": 0.00906,
-        "LADYBUG": 0.51936,
-        "USDC": 41738.7185,
-        "SACHI": 0.05713,
-        "DOODLES": 14.23696,
-        "BONK": 19.65481,
-        "JITOSOL": 1526.68537,
-        "WBTC": 764.21049,
-        "67COIN": 0.01536
+        "CONAN": 0.00909,
+        "JITOSOL": 1506.03084,
+        "LADYBUG": 0.52827,
+        "USDC": 41740.79971,
+        "WBTC": 759.61045,
+        "SACHI": 0.05808,
+        "67COIN": 0.01556,
+        "DOODLES": 14.00535,
+        "MAMA": 0.03578,
+        "BONK": 19.40283
+      }
+    },
+    {
+      "date": 1794873600,
+      "tokens": {
+        "JITOSOL": 1508.63842,
+        "USDC": 41741.82475,
+        "WBTC": 758.05006,
+        "BONK": 19.24857,
+        "CONAN": 0.00896,
+        "LADYBUG": 0.51431,
+        "SACHI": 0.05711,
+        "67COIN": 0.01527,
+        "DOODLES": 13.97441,
+        "MAMA": 0.03501
+      }
+    },
+    {
+      "date": 1794875699,
+      "tokens": {
+        "JITOSOL": 1508.63842,
+        "USDC": 41741.82475,
+        "WBTC": 758.05006,
+        "BONK": 19.24857,
+        "CONAN": 0.00896,
+        "LADYBUG": 0.51431,
+        "SACHI": 0.05711,
+        "67COIN": 0.01527,
+        "DOODLES": 13.97441,
+        "MAMA": 0.03501
       }
     }
   ],
@@ -68383,22 +68540,53 @@
       }
     },
     {
-      "date": 1794780755,
+      "date": 1794787200,
       "tokens": {
         "CONAN": 59,
+        "JITOSOL": 16.13321,
         "LADYBUG": 11000,
         "USDC": 41749.37018,
-        "SACHI": 2000,
-        "DOODLES": 9996,
-        "BONK": 8291807.99051,
-        "JITOSOL": 16.13321,
         "WBTC": 0.01173,
-        "67COIN": 670
+        "SACHI": 2000,
+        "67COIN": 670,
+        "DOODLES": 9996,
+        "MAMA": 501,
+        "BONK": 8291807.99051
+      }
+    },
+    {
+      "date": 1794873600,
+      "tokens": {
+        "JITOSOL": 16.13321,
+        "USDC": 41749.37018,
+        "WBTC": 0.01173,
+        "BONK": 8291807.99051,
+        "CONAN": 59,
+        "LADYBUG": 11000,
+        "SACHI": 2000,
+        "67COIN": 670,
+        "DOODLES": 9996,
+        "MAMA": 501
+      }
+    },
+    {
+      "date": 1794875699,
+      "tokens": {
+        "JITOSOL": 16.13321,
+        "USDC": 41749.37018,
+        "WBTC": 0.01173,
+        "BONK": 8291807.99051,
+        "CONAN": 59,
+        "LADYBUG": 11000,
+        "SACHI": 2000,
+        "67COIN": 670,
+        "DOODLES": 9996,
+        "MAMA": 501
       }
     }
   ],
   "currentChainTvls": {
-    "Solana": 44064.10704,
+    "Solana": 44042.36687,
     "Solana-staking": 0,
     "staking": 0
   },
