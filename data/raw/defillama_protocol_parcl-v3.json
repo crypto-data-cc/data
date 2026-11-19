@@ -3704,8 +3704,12 @@
           "totalLiquidityUSD": 302398
         },
         {
-          "date": 1794968267,
-          "totalLiquidityUSD": 302406
+          "date": 1795046400,
+          "totalLiquidityUSD": 302442
+        },
+        {
+          "date": 1795055843,
+          "totalLiquidityUSD": 302401
         }
       ],
       "tokensInUsd": [
@@ -9212,9 +9216,15 @@
           }
         },
         {
-          "date": 1794968267,
+          "date": 1795046400,
           "tokens": {
-            "USDC": 302406.04165
+            "USDC": 302442.20199
+          }
+        },
+        {
+          "date": 1795055843,
+          "tokens": {
+            "USDC": 302401.78557
           }
         }
       ],
@@ -14722,7 +14732,13 @@
           }
         },
         {
-          "date": 1794968267,
+          "date": 1795046400,
+          "tokens": {
+            "USDC": 302459.25282
+          }
+        },
+        {
+          "date": 1795055843,
           "tokens": {
             "USDC": 302459.25282
           }
@@ -18400,8 +18416,12 @@
       "totalLiquidityUSD": 302398
     },
     {
-      "date": 1794968267,
-      "totalLiquidityUSD": 302406
+      "date": 1795046400,
+      "totalLiquidityUSD": 302442
+    },
+    {
+      "date": 1795055843,
+      "totalLiquidityUSD": 302401
     }
   ],
   "tokensInUsd": [
@@ -23908,9 +23928,15 @@
       }
     },
     {
-      "date": 1794968267,
+      "date": 1795046400,
       "tokens": {
-        "USDC": 302406.04165
+        "USDC": 302442.20199
+      }
+    },
+    {
+      "date": 1795055843,
+      "tokens": {
+        "USDC": 302401.78557
       }
     }
   ],
@@ -29418,14 +29444,20 @@
       }
     },
     {
-      "date": 1794968267,
+      "date": 1795046400,
+      "tokens": {
+        "USDC": 302459.25282
+      }
+    },
+    {
+      "date": 1795055843,
       "tokens": {
         "USDC": 302459.25282
       }
     }
   ],
   "currentChainTvls": {
-    "Solana": 302406.04165
+    "Solana": 302401.78557
   },
   "raises": [],
   "hacks": [],
