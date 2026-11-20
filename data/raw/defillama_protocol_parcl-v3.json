@@ -3708,8 +3708,12 @@
           "totalLiquidityUSD": 302442
         },
         {
-          "date": 1795055843,
-          "totalLiquidityUSD": 302401
+          "date": 1795132800,
+          "totalLiquidityUSD": 302416
+        },
+        {
+          "date": 1795139375,
+          "totalLiquidityUSD": 302421
         }
       ],
       "tokensInUsd": [
@@ -9222,9 +9226,15 @@
           }
         },
         {
-          "date": 1795055843,
+          "date": 1795132800,
           "tokens": {
-            "USDC": 302401.78557
+            "USDC": 302416.57655
+          }
+        },
+        {
+          "date": 1795139375,
+          "tokens": {
+            "USDC": 302421.0856
           }
         }
       ],
@@ -14738,7 +14748,13 @@
           }
         },
         {
-          "date": 1795055843,
+          "date": 1795132800,
+          "tokens": {
+            "USDC": 302459.25282
+          }
+        },
+        {
+          "date": 1795139375,
           "tokens": {
             "USDC": 302459.25282
           }
@@ -18420,8 +18436,12 @@
       "totalLiquidityUSD": 302442
     },
     {
-      "date": 1795055843,
-      "totalLiquidityUSD": 302401
+      "date": 1795132800,
+      "totalLiquidityUSD": 302416
+    },
+    {
+      "date": 1795139375,
+      "totalLiquidityUSD": 302421
     }
   ],
   "tokensInUsd": [
@@ -23934,9 +23954,15 @@
       }
     },
     {
-      "date": 1795055843,
+      "date": 1795132800,
       "tokens": {
-        "USDC": 302401.78557
+        "USDC": 302416.57655
+      }
+    },
+    {
+      "date": 1795139375,
+      "tokens": {
+        "USDC": 302421.0856
       }
     }
   ],
@@ -29450,14 +29476,20 @@
       }
     },
     {
-      "date": 1795055843,
+      "date": 1795132800,
+      "tokens": {
+        "USDC": 302459.25282
+      }
+    },
+    {
+      "date": 1795139375,
       "tokens": {
         "USDC": 302459.25282
       }
     }
   ],
   "currentChainTvls": {
-    "Solana": 302401.78557
+    "Solana": 302421.0856
   },
   "raises": [],
   "hacks": [],
