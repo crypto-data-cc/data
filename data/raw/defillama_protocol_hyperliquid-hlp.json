@@ -2912,8 +2912,8 @@
           "totalLiquidityUSD": 152022819
         },
         {
-          "date": 1795224419,
-          "totalLiquidityUSD": 152034075
+          "date": 1795308251,
+          "totalLiquidityUSD": 148709069
         }
       ],
       "tokensInUsd": [
@@ -14460,8 +14460,8 @@
       "totalLiquidityUSD": 152022819
     },
     {
-      "date": 1795224419,
-      "totalLiquidityUSD": 152034075
+      "date": 1795308251,
+      "totalLiquidityUSD": 148709069
     }
   ],
   "tokensInUsd": [
@@ -23121,7 +23121,7 @@
     }
   ],
   "currentChainTvls": {
-    "Hyperliquid L1": 152034075.13952
+    "Hyperliquid L1": 148709069.02653
   },
   "raises": [],
   "hacks": [],
