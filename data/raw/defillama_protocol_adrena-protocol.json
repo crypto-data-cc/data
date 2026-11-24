@@ -3017,7 +3017,7 @@
           "totalLiquidityUSD": 0
         },
         {
-          "date": 1795394579,
+          "date": 1795494971,
           "totalLiquidityUSD": 0
         }
       ],
@@ -7285,7 +7285,7 @@
           "tokens": {}
         },
         {
-          "date": 1795394579,
+          "date": 1795494971,
           "tokens": {}
         }
       ],
@@ -11553,7 +11553,7 @@
           "tokens": {}
         },
         {
-          "date": 1795394579,
+          "date": 1795494971,
           "tokens": {}
         }
       ]
@@ -14525,8 +14525,8 @@
           "totalLiquidityUSD": 43983
         },
         {
-          "date": 1795394579,
-          "totalLiquidityUSD": 43983
+          "date": 1795494971,
+          "totalLiquidityUSD": 44012
         }
       ],
       "tokensInUsd": [
@@ -24545,17 +24545,17 @@
           }
         },
         {
-          "date": 1795394579,
+          "date": 1795494971,
           "tokens": {
-            "CONAN": 0.00874,
-            "JITOSOL": 1489.96698,
-            "LADYBUG": 0.47866,
-            "USDC": 41741.76169,
-            "WBTC": 719.19857,
-            "SACHI": 0.05737,
-            "67COIN": 0.01427,
-            "DOODLES": 14.57096,
-            "BONK": 17.06003
+            "CONAN": 0.00928,
+            "LADYBUG": 0.48917,
+            "USDC": 41744.30519,
+            "67COIN": 0.01449,
+            "DOODLES": 14.59647,
+            "MAMA": 0.03443,
+            "BONK": 18.35241,
+            "JITOSOL": 1524.66871,
+            "WBTC": 709.83909
           }
         }
       ],
@@ -34575,17 +34575,17 @@
           }
         },
         {
-          "date": 1795394579,
+          "date": 1795494971,
           "tokens": {
             "CONAN": 59,
-            "JITOSOL": 16.13321,
             "LADYBUG": 11000,
             "USDC": 41749.37018,
-            "WBTC": 0.01173,
-            "SACHI": 2000,
             "67COIN": 670,
             "DOODLES": 9996,
-            "BONK": 8291807.99051
+            "MAMA": 501,
+            "BONK": 8291807.99051,
+            "JITOSOL": 16.13321,
+            "WBTC": 0.01173
           }
         }
       ]
@@ -37557,7 +37557,7 @@
           "totalLiquidityUSD": 0
         },
         {
-          "date": 1795394579,
+          "date": 1795494971,
           "totalLiquidityUSD": 0
         }
       ],
@@ -41825,7 +41825,7 @@
           "tokens": {}
         },
         {
-          "date": 1795394579,
+          "date": 1795494971,
           "tokens": {}
         }
       ],
@@ -46093,7 +46093,7 @@
           "tokens": {}
         },
         {
-          "date": 1795394579,
+          "date": 1795494971,
           "tokens": {}
         }
       ]
@@ -49065,8 +49065,8 @@
       "totalLiquidityUSD": 43983
     },
     {
-      "date": 1795394579,
-      "totalLiquidityUSD": 43983
+      "date": 1795494971,
+      "totalLiquidityUSD": 44012
     }
   ],
   "tokensInUsd": [
@@ -59085,17 +59085,17 @@
       }
     },
     {
-      "date": 1795394579,
+      "date": 1795494971,
       "tokens": {
-        "CONAN": 0.00874,
-        "JITOSOL": 1489.96698,
-        "LADYBUG": 0.47866,
-        "USDC": 41741.76169,
-        "WBTC": 719.19857,
-        "SACHI": 0.05737,
-        "67COIN": 0.01427,
-        "DOODLES": 14.57096,
-        "BONK": 17.06003
+        "CONAN": 0.00928,
+        "LADYBUG": 0.48917,
+        "USDC": 41744.30519,
+        "67COIN": 0.01449,
+        "DOODLES": 14.59647,
+        "MAMA": 0.03443,
+        "BONK": 18.35241,
+        "JITOSOL": 1524.66871,
+        "WBTC": 709.83909
       }
     }
   ],
@@ -69115,23 +69115,23 @@
       }
     },
     {
-      "date": 1795394579,
+      "date": 1795494971,
       "tokens": {
         "CONAN": 59,
-        "JITOSOL": 16.13321,
         "LADYBUG": 11000,
         "USDC": 41749.37018,
-        "WBTC": 0.01173,
-        "SACHI": 2000,
         "67COIN": 670,
         "DOODLES": 9996,
-        "BONK": 8291807.99051
+        "MAMA": 501,
+        "BONK": 8291807.99051,
+        "JITOSOL": 16.13321,
+        "WBTC": 0.01173
       }
     }
   ],
   "currentChainTvls": {
     "Solana-staking": 0,
-    "Solana": 43983.11727,
+    "Solana": 44012.30926,
     "staking": 0
   },
   "raises": [],

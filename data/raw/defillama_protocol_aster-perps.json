@@ -37,7 +37,15 @@
   "parentProtocol": "parent#astherus",
   "dimensions": {
     "fees": "apollox",
-    "derivatives": "apollox",
+    "derivatives": {
+      "adapter": "apollox",
+      "genuineSpikes": [
+        [
+          "2024-02-28",
+          "Broad crypto market volatility"
+        ]
+      ]
+    },
     "open-interest": "apollox",
     "normalized-volume": "aster"
   },
