@@ -2924,8 +2924,12 @@
           "totalLiquidityUSD": 150141488
         },
         {
-          "date": 1795494923,
-          "totalLiquidityUSD": 150203990
+          "date": 1795564800,
+          "totalLiquidityUSD": 151468225
+        },
+        {
+          "date": 1795578743,
+          "totalLiquidityUSD": 151482533
         }
       ],
       "tokensInUsd": [
@@ -7271,6 +7275,12 @@
           "date": 1795478400,
           "tokens": {
             "USDC": 150141488.45371
+          }
+        },
+        {
+          "date": 1795564800,
+          "tokens": {
+            "USDC": 151468225.06965
           }
         }
       ],
@@ -11618,6 +11628,12 @@
           "tokens": {
             "USDC": 150151465.26031
           }
+        },
+        {
+          "date": 1795564800,
+          "tokens": {
+            "USDC": 151469208.78642
+          }
         }
       ]
     }
@@ -14520,8 +14536,12 @@
       "totalLiquidityUSD": 150141488
     },
     {
-      "date": 1795494923,
-      "totalLiquidityUSD": 150203990
+      "date": 1795564800,
+      "totalLiquidityUSD": 151468225
+    },
+    {
+      "date": 1795578743,
+      "totalLiquidityUSD": 151482533
     }
   ],
   "tokensInUsd": [
@@ -18867,6 +18887,12 @@
       "date": 1795478400,
       "tokens": {
         "USDC": 150141488.45371
+      }
+    },
+    {
+      "date": 1795564800,
+      "tokens": {
+        "USDC": 151468225.06965
       }
     }
   ],
@@ -23214,10 +23240,16 @@
       "tokens": {
         "USDC": 150151465.26031
       }
+    },
+    {
+      "date": 1795564800,
+      "tokens": {
+        "USDC": 151469208.78642
+      }
     }
   ],
   "currentChainTvls": {
-    "Hyperliquid L1": 150203990.71848
+    "Hyperliquid L1": 151482533.27942
   },
   "raises": [],
   "hacks": [],
