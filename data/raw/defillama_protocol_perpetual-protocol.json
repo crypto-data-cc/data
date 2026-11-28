@@ -7288,8 +7288,12 @@
           "totalLiquidityUSD": 9221
         },
         {
-          "date": 1795748819,
-          "totalLiquidityUSD": 9150
+          "date": 1795824000,
+          "totalLiquidityUSD": 9414
+        },
+        {
+          "date": 1795832111,
+          "totalLiquidityUSD": 9421
         }
       ],
       "tokensInUsd": [
@@ -18160,9 +18164,15 @@
           }
         },
         {
-          "date": 1795748819,
+          "date": 1795824000,
           "tokens": {
-            "PERP": 9150.96281
+            "PERP": 9414.52241
+          }
+        },
+        {
+          "date": 1795832111,
+          "tokens": {
+            "PERP": 9421.29996
           }
         }
       ],
@@ -29034,7 +29044,13 @@
           }
         },
         {
-          "date": 1795748819,
+          "date": 1795824000,
+          "tokens": {
+            "PERP": 736890.86149
+          }
+        },
+        {
+          "date": 1795832111,
           "tokens": {
             "PERP": 736890.86149
           }
@@ -36268,8 +36284,12 @@
           "totalLiquidityUSD": 421114
         },
         {
-          "date": 1795748819,
-          "totalLiquidityUSD": 421509
+          "date": 1795824000,
+          "totalLiquidityUSD": 420582
+        },
+        {
+          "date": 1795832111,
+          "totalLiquidityUSD": 420647
         }
       ],
       "tokensInUsd": [
@@ -52306,13 +52326,23 @@
           }
         },
         {
-          "date": 1795748819,
+          "date": 1795824000,
           "tokens": {
-            "USDC": 375862.1074,
-            "USDT": 17593.636,
-            "OP": 313.63139,
-            "WETH": 27739.64779,
-            "FRAX": 0.06762
+            "USDC": 375876.27333,
+            "USDT": 17600.5038,
+            "OP": 314.46962,
+            "WETH": 26791.46815,
+            "FRAX": 0.06766
+          }
+        },
+        {
+          "date": 1795832111,
+          "tokens": {
+            "USDC": 375882.97333,
+            "USDT": 17599.01913,
+            "OP": 313.38266,
+            "WETH": 26852.00721,
+            "FRAX": 0.06766
           }
         }
       ],
@@ -68350,12 +68380,22 @@
           }
         },
         {
-          "date": 1795748819,
+          "date": 1795824000,
           "tokens": {
-            "USDC": 376044.32565,
+            "USDC": 375966.77829,
             "USDT": 17612.24113,
             "OP": 4426.67946,
-            "WETH": 16.10524,
+            "WETH": 16.10236,
+            "FRAX": 0.06805
+          }
+        },
+        {
+          "date": 1795832111,
+          "tokens": {
+            "USDC": 375966.77829,
+            "USDT": 17612.24113,
+            "OP": 4426.67946,
+            "WETH": 16.10236,
             "FRAX": 0.06805
           }
         }
@@ -73412,8 +73452,12 @@
           "totalLiquidityUSD": 2729
         },
         {
-          "date": 1795748819,
-          "totalLiquidityUSD": 2708
+          "date": 1795824000,
+          "totalLiquidityUSD": 2786
+        },
+        {
+          "date": 1795832111,
+          "totalLiquidityUSD": 2786
         }
       ],
       "tokensInUsd": [
@@ -80990,9 +81034,15 @@
           }
         },
         {
-          "date": 1795748819,
+          "date": 1795824000,
           "tokens": {
-            "PERP": 2708.44743
+            "PERP": 2786.45423
+          }
+        },
+        {
+          "date": 1795832111,
+          "tokens": {
+            "PERP": 2786.4829
           }
         }
       ],
@@ -88570,7 +88620,13 @@
           }
         },
         {
-          "date": 1795748819,
+          "date": 1795824000,
+          "tokens": {
+            "PERP": 218100.5653
+          }
+        },
+        {
+          "date": 1795832111,
           "tokens": {
             "PERP": 218100.5653
           }
@@ -96496,8 +96552,12 @@
           "totalLiquidityUSD": 11951
         },
         {
-          "date": 1795748819,
-          "totalLiquidityUSD": 11859
+          "date": 1795824000,
+          "totalLiquidityUSD": 12200
+        },
+        {
+          "date": 1795832111,
+          "totalLiquidityUSD": 12207
         }
       ],
       "tokensInUsd": [
@@ -108376,9 +108436,15 @@
           }
         },
         {
-          "date": 1795748819,
+          "date": 1795824000,
           "tokens": {
-            "PERP": 11859.41024
+            "PERP": 12200.97664
+          }
+        },
+        {
+          "date": 1795832111,
+          "tokens": {
+            "PERP": 12207.78286
           }
         }
       ],
@@ -120258,7 +120324,13 @@
           }
         },
         {
-          "date": 1795748819,
+          "date": 1795824000,
+          "tokens": {
+            "PERP": 954991.42678
+          }
+        },
+        {
+          "date": 1795832111,
           "tokens": {
             "PERP": 954991.42678
           }
@@ -128240,8 +128312,12 @@
       "totalLiquidityUSD": 421114
     },
     {
-      "date": 1795748819,
-      "totalLiquidityUSD": 421509
+      "date": 1795824000,
+      "totalLiquidityUSD": 420582
+    },
+    {
+      "date": 1795832111,
+      "totalLiquidityUSD": 420647
     }
   ],
   "tokensInUsd": [
@@ -145400,13 +145476,23 @@
       }
     },
     {
-      "date": 1795748819,
+      "date": 1795824000,
       "tokens": {
-        "USDC": 375862.1074,
-        "USDT": 17593.636,
-        "OP": 313.63139,
-        "WETH": 27739.64779,
-        "FRAX": 0.06762
+        "USDC": 375876.27333,
+        "USDT": 17600.5038,
+        "OP": 314.46962,
+        "WETH": 26791.46815,
+        "FRAX": 0.06766
+      }
+    },
+    {
+      "date": 1795832111,
+      "tokens": {
+        "USDC": 375882.97333,
+        "USDT": 17599.01913,
+        "OP": 313.38266,
+        "WETH": 26852.00721,
+        "FRAX": 0.06766
       }
     }
   ],
@@ -162566,24 +162652,34 @@
       }
     },
     {
-      "date": 1795748819,
+      "date": 1795824000,
       "tokens": {
-        "USDC": 376044.32565,
+        "USDC": 375966.77829,
         "USDT": 17612.24113,
         "OP": 4426.67946,
-        "WETH": 16.10524,
+        "WETH": 16.10236,
+        "FRAX": 0.06805
+      }
+    },
+    {
+      "date": 1795832111,
+      "tokens": {
+        "USDC": 375966.77829,
+        "USDT": 17612.24113,
+        "OP": 4426.67946,
+        "WETH": 16.10236,
         "FRAX": 0.06805
       }
     }
   ],
   "currentChainTvls": {
-    "Ethereum-staking": 9150.96281,
-    "Optimism": 421509.09021,
-    "Optimism-staking": 2708.44743,
-    "staking": 11859.41024
+    "Ethereum-staking": 9421.29996,
+    "Optimism": 420647.44998,
+    "Optimism-staking": 2786.4829,
+    "staking": 12207.78286
   },
   "raises": [],
   "hacks": [],
-  "mcap": 1680109.6291928925,
+  "mcap": 1665621.6730936188,
   "treasuryCodePath": "https://github.com/DefiLlama/DefiLlama-Adapters/blob/main/projects/treasury/perpetual-protocol.js"
 }
